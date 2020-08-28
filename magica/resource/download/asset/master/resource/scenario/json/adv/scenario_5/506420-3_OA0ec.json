@@ -1,0 +1,786 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20352.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "Elder",
+                "nameRight": "Tsukasa",
+                "textLeft": "Huh? Historical documents about the town?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I lent those to your friend yesterday."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "textCenter": "Our friend?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I think I know who!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "Nemu",
+                "nameRight": "Tsukasa",
+                "textLeft": "Oh yeah, the local history files? I'm still@reading through them.",
+                "turnChangeOut": "rollOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Wh-when did you get these?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I already read the pages about the town's@festival."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "You wanted to know more about the festival?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yeah. I was wondering why they believed in@the existence of another world."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101401,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Now that I read these, I know."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "Long ago, this town first believed in a god@who was actually a local child."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Wh-what does that mean?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Let me back up and explain."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "A long time ago, the town struggled with@scarce fishing and accidents at sea."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "They believed a sea god was angry with them."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "To appease that angry god, the villagers@sacrificed children to the sea."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textCenter": "That...happened?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101401,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "And that's not all."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "They believed the sacrificed children would@become gods."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Those are the gods the town believes in now."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "So the ceremony is to give thanks to those@gods."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "So it's kind of like Obon? Or Dia de Los@Muertos?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Any mention of the shrine maidens who@participate in the festival?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Why don't you two read it for yourselves?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Oh, okay."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 101901,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Uh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Yeah, I can't read this. The writing is too@difficult to decipher."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101401,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "*Sigh* Give it to me. I'll find it for you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101401,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Interesting..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Did you find something?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "\"The shrine maidens are to invite and guide@the gods to the town...\""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "\"But one year, a shrine maiden passed away@after performing the ceremony.\""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "lipSynch": 0,
+                        "motion": 400
+                    },
+                    {
+                        "id": 101901,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Tsukuyo & Tsukasa",
+                "textCenter": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "What happened?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "\"There were also years where pandemics or @natural disasters struck town.\""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "\"One can say that during such years the@ceremony was a failure.\"[chara:101401:lipSynch_0][chara:101401:cheek_0][chara:101401:face_mtn_ex_000.exp.json][chara:101401:lipSynch_1]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "That's kinda scary..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "\"The failed years have one thing in common:@a storm on the day before the festival.\""
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textRight": "A storm?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "textCenter": "It is typhoon season, after all."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "[chara:101901:effect_emotion_surprise_0][se:7226_shock]A typhoon... Wait, does that mean...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101401,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes. This year falls into that pattern."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Tsukasa..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textCenter": "Maybe that shrine maiden knew about this."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You two are going to be the shrine maidens@this year, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textCenter": "H-how did you know that?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "All the townspeople were talking about it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "You seem to be sticking your noses into@matters that don't concern you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "Are you sufficiently prepared?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "textRight": "Um... We didn't know anything about the@ceremony failing."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 101901,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Tsukuyo & Tsukasa",
+                "textCenter": "But we're prepared! / We're ready for anything!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101401,
+                        "motion": 100
+                    },
+                    {
+                        "id": 101801,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 101901,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "I see."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "Are you really willing to put your life on@the line?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "All just for Touka's reward?"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "surround": "7003_wind",
+                "textRight": "Um..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "textCenter": "That's not why we volunteered."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textCenter": "We actually saw something strange at that@sea cave shrine."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101401,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401
+                    }
+                ],
+                "textLeft": "Hang on. We should call Touka and the others@before you tell me what happened."
+            },
+            {
+                "autoTurnLast": 2,
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

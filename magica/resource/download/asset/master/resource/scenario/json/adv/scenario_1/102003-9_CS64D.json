@@ -1,0 +1,379 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "bgm03_story07",
+                "nameNarration": "Iroha",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I saw all of it, Ui.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-1"
+            },
+            {
+                "narration": "I'm so sorry.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-2",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-1"
+            },
+            {
+                "narration": "I healed you from your sickness.@Then I came to Kamihama to find you.@This whole time, I thought that@I was the one protecting you.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-3",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-2"
+            },
+            {
+                "narration": "But I had it all wrong.@I'm not even talking about the Doppels...",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-4",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-3"
+            },
+            {
+                "narration": "Ever since I first became a Magical Girl,@you've been watching over me and trying@to keep ME safe, haven't you?",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-5",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-4"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha4.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-5"
+            },
+            {
+                "nameNarration": "Eve",
+                "narration": "― Eve ―@――――!!!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@...",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-7"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_19243.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101400,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-7"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100700,
+                        "voiceFull": "fullvoice/section_102003/vo_full_102003-9-8"
+                    }
+                ],
+                "nameLeft": "Touka",
+                "nameRight": "Nemu",
+                "textLeft": "Are we doing the right thing?",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100700,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102003/vo_full_102003-9-9",
+                        "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-8"
+                    }
+                ],
+                "textLeft": "We have no idea what might happen once we@cut Ui away from this world!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102003/vo_full_102003-9-10",
+                        "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-9"
+                    }
+                ],
+                "textRight": "It's the only choice we have!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_08",
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-1"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102003/vo_full_102003-9-11"
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeLarge]AAAAAAAAAAAAGHHHHHH!!!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101400,
+                        "motion": 200,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102003/vo_full_102003-9-12",
+                        "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-11"
+                    }
+                ],
+                "nameCenter": "Nemu",
+                "textBg": "shout",
+                "textCenter": "I hope I'm not too late!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-12"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "Nemu",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Until someone brings her soul@back to her physical body...",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-13"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810100,
+                        "pos": 1,
+                        "posX": 0,
+                        "posY": 20
+                    }
+                ],
+                "narration": "Ui's spirit will lay dormant inside@this hollowed-out Kyubey!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-14",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-13"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha5.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-14"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Ngh... *Pant*",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-15"
+            },
+            {
+                "narration": "— Iroha —@If they hadn't thought to do@that at that very moment...",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-16",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-15"
+            },
+            {
+                "narration": "— Iroha —@Ui would have turned into a Witch.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-17",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-16"
+            },
+            {
+                "narration": "— Iroha —@And now that userName touched you,@it all came flooding back.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-18",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-17"
+            },
+            {
+                "narration": "— Iroha —@All the memories...and your spirit, too.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-19",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-18"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@...",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-20",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-19"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "― Iroha ―@Ui, you don't need to struggle and suffer@inside all those impurities anymore.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-21",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-20"
+            },
+            {
+                "narration": "— Iroha —@Your big sister's here to save you.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-22",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-21"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "flashEffect": "explosion",
+                "narrationEffect": "out",
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-22"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha6.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "bgm": "bgm01_battle12",
+                "nameNarration": "Touka",
+                "narration": "― Touka ―@Iroha, leave this to me!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "whiteOut",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-23"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Touka!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-24",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-23"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "— Touka —@I'll cut around all the gems@holding Ui in place!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-25",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-24"
+            },
+            {
+                "narration": "— Touka —@Then you can set her free!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-26",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-25"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Thank goodness. You remembered!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-27",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-26"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "— Touka —@I did.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-28",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-27"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Still, it isn't going to be easy@to do any real damage to Eve.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-29",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-28"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "— Touka —@I have all the energy we@gathered in Kamihama.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-30",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-29"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Right...you do.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-31",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-30"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Okay Touka, let's save Ui together!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-32",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-31"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "― Touka ―@I know I'm the one who caused this mess,@but trust me. I'll take care of it.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-33",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-32"
+            },
+            {
+                "narration": "― Touka ―@I'll use every last drop of energy@I stocked away in Kamihama...",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-34",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-33"
+            },
+            {
+                "narration": "― Touka ―@And smash the area around the gems!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-9-35",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-34"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-9-35"
+            }
+        ]
+    },
+    "version": 3
+}

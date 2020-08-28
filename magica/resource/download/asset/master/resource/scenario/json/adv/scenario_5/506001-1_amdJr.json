@@ -1,0 +1,1030 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "bgm01_battle04",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "se": "4061_landing_jump5"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "surround": "3026A05"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "se": "6252_hit_spike_01_s"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "\"There! That way!\"",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "\"Wait!\""
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "narrationEffect": "out",
+                "se": "4061_landing_jump5"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "'...'",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "'...'"
+            },
+            {
+                "narration": "'Are they gone?'"
+            },
+            {
+                "narration": "'Looks like it.'"
+            },
+            {
+                "narration": "'What the heck is goin' on! Geeze!'"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/chapter_team_azarea.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21153.jpg",
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302700,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/chapter_team_azarea.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302800,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "nameRight": "Ayame",
+                "textRight": "Whyyy is this happenin' to us?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302700
+                    }
+                ],
+                "textLeft": "The moment we left the house..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302600,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Konoha",
+                "textLeft": "People really were waiting to catch us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302800,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Yeah... And by a HUGE group too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302600
+                    }
+                ],
+                "textLeft": "Someone is responsible for putting us in@this situation."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302700,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Hazuki",
+                "textRight": "Right..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302800,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ayame",
+                "textRight": "Errrgh... Who the heck?! Who, who, who?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I don't know."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600
+                    }
+                ],
+                "textLeft": "But..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302800
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302600
+                    }
+                ],
+                "nameNarration": "???",
+                "narration": "\"Found 'em!\"",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302600
+                    }
+                ],
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101300,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Asuka",
+                "nameRight": "Sasara",
+                "textLeft": "So this is where you were hiding!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300400,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Come along quietly!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302600,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Hazuki",
+                "nameLeft": "Konoha",
+                "nameRight": "Ayame",
+                "textLeft": "Agh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302700,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Konoha! Over there!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302800,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:302800:effect_emotion_surprise_0][se:7226_shock]Aaah! Just wait a sec!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 302900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302300,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Masara",
+                "nameRight": "Aimi",
+                "textLeft": "Hold it..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302300
+                    }
+                ],
+                "textRight": "You're not getting away!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302700,
+                        "motion": 300,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Hazuki",
+                "nameLeft": "Konoha",
+                "nameRight": "Ayame",
+                "textCenter": "*Exhale*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600
+                    }
+                ],
+                "textLeft": "When'd they get behind us?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302800,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Hnnnrgh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302800
+                    }
+                ],
+                "textRight": "[chara:302800:effect_emotion_surprise_0][se:7226_shock]...Hah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302800,
+                        "motion": 100
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "textRight": "Hey! In front of me, to the right!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302700,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302600,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "There's a bit of space..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302800
+                    }
+                ],
+                "textRight": "If we put up a smokescreen and run as fast@as we can..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302700
+                    }
+                ],
+                "textCenter": "...We might just make it out!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302600
+                    }
+                ],
+                "textLeft": "Got it."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302800
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 302600,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302900,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "By my authority, I place you under arrest!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "Konoha",
+                "textCenter": "We're being wrongly accused. Give us a break."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300400,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sasara",
+                "textRight": "All the more reason you should start talking!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302700,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Hazuki",
+                "textCenter": "You don't seem much like you're in the @mood to listen."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "D-don't be absurd!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300400,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sasara",
+                "textRight": "Calm down!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302300,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Aimi",
+                "textLeft": "We said we'd guarantee your safety!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302600,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Konoha",
+                "textCenter": "And we simply want to avoid any unnecessary@conflict."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600
+                    }
+                ],
+                "textCenter": "Being with you like this is not particularly@agreeable to us."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302300,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Huh? What's that mean?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600
+                    }
+                ],
+                "textCenter": "We have our own problems."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300400,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Then why don't you tell us what's going on?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302600,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "I told you! Someone's after us!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101300,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "Exactly!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302800,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ayame",
+                "textCenter": "Ugh, enough! Just forget them!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302800,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2]HiYAH!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 300400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Asuka",
+                "textLeft": "Oof!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300400,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sasara",
+                "textRight": "...Ah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302300,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Aimi",
+                "textLeft": "They're gone?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101300,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "We've been had!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 302900,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Masara",
+                "textLeft": "Find them."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_13043.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302700,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "nameRight": "Ayame",
+                "textLeft": "Whew!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302800,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We did it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302600,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Konoha",
+                "textLeft": "Nicely done, Ayame."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302800
+                    }
+                ],
+                "textRight": "[chara:302800:effect_emotion_joy_0][se:7222_happy]Hee hee!"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "\"Found you...\"",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302800,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302600
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "...Wha?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300700,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "Konoha Shizumi... Hazuki Yusa... And@Ayame Mikuri."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300700
+                    }
+                ],
+                "textCenter": "There's something I want to ask... You@know about what!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/memoria_1351.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Konoha",
+                "narration": "― Konoha ―@Not good...",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Konoha ―@There's no end to them!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/memoria_1351.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Konoha",
+                "narration": "After making contracts to be Magical@Girls, the three of us wandered around@from place to place fighting Witches.",
+                "narrationBg": "bg_adv_13043.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Our initial experience in Kamihama@began horribly when they thought we@had been attacking other Magical@Girls. Even so, we were able to@enjoy a little time in peace there."
+            },
+            {
+                "narration": "Until..."
+            },
+            {
+                "narration": "That same terrible experience@happened all over again!"
+            },
+            {
+                "narration": "In an added wrinkle, they suspect@we were all involved this time."
+            },
+            {
+                "narration": "Why in the world does this keep happening?"
+            },
+            {
+                "narration": "We were the ones who kept investigating@the first string of incidents.",
+                "narrationBg": "black"
+            },
+            {
+                "narration": "With help from Yachiyo Nanami..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

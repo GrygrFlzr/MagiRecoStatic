@@ -1,0 +1,1303 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20501.jpg",
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101750,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "nameRight": "Kyoko",
+                "textLeft": "I just knew we were missing something.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "It's so obvious... I don't know why I didn't@notice."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "But the answer is clear now, thanks to you,@Kyoko."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(Did I let somethin' slip?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I know where the last wooden tablet is...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "It's here."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:260000:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101550,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101250,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "Here?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kanagi",
+                "textRight": "Why do you think so?"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "The water..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "It's such an obvious landmark, but it hasn't@been used in the clues yet..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "This has to be the place."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "And remember what was written on that@tablet?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "The last tablet, which reveals the location@of the treasure, hides midway between@the mark on the map and the center@of all the places you visited.",
+                "narrationBg": "white",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "We don't know where that mark is on the map@because it's all dirty..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "But if you make a line between where we are@and the center of the places we've been..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "...and you keep on going, the line goes to @a spot that's covered in dirt on the map."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Which means the mark was probably somewhere@here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101250,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "Uh...how did you figure that out?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "Let's go back to the beginning."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Remember how we got here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "The center of each location we've been..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101250,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Um... We went here, here, and..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Right. There were ten spots in total."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101550,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "If you connect those dots, you get a circle."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101550
+                    }
+                ],
+                "textRight": "So the middle of that circle is the center of@all the places we've been."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "Yes, which is in the lower right part of the@map."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Now where are we now on the map?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101250,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "Right here. On the upper left."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Now if you connect those two dots..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101550,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "We get a line on the map."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "Now try extending the line..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "...towards the upper left on the map."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101550,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101550,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "The line disappears into an area of the map@we can't read."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "The center point of all the places we've@been... And where we are now..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "The line that connects those dots stretch@into the dirty area of the map."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "If we can assume that the mark was in that@area..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "The last tablet, which reveals the location@of the treasure, hides midway between@the mark on the map and the center@of all the places you visited.",
+                "narrationBg": "white",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "Doesn't it make sense?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101250,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "Yes, that might be it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101550,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Amazing, Mitama!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "Not especially. I only noticed because of@what Kyoko said."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Thank you, Kyoko!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "N-no problem..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(That was a close call...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(But I'm not out of this yet.)"
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101550,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "All right! Let's find that wooden tablet!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101250,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Karin",
+                "textLeft": "I'm gonna look everywhere!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101651,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kanagi",
+                "textRight": "Great. I'll help as well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "We worked hard, we're so close..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "We have to find that treasure!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 831000,
+                        "motion": 1,
+                        "pos": 2,
+                        "posY": 40
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "*Meow*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 831000
+                    }
+                ],
+                "nameNarration": "Everyone",
+                "narration": "Let's go!",
+                "narrationBg": "bg_adv_20501.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Kyoko",
+                "narrationEffect": "out",
+                "textCenter": "R-right..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(No matter where you look, you're never@gonna find it...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(But I definitely can't tell 'em that now...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I have to do somethin'!)"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101250,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101651
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "nameRight": "Karin",
+                "textLeft": "Artist, did you find anything?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101250,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Nope... I haven't found anything."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101651,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "It makes sense the last piece would be the@most difficult to find."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 101250,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I'm not gonna give up!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101250
+                    }
+                ],
+                "textRight": "We're gonna find that last tablet, and@complete this challenge together!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Right! I'm with you."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101250
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101651
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Kyoko",
+                "surround": "7003_wind",
+                "textCenter": "(They're in it 'til the end, huh...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I gotta get them to throw in the towel...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I just have to convince them that we're@not gonna be able to find it.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I could tell them it got lost in the river.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Or I could say it rotted or somethin'... It@is just a piece of wood, after all.)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 260000
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 101750,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "(Was she just lookin' at me?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 260000
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "(No... I'm just bein' paranoid...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101550,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "nameRight": "Ui",
+                "textLeft": "Hmm... Maybe I was wrong?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101550,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I'm not really good at figuring stuff out..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101550
+                    }
+                ],
+                "textRight": "But what you said was very convincing."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101550,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "So I think it WAS here..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You're right... It may have been here but@it's just gone now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "(Well yeah, because I threw it in the fire...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101750,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:260000:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(O-our eyes just met!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(So she really was watchin' me.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Maybe it got lost in the river?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(Why's she still lookin' at me?!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(W-wait... Is she tryin' to gauge my@reactions?)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "It is just a piece of wood... Maybe it rotted@away.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "(Is she readin' my mind?!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Wait... Can the Coordinator also read@minds?!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "Or maybe someone burned it?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:260000:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(S-she knows?!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101550,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "But there's no fire here.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I heard wood can burn when it's hit by@lightning."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "But that's also unlikely... The trees around@here look undamaged."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Maybe it got lost in the river?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Hmm..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "Maybe we should hear everyone's opinions."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "I'm curious to know what Kyoko thinks."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "[chara:260000:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "(I guess she really does know. Maybe?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

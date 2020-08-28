@@ -1,0 +1,1143 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_12041.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "",
+                "textLeft": "Did you see Sayu-Sayu's post?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800500
+                    }
+                ],
+                "textRight": "Yeah, I did!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800500
+                    }
+                ],
+                "textRight": "I'll admit, I'm a bit disappointed. But I@guess that's just how it is."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    }
+                ],
+                "textLeft": "Yeah. I don't want Sayu-Sayu to be sad."
+            },
+            {
+                "nameNarration": "Sayuki",
+                "narration": "I asked my manager to send@a message over social media to@my fans who came to my last live show.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "Then, the day of my third show came..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "narrationEffect": "out",
+                "textCenter": "(There's a big crowd again.)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "(And what's more...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Mayu said she'd come to watch me!)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 303300,
+                        "pos": 0
+                    },
+                    {
+                        "eyeClose": 0,
+                        "id": 303300,
+                        "motion": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "nameRight": "Sayuki's Manager",
+                "textRight": "As you requested, I posted the set of rules@for people who come to your live shows."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801000
+                    }
+                ],
+                "textRight": "The message is spreading around too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801000
+                    }
+                ],
+                "textRight": "Your fans seem to understand where you're@coming from."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textRight": "That's good, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(But I need to say it to them directly.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "(I have to say it in my own words.)"
+            },
+            {
+                "autoTurnLast": 4,
+                "bg": "bg_adv_21101.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Thank you, everyone, for coming to see me@today!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100901,
+                        "motion": 100,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "in"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "id": 800500,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 100901,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 800400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "'Wooooooooo!'",
+                "narrationBg": ""
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800400
+                    }
+                ],
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "Just one thing..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "Before we get started today, I want to ask@for a favor."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800202,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "in"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Murmur*",
+                "narrationBg": ""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800202
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "",
+                "narrationEffect": "out",
+                "textLeft": "What's she gonna ask?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800101
+                    }
+                ],
+                "textRight": "Who knows?"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800202
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "I'm really happy that we can get excited@together like this!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "I really am!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "But please, don't push each other."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 303300,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "And please don't try to come too far@forward!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "I don't want anyone to get scared or@hurt at my shows."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "So, I'm asking you..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "Please get excited with me from where you@are!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "That's my request."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "I hope you can do that for me!"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "...",
+                "narrationBg": "bg_adv_21101.jpg",
+                "narrationEffect": "in",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "(Will they...listen to me?)"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Applause*",
+                "narrationBg": "bg_adv_21101.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "nameLeft": "Rena",
+                "nameRight": "",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textRight": "You got it!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901,
+                        "motion": 201
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "We hear you loud and clear, Sayu-Sayu!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story18",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "(Everyone...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Thank you SO much!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "All right, let's get started! Thanks for@waiting!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "Here's my first song!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "My debut single, \"Blade-Bearing Beauty\"!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100901,
+                        "motion": 201,
+                        "pos": 1,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "in"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "id": 800201,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 100901,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 800400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "'Yeaaaaaahhh!'",
+                "narrationBg": ""
+            },
+            {
+                "nameNarration": "Sayuki",
+                "narration": "My fans understood and@listened to my request!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "And so, nobody got pushed around@or hurt at my show that day."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameNarration": "Sayuki",
+                "narration": "\"Backed into a corner♪@I've got no other choice♪@Gotta slash my love into your heart♪\"",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 300,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "narrationEffect": "out",
+                "textCenter": "Sing it with me, now!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800302,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 100,
+                        "mouthOpen": 1,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "One, two, three, four!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "\"One sword♪ Two hearts♪\"",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800302
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 303201
+                    }
+                ],
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 4,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "nameNarration": "Sayuki",
+                "narration": "The show was a huge success!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_12021.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "nameRight": "Mayu",
+                "textRight": "Sayuki!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Mayu! Did you enjoy the show?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I did! It was so much fun!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "I hadn't been to a concert before."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "I didn't know what to do, but the people@around me were very nice."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I had a lot of fun watching you sing and@dance!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Hee hee!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "I'm glad you had a good time!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "It's so nice to spend time together and get@excited."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes! It really is!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "I just learned that recently, too."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I think it's really, really wonderful!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "I'll treasure it always."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "I want to treasure and protect this time with@everyone."
+            },
+            {
+                "nameNarration": "Sayuki",
+                "narration": "An idol and her fans...",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "It wasn't quite what I expected@when I became a Magical Girl..."
+            },
+            {
+                "narration": "Still, I'm happy that I made my wish!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21071.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303301,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "You see, I had to become an idol.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303301
+                    }
+                ],
+                "textCenter": "Otherwise, I never would've met any of@my fans!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303301,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "...Huh?"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeLarge]EEEEEEK!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textCenter": "It's already this time?! I'm going to be@late!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnFirst": 3.4,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303301,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_3033_00_05"
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Anyone who gets excited with me is a@precious friend of mine!",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

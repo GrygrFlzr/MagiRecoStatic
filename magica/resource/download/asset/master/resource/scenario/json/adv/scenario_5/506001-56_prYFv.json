@@ -1,0 +1,921 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21381.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "nameRight": "Leila",
+                "se": "7205_magic_girl",
+                "textLeft": "Be on your guard, everyone!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500
+                    }
+                ],
+                "textLeft": "Someone..."
+            },
+            {
+                "nameNarration": "Nanaka",
+                "narration": "Someone else is here with us!",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    }
+                ],
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302701,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302700,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302800,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Hazuki",
+                "se": "7205_magic_girl",
+                "textRight": "Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302800
+                    }
+                ],
+                "nameLeft": "Ayame",
+                "textLeft": "Wh-where, where?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "se": "7205_magic_girl",
+                "textRight": "Tsuruno!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100300,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "se": "7205_magic_girl",
+                "textLeft": "Yo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textRight": "It's good I asked you to come just in case."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100300
+                    }
+                ],
+                "textLeft": "That means..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I have a feeling there's going to be a fight."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100300,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "I got ya covered!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100300
+                    }
+                ],
+                "textLeft": "And we've got three masters here today,@perfect!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300800,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 301200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Akira",
+                "nameRight": "Meiyui",
+                "textLeft": "We've got this!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301200,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I won't be beaten by a pupil!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301300,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301400,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Seika",
+                "nameLeft": "Leila",
+                "nameRight": "Mito",
+                "textLeft": "I-I'm scared..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301400,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Stick together!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301500,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "R-right!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kako",
+                "nameRight": "Nanaka",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301100
+                    }
+                ],
+                "textLeft": "N-Nanaka..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I will hone my senses to the utmost.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(I won't let her escape!)"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "black",
+                "bgChangeEffect": "fade",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "...Found her!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "There!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21381.jpg",
+                "bgChangeEffect": "fade",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302600,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Konoha",
+                "textBg": "shout",
+                "textCenter": "Wha?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302700,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302800,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Hazuki",
+                "textRight": "K-Konoha?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302800
+                    }
+                ],
+                "nameLeft": "Ayame",
+                "textLeft": "What the?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "...Ah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][surround:3026A05]Behind me!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "surround": "3026A07",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302600,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Got you!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100300,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Looks like she got her!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Everyone, surround her!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301300,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Waaah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302800,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ayame",
+                "textLeft": "Someone's there? Really, really?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textRight": "Show yourself!"
+            },
+            {
+                "autoTurnLast": 3,
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301400,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "???",
+                "narration": "...",
+                "narrationBg": "bg_adv_21381.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "Ahhh..."
+            },
+            {
+                "narration": "Hah hah hah!"
+            },
+            {
+                "narration": "Ah hah hah haaah! Ahahahaha!@Ahhh hah hah! Ah ha ha ha ha!@Ahahahahahahahahahaaa!@Ah ha ha ha ha, aaah ha ha ha ha!@Ah hah hah hah hah, ah hah hah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301500,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Mito",
+                "narrationEffect": "out",
+                "textRight": "What the heck..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301400
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textLeft": "What a horrible laugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301500
+                    }
+                ],
+                "nameNarration": "???",
+                "narration": "Aaaaaah...",
+                "narrationBg": "bg_adv_21381.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "Finally."
+            },
+            {
+                "narration": "You fiiinally found me!"
+            },
+            {
+                "narration": "Hahaha... Well, here I am."
+            },
+            {
+                "bgm": "bgm03_story17",
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "???",
+                "narrationEffect": "out",
+                "textCenter": "Tadaaa!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302800,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ayame",
+                "textLeft": "Whoa! She came out!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "You..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textRight": "We meet at last."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302600,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Konoha",
+                "textLeft": "Ugh!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "???",
+                "textCenter": "It's a pleasure to make your acquaintance!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textCenter": "Though it's not our first meeting, is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 301800,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "It's me, the one you've been lookin' for..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 301800,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Hanna",
+                "textCenter": "Hanna Sarasa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 301800,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Ha ha!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

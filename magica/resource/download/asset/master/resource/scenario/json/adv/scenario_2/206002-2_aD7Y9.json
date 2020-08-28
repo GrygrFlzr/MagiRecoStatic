@@ -1,0 +1,532 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21151.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "nameRight": "Sayaka",
+                "textLeft": "How's it going?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 200401
+                    }
+                ],
+                "textRight": "The Witch is close. We should almost be@there."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200401,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "How is she moving?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200101
+                    }
+                ],
+                "textLeft": "She's wandering around like before. At the@speed she's going..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200101,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "I don't think she'll leave the area Mami@estimated."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200401
+                    }
+                ],
+                "textRight": "That's our Mami for ya!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200301,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Homura",
+                "textRight": "Oh! The Witch changed direction!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You're right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200101
+                    }
+                ],
+                "textLeft": "She's going toward the sun, so from where@you guys are..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 200501,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mami",
+                "textRight": "We should head towards the supermarket."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "The supermarket? This road'll get us there@faster."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200401,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sayaka",
+                "textLeft": "Oh, sweet teamwork!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200601,
+                        "motion": 300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameCenter": "Mami & Kyoko",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200601
+                    }
+                ],
+                "textRight": "I just told ya a faster way there. Nothin'@to write home about."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200501,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Mami",
+                "textLeft": "We know."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameLeft": "Madoka",
+                "nameRight": "Sayaka",
+                "textRight": "We all made it!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200101,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Yeah, I'm so glad!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200601,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200501,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameCenter": "Mami & Kyoko",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Homura",
+                "textRight": "Um... Mami and Kyoko..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "textLeft": "Is it just me or do they seem even more @awkward than before?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200401,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sayaka",
+                "textRight": "Well... They didn't argue or get in a fight."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200401
+                    }
+                ],
+                "textRight": "But, I dunno, it's weird. It was like the@opposite."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "The opposite?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "It's like they worked well together because@they were so familiar back in the day."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200401
+                    }
+                ],
+                "textRight": "Like they knew each other's quirks."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I guess Kyoko doesn't like that."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200401
+                    }
+                ],
+                "textRight": "And Mami also seems to feel weird about@it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200101,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "textLeft": "Hmm... Sounds tough."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200501,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Mami",
+                "textLeft": "Are you three ready?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200601
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "If you're not comin', I'm leavin' ya."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200401,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200301,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Sayaka",
+                "textRight": "Wait, we're coming!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200301
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "Is everything going to be okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "textLeft": "We'll be all right in a fight. We can give@plenty of support."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200401,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "For sure! Welp, let's take down this Witch!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200301,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "...Okay."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

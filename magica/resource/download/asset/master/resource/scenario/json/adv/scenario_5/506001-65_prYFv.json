@@ -1,0 +1,965 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_17103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 301200,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 301200
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "I see...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301200,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Then Akira, Kako, and I will strike first."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301200
+                    }
+                ],
+                "textRight": "We of course intend to defeat her, but..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301200,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "If the situation turns bad, we will be sure@to wear her down."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301100,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Leila's team is in danger!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300800,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Akira",
+                "textLeft": "Ugh! Then we're going ahead!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301200,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "If that happens, Nanaka..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301200,
+                        "motion": 100
+                    }
+                ],
+                "nameNarration": "Meiyui",
+                "narration": "Everything...is up to you...",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Nanaka",
+                "narration": "Meiyui, Akira, Kako...",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I will use all my might."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300500,
+                        "motion": 200
+                    }
+                ],
+                "narration": "And stop her!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21393.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event09",
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][se:4061_landing_jump5]Hah!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 100
+                    },
+                    {
+                        "id": 300500,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Hanna",
+                "textLeft": "Ahaha!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[se:4061_landing_jump5]No..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "[se:4061_landing_jump5]Not..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "[se:4061_landing_jump5]Yet!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Agh...ngh...haha!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Time to sto―"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][se:6106_hit_slash_03_h]HYAH!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301800,
+                        "motion": 400
+                    },
+                    {
+                        "id": 300500,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "Oof!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(I won't let you say it!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301800,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "(Eesh, she figured me out!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][se:4061_landing_jump5]Hgh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301800,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "That does it!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Now!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "lipSynch": 1,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:explosion][se:6106_hit_slash_03_h]Hrrraaagh!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 0.3
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "...",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "What the hell?! What was that? What were you@aimin' at?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(She stopped me?!)"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301800,
+                        "motion": 0
+                    }
+                ],
+                "surround": "7003_wind",
+                "textLeft": "...Hm? Your hand went for..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Whoa, whoa, whoa! You didn't!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "You tried to take...my Soul Gem?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Are you for real?! So, wait..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "That means you know!"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "nameNarration": "Hanna",
+                "narration": "You know a Magical Girl's life@is in her Soul Gem!",
+                "narrationEffect": "in",
+                "surround": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 300500,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "Tch!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I get it! You knew all about that, huh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "That's how you plan to stop me..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yep! You really are good, Nanaka Tokiwa!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301800,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "But me..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "I knew about you since waaay before I was a@Magical Girl!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Since before?!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 301800,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I saw it online."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "\"The Beautiful Genius of Flower Arranging\".@There were articles and stuff!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "I remembered those,[chara:301800:lipSynch_0][wait:1.0][chara:301800:cheek_0][chara:301800:motion_100][chara:301800:lipSynch_1:eyeClose_0] and..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "I thought, what should I have a Witch do @today? Then pow! It came to me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 301800,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "Hanna",
+                "narration": "What'd happen if that cute, composed girl's@life...got turned into a frickin' mess?!",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300500,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "Wha..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 301800,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][surround:3018A02]Hrah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300500,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "[flashEffect:flashRed1][surround:3018A01][chara:300500:effect_shake][bgEffect:shakeSmall]Ugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "Heh heh heh... Looks like I hit a soft spot.@Well? Are ya shocked?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "But, hey! I'm shocked too!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "The girl I picked for some dumb reason,@totally at random... I mean, really?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "YOU became a Magical Girl!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textLeft": "Not only that! You're in on our deepest @darkest secret!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "That's some terrifyin' stuff, isn't it?@Aha ha ha!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301800,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yeah, this is fun stuff. I love it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Turnin' your life into chaos, that is![chara:301800:lipSynch_0][wait:1.0][chara:301800:lipSynch_1][chara:301800:mouthOpen_1]@Ahaha! Ahh hah hah hah!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "id": 300500,
+                        "lipSynch": 1
+                    },
+                    {
+                        "id": 301800,
+                        "mouthOpen": 0
+                    }
+                ],
+                "surround": "7003_wind",
+                "textRight": "Shut your mouth."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301800,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Oh? Did I say somethin' wrong?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 300500
+                    }
+                ],
+                "textRight": "I said... SHUT your MOUTH!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][se:6106_hit_slash_03_h]Stop it with that idiotic laugh! I HATE it!"
+            },
+            {
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "surround": "stop",
+                "textLeft": "Hahaha!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "lipSynch": 0,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "(You're not tryin' to take my Soul Gem@anymore...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(You're tryin' to destroy it! Don't think I@don't know!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "(You think that way...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "(I'll die!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Aaaaaaaaagh!!!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800,
+                        "lipSynch": 1,
+                        "motion": 0
+                    },
+                    {
+                        "id": 300500,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "Come on, st―"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][se:4061_landing_jump5]Shut it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301800,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][chara:301800:effect_shake]Ugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301800,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I-is this it...?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301800,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Am I gonna die?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Ah hah hah!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 301800,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:explosion][se:6106_hit_slash_03_h]Hyaaaaaah!!!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "whiteIn"
+            }
+        ]
+    },
+    "version": 3
+}

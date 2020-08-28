@@ -1,0 +1,624 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20511.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "???",
+                "narration": "Okay... I'm almost ready...",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Oh!"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Splash*"
+            },
+            {
+                "nameRight": "Karin's Voice",
+                "narrationEffect": "out",
+                "textRight": "*Gasp*"
+            },
+            {
+                "bgm": "bgm03_story21",
+                "chara": [
+                    {
+                        "id": 260000
+                    }
+                ],
+                "nameCenter": "Kyoko",
+                "textCenter": "Give me your hand! I'll pull you up!"
+            },
+            {
+                "textRight": "Okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Here we go![chara:260000:lipSynch_0][wait:0.8][bgEffect:shakeSmall][chara:260000:lipSynch_1]"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "id": 260000,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101250,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "[bgEffect:shakeLarge]Whoa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101250,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Phew,[chara:101250:lipSynch_0][wait:0.8][chara:101250:motion_0][chara:101250:cheek_0][chara:101250:face_mtn_ex_011.exp.json][chara:101250:lipSynch_1] thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101550,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Yes! You also made it, Karin!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101250
+                    }
+                ],
+                "textRight": "And you too, Ui!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101550,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "It was a bit scary...but kind of exciting at@the same time!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "Now we just need to wait for Kanagi."
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101250
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Splash*",
+                "narrationBg": "bg_adv_20511.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101651,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Kanagi",
+                "narrationEffect": "out",
+                "textCenter": "Sorry to keep you waiting."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101651,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "nameRight": "Kanagi",
+                "textLeft": "It's quite all right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "So you brought the vines we used as a rope@with you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101651,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "We might need them to get back. Probably@better to keep them out of the water."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101651
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "*Giggle* Great idea, Kyoko."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "I didn't even think to use the vines as a@rope."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "Well, I had to use them before to pull Karin@and Ui out of that hole they fell into."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 260000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101651,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101550,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "nameRight": "Kanagi",
+                "textRight": "Hmm... Some of the vines broke off."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101550
+                    }
+                ],
+                "textLeft": "It was Karin's idea to bundle them together@just in case."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101250,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "I read it in a manga before!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "This is all thanks to Karin and Kyoko!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "[chara:101750:effect_emotion_joy_0][se:7222_happy]I'm so glad we're all here, together."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101250,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "*Giggle* We did it!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Kyoko",
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101250,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Give me a high five!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101250
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 260000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Mitama",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101250,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101250,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[bgEffect:shakeLarge]*Slap*",
+                "narrationBg": ""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "Satisfied?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101250
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "So, should we get goin'?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kanagi",
+                "textRight": "Yes. It seems it’s a straight shot."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101550,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "There's water everywhere..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101550,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Let's be careful not to trip or fall anywhere!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 101250,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "We should prepare ourselves for the final@challenge!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "We're almost there! Let's find that treasure!"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101250
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 260000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Everyone",
+                "narration": "Yeah!",
+                "narrationBg": "bg_adv_20511.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Kyoko",
+                "narrationEffect": "out",
+                "textCenter": "(It's almost all over...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "*Buzz*",
+                "narrationBg": "bg_adv_20511.jpg",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "Huh?"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

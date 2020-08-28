@@ -1,0 +1,623 @@
+{
+    "skipTransitionList": [],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 1,
+                "movie": "102005_fix.usm",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_18052.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101100,
+                        "live2dName": "live2d_1",
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101100,
+                        "live2dName": "live2d_2",
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm02_anime12",
+                "chara": [
+                    {
+                        "id": 101100,
+                        "live2dName": "live2d_2",
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-1"
+                    }
+                ],
+                "nameLeft": "Rena",
+                "nameRight": "Kaede",
+                "textRight": "Yesss! This time it worked great, Rena!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100900,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-1"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100900,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-2"
+                    }
+                ],
+                "textLeft": "Y-yeah, it did! We did it, Kaede!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101100,
+                        "live2dName": "live2d_2",
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-3",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-2"
+                    }
+                ],
+                "textRight": "Now we should be able to hit Walpurgisnacht@with any kind of attack!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_18052.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300800,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-3"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302700,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-4"
+                    }
+                ],
+                "nameLeft": "Akira",
+                "nameRight": "Hazuki",
+                "textRight": "That means the stage is set! We can finally@make a move!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300800,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-5",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-4"
+                    }
+                ],
+                "textLeft": "Yeah! Hazuki 'n me already figured out@where her weaknesses are!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-5"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100900,
+                        "motion": 400,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-6"
+                    }
+                ],
+                "nameCenter": "Rena",
+                "textCenter": "Already?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100900
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-6"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200600,
+                        "motion": 1,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-7"
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "nameRight": "Kyoko",
+                "textRight": "That ain't a bad skill to have."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-8",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-7"
+                    }
+                ],
+                "textLeft": "My power permits me to discover whoever my@enemies are..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-9",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-8"
+                    }
+                ],
+                "textLeft": "We've long established that Walpurgisnacht@is our enemy."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-10",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-9"
+                    }
+                ],
+                "textLeft": "Other than strategizing a way to fight it,@I'm afraid I can't be of much help..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-11",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-10"
+                    }
+                ],
+                "textLeft": "So Hazuki and I discussed strategy while@we fought."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300800,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302700,
+                        "motion": 1,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-12",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-11"
+                    }
+                ],
+                "nameCenter": "Akira",
+                "nameLeft": "Nanaka",
+                "nameRight": "Hazuki",
+                "textRight": "My skill's all about scanning people."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-13",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-12"
+                    }
+                ],
+                "textCenter": "Mine's the power to seek out the weak points@to hit to take out a Witch!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-14",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-13"
+                    }
+                ],
+                "textLeft": "Yes, and we concluded that combining those @skills should move things along nicely."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-14"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200600,
+                        "motion": 100,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-15"
+                    }
+                ],
+                "nameCenter": "Kyoko",
+                "textCenter": "You don't miss a beat, do ya?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200600
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-15"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 1,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-16"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300800,
+                        "motion": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Akira",
+                "nameLeft": "Nanaka",
+                "nameRight": "Hazuki",
+                "textLeft": "Akira? Hazuki? What did you find out?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302700,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-17",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-16"
+                    }
+                ],
+                "textRight": "Hate to be the bearer of bad news, but her@weak point isn't on her body."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-18",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-17"
+                    }
+                ],
+                "textCenter": "Yeah. No mistaking it, it's that gear that's@connected to her."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-19",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-18"
+                    }
+                ],
+                "textLeft": "I see. Thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-20",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-19"
+                    }
+                ],
+                "textLeft": "Well then. Let us commence our attack."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300800
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-20"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 200600,
+                        "motion": 200,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-21"
+                    }
+                ],
+                "nameLeft": "Sayaka",
+                "nameRight": "Kyoko",
+                "textRight": "We'll back ya up! Hit her hard, all at once!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200400,
+                        "motion": 201,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-22",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-21"
+                    }
+                ],
+                "textLeft": "Of course! We gotta knock her senseless, @here and now!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200600
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-22"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-23"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100700,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Touka",
+                "nameLeft": "Iroha",
+                "nameRight": "Ui",
+                "textLeft": "Ui! Touka! We need to go, too!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100700,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-24",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-23"
+                    }
+                ],
+                "textCenter": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-25",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-24"
+                    }
+                ],
+                "textLeft": "Ui, you still aren't used to fighting, so@stay close to me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-26",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-25"
+                    }
+                ],
+                "textRight": "O-okay!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-26"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300300,
+                        "motion": 200,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-27"
+                    }
+                ],
+                "nameCenter": "Hinano",
+                "textCenter": "Everyone else, join in! We're gonna@go all out on her together!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300300
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-27"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300800,
+                        "motion": 1,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-28"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Akira",
+                "nameRight": "Hazuki",
+                "textLeft": "*Huff* Barely time to catch my breath!@Honestly, though, I think it's for the best."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302700,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-8-29",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-28"
+                    }
+                ],
+                "textRight": "Same here. I feel really amped up, it's not@like me at all...!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-8-29"
+            }
+        ]
+    },
+    "version": 3
+}

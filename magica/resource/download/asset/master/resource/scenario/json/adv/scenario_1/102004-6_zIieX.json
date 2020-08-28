@@ -1,0 +1,554 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21358.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "bgm01_battle11",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21359.jpg",
+                "bgChangeEffect": "fade"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_24011.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 120800,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 120800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-1"
+                    }
+                ],
+                "nameCenter": "Alina",
+                "textCenter": "Yes, excellent... Our masterpiece shall be@done in no time if this keeps up!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/31108_holyalina_story/31108_perception.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-1"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "explosion"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 120800,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 120800,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-2"
+                    }
+                ],
+                "nameCenter": "Alina",
+                "textCenter": "Kh...ghhh...?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 120800,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101400,
+                        "motion": 100,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-3",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-2"
+                    }
+                ],
+                "nameLeft": "Alina",
+                "nameRight": "Nemu",
+                "textRight": "It seems controlling Eve's monstrous form is@a little too much for your body to bear."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 120800,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-4",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-3"
+                    }
+                ],
+                "textLeft": "Nemu..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 120800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-5",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-4"
+                    }
+                ],
+                "textLeft": "Hmph! So what if it is? What will happen?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101400,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-6",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-5"
+                    }
+                ],
+                "textRight": "I can't even imagine, myself. Perhaps you'll@die, or become a Witch."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-7",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-6"
+                    }
+                ],
+                "textRight": "Or perhaps you'll lose yourself completely@and become a lunatic."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 120800,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-8",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-7"
+                    }
+                ],
+                "textLeft": "Hah! I, Alina, shall end everything long@before that happens."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 120800,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-9",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-8"
+                    }
+                ],
+                "textLeft": "I will constrict the force field binding Eve@as tightly as I can."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 120800,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-10",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-9"
+                    }
+                ],
+                "textLeft": "When all that power is released, it will@erupt into a magnificent esplosione!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101400,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-11",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-10"
+                    }
+                ],
+                "textRight": "You got that idea from Touka, didn't you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 120800,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-12",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-11"
+                    }
+                ],
+                "textLeft": "I certainly did. It should be more than@enough to wipe Kamihama off the map."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 120800,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-13",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-12"
+                    }
+                ],
+                "textLeft": "And so, the sight of that destruction will be@seared into your retinas in mere seconds."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-14",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-13"
+                    }
+                ],
+                "textRight": "Not if I defeat you first and set Eve free!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 120800,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-15",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-14"
+                    }
+                ],
+                "textLeft": "Then allow me to heat things up for you@first."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 120800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-16",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-15"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Just as the [textBlue:Rumor] proclaims I should!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101400,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-17",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-16"
+                    }
+                ],
+                "textRight": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101400,
+                        "lipSynch": 0,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-18",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-17"
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 1,
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-18"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "Nemu",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Etched into my book are the dreams the@four of us wove back in the hospital.",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-19"
+            },
+            {
+                "narration": "My menagerie of Uwasa, written in my own@lifeforce... Come forth now, one last time.@Let us prevent this most tragic of endings.",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-20",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-19"
+            },
+            {
+                "narration": "And this time, let us leave a@kind tale behind, one that will not@result in more trouble for others.",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-21",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-20"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-21"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-22"
+                    }
+                ],
+                "nameCenter": "Nemu",
+                "textCenter": "I'll strike you now with every Uwasa I have@recorded in this tome!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-23",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-22"
+                    }
+                ],
+                "textCenter": "Even if it means etching away the last of@my life to manifest them repeatedly!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "explosion",
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-23"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102004_nemu_uwasa.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "jingle": "1014M01",
+                "nameNarration": "Nemu",
+                "narration": "― Nemu ―@ALINAAAAAAAAA!!!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-24"
+            },
+            {
+                "jingle": "1108M01",
+                "nameNarration": "Alina",
+                "narration": "― Alina ―@Ah ha ha ha ha ha ha ha ha haaa!",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-25",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-24"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "jingle": "1108M07"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "flashEffect": "explosion",
+                "jingle": "1014M07",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 3
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "Nemu",
+                "narrationEffect": "in",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 3
+            },
+            {
+                "narration": "Perhaps this is enough to redeem me.@Perhaps with this...I can be forgiven.",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-26"
+            },
+            {
+                "narration": "But if my crime cannot be repaid through any@means, I accept the infinite pyres of hell.",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-27",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-26"
+            },
+            {
+                "narration": "It may take 349 eons for me to earn mercy,@but if I have the story of my wish to now...",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-28",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-27"
+            },
+            {
+                "narration": "Even hell's trials will be a blissful dream.",
+                "voiceFull": "fullvoice/section_102004/vo_full_102004-6-29",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-28"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101400
+                    }
+                ],
+                "narrationEffect": "out",
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-29"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 100700,
+                        "motion": 0,
+                        "pos": 0,
+                        "tear": 1
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 400,
+                        "pos": 2,
+                        "tear": 1,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-30"
+                    }
+                ],
+                "nameLeft": "Touka",
+                "nameRight": "Ui",
+                "textBg": "shout",
+                "textRight": "NEMUUUUUUUUU!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100700,
+                        "motion": 400,
+                        "tear": 1,
+                        "voiceFull": "fullvoice/section_102004/vo_full_102004-6-31",
+                        "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-30"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "NEMU...!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.5,
+                                "posY": 0
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "posX": 0,
+                        "posY": 3000,
+                        "scale": 4,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ],
+                "voiceFullStop": "fullvoice/section_102004/vo_full_102004-6-31"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "black",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "narration": "…"
+            },
+            {
+                "bgm": "stop",
+                "narration": "*Fwhump*",
+                "se": "3002_chara_dead"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

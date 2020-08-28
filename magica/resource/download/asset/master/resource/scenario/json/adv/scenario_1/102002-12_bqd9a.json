@@ -1,0 +1,1848 @@
+{
+    "skipTransitionList": [],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "stop",
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 1,
+                "movie": "102002_eve_face.usm",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_13024.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_battle02",
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-5"
+                    }
+                ],
+                "nameCenter": "Felicia",
+                "textCenter": "Nngh.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100500,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-6",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-5"
+                    }
+                ],
+                "textCenter": "'Kay! I stopped it movin', so I'm countin'@that as a win!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-6"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-7"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Tsuruno",
+                "textLeft": "What...just happened?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100300,
+                        "motion": 101,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-8",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-7"
+                    }
+                ],
+                "textRight": "Felicia's magic can cause memory lapses...@She must have sent Eve's memories flying."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-9",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-8"
+                    }
+                ],
+                "textRight": "Thanks, Felicia! Nice shot!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-9"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-10"
+                    }
+                ],
+                "nameCenter": "Felicia",
+                "textCenter": "Wasn't it, though?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100500
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-10"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 820300,
+                        "pos": 1
+                    }
+                ],
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "nameNarration": "Eve",
+                "narration": "＿―――━━!!!",
+                "textBg": "shout"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 820300
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100500,
+                        "motion": 0,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-12"
+                    }
+                ],
+                "nameCenter": "Felicia",
+                "textCenter": "Ack!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100500,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-12"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100500
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201,
+                        "pos": 2,
+                        "posX": -120,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-13"
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "[flashEffect:flashWhite2][se:4050_landing_jump]Don't get cocky just because you had one@good shot!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-13"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 820300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820300,
+                        "motion": 1
+                    }
+                ],
+                "nameNarration": "Eve",
+                "narration": "―━━―━!!!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 820300
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 201,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-15"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Tsuruno",
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeLarge][se:4051_landing_throw]Master! Felicia!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-16",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-15"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][se:4001_equip_arms_bow_vh]Don't miss!!!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "explosion",
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-16"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "chara": [
+                    {
+                        "id": 820300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "deleteArmatureList": [
+                    2
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820300
+                    }
+                ],
+                "nameNarration": "Eve",
+                "narration": "...",
+                "narrationEffect": "in",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820300,
+                        "motion": 1
+                    }
+                ],
+                "narration": "―＿――￣――!!!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.5,
+                                "posY": 0
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "posX": 0,
+                        "posY": 3000,
+                        "scale": 4,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-18"
+                    }
+                ],
+                "nameNarration": "Yachiyo",
+                "narration": "Auuugh!!!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 3,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_13024.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "rollInFast",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-18"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-19"
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:1004A04]Please, catch them!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100500,
+                        "motion": 400,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-20",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-19"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "nameRight": "Yachiyo",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge]Nyaughhh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-21",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-20"
+                    }
+                ],
+                "textRight": "Kh...!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100400,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-22",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-21"
+                    }
+                ],
+                "textCenter": "*Pant* *Pant* Thank goodness, we made@it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-23",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-22"
+                    }
+                ],
+                "textRight": "You expanded your shield...? I see. So@you can use it like that, too..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100500,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-24",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-23"
+                    }
+                ],
+                "textLeft": "Yachiyo! Sorry, your arm!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 301,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-25",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-24"
+                    }
+                ],
+                "textRight": "It's not too bad. It's just a little numb."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-26",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-25"
+                    }
+                ],
+                "textRight": "If Iroha and Tsuruno hadn't diverted that@attack..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-27",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-26"
+                    }
+                ],
+                "textRight": "It would've been a lot worse."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-27"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100300,
+                        "motion": 300,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-28"
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "*Pant* *Pant*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100300,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-29",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-28"
+                    }
+                ],
+                "textRight": "Master!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-30",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-29"
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Yachiyo!"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-30"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-31"
+                    }
+                ],
+                "textRight": "There. Now you should be able to move it@again..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-32",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-31"
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100500,
+                        "motion": 1,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-33",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-32"
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "We protected Banbanzai and Kako's bookstore,@right?! "
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100300,
+                        "motion": 101,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-34",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-33"
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "That's right. Thanks for that, Felicia."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100500,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-35",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-34"
+                    }
+                ],
+                "textRight": "Oh, and one more thing..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 1,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-36",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-35"
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-37",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-36"
+                    }
+                ],
+                "textRight": "When I hit that huge bug thing, it started @glowing."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-38",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-37"
+                    }
+                ],
+                "textLeft": "Glowing?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-39",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-38"
+                    }
+                ],
+                "textRight": "Yeah, around...its chest? Or its belly, I@guess?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100300,
+                        "motion": 100,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-40",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-39"
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "What could it be?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101000,
+                        "motion": 1,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-41",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-40"
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Ughhh... P-probably magic, I think..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-42",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-41"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "You shouldn't move so much, Momoko..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101000,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-43",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-42"
+                    }
+                ],
+                "textRight": "I can't just sit around at a time like this."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-44",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-43"
+                    }
+                ],
+                "textRight": "When that thing blasted me..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-45",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-44"
+                    }
+                ],
+                "textRight": "I could tell for sure that Eve was storin'@its magic in the center of its body."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-46",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-45"
+                    }
+                ],
+                "textRight": "Then all of a sudden it moved the magic to@its arms and sent me flyin' from the side."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-47",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-46"
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Hmm..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100300,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-48",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-47"
+                    }
+                ],
+                "textLeft": "So when its body glows, its magic moves...@That might be a clue to beating it..."
+            },
+            {
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 0,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-49",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-48"
+                    }
+                ],
+                "deleteArmatureList": [
+                    3
+                ],
+                "nameRight": "Tsukuyo",
+                "surround": "7202_telepathy",
+                "textBg": "shout",
+                "textRight": "Please listen closely!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101100,
+                        "motion": 400,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-50",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-49"
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100900,
+                        "motion": 0,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-51",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-50"
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "Hey, we're really beaten up over here..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100900,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-52",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-51"
+                    }
+                ],
+                "textLeft": "Don't scare the living daylights out of us@with your telepathy, got it?! Dumbass!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101100,
+                        "motion": 300,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-53",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-52"
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "I felt like I was gonna have a heart@attack..."
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101800,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-54",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-53"
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "textRight": "Ah, then I very much apologize for my—@Wait, no! Now is not the time!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-55",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-54"
+                    }
+                ],
+                "enableSkipAutoTurn": 0,
+                "textBg": "shout",
+                "textRight": "Please listen closely!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-56",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-55"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "What's wrong, Tsukuyo?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-57",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-56"
+                    }
+                ],
+                "textRight": "This concerns Eve!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-58",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-57"
+                    }
+                ],
+                "textLeft": "We were just talking about that here, too."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 1,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-59",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-58"
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "The flute sisters spent time at Eve's chapel.@We can probably trust what she says..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-60",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-59"
+                    }
+                ],
+                "textRight": "Yes! Without a shadow of a doubt!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-61",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-60"
+                    }
+                ],
+                "textLeft": "Then will you tell us what you know?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-62",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-61"
+                    }
+                ],
+                "textRight": "Certainly..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter9/101908_eve_longshot.jpg",
+                        "posX": 0,
+                        "posY": -256,
+                        "scale": 1,
+                        "setVisible": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-62"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Tsukuyo",
+                "narration": "The story starts when we were trying@to hatch Eve only with the energy we@collected from Uwasas and Witches.",
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-12-63"
+            },
+            {
+                "narration": "We worked with the Magius to study@Eve in the hope that we could learn some@way to make it hatch more quickly.",
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-12-64",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-63"
+            },
+            {
+                "item": [
+                    {
+                        "action": {
+                            "spawn": [
+                                {
+                                    "scaleTo": {
+                                        "duration": 1,
+                                        "scale": 2.5
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 1,
+                                        "posY": -580
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/chapter9/101908_eve_longshot.jpg"
+                    }
+                ],
+                "narration": "What we learned was not a way to speed up@its hatching date... Rather, we found that as@it amassed more and more impurities, so to@did it amass more and more gems as well.",
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-12-65",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-64"
+            },
+            {
+                "narration": "Those countless gems are the chains that@prevent its tremendous body from collapsing.",
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-12-66",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-65"
+            },
+            {
+                "narration": "At the same time, they serve a similar role@to blood vessels in that they regulate@huge amounts of energy, and negate the@relationship between Soul Gem and Witch body.",
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-12-67",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-66"
+            },
+            {
+                "item": [
+                    {
+                        "action": {
+                            "spawn": [
+                                {
+                                    "moveTo": {
+                                        "duration": 1,
+                                        "posX": 50,
+                                        "posY": -3000
+                                    }
+                                },
+                                {
+                                    "scaleTo": {
+                                        "duration": 1,
+                                        "scale": 7
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/chapter9/101908_eve_longshot.jpg"
+                    }
+                ],
+                "narration": "The core of that system is the@largest red jewel on Eve's chest.",
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-12-68",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-67"
+            },
+            {
+                "narration": "That gem is the lock binding all its chains,@the core transmitting all its energy.",
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-12-69",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-68"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-69"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-70"
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Tsuruno",
+                "textRight": "That lines up with what Felicia and Momoko@said...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-71",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-70"
+                    }
+                ],
+                "textRight": "Once it gathers energy in its core, it @transmits it to where it's most needed..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-72",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-71"
+                    }
+                ],
+                "textRight": "If Eve needs to do that before it can do@anything else..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 101,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-73",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-72"
+                    }
+                ],
+                "textRight": "It'd make sense for the red gemstone in@Eve's chest to be the core..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-74",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-73"
+                    }
+                ],
+                "textLeft": "You're right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-75",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-74"
+                    }
+                ],
+                "textLeft": "It's trying to rectify the strange, warped@state it's in."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-76",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-75"
+                    }
+                ],
+                "textLeft": "Could that gemstone then be its weakpoint?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 100,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-77",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-76"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101900,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textLeft": "It is highly likely."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-78",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-77"
+                    }
+                ],
+                "textRight": "For sure."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-79",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-78"
+                    }
+                ],
+                "textRight": "We wanted to make sure you had that@information."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100200,
+                        "motion": 1,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-80",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-79"
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Thank you. That was good to know. I think@you just turned this crisis on its head."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101900,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-81",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-80"
+                    }
+                ],
+                "textRight": "Glad to hear it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101900,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-82",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-81"
+                    }
+                ],
+                "textRight": "Anyway, we'll be meeting back up with all of@you before you know it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101900,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-83",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-82"
+                    }
+                ],
+                "textRight": "Keep fighting the good fight until then..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101800,
+                        "motion": 300,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-84",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-83"
+                    }
+                ],
+                "nameRight": "Tsukuyo",
+                "textRight": "Our deepest apologies... We are the ones@who raised Eve, after all."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-85",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-84"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "The Magius were using you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-86",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-85"
+                    }
+                ],
+                "textLeft": "I can't blame you for that..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-87",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-86"
+                    }
+                ],
+                "textLeft": "For now, let's just do everything we can to@help each other."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-88",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-87"
+                    }
+                ],
+                "textRight": "I'd like that. We will see you later!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-89",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-88"
+                    }
+                ],
+                "textLeft": "Yes! Later!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 4,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_13024.jpg",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-89"
+            },
+            {
+                "autoTurnLast": 0.2
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "id": 820300,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeSmall"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    4
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102002_eve_ready3.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaBack"
+                    },
+                    {
+                        "path": "resource/scenario/img/chapter10/102002_eve_ready2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102002_eve_ready2.jpg",
+                        "visible": "hide"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 3,
+                "flashEffect": "explosion",
+                "item": [
+                    {
+                        "action": {
+                            "sequence": [
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": -150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": 150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": 0
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/chapter10/102002_eve_ready3.jpg"
+                    }
+                ],
+                "surround": "7021_asphalt_break"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 5,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-90"
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "textCenter": "...?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-91",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-90"
+                    }
+                ],
+                "textCenter": "Everyone get ready!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21351.jpg",
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-91"
+            },
+            {
+                "autoTurnLast": 1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeSmall"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeSmall"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 6,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_13024.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-93"
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "nameRight": "Sana",
+                "textLeft": "It's going for the shopping center again?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100400,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-94",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-93"
+                    }
+                ],
+                "textRight": "No, it looks like thanks to Felicia it's@changed direction."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-95",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-94"
+                    }
+                ],
+                "textRight": "But now it's headed for..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 1,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-96",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-95"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "That's Chuo Ward..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-97",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-96"
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "The skyscrapers there... Eve's gem, the weak@point in its chest..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-98",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-97"
+                    }
+                ],
+                "textRight": "We may have to use the buildings over there@to string Eve up."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 301,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-99",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-98"
+                    }
+                ],
+                "textLeft": "True, the way things are now we can't get @anywhere near the gem on its chest."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-100",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-99"
+                    }
+                ],
+                "textLeft": "But I'm not sure we can string it up."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101600,
+                        "motion": 200,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-101",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-100"
+                    },
+                    {
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "She has a point. We couldn't even pin it@down just now."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101600,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-102",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-101"
+                    }
+                ],
+                "textLeft": "I'm not sure I'd call that a good strategy."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101600,
+                        "motion": 0
+                    },
+                    {
+                        "id": 100200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-103",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-102"
+                    }
+                ],
+                "textRight": "Pinning it down and stringing it up are two@completely different things."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-104",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-103"
+                    }
+                ],
+                "textRight": "We'll aim for its wing joints."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-105",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-104"
+                    }
+                ],
+                "textRight": "No matter how it thrashes around, it can't@reach there with its legs."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-106",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-105"
+                    }
+                ],
+                "textRight": "And even if it does find a way to wriggle@free, it'll take much more time than before."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 201,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-12-107",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-106"
+                    }
+                ],
+                "textRight": "We should take care of it quickly, before@it starts raging and destroys the building."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-12-107"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,592 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_24011.jpg",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102005_warupuru_chara.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "bgm": "bgm02_anime12",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_18052.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101900,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-1"
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textLeft": "Now the real battle begins.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-2",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-1"
+                    }
+                ],
+                "textRight": "Yeah. We have to lock Walpurgisnacht in@place..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-3",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-2"
+                    }
+                ],
+                "textRight": "...so that everyone can concentrate their @attacks on her!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-4",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-3"
+                    }
+                ],
+                "textLeft": "For sure!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-5",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-4"
+                    }
+                ],
+                "textLeft": "We're the only ones who understand each other@and we share a bond of unconditional love."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-6",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-5"
+                    }
+                ],
+                "textRight": "Our song bears that same love..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-7",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-6"
+                    }
+                ],
+                "textLeft": "And now, we shall use it to stop you from@taking even one more step!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-8_tsukuyo"
+                    },
+                    {
+                        "id": 101900,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-8_tsukasa"
+                    }
+                ],
+                "nameCenter": "Tsukuyo & Tsukasa",
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:1018A05][surround:1019A04]Flute Blossom Resonance!",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-7"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_24011.jpg",
+                "chara": [
+                    {
+                        "id": 101800,
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-8_tsukuyo"
+                    },
+                    {
+                        "id": 101900,
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-8_tsukasa"
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102005_warupuru_chara.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "Walpurgisnacht",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashRed2",
+                "narration": "BWAHAHAHA!!!",
+                "surround": "1018A06",
+                "voiceFull": "fullvoice/section_102005/vo_full_102005-6-9"
+            },
+            {
+                "surround": "1019A08"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_18052.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101300,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-9"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-10"
+                    }
+                ],
+                "nameCenter": "Asuka",
+                "textCenter": "That's quite enough!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-11",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-10"
+                    }
+                ],
+                "textCenter": "I command you, as an upstanding Ryushinryu@assistant instructor!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-12",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-11"
+                    }
+                ],
+                "textCenter": "You may not move from this spot!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-13",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-12"
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][jingle:101305_magia]This is my power: strict adherence to the @rules!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102005_warupuru_chara.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-13"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_24011.jpg",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "jingle": "stop",
+                "nameNarration": "Walpurgisnacht",
+                "narration": "AH HA HA HA HA!",
+                "voiceFull": "fullvoice/section_102005/vo_full_102005-6-14"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "narrationEffect": "out",
+                "surround": "6405A01",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-14"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_18052.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-15"
+                    }
+                ],
+                "nameCenter": "Asuka",
+                "textCenter": "Oh, that was a mistake! I should've stopped@her attack first!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101300,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-16",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-15"
+                    }
+                ],
+                "textCenter": "I can only apply my magic to one rule at a@time..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-16"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302000,
+                        "motion": 400,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-17"
+                    }
+                ],
+                "nameLeft": "Asuka",
+                "nameRight": "Himika",
+                "textRight": "Allow me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302000,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-18",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-17"
+                    }
+                ],
+                "textRight": "I can divert the attack with this coin@right here!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302000,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-19",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-18"
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeLarge][jingle:302001_magia]Raaaraaaraaaghhh!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_24011.jpg",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102005_warupuru_chara.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-19"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Walpurgisnacht",
+                "narration": "...?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_18052.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101300,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-21"
+                    }
+                ],
+                "nameLeft": "Asuka",
+                "nameRight": "Himika",
+                "textLeft": "You distracted her...with a coin?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302000,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-22",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-21"
+                    }
+                ],
+                "textRight": "Sure! Money can change how you live! It can@change your life!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302000,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-23",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-22"
+                    }
+                ],
+                "textRight": "It's scary how much it can change your@perspective and values!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302000,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-24",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-23"
+                    }
+                ],
+                "textRight": "That's how important and attention-grabbing@money is!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101600,
+                        "motion": 400,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-25",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-24"
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "Great thinking, Himika!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101600,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-26",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-25"
+                    }
+                ],
+                "textLeft": "But luring Walpurgisnacht to something on@the ground will get the park blown away."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302000,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-27",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-26"
+                    }
+                ],
+                "textRight": "Oh, no...you're right!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101600,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-28",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-27"
+                    }
+                ],
+                "textLeft": "Hm. As one might expect I can't understand@what's going through a Witch's head..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101700,
+                        "motion": 100,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-29",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-28"
+                    }
+                ],
+                "nameRight": "Mitama",
+                "textRight": "*Giggle* In that case let's stop her with@force."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101600,
+                        "motion": 0,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-30",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-29"
+                    }
+                ],
+                "textLeft": "Mitama?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101700,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-31",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-30"
+                    }
+                ],
+                "textRight": "I am the Coordinator after all. I'll give @your magic a temporary boost."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-32",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-31"
+                    }
+                ],
+                "textRight": "Then you should be able to stop@Walpurgisnacht in her tracks."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101600,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-33",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-32"
+                    }
+                ],
+                "textLeft": "I see. Good strategy."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101600,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-6-34",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-6-33"
+                    }
+                ],
+                "textLeft": "I'd be glad to take up that job!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

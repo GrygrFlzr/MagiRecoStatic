@@ -1,0 +1,660 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51017_storyselect_danchi/memoria_1188.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event06",
+                "nameNarration": "",
+                "narration": "<Leila Ibuki, Seika Kumi, and Mito Aino.>",
+                "narrationCoverOpacity": 100,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "<They were childhood friends living in the@huge Daito Apartment Complex in Kamihama.>"
+            },
+            {
+                "narration": "<But their lives changed forever when@a Witch appeared in the complex.>"
+            },
+            {
+                "narration": "<Seika formed a contract to be@a Magical Girl to save Leila.@Leila and Mito then followed suit.>"
+            },
+            {
+                "narration": "<They each overcame their own@hardships and defeated the Witch.>"
+            },
+            {
+                "narration": "<Though Mito moved out of the complex,@their relationship didn't change, and@they walk down the yet unknown road@of Magical Girls, hands held tight.>"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51017_storyselect_danchi/memoria_1188.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/chapter_team_danchi.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/chapter_team_danchi.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "nameNarration": "Leila",
+                "narration": "We'd gotten a little used to the Magical@Girl life by the time we heard the rumors...",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "The rumors that said..."
+            },
+            {
+                "narration": "\"Magical Girls are being attacked by@someone, one after another.\""
+            },
+            {
+                "narration": "\"The victims fall unconscious@and never wake up.\""
+            },
+            {
+                "narration": "And..."
+            },
+            {
+                "narration": "\"The one they think is doing it is…@Hazuki Yusa.\""
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_17091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Seika",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501,
+                        "lipSynch": 1,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "B-but like..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501
+                    }
+                ],
+                "textRight": "Those are just rumors...aren't they?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301401,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "It looks like there's even a rumor that all@three of them did it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301501,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Say what?![chara:301501:lipSynch_0][wait:0.8][chara:301501:cheek_0][chara:301501:face_mtn_ex_030.exp.json][chara:301501:lipSynch_1] That's crazy..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301401,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textLeft": "It's horrible. Whoever did this is@unforgivable..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Seika..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "It's not just the victims who are hurt.@Their family and friends are, too..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401
+                    }
+                ],
+                "textLeft": "Everyone's been affected."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "If either of you got hurt, I..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501
+                    }
+                ],
+                "textRight": "Hey, um, Seika... I feel the same way."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But Konoha and them..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 301401,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "lipSynch": 1
+                    }
+                ],
+                "textLeft": "I know."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/memoria_1350.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Seika",
+                "narration": "Konoha's group learned lots of things from@the Magical Girls they met, us included.",
+                "narrationCoverOpacity": 100,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I don't want to doubt them..."
+            },
+            {
+                "narration": "It's like...I can't imagine them doing it."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_17091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/memoria_1350.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301401,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "So, I just don't know what to do...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501
+                    }
+                ],
+                "textRight": "Seika..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301301,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "..."
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 301301,
+                        "lipSynch": 1,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "All right... I've made up my mind!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Huh...? About what?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Let's find the real criminal!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "The real one?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "Us three..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yeah."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I can't imagine them doing it either, not at@all."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301
+                    }
+                ],
+                "textLeft": "We still haven't known them long, but they're@not like that."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I mean, they have no reason to do that!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301301,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "And Magical Girls are the ones being@targeted, you know?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301
+                    }
+                ],
+                "textLeft": "So who knows when we'll be attacked too..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "You're right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301301,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Besides, Seika..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301
+                    }
+                ],
+                "textLeft": "I can't forgive whoever did it either!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "Leila..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 301401,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301501,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "That does it! Let's do this!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301401,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Seika",
+                "textCenter": "...Yes, let's!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301301,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "No thank you, both of you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Let's clear this all up together!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301301,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "First, though..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301
+                    }
+                ],
+                "textLeft": "There's something else I want to talk about."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

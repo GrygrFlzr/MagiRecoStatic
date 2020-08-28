@@ -1,0 +1,706 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_12091.jpg",
+                "bgm": "bgm03_story19",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/33033_sayuki_story/memoria_1354.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Sayuki",
+                "narration": "(Wowww...)",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 60,
+                "narrationLineSpace": 25,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "(No matter how many times I see them,@they always look amazing.)"
+            },
+            {
+                "narration": "(At first, they seem thin and delicate...)"
+            },
+            {
+                "narration": "(But beneath the surface, they're durable@and have a commanding presence!)"
+            },
+            {
+                "narration": "(This blade pattern is...)"
+            },
+            {
+                "narration": "(A straight one!)"
+            },
+            {
+                "narration": "(I like irregular patterns too, but@straight is my favorite.)"
+            },
+            {
+                "narration": "Ahhh... I can't get enough of them."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/33033_sayuki_story/memoria_1354.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(If only I had a friend to share my@excitement with.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I'm sure it would be fun to get excited@together.)"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800800
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801000
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801800
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "textCenter": "(But...I've never met any girls my age@who have the same interests.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Or even someone I could just talk to...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "(Still though...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "(These katanas are beautiful, even if I'm@looking at them by myself.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(The next sword is one of my favorites.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303301,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "...Huh?",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 1,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303201
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303301,
+                        "motion": 400,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "textCenter": "[chara:303301:effect_emotion_surprise_0][se:7226_shock]A girl...w-wearing the same uniform as@me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textCenter": "Why is she at the art museum?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "C-could it be?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textCenter": "Maybe she likes katanas too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Sh-she's from the same school as me...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "(Maybe we can be friends if I talk to@her?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Wh-what if she isn't interested, though?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(But...but...maybe we have something@in common!)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "...[wait:0.8][chara:303301:cheek_0][chara:303301:face_mtn_ex_050.exp.json][chara:303301:lipSynch_1]Huh?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textCenter": "Where'd she go?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "(I was too busy trying to work up the@courage...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303301
+                    }
+                ],
+                "textCenter": "*Sigh*",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "(Oh well...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(That's okay, I'll get over it.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303301,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "(Back to the katanas!)"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 0,
+                        "posY": 80
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_12041.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303301,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "surround": "7003_wind",
+                "textCenter": "[chara:303301:effect_emotion_joy_0][se:7222_happy]Ahh, that was so much fun!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textCenter": "Hummm-hummm♪"
+            },
+            {
+                "nameRight": "Kyubey's Voice",
+                "textRight": "Hey, Sayuki Fumino."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303301,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "[chara:303301:effect_emotion_surprise_0][se:7226_shock]Y-yesss?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "......"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Nobody's there? I thought I heard someone@call my name..."
+            },
+            {
+                "textRight": "I'm right here. Look down."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303301
+                    }
+                ],
+                "textCenter": "Down?"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 303301,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "nameRight": "Kyubey",
+                "textLeft": "...A plushie?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "No."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "My name is Kyubey. I want to ask you@something."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "......"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 303301,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "surround": "stop",
+                "textBg": "shout",
+                "textLeft": "EEEEEEEEEK! Th-the plushie is talking!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "motion": 300
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "It's possessed! It must be possessed!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    },
+                    {
+                        "id": 303301,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "Calm down, Sayuki. I'm not a possessed@stuffed animal."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "W-wa-wa-wahhh! S-stay back, please!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303301,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Please don't eat me! I'm sure I taste bad!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

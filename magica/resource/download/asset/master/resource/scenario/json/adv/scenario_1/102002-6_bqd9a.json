@@ -1,0 +1,500 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6500_warupuru_parade.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_11044.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_movie11",
+                "chara": [
+                    {
+                        "id": 7101,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge]Bwhedhy, bhwre!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 7101,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101700,
+                        "motion": 400,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-2"
+                    }
+                ],
+                "nameCenter": "Mitama",
+                "textCenter": "[flashEffect:flashRed2][bgEffect:shakeLarge][se:3001_chara_damage][chara:101700:effect_shake]Owww!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 101700,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101900,
+                        "motion": 200,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-3",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-2"
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "Mitama",
+                "nameRight": "Tsukasa",
+                "textBg": "shout",
+                "textRight": "Mitama!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-4",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-3"
+                    }
+                ],
+                "textLeft": "I'm fine! That attack wasn't meant for me."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-5",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-4"
+                    }
+                ],
+                "textLeft": "Eve and Walpurgisnacht..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-6",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-5"
+                    }
+                ],
+                "textLeft": "Even their Familiars seem like they're trying@to devour each other."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-7",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-6"
+                    },
+                    {
+                        "id": 101900,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Though Eve's Familiars have the advantage of@numbers."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-8",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-7"
+                    }
+                ],
+                "textRight": "When an enemy falls, they absorb its impurity@and tuck it away for later..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-9",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-8"
+                    }
+                ],
+                "textRight": "It looks like Mitama's right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101700,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-10",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-9"
+                    }
+                ],
+                "textLeft": "If they were just trying to destroy each@other we could leave them to it..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-11",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-10"
+                    }
+                ],
+                "textLeft": "But we can't ignore how they're stockpiling@impurities."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 101700,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-12",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-11"
+                    },
+                    {
+                        "id": 101800,
+                        "motion": 0
+                    },
+                    {
+                        "id": 101900,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "All right. Tsukuyo? Tsukasa?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-13",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-12"
+                    }
+                ],
+                "textLeft": "Did you get through to the other Magical@Girls?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-14",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-13"
+                    }
+                ],
+                "textRight": "Yes. I checked in with them, and it looks@like they've split up on their own missions."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-15",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-14"
+                    },
+                    {
+                        "id": 101700,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Apparently their initial plan was to wait on@the shore for Walpurgisnacht."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-16",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-15"
+                    }
+                ],
+                "textCenter": "But they split up once the Familiars began@raining down across the city."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101900,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-17",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-16"
+                    }
+                ],
+                "textRight": "Yes, they're taking on the Familiars just@like we are."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-18",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-17"
+                    }
+                ],
+                "textLeft": "I see..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-19",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-18"
+                    }
+                ],
+                "textLeft": "Then, now that the girls who were taking@shelter at my place are out and about..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-20",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-19"
+                    }
+                ],
+                "textLeft": "Shall we start making the rounds as well?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101800,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-21",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-20"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101900,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "The...rounds?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-22",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-21"
+                    }
+                ],
+                "textLeft": "Yes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-23",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-22"
+                    }
+                ],
+                "textLeft": "We'll take the Grief Seeds I have in the@store to where the others are fighting."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-24",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-23"
+                    }
+                ],
+                "textLeft": "Let's use all our power to support everyone@fighting throughout the city."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-25",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-24"
+                    }
+                ],
+                "textLeft": "And while we're at it, we need to take care@of the nests Eve's Familiars are building."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-26",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-25"
+                    }
+                ],
+                "textLeft": "Since we have no idea what they're planning,@we need to destroy as much of it as we can."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-27",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-26"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101900,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Understood!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "surround": "7022_earthquake",
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-27"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 101700,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101800,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101900,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-28"
+                    }
+                ],
+                "textRight": "Aaah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101800,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-29",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-28"
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101900,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Oh nooo... Another earthquake!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101700,
+                        "voiceFull": "fullvoice/section_102002/vo_full_102002-6-30",
+                        "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-29"
+                    }
+                ],
+                "textLeft": "That must mean..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102002_eve_fall.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-30"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Mitama",
+                "narration": "— Mitama —@It's taken another leap toward the city.",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 10,
+                "narrationLineSpace": 20,
+                "voiceFull": "fullvoice/section_102002/vo_full_102002-6-31"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102002/vo_full_102002-6-31"
+            }
+        ]
+    },
+    "version": 3
+}

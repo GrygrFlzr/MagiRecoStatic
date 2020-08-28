@@ -1,0 +1,515 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_21083.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302601,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Konoha",
+                "narration": "I left Yachiyo and hurried home.",
+                "narrationBg": "bg_adv_21083.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Konoha",
+                "narrationEffect": "out",
+                "textCenter": "Hazuki! Ayame!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 302601,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302801,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ayame",
+                "textLeft": "Ahh, welcome home!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601
+                    }
+                ],
+                "nameRight": "Konoha",
+                "textRight": "Where's Hazuki?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302801
+                    }
+                ],
+                "textLeft": "...Wha? Oh, she just called."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302601,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "What'd she say?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "textLeft": "She's gonna buy stuff for dinner on her way@home..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 302601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(It looks like Hazuki hasn't heard about the@situation yet.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Hey...did somethin' happen?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 302601
+                    }
+                ],
+                "textRight": "Ayame...listen."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "Konoha",
+                "narration": "I explained what was happening to her.",
+                "narrationBg": "bg_adv_21083.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "She was a victim of it last time,@so it might've hurt her to hear."
+            },
+            {
+                "narration": "But still, I had to tell her..."
+            },
+            {
+                "narration": "When I was done explaining, she..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "[chara:302801:effect_emotion_angry_1][se:7218_anger]Whaaat the heck?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "textLeft": "I was attacked last time!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "textLeft": "So why would anyone think Hazuki did it?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Like crap she'd ever do that!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302601,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "*Chuckle* I know."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "What the heck are ya laughin' at, Konoha!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 302601
+                    }
+                ],
+                "textRight": "Sorry, it's not that..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(She's so much stronger than I realized...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302601,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "You're right, there's no way Hazuki did it!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yeah, yeah, yeah! Hazuki? The criminal?@Gimme a break..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "lipSynch": 0
+                    }
+                ],
+                "se": "4013_equip_arms_compact",
+                "textLeft": "(Hm?)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21083.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601
+                    }
+                ],
+                "textRight": "Ayame?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302801,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Huuuh...I see..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 302801
+                    }
+                ],
+                "textLeft": "Yeeeah... It really is possible..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "textLeft": "That Hazuki did it..."
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Hey! What's gotten into you?!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You know, 'cause you..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Me? What did I do?"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "SLAM!",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302801,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "[chara:302801:effect_emotion_surprise_0][se:7226_shock]Whoa! Wh-what was that noise?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302601,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "It came from the front door..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302700,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Hazuki",
+                "textRight": "I-I'm hooome..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Hazuki?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Konoha",
+                "textLeft": "What's wrong?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textRight": "It seems there's been a bit of..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "...trouble."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

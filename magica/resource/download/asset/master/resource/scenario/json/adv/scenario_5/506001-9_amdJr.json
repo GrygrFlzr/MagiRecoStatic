@@ -1,0 +1,852 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_21083.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "Konoha",
+                "narration": "When Hazuki got home,@she was transformed into a Magical Girl.",
+                "narrationBg": "bg_adv_21083.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Something definitely happened.@It wasn't just that she was transformed,@but I could also see it in her face."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ayame",
+                "nameRight": "Hazuki",
+                "narrationEffect": "out",
+                "textLeft": "Hazuki! Did somethin' happen?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textRight": "Well..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "textLeft": "Did a Familiar attack you?! A Witch?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textRight": "No, what I ran into was..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "...a Magical Girl?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302801,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Whaaa?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "motion": 0
+                    },
+                    {
+                        "id": 302801,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "Konoha..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textRight": "Looks like you know what's going on?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302601,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Konoha",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "You're a suspect."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302701
+                    }
+                ],
+                "textRight": "Huh? Of what?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "The incident where Magical Girls were@attacked and went unconscious..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:302701:effect_emotion_surprise_0][se:7226_shock]Whoa, what? Hold on... You're joking, right?@They think I did it?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "It happened again. The same thing."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "And the ones who were attacked were people@you've met up with..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "What?! Wait, wait, wait! What's that..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302701
+                    }
+                ],
+                "textRight": "...Oh."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "That's what they were on about!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "What are you talking about?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textRight": "Asuka Tatsuki and Sasara Minagi..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_13043.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302701,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Hazuki",
+                "textCenter": "(Alrighty...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I'll stop by the supermarket, then...)"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "Hazuki Yusa! Stop right there!",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302701,
+                        "motion": 400
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "Wh-whoa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "...Huh? Who're you?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 302701,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101301,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "Evildoer!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sasara",
+                "textRight": "Hold on, Asuka! We were going to talk to @her first, remember?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302701
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "textLeft": "...Ahh! You're Emily's friends."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101301,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "Yeah, and we've got some things to ask you@about her!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101301
+                    }
+                ],
+                "textRight": "Are you the one who did it?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302701
+                    }
+                ],
+                "textLeft": "Did...what?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Tell us the truth!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300401,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sasara",
+                "textRight": "Hey, rein it in!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Uh, yeah! Let's keep things calm, okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "Wh-wha! I am the embodiment of calmness!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_032.exp.json",
+                        "id": 300401,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sasara",
+                "textRight": "(Aw crap... The more we tell her to calm @down, the more fired up she's getting.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Asuka",
+                "textRight": "Okay. Now you're gonna...stay calm..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "....and TALK!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302700,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textLeft": "Whoa, this is getting out of hand!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101301,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Ah ha! You transformed! So you won't come@along quietly after all!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300401,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sasara",
+                "textRight": "No, you're just freaking her out!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302700,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "U-um...well..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 302700
+                    }
+                ],
+                "textLeft": "Uh, how about another time!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101301,
+                        "motion": 200,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Asuka",
+                "textBg": "shout",
+                "textLeft": "[chara:101301:effect_emotion_surprise_0][se:7226_shock]Agh! Halt right theeere!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21083.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302601,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "nameLeft": "Konoha",
+                "nameRight": "Hazuki",
+                "textRight": "That's basically what happened.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "Who were those two girls?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textRight": "They're good friends with Emiri Kisaki."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Emiri Kisaki!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Emily... She was attacked, huh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textRight": "Hey, is she okay?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302601,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Still unconscious, I hear..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 302701,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 302701
+                    }
+                ],
+                "textRight": "Who else was attacked?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Wait, we'll talk about the details later."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "Right now we have to get out of here and@hide."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Hide? Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I didn't do anything! You know I'd never do@something like that!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Calm down!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "If they tracked you down, then they'll @figure out where we live soon enough."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "We have to keep hidden for now, until the@storm blows over!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601
+                    }
+                ],
+                "textLeft": "But after that, we can make our next move!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Konoha..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Trust me."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Okay."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 302601,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302601
+                    }
+                ],
+                "nameRight": "Konoha",
+                "textRight": "You okay too, Ayame?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "nameLeft": "Ayame",
+                "textLeft": "Uh, yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302601,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "All right... Let's get going."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/memoria_1351.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Konoha",
+                "narration": "That's how we ended up being hunted down@by the Magical Girls of Kamihama.",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/memoria_1351.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,498 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "bgm02_boss03",
+                "nameNarration": "Iroha",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I can't break the gem by shooting it.@I have to go to her myself.",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-1"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_iroha_3rd.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-1"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "So I won't fire a magic infused arrow.",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-2"
+            },
+            {
+                "narration": "Instead, I'll become an arrow@myself and save her!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-3",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-2"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_iroha_5th2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-3"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "I'm coming for you...!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 60,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-4"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-4"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "explosion",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_iroha_5th1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "se": "4001_equip_arms_bow_vh"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.5,
+                                "posY": 0
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "posX": 0,
+                        "posY": 3000,
+                        "scale": 4,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Ui!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-5"
+            },
+            {
+                "narration": "— Iroha —@I've come to take you home!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-6",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-5"
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "nameNarration": "Touka",
+                "narration": "— Touka —@Iroha Tamaki!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-7",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-6"
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha1.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Touka!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-8",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-7"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "— Touka —@Why are you going this far for her?!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-9",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-8"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@You should know by now!@She's my only little sister in the world!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-10",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-9"
+            },
+            {
+                "narration": "— Iroha —@And that's not all, she's a@precious friend to you and Nemu!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-11",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-10"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "— Touka —@That...might be true...!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-12",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-11"
+            },
+            {
+                "narration": "— Touka —@But I don't...understand...@I don't understand it at all!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-13",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-12"
+            },
+            {
+                "narration": "— Touka —@I can't make one bit of sense out of@anything you say, Iroha Tamaki!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-14",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-13"
+            },
+            {
+                "narration": "— Touka —@Why?! Why is what you say true?!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-15",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-14"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "— Iroha —@Because it is!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-16",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-15"
+            },
+            {
+                "narration": "— Iroha —@There's nothing else to it!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-17",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-16"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashWhite2",
+                "se": "4001_equip_arms_bow_vh",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-17"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "explosion",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha7.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "se": "3214_ban"
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha2.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narration": "— Iroha —@Ui!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-18"
+            },
+            {
+                "nameNarration": "Eve",
+                "narration": "― Eve ―@――＿＿￣￣―━━━?!?!?!",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-18"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "explosion",
+                "item": [
+                    {
+                        "action": {
+                            "sequence": [
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 150,
+                                        "posY": 150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -150,
+                                        "posY": -150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 150,
+                                        "posY": 150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -150,
+                                        "posY": -150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 150,
+                                        "posY": 150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -150,
+                                        "posY": -150
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": 0
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha7.jpg",
+                        "visible": "appear"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "action": {
+                            "fadeTo": {
+                                "duration": 1,
+                                "opacity": 255
+                            }
+                        },
+                        "opacity": 0,
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha3.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "Iroha",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "narration": "Aaaahhh!!!",
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-20"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha4.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "setVisible": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-20"
+            },
+            {
+                "autoTurnLast": 2,
+                "surround": "stop",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "userName",
+                "narration": "― userName ―@Mokkyui!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "voiceFull": "fullvoice/section_102003/vo_full_102003-3-21"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-21"
+            },
+            {
+                "autoTurnFirst": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "spawn": [
+                                {
+                                    "scaleTo": {
+                                        "duration": 5,
+                                        "scale": 2.5
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 5,
+                                        "posX": -40,
+                                        "posY": -120
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha4.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "setVisible": 1
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 5
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "white",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102003_eve_iroha4.jpg",
+                        "setVisible": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "Iroha",
+                "narrationEffect": "in",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 2
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102003/vo_full_102003-3-22"
+                    }
+                ],
+                "narration": "Wh-what?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102003/vo_full_102003-3-22"
+            },
+            {
+                "autoTurnLast": 1,
+                "movie": "102003_remember.usm",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21355.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 5,
+                "surround": "7003_wind",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

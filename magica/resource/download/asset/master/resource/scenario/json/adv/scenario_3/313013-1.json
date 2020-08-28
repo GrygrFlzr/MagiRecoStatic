@@ -1,0 +1,959 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21202.jpg",
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Sana",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "Dinner will be ready soon. Just give me a@minute.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textRight": "Okay, thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We have a lot of food today."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "Yes, I wanted to make some of Iroha's@favorites."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100401,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Iroha's...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "I just want her to be in the best mindset@for the photo shoot."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401
+                    }
+                ],
+                "textRight": "Oh yeah, I heard about that from Iroha."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "She's going to be modeling with you, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "*Giggle* Yes, she is."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(Yachiyo looks really happy...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "I'm home!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Oh, welcome home, Ui."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "[chara:101501:effect_emotion_joy_0][se:7222_happy]Something smells good!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Huh? I thought you were with Iroha."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textRight": "She was with Rena, Momoko, and Kaede."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I see..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Iroha was acting kinda weird, though..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Really?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textRight": "Yeah, she seemed kind of stressed about@something."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401
+                    }
+                ],
+                "textLeft": "Probably because the photo shoot is coming@up."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Oh, I heard about that too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textRight": "I can't wait to see the pictures!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100201,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "*Giggle* You're excited too?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "It came as a big surprise to me."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textRight": "I never thought she would be interested in@modeling!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Yes, I guess it is a little surprising..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Could that really be why she looked like she@was stressed?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Well, I'm sure she wouldn’t have offered to@help if she was."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "True..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21201.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "bgm": "bgm03_story03",
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "You'll be coming with me to the photo shoot,@as a model!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "B-but I can't!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I have NO experience modeling!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21202.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "She did refuse at first...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "But in the end..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21201.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100201,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "I thought it might be a good opportunity.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "Plus, it pays well. Why don't you give it@a try?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "[chara:100101:cheek_0][chara:100101:motion_401][chara:100101:face_mtn_ex_021.exp.json][chara:100101:eyeClose_0][chara:100101:lipSynch_1]All right..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "I'll do it! I'll be your partner in the @shoot!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21202.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100401,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Ah...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "What is it, Sana?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "The night we had that barbeque for dinner..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textRight": "Iroha was talking about Mikazuki Villa's@budget."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textRight": "She said we all should do something to@help..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "So you think she accepted my offer to help@pay the bills?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Maybe..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "I really thought she was interested in@modeling..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I should've noticed..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "I'm the oldest, this shouldn't have happened."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I should apologize to Iroha."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You should go and talk to her, Yachiyo."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yeah, okay... [chara:100201:lipSynch_0][wait:1.5][chara:100201:motion_200][chara:100201:lipSynch_1]But I haven't finished making@dinner yet."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I-it's all right..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textRight": "Ui and I will finish it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "lipSynch": 0
+                    },
+                    {
+                        "id": 100401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "(Let me try calling her...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "surround": "7105_telphone",
+                "textLeft": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "(She's not answering...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "Iroha was with Rena...right, Ui?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Yeah, but they were on their way somewhere..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I know just who to call.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "surround": "7105_telphone",
+                "textLeft": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Hello?",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textLeft": "Momoko, sorry to call you out of the blue."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101001,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "It's all right. What's up?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I need to talk to Iroha...now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Is this about the modelin' job?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "Yes, I need to apologize to her."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "textRight": "I see..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I should've listened to you when you called."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Don’t worry about it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Anyways, you're lookin' for Iroha, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "textRight": "You should come talk to her."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "We're hangin' out at..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

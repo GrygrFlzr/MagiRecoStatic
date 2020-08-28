@@ -1,0 +1,338 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 10,
+                        "filePath": "resource/image_native/effect/story/general/3004_sparks.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 11,
+                        "filePath": "resource/image_native/effect/story/general/6002_sparks.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_15026.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm02_anime12",
+                "chara": [
+                    {
+                        "id": 101000,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-1"
+                    }
+                ],
+                "nameCenter": "Momoko",
+                "textCenter": "It's now or never.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-2",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-1"
+                    }
+                ],
+                "textCenter": "If we let this chance slip by, we're not@gettin' another one."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-3",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-2"
+                    }
+                ],
+                "textCenter": "So, guys, we gotta make sure we use every@last bit of our power."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-4",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-3"
+                    }
+                ],
+                "textCenter": "So what I'm gonna do is I'm gonna use my@power to give you all a morale boost!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 101000,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-4"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101000
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300200,
+                        "motion": 200,
+                        "pos": 2,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-5"
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "nameRight": "Natsuki",
+                "textRight": "Let me cheer 'em on with you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101000,
+                        "motion": 0
+                    },
+                    {
+                        "id": 300200,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-6",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-5"
+                    }
+                ],
+                "textRight": "I may not be able to stand at the mound..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-7",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-6"
+                    }
+                ],
+                "textRight": "But I'm the girl that stays with you, at @your back, and keeps pushing you forward!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-8",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-7"
+                    }
+                ],
+                "textLeft": "All right then. Shall the two of us give 'em@another boost?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300200,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-9",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-8"
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101000,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-10",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-9"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[bgEffect:shakeSmall]All right, everyone! Listen up! This is our@final, most important battle!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-11",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-10"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Right now, all of us are sproutin' wings,@wings of hope!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-12",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-11"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Wings from Kamihama, Mitakihara, all over!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-13",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-12"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Let's focus all that power into one assault@and send this avatar of impurity flyin'!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300200,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-14",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-13"
+                    }
+                ],
+                "textRight": "Yeah! Gotta grab this chance while we can!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-15",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-14"
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Let's turn this game around in the final@inning, with one big home run!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-16",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-15"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][se:3215_goodstatus]GOOOOOO!!!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300200,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-17",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-16"
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeLarge][se:1701_arena_win]GO, FIGHT, WIIIIIIIIIN!!!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "explosion",
+                "se": "3201_heal",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715102,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715102,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-18"
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "nameRight": "Black Feather",
+                "textLeft": "We should get going, too.",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715102,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-19",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-18"
+                    }
+                ],
+                "textLeft": "We're no longer Feathers working for the@sake of the Magius."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715102,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-20",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-19"
+                    }
+                ],
+                "textLeft": "Now we're Feathers for all Magical Girls!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102005/vo_full_102005-3-21",
+                        "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-20"
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102005/vo_full_102005-3-21"
+            }
+        ]
+    },
+    "version": 3
+}

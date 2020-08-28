@@ -1,0 +1,864 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300501,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "<Nanaka Tokiwa, daughter of the head family@of Kashin-ryu, a top flower arranging school>",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300801,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "narration": "<Akira Shinobu, a karate student, known as@\"The Troubleshooter of Sankyoin\">"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301201,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "narration": "<Meiyui Chun, a pillar of@the Blue Seas Family>"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301101,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "narration": "<And Natsume Kako, daughter of the family@that runs the used bookstore, Natsume Books>"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301101
+                    }
+                ],
+                "narration": "<They work together to destroy@\"a certain Witch\", their mutual enemy.>"
+            },
+            {
+                "narration": "<They call this enemy the \"Locust\".>"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/51060_team_azarea_team_nanaka.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "<Since forming their alliance, they've fought@many Witches, at times working with other@Magical Girls, at times working against them.>",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "<However... They have yet@to encounter the Locust.>"
+            },
+            {
+                "narration": "<But when Konoha and the others were@pulled into the incident involving attacks@on Magical Girls, Nanaka felt something.@It was a whisper from her magical power.>"
+            },
+            {
+                "narration": "<\"The power to discern my true enemies\">"
+            },
+            {
+                "narration": "<That is Nanaka's ability.>"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/51060_team_azarea_team_nanaka.jpg",
+                        "visible": "hide"
+                    },
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/chapter_team_nanaka.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51032_storyselect_mizugi/51032_day1.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_21163.jpg",
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "Nanaka",
+                "narration": "Regarding Konoha's group...@I heard about it from a certain someone.",
+                "narrationBg": "bg_adv_21163.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "So I contacted Akira and the others@immediately to hold a meeting."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "nameRight": "Kako",
+                "narrationEffect": "out",
+                "textLeft": "From what I've heard..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "Multiple Magical Girls have once again been@attacked."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Also..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 301201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "Konoha Shizumi's team is suspected of doing@it... Correct?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I have also heard the rumors."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I see..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300801,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "Oh, that thing..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Uh, um...excuse me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300801,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Akira",
+                "textLeft": "(Ah... I think I know what she wants to@say.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101
+                    }
+                ],
+                "textRight": "I...I don't think they're the ones who are@doing it!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300801,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Yep...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "textLeft": "...On what grounds?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Well...um..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Akira",
+                "textLeft": "Because you trust Ayame...right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "...Yeah."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300801,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300801
+                    }
+                ],
+                "textLeft": "This time Emily was attacked."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "That's why I definitely want to find out the@truth!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300801
+                    }
+                ],
+                "textLeft": "But..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300801,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I just can't imagine that Ayame and them did@it..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "Akira... You shouldn't let your personal@feelings get mixed up in this."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300801
+                    }
+                ],
+                "textLeft": "You may be right. My feelings might be@affecting my judgment."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300801,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "But...I've just got a hunch."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 301201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I think it wise to talk to them about it@before jumping to any conclusions."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301201
+                    }
+                ],
+                "textRight": "There are many unknown variables. We can't@make any judgments yet."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Besides...is this even a matter we should get@involved in?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kako",
+                "textLeft": "I-it is!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300801,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Akira",
+                "textLeft": "Yeah, we can't just leave it be!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301201
+                    }
+                ],
+                "textRight": "See? Your personal feelings are controlling@you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 301201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "...What do you think, Nanaka?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "I will start with my conclusion."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I believe that this IS something we should@look into."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301101,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300801,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "Exactly!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 301201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "And your reason?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Although it is true that I am concerned for@those three..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "There is a different, fundamental reasoning@behind my conclusion."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Different?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300801,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "What do you mean?"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 300501,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I feel it...lurking behind this incident..."
+            },
+            {
+                "nameNarration": "Nanaka",
+                "narration": "The Locust.",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301201,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "narrationEffect": "out",
+                "textRight": "Wha?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300801,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Akira",
+                "textLeft": "Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "A-are you sure?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "You're positive?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "textLeft": "I am..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "Actually, I felt it, however slightly, since@the previous fainting incident."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I wasn't convinced at the time, however."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "This time is different."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "The power I hold tells me this."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "It could not be telling me more clearly!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "You've finally grasped it! The scourge of@the Blue Seas Family!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300801,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Akira",
+                "textLeft": "Then it's true!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301101,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Ayame and them didn't do it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101
+                    }
+                ],
+                "textRight": "If it's the Locust, then this is a Witch's@doing!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300501,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "textLeft": "...Not so fast."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "Allow me to continue."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

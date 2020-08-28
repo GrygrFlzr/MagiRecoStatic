@@ -1,0 +1,759 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_17102.jpg",
+                "bgm": "bgm03_story17",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_10"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Kanagi",
+                "textCenter": "Over there?!",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "promist"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textCenter": "Who is it, who is with her?!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101600,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "[flashEffect:flashWhite2]Show yourself!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Kanagi's Memory",
+                "textLeft": "Your name..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Kanagi",
+                "narration": "What's the name?!",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnChangeOutTime": 0.01
+            },
+            {
+                "autoTurnLast": 0.7,
+                "bg": "bg_adv_17091.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101600,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "surround": "7001_birdsong",
+                "textLeft": "[flashEffect:flashWhite2][chara:101600:effect_shake]...Ugh!",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 0.2
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301500,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "[flashEffect:flashWhite2][chara:301500:effect_shake]Wah!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Leila",
+                "surround": "stop",
+                "textLeft": "Huh?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "Your magic..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301500,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "[se:7205_magic_girl]W-was my magic canceled?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "What the?! How the heck did that happen?!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "I might have triggered a reaction with the@magic cast on me..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101601,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I'm sorry."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "No, it's not your fault, Kanagi."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I think it may have been."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textLeft": "You see, I used magic as well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "Y-you did?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textLeft": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "That was the moment when Mito's magic was@halted."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Um, what is your magic?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Mine is mind reading. I can see into people's@minds."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You can read people's thoughts?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "Wowie! That's kinda like my magic, huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "(Wait, has she been...?!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "lipSynch": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "(Oh no! I'm so embarrassed!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101601,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "It only works when I'm transformed though.@And I have to be close.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textLeft": "In that sense it can be a bit difficult to@use."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I don't go around reading people's minds@without their permission usually, so relax."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "(Whew.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101601,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "That said, I should have told you earlier.@It just occurred to me to use it then."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textLeft": "My apologies."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Ah, no! It's fine!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "Yeah, no worries, Nagitan!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501
+                    }
+                ],
+                "textRight": "I saw into your heart, so I know!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Oh, that's right..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Kanagi! Did you read someone's mind?!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "surround": "7001_birdsong",
+                "textLeft": "I did..."
+            },
+            {
+                "bgm": "bgm05_event08",
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "surround": "stop",
+                "textLeft": "I read the mind of myself in the memory."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Kanagi read the mind of..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textLeft": "Of the Kanagi in the memory?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301501,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "This is makin' my head hurt!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301401
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Did you find anything out?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101601,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101601
+                    }
+                ],
+                "textLeft": "It was only 11 letters..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "Uh, what were they?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101601,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "nameNarration": "Kanagi",
+                "narration": "[textRed:H-A-N-N-A-S-A-R-A-S-A...]",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

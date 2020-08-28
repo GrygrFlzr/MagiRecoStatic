@@ -1,0 +1,969 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20491.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "nameRight": "Kyoko",
+                "textLeft": "Now, let's see... It should be somewhere@around here...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I gotta come up with a plan.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(The faster the better...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(But there's nothin' here that could distract@them.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(If I suggest somethin' like cookin' Kanagi@and Ui will know somethin's up...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "(Plus, I definitely wouldn't want to do@that...)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(That'd be a straight up disaster.)"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 101750,
+                        "motion": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Huh?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101750
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[bgEffect:shakeSmall]*Swish*",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "motion": 400
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "[chara:260000:effect_emotion_surprise_0][se:7226_shock]What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101550,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "M-Mitama?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101250,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "She flew away!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101651,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "No! Mitama is..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "in"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101651,
+                        "motion": 400
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "nameNarration": "",
+                "narration": "*Thud*",
+                "narrationBg": "",
+                "se": "3001_chara_damage"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101651,
+                        "motion": 300
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "Ugh!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101651
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 101250,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Nagitan!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101250,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101250,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Karin",
+                "textCenter": "Are we being attacked?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101250
+                    }
+                ],
+                "textCenter": "Maybe it's another treasure hunter..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101250
+                    }
+                ],
+                "textCenter": "No, wait... It's probably the fallen warrior!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 101250,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "We're not the warrior's master... His ghost@must be trying to attack us!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101250,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101550,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Gh-ghost?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "(Treasure hunter? Ghost?[wait:0.8][chara:260000:cheek_0][chara:260000:motion_0][chara:260000:face_mtn_ex_051.exp.json] Give me a break...@Huh?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "Both of you, calm down. Another wooden@tablet just came crashing down.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101550,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "H-hey, where is Mitama?"
+            },
+            {
+                "bgm": "bgm03_story20",
+                "nameCenter": "Mitama's Voice",
+                "textCenter": "I'm right here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "She's above us?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101250,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Karin",
+                "textRight": "[chara:101250:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101250
+                    }
+                ],
+                "textRight": "She's hanging upside down!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101651,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "It seems like we set off a trap."
+            },
+            {
+                "textCenter": "I'm glad you're all okay, but it'd be great@if you'd help me down now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000
+                    }
+                ],
+                "textRight": "Come on, let's get her down."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes, right away."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101750,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "nameRight": "Kyoko",
+                "textLeft": "*Sigh* What did I do to deserve this?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Hey... Don't you think this all is a bit too@dangerous?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "Dangerous?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000
+                    }
+                ],
+                "textRight": "That was the second time we've fallen into@a trap."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000
+                    }
+                ],
+                "textRight": "Plus there's been so many other ones..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Well, yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "And on top of that..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000
+                    }
+                ],
+                "textRight": "We had to trip the bigger traps to get@these wooden tablets."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "One was in a pitfall..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000
+                    }
+                ],
+                "textRight": "The other one swept you right off the@ground..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Who knows, the next one could be even more@dangerous..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 101750,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Kyoko..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(How's that?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(That might force her to give up...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101750,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I'm so happy to hear that you're worried@about me!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101750
+                    }
+                ],
+                "textLeft": "But take a look at this."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "The treasure entrusted to me@by my master is extremely rare.@I must protect it at all costs.",
+                "narrationBg": "white",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101750
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "It says it's \"extremely rare\"! Don't you want@to know what it is?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "(I'm more worried about my future than@some treasure...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "I think Kyoko has a point.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101651
+                    }
+                ],
+                "textLeft": "But..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101651,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I am really curious what that treasure is.@I'm not sure I want to give up on it yet..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "(What?! She was my only hope!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101550,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "I want to know what this warrior wanted to@protect so badly...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101250,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Karin",
+                "textLeft": "I want to know, too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101250
+                    }
+                ],
+                "textLeft": "It might be some good inspiration for the@next manga I'm writing!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I didn't know you wrote manga! Let me read@it when you're done!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101250,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Sure!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "(That didn't go well...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I guess there's no other choice...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101250,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "All right.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "If you're willin' to take the risk, I'm not@gonna stop you."
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 260000
+                    }
+                ],
+                "textRight": "But..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101250
+                    }
+                ],
+                "textLeft": "But what?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 260000,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We need to be careful, I think we're bein'@followed."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 101250,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Really?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101250
+                    }
+                ],
+                "textLeft": "M-maybe it's the ghost of that fallen warrior!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 101250,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Or maybe it's another treasure hunter!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101550,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "If that's the case, then this treasure really@must be something important!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "surround": "7003_wind",
+                "textRight": "(Great, they bought it.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 260000,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(If they do find out one tablet is missin',@I have someone to blame it on.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101651,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

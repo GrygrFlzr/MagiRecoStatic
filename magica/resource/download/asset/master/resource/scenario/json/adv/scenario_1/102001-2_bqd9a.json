@@ -1,0 +1,693 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19133.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100400,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-2"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Sana",
+                "textLeft": "I have to...beat Eve.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-3",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-2"
+                    }
+                ],
+                "textRight": "Iroha..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100,
+                        "motion": 300,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-4",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-3"
+                    }
+                ],
+                "textLeft": "But...I..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_19112.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-4"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-5"
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "That's why, when Mifuyu gets rid of Fendt@Hope...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-6",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-5"
+                    }
+                ],
+                "textRight": "I'll immediately go and destroy Eve."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100700,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-6"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-7"
+                    }
+                ],
+                "textRight": "You may claim you're saving the Magical@Girls of the future...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-8",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-7"
+                    }
+                ],
+                "textRight": "But I'm going to save everyone's future!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 2,
+                "bg": "bg_adv_19133.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-8"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-9"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Sana",
+                "textLeft": "Can I really do this?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100400,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-10",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-9"
+                    }
+                ],
+                "textRight": "Iroha, listen, it's okay..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100,
+                        "motion": 0,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-11",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-10"
+                    }
+                ],
+                "textLeft": "Sana?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-12",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-11"
+                    }
+                ],
+                "textRight": "The Magius said she was an \"incomplete@specimen\", so she isn't a Witch."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-13",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-12"
+                    }
+                ],
+                "textRight": "If that's really Ui, then there could be a@way to bring her back!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-14",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-13"
+                    }
+                ],
+                "textLeft": "You're right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-15",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-14"
+                    }
+                ],
+                "textLeft": "Just because Eve is Ui, it doesn't mean that@all hope is lost..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-15"
+            },
+            {
+                "nameCenter": "Eve",
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge]――――!!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 0,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-17"
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-18",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-17"
+                    }
+                ],
+                "textLeft": "Eve is starting to struggle against its@restraints..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100400
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-18"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100400,
+                        "motion": 1,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-19"
+                    }
+                ],
+                "textRight": "Iroha..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21351.jpg",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-19"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_18051.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19133.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-20"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Sana",
+                "textRight": "I sense a Witch... But I still can't see it!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-21",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-20"
+                    }
+                ],
+                "textLeft": "Walpurgisnacht is getting closer and closer."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-22",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-21"
+                    }
+                ],
+                "textLeft": "Eve must be reacting to it..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-22"
+            },
+            {
+                "nameCenter": "Eve",
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeLarge]――――!!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-24"
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    2
+                ],
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-24"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Damage from the unseasonal typhoon is massive...@F5-class tornadoes buffet the continent...@Many people stranded after earthquakes...@They announced military force may be...@The virus continues to spread after the WHO...",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "voiceFull": "fullvoice/section_102001/vo_full_102001-2-25"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "If we don't stop them, Ui is going to become@a Witch, gathering impurities forever while@spreading curses around the world...",
+                "voiceFull": "fullvoice/section_102001/vo_full_102001-2-26",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-25"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 3,
+                        "filePath": "resource/image_native/effect/story/general/3004_rainstorm.ExportJson",
+                        "zOrder": "messageBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-26"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-27"
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Sana",
+                "textLeft": "And Kamihama will be her first target.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 200,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-28",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-27"
+                    }
+                ],
+                "textRight": "We can't let them free Eve! We need to@stop them somehow!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-29",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-28"
+                    }
+                ],
+                "textLeft": "But if we attack it directly...!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100400,
+                        "motion": 400,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-30",
+                        "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-29"
+                    }
+                ],
+                "textRight": "...?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    }
+                ],
+                "textClear": 1,
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-30"
+            },
+            {
+                "nameCenter": "Eve",
+                "textBg": "shout",
+                "textCenter": "―━━――━!!!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1,
+                        "voiceFull": "fullvoice/section_102001/vo_full_102001-2-32"
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "surround": "7012_tempest",
+                "textCenter": "Wait... Eve's taking flight..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    3
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102001_eve_flap1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-32"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter10/102001_eve_flap2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "surround": "7018_flap_storm"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "action": {
+                            "moveTo": {
+                                "duration": 0.5,
+                                "posY": 0
+                            }
+                        },
+                        "path": "resource/scenario/img/adv_roll_fade.png",
+                        "posX": 0,
+                        "posY": 3000,
+                        "scale": 4,
+                        "setVisible": 1,
+                        "zOrder": "messageFront"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 1,
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Ahhhhhhhhh!",
+                "voiceFull": "fullvoice/section_102001/vo_full_102001-2-33"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "narrationEffect": "out",
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop",
+                "voiceFullStop": "fullvoice/section_102001/vo_full_102001-2-33"
+            },
+            {
+                "autoTurnLast": 1,
+                "movie": "102001_eve_remove_restraint.usm",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

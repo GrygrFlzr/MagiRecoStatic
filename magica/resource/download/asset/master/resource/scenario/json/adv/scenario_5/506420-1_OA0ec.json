@@ -1,0 +1,682 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20352.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "",
+                "nameRight": "Tsukasa",
+                "textRight": "Good morning.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "Oh, you're the girls from yesterday."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "We'd like to talk to the elder."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textCenter": "Can you please tell us where he is?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "The elder is in the back room. Would you like@me to call him?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "We will go and see him ourselves."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Can you please show us the way?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801000
+                    }
+                ],
+                "textLeft": "Of course. You helped us yesterday, after@all."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textCenter": "Thank you!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "We'll be going out for a little while!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "Oh, okay. Be careful."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "I want to eat a chocolate-covered banana!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "And some cotton candy, and some okonomiyaki!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "I'd like a lollipop."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100801,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Alina",
+                "textRight": "I want to play at the shooting gallery."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "Sorry, but the stands will be set up later."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "textLeft": "Right now we're preparing for the ceremony."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 201,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Ugh! This is no fun at all!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "Elder",
+                "nameRight": "Tsukasa",
+                "textRight": "Hello, Elder!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "Ah, I'm sorry about yesterday. I didn't give@you a proper welcome."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Please don't worry about it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "We got the Coral Necklace back, so the ritual@can be performed tonight."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "It's all thanks to you young ladies."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Oh, we're glad to hear that."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "All that's left is to find a substitute@shrine maiden."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I'm sure we'll find someone soon."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Um, excuse me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "Yes?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I know we're outsiders, and should stay out@of your town's affairs."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textRight": "But if we could..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "We would be happy to fulfill the role of the@shrine maidens."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I see."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "We have never once appointed people from@out of town as shrine maidens."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Please!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "We feel so terrible about what happened..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "Well..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "You two did help find the necklace. Perhaps@it is fate."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800900,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "All right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I suppose if it wouldn't be too much to @ask..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "R-really?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "Yes. I am asking you officially, as the town@elder."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I will tell the townspeople that you will be@taking on the duties of the shrine maiden."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "We should prepare, shouldn't we?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "No... There's nothing you need to do."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "You're acting as a substitute, so just being@there is more than enough."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I'll be going, then."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "Oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "That was a bit anticlimactic. Now we have@nothing to do."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "textLeft": "There's no point to standing around here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Let's go learn more about the town and the@ceremony."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Oh, good idea!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

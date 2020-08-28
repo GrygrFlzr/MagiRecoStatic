@@ -1,0 +1,810 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21381.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Leila",
+                "narration": "The person sealed up inside@Kanagi's memories...",
+                "narrationBg": "bg_adv_21381.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "She was here!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "nameCenter": "???",
+                "narrationEffect": "out",
+                "surround": "7003_wind",
+                "textCenter": "It's a pleasure to make your acquaintance!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301800
+                    }
+                ],
+                "textCenter": "Though it's not our first meeting, is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 301800,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "It's me, the one you've been lookin' for..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 301800,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Hanna",
+                "textCenter": "Hanna Sarasa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 301800,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Ha ha!"
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/chapter_hanna.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51060_azarea2/chapter_hanna.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story13",
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "textCenter": "Hanna Sarasa...?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301300,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "H-[textRed:Hanna Sarasa]!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301500,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Mito",
+                "textRight": "This is her?!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textRight": "I see..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500
+                    }
+                ],
+                "textRight": "I heard briefly from Kanagi..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(Kanagi?!)"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 300500,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "textLeft": "Leila was your name, correct?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Um, yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500
+                    }
+                ],
+                "textLeft": "Would you tell me more?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 301800,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Hanna",
+                "textLeft": "Ohhh? About what, I wonder?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Suggestion magic was used on Kanagi to seal@away one of her memories."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301800,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Ah! That!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301300,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "The Coordinator helped break the spell, and@we discovered something important."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301300
+                    }
+                ],
+                "textRight": "The memory that was sealed was one of@meeting someone."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "That someone was a Magical Girl, Mikoto Sena."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302600,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Konoha",
+                "textRight": "Mikoto Sena..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 301800,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Hmm..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301300,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "But...there was one more girl..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301300
+                    }
+                ],
+                "textRight": "Mikoto introduced her to another Magical@Girl."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 301800,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "That'd be me!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_17102.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event08",
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "I think that takes care of it.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "nameRight": "Mikoto",
+                "textRight": "Thank you, Kanagi!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Of course."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textRight": "It was pretty strong, huh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textRight": "But, you know! I'm really happy I could meet@another Magical Girl!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I chased a Familiar all the way here..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textLeft": "But I never expected I'd wind up meeting a@new Magical Girl."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Nice to meet you. Here's to our new@connection."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 301801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "Hey, come on!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "You have to say hi, Hanna!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "Really though... Your magic is amazing."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textRight": "Hehe!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601
+                    }
+                ],
+                "textLeft": "Controlling Familiars... It's the first time@I've seen anything like it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textRight": "Well...there's conditions to using it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "But I can even make Witches listen to me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101601,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Witches?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "Still though... I'm only able to make them do@simple things."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I see... Even so, that's astounding magic!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 301801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "Right now we're doing some research into how@it can be used."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textRight": "Isn't that right?"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 301801,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "What's your name?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301801,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Hanna",
+                "textRight": "...Hanna...Sarasa."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Good to meet you, Hanna."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301801
+                    }
+                ],
+                "textRight": "...Uhuh."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mikoto",
+                "textRight": "Oh, Hanna... Sorry for her lukewarm response."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Not a problem."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I am curious, how are you researching your@magic?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textRight": "*Giggle* Can I tell her?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 301801,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Hanna",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301801,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Whatever..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "You see... Hanna can use suggestion magic,@too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101601,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "She can?! What a coincidence..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "Ah, actually! It's not a coincidence at all!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "That's how Hanna's magic works!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "How exactly is that...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textRight": "What Hanna uses is..."
+            },
+            {
+                "nameNarration": "Mikoto",
+                "narration": "[textRed:Overwrite magic]!",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}
