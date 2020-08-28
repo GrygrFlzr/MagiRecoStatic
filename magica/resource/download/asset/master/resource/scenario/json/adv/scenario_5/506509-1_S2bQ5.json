@@ -1,0 +1,1369 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Chapter 9@\"An Irregularity\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "June 18, 1429",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "Central France - Patay"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_0",
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_1",
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_2",
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20091.jpg",
+                "narration": "*Whoosh*",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "surround": "7003_wind",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402700,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 0
+                    },
+                    {
+                        "id": 402700,
+                        "motion": 200
+                    },
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "surround": "stop",
+                "textCenter": "[chara:402700:effect_emotion_joy_0][se:7222_happy]Finally! I was so sick of waiting to play!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "It took sooo long..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700
+                    }
+                ],
+                "textCenter": "I thought I might just DIE of loneliness!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "The English Magical Girls...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "Well then, my dearest Corbeau... My most@darling Lapin.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Shall we..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 1.8,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:402400:effect_emotion_surprise_0][se:7226_shock]Hmm?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Corbeau",
+                "textRight": "[chara:402500:effect_emotion_surprise_0][se:7226_shock]Lapin?! What are you doing?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm01_battle05",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "It's...?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInLeftFast",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "There you are, La Pucelle! Foooooound you!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "slideOutRightFast",
+                        "id": 402700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Corbeau",
+                "textCenter": "[chara:402500:effect_emotion_surprise_0][se:7226_shock]Lapin?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Stop being such a fool! You can't mean to@take her on alone?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402700,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "Okay then! Now to use my enchanting eyes..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite1",
+                "surround": "3023A01",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite1",
+                "surround": "3023A01",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402700,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "Aaack?![flashEffect:flashRed2][bgEffect:shakeLarge][chara:402700:effect_shake][surround:3023A05]"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402700
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "surround": "3023A03",
+                "textBg": "shout"
+            },
+            {
+                "autoTurnLast": 1.3,
+                "chara": [
+                    {
+                        "id": 402700,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402300,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Hyaaah![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4023A03]"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Lapin",
+                "textLeft": "What?![flashEffect:flashRed1][bgEffect:shakeSmall][chara:402700:effect_shake][surround:4023A06]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Corbeau",
+                "textBg": "shout",
+                "textRight": "Lapin!!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "—Frusta Whip—"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "surround": "4022A01",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1.2,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402700,
+                        "motion": 200
+                    }
+                ],
+                "flashEffect": "flashRed1",
+                "surround": "4024A06"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Now...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Darc!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 100,
+                        "pos": 1,
+                        "posX": -80
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textBg": "shout",
+                "textCenter": "I'm ready![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4021A03]"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[flashEffect:flashRed2][bgEffect:shakeLarge][surround:4021A04][chara:402700:effect_shake]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Crumple*",
+                "se": "3102_enemy_dead"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402700
+                    },
+                    {
+                        "effect": "shake",
+                        "id": 402200
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Elisa",
+                "narrationEffect": "out",
+                "textRight": "You two are next."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "\"Next\"? What does that mean?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Lapin has scarcely begun her own attack."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "ef_adv_08",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402701,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402701
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "in",
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "se": "3211_fog"
+            },
+            {
+                "bgm": "bgm01_anime15",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "What in the devil's name?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "My weapons..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(It's as if they're being drawn away from@me?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "What's going on?!"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402400,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "deleteArmatureList": [
+                    1
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Minou",
+                "narration": "― Minou ―@Now, it is time we closed the book@on this happy little fairytale of yours.",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 15,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    }
+                ],
+                "narration": "― Minou ―@For now, a new reign of despair will begin."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "jingle": "4027M01",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "nameLeft": "Liz",
+                "textLeft": "...?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "shake",
+                        "eyeClose": 1,
+                        "id": 402300,
+                        "motion": 400
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "nameRight": "Melissa",
+                "textRight": "What?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "4021A03"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "",
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402300
+                    }
+                ],
+                "narration": "*Slash*",
+                "surround": "4021A05"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Darc",
+                "narrationEffect": "out",
+                "textCenter": "Liz! Melissa! Are you all right?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402300,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Darc!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "You saved us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "Looks like your weapon and Elisa's weren't@affected..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textCenter": "Yes, since no one is capable of taking my@weapon from me."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textCenter": "No one."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 1,
+                        "pos": 2,
+                        "posX": -330
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm05_event04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Corbeau",
+                "textBg": "shout",
+                "textRight": "I was starting to miss you..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Girl in black![flashEffect:flashWhite2][bgEffect:shakeLarge][chara:402200:effect_shake][surround:4025A03]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Urgh![flashEffect:flashRed2][bgEffect:shakeLarge][chara:402200:effect_shake][surround:4025A07]"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Now let's have a fun little bout of@bloodsport... That's what I would've said."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textRight": "But you had to go and ruin it, didn't you?@By ganging up on..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "My sister![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4025A02]"
+            },
+            {
+                "autoTurnLast": 0.6,
+                "chara": [
+                    {
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 1.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    }
+                ],
+                "flashEffect": "explosion",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInLeftFast",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "4022A01"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402500
+                    }
+                ],
+                "flashEffect": "flashWhite2"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(Binding magic?!)"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "4025A04",
+                "textBg": "shout",
+                "textRight": "Sneaky little..!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "(She broke free?!)"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402200
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    }
+                ],
+                "flashEffect": "explosion"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRightFast",
+                        "id": 402200,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Hah![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4022A01]"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Corbeau",
+                "textRight": "Behind you![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4025A05]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Ugh![flashEffect:flashRed2][bgEffect:shakeLarge][surround:4025A07][chara:402200:effect_shake]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "(I can't keep up with her unarmed...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Darc and Elisa better take out that Witch@soon.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Come on, now! Really let me have it! Put up@a real fight!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Ugh!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "whiteIn"
+            }
+        ]
+    },
+    "version": 3
+}

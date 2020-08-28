@@ -1,0 +1,746 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "textLeft": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_blankgem.png",
+                        "posX": 200,
+                        "posY": 80,
+                        "visible": "appear"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300700,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "(They told me to imbue this with my magic...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700
+                    }
+                ],
+                "textLeft": "But I still don't have any idea why.",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 300700,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_blankgem.png",
+                        "visible": "hide"
+                    }
+                ],
+                "se": "7106_telmail",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_150.exp.json",
+                        "id": 300700,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300700
+                    }
+                ],
+                "textCenter": "My phone..."
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "(It's probably Ayaka.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "surround": "stop",
+                "textCenter": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I knew it.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301901,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "Ayaka",
+                "narration": "Heyyy, Shizuku! C'mon, send me a reply!@You still mad about the darts thing?@I really didn't mean to upset youuu!@But I get that I did,@so I'm really, really sorry!",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_120.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/31017_mitama_story/memoria_1199.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Ayaka",
+                "narration": "— Ayaka —@Let's see what the dart hit!",
+                "narrationAnchor": "bottom",
+                "narrationBg": "narration",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 28,
+                "narrationLineMargin": 50,
+                "narrationLineSpace": 15,
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "narration": "— Ayaka —@The! Japan! Trench!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_11061.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101700,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameCenter": "Mitama",
+                "textCenter": "So that's that, Shizuku. You're taking a trip@to the depths of the sea this time.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301901,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300701,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Shizuku",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "*Twitch*"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_120.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "She knew I was traveling to find somewhere@to belong...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 101
+                    }
+                ],
+                "textCenter": "How insensitive can you be?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/31017_mitama_story/memoria_1199.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Ayaka's always like that...@She never considers other people's feelings.@She's just always cheerful...",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "She's so naive."
+            },
+            {
+                "narration": "So enthusiastic, ready to do anything,@that she has no consideration for others.@But...she's always worried about her friends."
+            },
+            {
+                "narration": "Ayaka Mariko, the directionless pixie...@I was always completely overwhelmed @just trying to keep up with her."
+            },
+            {
+                "narration": "I didn't have the time to think@about what mattered most for me."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_120.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 300
+                    }
+                ],
+                "nameNarration": "Shizuku",
+                "narration": "I'm actually glad this happened.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "The moment I really got mad at her was@the perfect time for us to put a little distance@between each other. I've been okay with that."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Because at last...@I finally found a place that's precious to me.",
+                "narrationBg": "bg_adv_19081.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14041.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301901,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_10"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Ayaka",
+                "textBg": "shout",
+                "textCenter": "Shizuku! Where are you? Come on, already!@Shizukuuuuuu!",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "promist"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "(I can imagine it so easily.)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "*Click*",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "nameRight": "???",
+                "narrationEffect": "out",
+                "textRight": "Hello! Ready for today's training?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "nameRight": "???",
+                "textRight": "We'll be doing some actual fighting out on@the field, so we'll come with—"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:715005:effect_emotion_surprise_0][se:7226_shock]—?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_100.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "S-sorry! You don't have your robes on yet!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 300700,
+                        "motion": 200,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "It just covers us a little bit. It's not @like you didn't see me when we met."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715104,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "???",
+                "textRight": "True, but keeping our identities hidden is@one of our base rules."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300700,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Well, okay..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_13022.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/6105_stacey_emblem.png",
+                        "posX": 0,
+                        "posY": 120,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_06"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 715005
+                    }
+                ],
+                "nameLeft": "???",
+                "nameRight": "???",
+                "textRight": "Today we're fighting out in the field!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005
+                    }
+                ],
+                "textRight": "You practiced new techniques with the other@newbies yesterday..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "But this time you'll be taking on a Witch@using your Black Feather techniques."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "We know it's a lot to ask when you're still@in training, so we're here as support."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "So don't worry and do your best."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Shizuku",
+                "textRight": "O-okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715104,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Any questions before we start?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Um, yes, but not about the field training."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "Oh yeah?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textRight": "It's about that gem you gave me..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715104,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "That's a secret. I told you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Okay..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "Yeah! You'll find out soon enough."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005
+                    }
+                ],
+                "textLeft": "It's something the Black Feathers will need."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "And we've got another present to give you,@if this training goes well."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

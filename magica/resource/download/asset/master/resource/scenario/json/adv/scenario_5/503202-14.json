@@ -1,0 +1,527 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20281.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "(I can tell I need to do something.)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Yep, yep, yep!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "(Ack! She's staring right at me!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "(I guess I gotta...I guess I gotta do this!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 100101,
+                        "lipSynch": 1,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Y-you there, queen!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Whoa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101701,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "My, my, whatever could it be?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Umm... Errr..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I'm searching for the treasure, and I wish@to be free from this curse! I think!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "S-so, please give me your map!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "(The heck? What a forward request!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "(Well, it's not like she knows how the story@is supposed to continue from here.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101701,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "Hmmm...",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 101701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101701,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[chara:101701:effect_emotion_joy_0][se:7222_happy]How refreshingly blunt!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101701,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Sure, here's the map!"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]Wha?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "id": 100101,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "id": 100201,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameCenter": "Rena",
+                "textBg": "shout",
+                "textCenter": "EXCUSE ME?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101701,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Mitama",
+                "textCenter": "Go hunt the treasure to your heart's@content."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101701
+                    }
+                ],
+                "textCenter": "Goodbye then!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "[chara:100301:effect_emotion_joy_0][se:7222_happy]We did it! We got the map from the queen!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "What was that?! We're not even gonna fight@her?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "(Except for Tsuruno and Felicia, everyone is@knocked speechless.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100401
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Well then. I wonder what that treasure is."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "Let's go check out the spot marked on the@map!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Come on!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "A-ah, yeah! Let's go! Right, guys? Wooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "S-sure."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "We're coming, already!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "Yeeeah! Off we go!"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "We set our minds to go the whole nine yards@at that point, to see the end of it.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "And so, we arrived at our destination..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

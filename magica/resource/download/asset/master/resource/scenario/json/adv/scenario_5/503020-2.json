@@ -1,0 +1,51 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20271.jpg",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Early Morning, August 12]@[textBlack:I left the room alone because there was]@[textBlack:something I had to know. I, myself, thought]@[textBlack:there was no way I'd seen it, or if I had it]@[textBlack:was a coincidence, but the diary under the ]@[textBlack:shrine yesterday... There was a page]@[textBlack:I glanced over without thinking...]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:My eyes just passed over it, yet, for]@[textBlack:some reason it wouldn't leave my mind.]@[textBlack:The name written in the diary was...]@@[textBlack:\"Kei\"]"
+            },
+            {
+                "narration": "[textBlack:When I reached the shrine among the]@[textBlack:pine trees, it was right in front of the]@[textBlack:shrine's lattice door, waiting for me.]@[textBlack:I was certain I'd put it underneath the]@[textBlack:shrine... Someone must've moved it.]@[textBlack:At least, that's what I chose to believe.]"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

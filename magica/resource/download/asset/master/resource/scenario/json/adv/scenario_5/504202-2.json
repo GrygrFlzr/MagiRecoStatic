@@ -1,0 +1,1075 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_46105.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_13023.jpg",
+                "bgChangeEffect": "exitWitchSpace",
+                "se": "7209_gate_close"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "surround": "7009_night_townbuzz",
+                "textCenter": "Phew..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300702
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "???",
+                "nameRight": "???",
+                "textLeft": "I guess it's no surprise it didn't go @perfectly."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "Yeah, but it's enough to just be able to@stand against a Witch on Day 2!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "That's fair."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "And it's clear that she's in another league@when compared to the other Black Feathers."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300702,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Shizuku",
+                "textRight": "I guess this style of fighting matches mine@pretty well."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "Yeah, maybe."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Oh, I almost forgot! Here's your cut of@today's spoils."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_roofkey.png",
+                        "posX": 0,
+                        "posY": 80,
+                        "visible": "appear"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Did a Familiar drop this?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "Yeah. You can hang on to it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_roofkey.png",
+                        "visible": "hide"
+                    }
+                ],
+                "textRight": "Okay..."
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "surround": "stop",
+                "textLeft": "We still have some time left over, so why@don't we grab dinner before going back?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "???",
+                "textRight": "Oooh, that's a great idea!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Shizuku",
+                "textRight": "[chara:300702:effect_emotion_surprise_0][se:7226_shock]Huh?! Dressed like this?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "Geeze, come on."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "se": "7205_magic_girl",
+                "textLeft": "Just like all other normal girls, we're@going in our casual clothes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textRight": "B-but..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "We can't all eat together if we don't@change."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "se": "7205_magic_girl",
+                "textLeft": "There! Now you. Hurry up!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "B-but it's not allowed..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "Hm?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You said we have to keep our identities@hidden all the time..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 304601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "That was just for show 'cause we were at HQ!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601
+                    }
+                ],
+                "textLeft": "Anyway, remember back when Mifuyu told you@about our group?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304601
+                    }
+                ],
+                "textLeft": "I heard your name AND saw what you looked@like then."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Now we're even."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textRight": "But still..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304601,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "In exchange, I'm sharing these secrets no one@else knows about."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 304601
+                    }
+                ],
+                "textLeft": "Think of it like a bonding exercise between@us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I guess I could maybe..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Besides, those robes are so stuffy. This is@better. And so, without further ado...!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "O-okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304601,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "textLeft": "The name's Ryo Midori. Nice to meet you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305301,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ikumi",
+                "textLeft": "Hiya! I'm Ikumi Makino! Tee hee!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I'm sooo glad I don't have to act all super@fake and all anymore! I can be myself!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textRight": "Um, uh, okay...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I'm Shizuku Hozumi... It's nice to meet you@both, too."
+            },
+            {
+                "autoTurnLast": 0.02,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "nameRight": "Ikumi",
+                "textLeft": "Should we go then?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Yeeeah, let's go go go!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21221.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp.json",
+                        "id": 300701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime03",
+                "chara": [
+                    {
+                        "id": 300701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304601,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 305301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "nameRight": "Ikumi",
+                "textLeft": "Mmm! This is the first time I've ever had@spaghetti napolitan like this!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304601
+                    }
+                ],
+                "textLeft": "I always thought napolitan was just some kind@of fake, made-in-Japan Italian food."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "But, if perfected, man is it good."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 305301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp.json",
+                        "id": 300701,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 305301,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Hey, heyyy! Ryoooooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304601,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "You look all worked up too, Ikumi!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 305301,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I am, I am! This coffee is really smooth!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 305301
+                    }
+                ],
+                "textRight": "I guess because they roast their own beans?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 305301,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "It's naturally sweet enough that I bet folks@who don't drink black coffee'd like it, too."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 305301
+                    }
+                ],
+                "textRight": "Maybe I could take inspiration from this and@do something like it at the maid cafe?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 305301
+                    }
+                ],
+                "textRight": "I'm no coffee brewer, but I could get someone@teach me like, what heat to roast them at."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 305301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp.json",
+                        "id": 300701,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 305301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "You're slipping out of character again."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 305301,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "[chara:305301:effect_emotion_surprise_0][se:7226_shock]Oopsies!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "I was just being a teensy weensy bit serious,@that's all!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305301,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You knooow this is just the plain old regular@way I talk! Duuuh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301
+                    }
+                ],
+                "textRight": "[chara:305301:effect_emotion_joy_0][se:7222_happy]This coffee is so super good, I think I'm@gonna melt away!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 304601,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp.json",
+                        "id": 300701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 304601,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "nameRight": "Ryo",
+                "textRight": "Ha ha! I'm glad we came here, Shizuku!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300701,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I am too, but...how come we're eating@at my family's cafe?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Your dad must be worried about you, yeah?@Coming back late every night."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304601
+                    }
+                ],
+                "textRight": "So I just thought it'd be better if we@introduced ourselves here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ikumi",
+                "textRight": "Your place is super-duper relaxing, with ALL@the coffee smells wafting around... *Sigh*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300701,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "It doesn't really feel that way to me. It's@always been like this since I was born."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 300701,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "But it was good that you got to explain @things to my dad, though, I think..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300701
+                    }
+                ],
+                "textLeft": "There's no point in joining the Wings of the@Magius if I couldn't stay."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 305301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But this isn't where you belong?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300701,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305301
+                    }
+                ],
+                "textRight": "I was just wondering if your home could be@the place where you belong."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300701,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Probably not... I've always felt a bit@disconnected from this place."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300701
+                    }
+                ],
+                "textLeft": "It's just something I feel, it's hard to put@into words..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300701
+                    }
+                ],
+                "textLeft": "I don't feel like I fit in here right."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300701,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Like I can be here, but... I can't talk about@things that really matter, here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 305301,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Huh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304601,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "textLeft": "I kinda feel the same way, so I think I get@what you mean."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601
+                    }
+                ],
+                "textLeft": "The place you grew up isn't where you belong@to everyone."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "*Giggle* I think I maaay be just like you.@then."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

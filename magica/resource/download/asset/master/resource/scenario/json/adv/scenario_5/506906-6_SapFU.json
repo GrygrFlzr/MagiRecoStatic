@@ -1,0 +1,1050 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14028.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 305300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300300,
+                        "motion": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7003_wind",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "surround": "stop",
+                "textLeft": "What do I want?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textLeft": "If I tell you, will you grant our wish?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Isn't that why you kidnapped her, to make us?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "textLeft": "It is, but we don't believe it's possible for@our wishes to be granted."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Please, tell us anyway."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textRight": "We can't forgive you for what you've done."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But we will listen to what you have to say."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715100,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "[chara:715100:lipSynch_1]Understood..."
+            },
+            {
+                "nameNarration": "White Feather",
+                "narration": "\"Our wish is for every Magical Girl@in Kamihama to work for the Magius,@like we all did before.\"",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "\"The Magius will lead us...@We will fight for the liberation@of Magical Girls once again.\""
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "narrationEffect": "out",
+                "textRight": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100500,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Whaaat?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100500,
+                        "motion": 200,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Why would we work for you? STUPID!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "Felicia, that's no way to talk to someone.@But yeah, I'm with you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "This is weird though. Why did they kidnap@her if they want to work for her?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "They want to free Magical Girls, but they@don't know how."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "They understand they won't be able to do it@with their current power and intelligence."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "textLeft": "You are correct."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715000
+                    }
+                ],
+                "textLeft": "Helping the Magius achieve their goal was@our only reason to fight."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000
+                    }
+                ],
+                "textLeft": "That hasn't changed, even if the Wings of@the Magius are no more."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "However, we couldn't find a solution..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000
+                    }
+                ],
+                "textLeft": "Not without the Magius."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Even so..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You should've tried to achieve your goals@on your own. That's what I think, anyway..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "No, we can only work toward liberation with@the Magius's charisma to guide us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textLeft": "Plus, we also believed it was the Kamihama@Magical Girls..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textLeft": "...that forced the Wings of the Magius to be@dissolved."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textLeft": "So we tried our best to convince Nemu to join@us."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "But little did we know, the Magius were gone."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715100,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "The Magical Girl once known as Nemu Hiiragi@is no more."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textRight": "You're saying kidnapping her was your last@resort?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You didn't think the Wings of the Magius@could be brought back..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textRight": "So you wanted us to work for the Magius@instead..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 715100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "You knew there was no chance of winning."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 101
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "So you had no other choice..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "What do you mean?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "We knew our wish would never come true."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000
+                    }
+                ],
+                "nameRight": "Black Feather",
+                "textRight": "The Magius were no more."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "textLeft": "But we still wanted to fight to the bitter@end."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715002,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "If we cannot witness that miracle..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715002
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 715001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "White Feather",
+                "textCenter": "We will die with our wishes."
+            },
+            {
+                "autoTurnLast": 3,
+                "flashEffect": "flashWhiteSlow2",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Nemu",
+                "textCenter": "So, you wanted to drag us along with you..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "I see. We changed you irrevocably..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403
+                    }
+                ],
+                "textCenter": "I suppose in a sense it is our responsibility@to follow you to the grave."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101403,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "However, you are very, very wrong about one@thing. We have not abandoned our ideals."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textCenter": "That's right. We may not be the Magius@anymore, but..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textCenter": "We're still trying to free Magical Girls."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "textCenter": "Just this time we are working with the other@Magical Girls in Kamihama."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "White Feather",
+                "textCenter": "That's a lie..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "All lies!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Then why did you stop the Magius's plans?!@Why did you ruin everything?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "We weren't against what the Wings of the@Magius were trying to achieve..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "We were just against their methods...@Sacrificing their friends and their city!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "We are not the same anymore."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "We now shoulder what the Magius were@trying to achieve."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "We're trying to find a way to achieve what@they were attempting to do, but peacefully!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "What do you say?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Why don't you work alongside us here, help@us seek liberation?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Our goals are the same, you know?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "We are..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "bgm": "stop",
+                "flashEffect": "flashWhite2",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715100,
+                        "lipSynch": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "surround": "7003_wind",
+                "textBg": "shout",
+                "textLeft": "...?!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Wh-what is this?!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "It's like that time in the park, I feel some@kind of power again..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Something's not right!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "It feels like it's trying to crush me from@the inside..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "It's different from last time..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

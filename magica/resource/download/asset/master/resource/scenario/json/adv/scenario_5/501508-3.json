@@ -1,0 +1,58 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20092.jpg",
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Iroha",
+                "textLeft": "Iroha! We have to cover Darc!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Got it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "I won't lose!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

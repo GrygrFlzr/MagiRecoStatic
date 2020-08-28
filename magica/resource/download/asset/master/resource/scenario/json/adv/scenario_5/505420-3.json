@@ -1,0 +1,702 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19092.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "surround": "7003_wind",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "bgm": "bgm03_story12",
+                "nameNarration": "Eternal Sakura",
+                "narration": "| Let us begin the second trial. |",
+                "narrationEffect": "in",
+                "surround": "stop"
+            },
+            {
+                "narration": "| The judgments shall be modified based on@surveys distributed to all Magical Girls. |"
+            },
+            {
+                "narration": "| This trial is divided into three parts.@Touka Satomi and Nemu Hiiragi are first. |"
+            },
+            {
+                "narration": "| If anyone has evidence or a statement to@help the defendants, please submit them. |"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Iroha... Are the surveys still not here yet?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "It doesn't seem like it."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Maybe someone got caught by a Witch and@couldn't make it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "They're being collected in groups, from the@east, west, south, and center of the city."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "It's hard to believe that all of the groups@are delayed."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101601,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kanagi",
+                "textRight": "It does seem unnatural. Maybe someone is@interfering..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| No materials have been submitted. We shall@reflect on the previous trial results. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "This isn't good..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| Touka Satomi. |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "| You are to answer for the following@crimes: |"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| - You planned the events that bring us here.@- You summoned Witches to Kamihama City.@- You used technology to disturb the peace.@- You tricked the Feathers and made them mad.@- You knowingly planned for casualties. |",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 130
+            },
+            {
+                "narration": "| I will skip the details to save time. Do@you disagree with any of these charges? |",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "No, they're exactly right."
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| I will address other charges as needed. |",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| Next, Nemu Hiiragi. |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| You are to answer for the following@crimes: |"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| - You created Uwasa involving civilians.@- You supported the summoning of Witches.@- You attempted to cause wide-scale harm.@- You manipulated your followers with Uwasa.@- You knowingly planned for casualties. |",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 130
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "narration": "| I will skip the details to save time. Do@you disagree with any of these charges? |",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "I do not."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "Eternal Sakura",
+                "narration": "| I will address other charges as needed. |",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100601,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mifuyu",
+                "narrationEffect": "out",
+                "textRight": "Excuse me, may I say something?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304302,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "| Defendants may not speak unless called @upon. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| Please only speak when permitted. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100601,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Oh..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "We can't wait any longer...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "I'll stop her!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 401
+                    }
+                ],
+                "textRight": "Excuse me!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| What is it? |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "The surveys haven't arrived yet."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "May we have until tomorrow to collect them?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "| The trial has already begun, so we can't@adjourn. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401
+                    }
+                ],
+                "textRight": "No..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "| But I can wait. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "How long do we have...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| One hour is within reason. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "One hour..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

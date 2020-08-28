@@ -1,0 +1,214 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20302.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200452,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200651,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 200452
+                    }
+                ],
+                "nameLeft": "Sayaka",
+                "textLeft": "All righty then!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200452
+                    }
+                ],
+                "textLeft": "Now, to get back to sleep... G'night!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200452
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200651
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200551,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200352,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Mami",
+                "textRight": "Homura..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200551,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "How about we think about the fun things we@have planned to help us sleep?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200551
+                    }
+                ],
+                "textRight": "Tomorrow we'll all go out to eat..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200551,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "And then visit the aquarium... I hear they@have a lot of jellyfish there."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200152,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Madoka",
+                "textRight": "That's right! I'm really excited for@tomorrow, Homura."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200152,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Why don't we sleep holding hands?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200152
+                    }
+                ],
+                "textRight": "If we do you won't have any nightmares, for@sure."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200352,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "O-okay..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200152,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "Would you like to hold my hand too, Mami?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200551,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mami",
+                "textLeft": "Oh! I guess I'll take you up on your offer."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200551
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200152
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200452,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayaka",
+                "textCenter": "Awww! Everyone loves you, Madoka."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

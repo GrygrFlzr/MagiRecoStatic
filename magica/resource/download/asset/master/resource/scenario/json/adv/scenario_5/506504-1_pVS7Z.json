@@ -1,0 +1,745 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Chapter 4@\"The Comeback\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "\"U-uhhh...\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503
+                    }
+                ],
+                "textRight": "Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Oh, thank goodness! You're awake!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "What happened to me?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "Don't you remember?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "You used the Blank Prophecy and rewound@time."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Then... That button was really...?"
+            },
+            {
+                "textRight": "It seems to have a function to return to a@short time earlier, if you wish hard enough."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "In exchange, it consumes a considerable@amount of magic."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100
+                    }
+                ],
+                "textRight": "You were in critical condition until a moment@ago."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Would it help if I use a Grief Seed on the@Prophecy?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "effect": "ef_adv_09",
+                        "id": 101503
+                    }
+                ],
+                "se": "7210_souljem_01",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Oh, thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Looks like you've recovered. That's a relief."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Um... If time was turned back, then..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Yes, Monsieur Angel told us!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "The destroyed Tourelles Fortress was also@restored to its original state."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "It's as though those three never attacked it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textRight": "Huh? The \"Destroyed Tourelles\"?[chara:101503:lipSynch_0][wait:1.0][chara:101503:motion_400][chara:101503:cheek_0][chara:101503:face_mtn_ex_050.exp.json][chara:101503:lipSynch_1][chara:101503:effect_emotion_surprise_0][se:7226_shock] Do you@remember that part?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "They remember what happened beforehand.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "Everyone within the Labyrinth of France can@recall the events before time was rewound."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "But we could only speculate what happened@based on what they could tell us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "I didn't think the Blank Prophecy had such a@function."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "(My phone might be a little too convenient!)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "We were saved by this girl's magic.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "But we were utterly devastated in that battle."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Yes. It was a disgrace."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "We weren't working together at all."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "I'm sorry. It's because I left my assigned@station."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "No, it's my fault!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "If I hadn't been just standing there..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "It's no one person's fault. We weren't @working well together as a whole."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "If we do we are definitely capable of@defeating them."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "We should really think it over... [chara:101503:lipSynch_0][wait:1.0][chara:101503:motion_400][chara:101503:cheek_0][chara:101503:face_mtn_ex_050.exp.json][chara:101503:lipSynch_1][chara:101503:effect_emotion_surprise_0][se:7226_shock]Wait, can@we be relaxing like this right now?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "Time was rewound just a little bit, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Won't the enemy attack Tourelles Fortress@soon?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "That moment passed a while ago, but they@show no sign of attacking."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Maybe they realized that we can rewind time?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "The enemy isn't so stupid that they'd repeat@the same thing over and over."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "However, if Ui keeps rewinding time, she@might run out of magic.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "That power should be kept as a last resort."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "O...okay."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "You shouldn't use it at all anymore, if you@can help it. You could risk your life."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Let's recover from that disgraceful defeat@without relying on such magic!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "I agree, Elisa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "La Hire",
+                "textRight": "Huh, aren't you girls resting yet?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830000
+                    }
+                ],
+                "textRight": "There's no point worrying over everything."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textRight": "My men and I will keep watch. You ought to@rest and get ready for tomorrow."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "O-okay."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Thank you, La Hire!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

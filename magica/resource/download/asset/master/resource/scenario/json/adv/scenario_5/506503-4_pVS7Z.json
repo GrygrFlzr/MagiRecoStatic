@@ -1,0 +1,1190 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "La Hire was a mercenary who was well-known@for his bravery.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Another hero meant to save France has passed@away."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Don't give up just yet."
+            },
+            {
+                "textRight": "We are working to erase the Time Paradox."
+            },
+            {
+                "textRight": "If we recover the proper history, his death@could be undone."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Using my smartphone?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "Yes. Keep moving forward, Elisa and Ui."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "There should be a True History Fragment@in the castle that the Witch was guarding."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "We'll look for it!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event05",
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "We found it.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "This is a Fragment of True History?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "Yes. By collecting these, we can restore@history to its proper state."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "How does it work?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "The fragments of true history are crystals.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "They are like a concentrated crystallization@of history."
+            },
+            {
+                "textRight": "Because of that, they are incongruous with@the altered history around them."
+            },
+            {
+                "textRight": "That's why the temporal distortions are much@stronger around them, causing the Paradox."
+            },
+            {
+                "textRight": "We extract the real history from them."
+            },
+            {
+                "textRight": "By using the Blank Prophecy, we can confirm@them to be the right history, and—"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "I'm even more confused now."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "A-anyways, my phone is special.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I save the True History to my phone, and@collect all the fragments."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "Once I have them all, the Time Paradox will@be erased, and history will be restored!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "All right, let's give it a try!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yeah!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "narrationBg": "bg_adv_20093.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101503
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "visible": "hide"
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Flash*",
+                "surround": "7023_camera"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textCenter": "...!",
+                "turnEffect": "promist"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "white",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "textClear": 1,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "[textBlack:Th-these memories...]",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "narration": "[textBlack:Are these our \"real\" memories,@from when we first met?]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "June 1429",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "Near the Castle of Loches"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Are you ready, La Pucelle?",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Y-yes, I am!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "se": "7205_magic_girl",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Rapid Gunfire*",
+                "surround": "3023A06"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Darc",
+                "narrationEffect": "out",
+                "textLeft": "Whoa!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402100
+                    }
+                ],
+                "flashEffect": "flashRed1",
+                "surround": "3023A05"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402100
+                    }
+                ],
+                "flashEffect": "flashRed1",
+                "surround": "3023A05"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402100
+                    }
+                ],
+                "flashEffect": "flashRed1",
+                "surround": "3023A05"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402100
+                    }
+                ],
+                "flashEffect": "flashRed1",
+                "surround": "3023A05"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]No damage..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "You can do it, Darc!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "You leave me no choice!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "I'll come and fight you closer!"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "effect": "slideOutLeftFast",
+                        "id": 402600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "Whack!",
+                "se": "3001_chara_damage"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Melissa",
+                "narrationEffect": "out",
+                "textRight": "Oh no, Darc's sword!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "It was blown out of her hands!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Slash*",
+                "se": "4051_landing_throw"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402301
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "narrationEffect": "out",
+                "textRight": "The match is over."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "I...I lost."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "That's right, our first meeting@also began with a duel.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textCenter": "*Giggle*[chara:402600:lipSynch_0][wait:1.0][chara:402600:eyeClose_1][chara:402600:lipSynch_1] The rumors said you are a messenger@of God, and a saint.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textCenter": "I see now that the rumors were exaggerated@and unreliable."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402600
+                    }
+                ],
+                "textCenter": "La Pucelle is a disappointment."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "nameRight": "La Hire",
+                "textRight": "Wow... She's got a mouth on her."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "[chara:402201:effect_emotion_angry_0][se:7219_strain]..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "[chara:402301:effect_emotion_angry_0][se:7219_strain]..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Swoosh*",
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in",
+                "se": "7205_magic_girl"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402300,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "narrationEffect": "out",
+                "textLeft": "Please... Allow me a sparring match as well."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Are you going to avenge La Pucelle?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "Ohoho! Very well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 100,
+                        "pos": 1,
+                        "posX": -80
+                    }
+                ],
+                "textCenter": "What's this? Your ears are bright red."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textCenter": "You don't have to be nervous."
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Grab*",
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "Hm?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "(She grabbed Elisa's collar and arm...)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402201
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Grip*",
+                "narrationBg": "bg_adv_20091.jpg",
+                "narrationEffect": "in",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "narrationEffect": "out",
+                "textCenter": "H-hey!"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "id": 402300,
+                        "motion": 300
+                    }
+                ],
+                "flashEffect": "flashWhite2"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402600,
+                        "mouthOpen": 1
+                    }
+                ],
+                "flashEffect": "flashWhite2"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "Waaaaaaugh!"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "effect": "slideOutRightFast",
+                        "id": 402600
+                    }
+                ],
+                "se": "4051_landing_throw",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "(She threw her high into the air!)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 402201,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "La Hire",
+                "textRight": "Not even I can stop her when she gets this@angry."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

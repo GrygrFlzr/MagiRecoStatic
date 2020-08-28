@@ -1,0 +1,53 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "bgm01_battle06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Iroha",
+                "textLeft": "Iroha! Let's go rescue Darc!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Yeah, no matter what!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textLeft": "Darc and our future... We'll bring them@both back!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

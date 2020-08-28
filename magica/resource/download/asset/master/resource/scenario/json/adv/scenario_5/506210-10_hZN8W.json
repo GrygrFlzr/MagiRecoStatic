@@ -1,0 +1,1980 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_12091.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "We're about to resume filmi―",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800700
+                    }
+                ],
+                "textCenter": "Huh? Hey, are you okay? What happened @during your break?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 800700,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sayuki",
+                "textRight": "[chara:303301:effect_emotion_sad_0][se:7224_fall_into]Whewww... Uh, no, I'm fine."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textRight": "Just gimme a minute."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "*Inhale* [chara:303301:lipSynch_0][wait:1.5][chara:303301:motion_0][chara:303301:lipSynch_1]*Exhale*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I owe this to everyone... They've waited@long enough to see it!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303301,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Okay, ready!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "textLeft": "A-all right then... Let's roll the cameras!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301001,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ria",
+                "textLeft": "*Gulp* Now even I'm nervous."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "You can do it, Sayuki..."
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "So everyone, make sure to come check out@the Mizuna Art Museum, 'kay?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "And...cut!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "textCenter": "Nice work!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Phew. Thanks, everybody!"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "Huh. She was way better."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "That was just the first part. She only had@to listen, so it's not that amazing."
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ria",
+                "textCenter": "Those guys again!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "textCenter": "Just you wait. I won't be starring in any TV@shows you fools put on, not even if you beg!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301001
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "HMPH!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "Sayuki! Great job, you were so good!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Thanks... I got through without bungling@it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "Are you okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textLeft": "Yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301
+                    }
+                ],
+                "textLeft": "But the important part is coming up. It's@Princess Bladebeauty's big scene."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303301,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I really need to bring my A game here..."
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Time for the second half. Lights, camera!"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "O-oh, okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303301
+                    }
+                ],
+                "textLeft": "Off I go!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 301001,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ria",
+                "textLeft": "She's pretty worn out."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "She used her forbidden memorization@technique in such a short period of time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "It must've taken a huge toll on her..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I couldn't convince her not to, though."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "She's dead serious about this!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301001
+                    }
+                ],
+                "textLeft": "It really isn't worth putting herself@through all that..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "But then I guess they weren't kidding about@how hard she works, huh."
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "id": 800900,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "Museum Director",
+                "textCenter": "Mwahahaha!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textCenter": "I shan't let you ignorant, uncultured bores@leave until you appreciate the merit of art!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "Slicey McDicey",
+                "narration": "\"O-oh no!@Low customer turnout turned the director@into a madman who holds guests hostage!\"",
+                "narrationBg": "bg_adv_12091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Sayuki",
+                "narrationEffect": "out",
+                "textRight": "How dare you trap people in a museum against@their will!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "I'll cleave this foul problem in two!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "Princess Bladebeauty has arrived!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Ria",
+                "textLeft": "Perfect! She nailed it!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "Keep it up, Sayuki!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Sayuki",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeSmall][chara:303301:effect_shake][se:3001_chara_damage]Eeeeeek!!!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Slicey McDicey",
+                "narration": "\"How's he so strong?!\"",
+                "narrationBg": "bg_adv_12091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameLeft": "Museum Director",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textLeft": "Mwahahaha!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Nothing can stand in the way of my love@of the arts!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 303300
+                    }
+                ],
+                "textRight": "Ugh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "\"Love\"? This isn't love!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "This is..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "textRight": "(It's...)"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "textRight": "(It's...what? What comes after that?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Something that convinces the museum@director to stop... What was it?)"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303201,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "She froze up!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301001,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ria",
+                "textLeft": "She forgot her line..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Oh no, Sayuki... Come on, you've got@this!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "nameLeft": "Museum Director",
+                "textLeft": "What's wrong, Princess Bladebeauty?@Caught dead in your tracks, are you?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "nameRight": "Sayuki",
+                "textRight": "(He's ad-libbing!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "(The director's covering for me... That's@so sweet of him.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(And the cameras are still rolling...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "(But I can't... I just can't remember what@my next line is.)"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21101.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800202,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "\"Blow us away, Sayu-Sayu!\"",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21241.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800302,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "\"You're always helping me get through the@day, Sayu-Sayu.\"",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "\"Keep up the amazing work. I'm a fan for@life!\""
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21241.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Rena",
+                "narration": "A-a-a-anyway! I'm really excited to see@you in that show coming up on TV!",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_12091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Sayuki",
+                "textRight": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm03_story18",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "textRight": "(All my fans... All those people who are@cheering me on...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(They're all waiting for me on the other@side of those cameras.)"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "nameLeft": "Museum Director",
+                "textLeft": "Ah ha ha ha ha! That's enough, Princess@Bladebeauty!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I'll teach you what makes something a@REAL work of art!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "textRight": "(So I have to do this!)"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "I..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 303300,
+                        "lipSynch": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "textRight": "(I have to do whatever I can!)"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_act_picture.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I...I love this art museum!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "It was here, in this museum, that I first@discovered swords and fell in love!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "It was so clear how well each sword had@been cared for..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "So obvious that someone wanted to protect@them and the history they bear."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "That passion is what ignited my love for@them..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "And my love for this museum! The Mizuna@Art Museum!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "No... No, you can't mean it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "Kids these days don't care! They say the@museum is old, dingy, useless!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "But...you're telling me you could still@tell how much I cared about it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "That's right!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "It's clear as day to me."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303300,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "So..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textRight": "You can't keep making people who love this@museum miserable."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 303300,
+                        "motion": 300
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "You have to stop it, right now!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800900,
+                        "motion": 0
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeSmall]G-gaaaaaah!!! All my problems... They're@melting awaaay!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    }
+                ],
+                "se": "3002_chara_dead"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 303300,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Princess Bladebeauty just cut this foul@problem right in two!"
+            },
+            {
+                "nameNarration": "Slicey McDicey",
+                "narration": "\"You did it!\"",
+                "narrationBg": "bg_adv_12091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Cut!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "textCenter": "Take five, guys!"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303300,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "(I did all I could...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 303300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "Sayuki! That was wonderful! You were@so good!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Y-you mean it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "Look over there."
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sayuki's Manager",
+                "textRight": "I apologize, it seems she forgot some of@her lines..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "No, no need to apologize at all. That@actually made for a great scene!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "textLeft": "I think the fans will be delighted to hear@Sayu-Sayu's true feelings about the museum."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "textLeft": "Let's go with that take!"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Hwah! Thank goodness!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "Careful. You can't get sloppy now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "We'll be here to support you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[chara:303300:effect_emotion_joy_0][se:7222_happy]Thank you! You're the best!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "And that's a wrap! Great shoot, everyone!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800700
+                    }
+                ],
+                "textCenter": "We're done for the day!"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "Sayu-Sayu did a great job."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "She may be a local idol, but she's@definitely on the pro level."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800600
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "You've changed your opinion like ten times."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You're right though... She was really@good. Her ad-lib was so emotional."
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ria",
+                "textLeft": "Ho ho! I know, right?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "textLeft": "Sayuki can do just about anything when@she puts her mind to it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "*Giggle* I'm so glad it went without a@hitch."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I can't wait until it airs! Right, Sayuki?[chara:303201:lipSynch_0][wait:1.0][chara:303201:cheek_0][chara:303201:face_mtn_ex_050.exp.json][chara:303201:lipSynch_1]@...Sayuki?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303301,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Hweeew..."
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "id": 303301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303301
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Eek! A-are you okay?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "Wait, what?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ria",
+                "textLeft": "She's asleep. Fast asleep, with a big@happy smile on her face."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sayuki's Manager",
+                "textRight": "Well, she pushed herself so hard... I'm@sure her batteries are completely drained."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "lipSynch": 0,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Mayu & Ria",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 2.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301001,
+                        "lipSynch": 0,
+                        "motion": 300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

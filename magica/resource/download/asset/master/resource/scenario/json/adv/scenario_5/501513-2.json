@@ -1,0 +1,36 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20111.jpg",
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "Heh heh heh... The girl in black.",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "You seem like more fun than the holy coward."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

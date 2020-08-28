@@ -1,0 +1,305 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20282.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 230000,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Dusk, August 12]@[textBlack:The sunset from the cliff stained the sea]@[textBlack:gold and went on uninterrupted, unlike]@[textBlack:in the city. And yet I let it pass me by.]@[textBlack:The smell of jasmine brought last]@[textBlack:night's strange dream back.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Why did I feel like I could smell this same]@[textBlack:scent in my dream, even amidst the rain?]"
+            },
+            {
+                "narration": "[textBlack:What's more, the harder I tried to forget]@[textBlack:the words in the diary, the more ingrained]@[textBlack:they became...as if something had awakened.]"
+            },
+            {
+                "autoTurnLast": 3,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "nameNarration": "???",
+                "narration": "[textBlack:August 1]@[textBlack:Today we talked about a wish Kei has.]@[textBlack:I couldn't believe my ears when she told me.]@[textBlack:I shut her down at once. I could never.]@[textBlack:I couldn't believe she would even say that.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Was I the one who sent her over the edge?]@[textBlack:I tried to talk her out of it, but she]@[textBlack:wouldn't hear me out.]@[textBlack:Maybe she's punishing me.]@[textBlack:Punishing me for always pushing her.]"
+            },
+            {
+                "bgm": "bgm05_event08",
+                "narration": "[textBlack:And yet...]@[textBlack:Despite that...]@[textBlack:To be honest, some deep, dark part of my]@[textBlack:heart rejoiced. Kei was that serious.]@[textBlack:I felt relief first, rather than worry for]@[textBlack:her sake. She could probably tell.]@[textBlack:That's probably why she told me.]"
+            },
+            {
+                "narration": "[textBlack:My real self is too warped, too far gone,]@[textBlack:for anyone to do anything about it.]"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Flip* *Flip* *Flip*",
+                "narrationBg": "black",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:August 12]@[textBlack:Tomorrow is the date we agreed on.]@[textBlack:I hope something made her reconsider.]@[textBlack:Maybe some TV drama hero preaching on how]@[textBlack:life is our most prized possession might do]@[textBlack:it or a pop song about love renewing life.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Kei is going to grant my most twisted]@[textBlack:fantasy. My most heinous desire.]"
+            },
+            {
+                "narration": "[textBlack:Only she will forgive me for this.]@[textBlack:She's going to grant my wish, with joy.]"
+            },
+            {
+                "narration": "[textBlack:Maybe I went to her knowing I would get like]@[textBlack:this. I am terrible. Deceitful. My heart beat]@[textBlack:with excitement, I smiled, belying my guilt.]@[textBlack:I am utterly disillusioned with myself.]"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200550,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20282.jpg",
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "id": 200550,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Mami",
+                "narrationEffect": "out",
+                "textRight": "What's this? You don't look too well,@Kyoko.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200550
+                    }
+                ],
+                "textRight": "Do you not like sunsets?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Kyoko",
+                "textLeft": "Nah, that ain't it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650
+                    }
+                ],
+                "textLeft": "It just feels kinda lonely up here, I got@caught up in the mood."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Is it lonely?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200650,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Well, yeah... Cliffs, especially this one,@feel kinda like a forced stop. Y'know?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650
+                    }
+                ],
+                "textLeft": "Don't matter how pretty the sunset is.@There's nowhere to go from here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650
+                    }
+                ],
+                "textLeft": "The view might be nice, but the road just@cuts clean off."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "It's one of those sad things about life."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650
+                    }
+                ],
+                "textLeft": "Just somethin' that struck me is all. I know@it's not like me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200550,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "*Giggle*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200550
+                    }
+                ],
+                "textRight": "Well, even if I had nowhere else to go from@here..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "The important thing to me is that I got@to talk with you again, right here and now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 200650,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Ugh, quit it with the sappy talk."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200650,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Listen, we should be talkin' about dinner!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

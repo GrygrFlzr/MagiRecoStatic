@@ -1,0 +1,288 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14029.jpg",
+                "bgm": "bgm02_anime17",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "I'm ready. Iroha!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "Everyone stand clear!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100500,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "This is crazy!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 101
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Come on, don't just stand there. Let's get@behind them!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100400,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Over here! Between these buildings!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "O-ok! Nemu, are you okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "I'm okay. Don't worry about me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I'm more concerned about Touka."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101403,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100701,
+                        "lipSynch": 0,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "I didn't think it would get this bad..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "I know... We both thought we were prepared."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 301,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Okay, everyone's clear, Iroha!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Let's close the gate!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

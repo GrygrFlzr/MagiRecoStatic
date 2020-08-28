@@ -1,0 +1,975 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "Yes, that's right.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "While Liz kept up the assault@against Corbeau..."
+            },
+            {
+                "narration": "Darc and I had a Witch to deal with."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime15",
+                "nameNarration": "",
+                "narration": "*Swoosh*",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 60,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "flashEffect": "flashWhite2",
+                "item": [
+                    {
+                        "action": {
+                            "sequence": [
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": 0
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]What in the...?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(My Magical Girl form!)",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Wh-whaaat?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "[chara:402601:effect_emotion_angry_1][se:7218_anger]Why are you coming over here?!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Excuse me?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "I just told you to approach from the left!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "What?!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "That's the entire reason I came towards the@left!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "You mean you came to the right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Um, when you say \"right\"..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "Do you mean my right, or yours?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Pardon?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Obviously, when you say left or right in@this situation, it means—"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Lady Elisa! She has us in her sights again!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "...",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 60,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "flashEffect": "flashWhite2",
+                "item": [
+                    {
+                        "action": {
+                            "sequence": [
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": 0
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 400
+                    },
+                    {
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]Ack!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Why is this happening?!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "We made the same mistakes here, in this@battle, as we did then.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event09",
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I suppose there's nothing else we can do...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "Just this once..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "I shall defer to your lead."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I'm trusting you to land the final blow."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "Slip through her defenses as fast as you can@and reach that Witch, La Pucelle."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "I will shoot down any attack intended for@you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Though I imagine it is quite hard to put your@life in the hands of one you just met."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "This plan will only work if you trust me..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "All right! I'm counting on you!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "slideOutRightFast",
+                        "id": 402100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]Huh?! That was...wait!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "She's trusting to a fault, that girl."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "...!",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 60,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "flashEffect": "flashWhite2",
+                "item": [
+                    {
+                        "action": {
+                            "sequence": [
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": 0
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_lapine_witch.jpg"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "se": "7205_magic_girl",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "...?!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 402101,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "textRight": "Never mind! Keep going!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_elisa_magia.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event03",
+                "jingle": "4026M02",
+                "nameNarration": "Elisa",
+                "narration": "― Elisa ―@Der Drache Lindwurm!",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "― Elisa ―@Let this dragon's thunderous flame..."
+            },
+            {
+                "narration": "― Elisa ―@...burn you to ashes!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "flashEffect": "flashWhite2",
+                "item": [
+                    {
+                        "action": {
+                            "sequence": [
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": -30,
+                                        "posY": -30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 30,
+                                        "posY": 30
+                                    }
+                                },
+                                {
+                                    "moveTo": {
+                                        "duration": 0.05,
+                                        "posX": 0,
+                                        "posY": 0
+                                    }
+                                }
+                            ]
+                        },
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_elisa_magia.jpg"
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20091.jpg",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "jingle": "4026M06"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "Hyaaah![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4021A01]",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.3
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "black",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "jingle": "4021M04",
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1.2
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Minou",
+                "textCenter": "We have almost reached the point...",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.6
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "...where the script shall be rewritten."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "I have prepared some premium seats for you,@just beneath the stage."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "There you will wait outside the fray, serving@as audience rather than actor."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

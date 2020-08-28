@@ -1,0 +1,594 @@
+{
+  "story": {
+    "group_1": [
+      {
+        "autoTurnLast": 0.5,
+        "bg": "bg_adv_15081.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 301301,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bgm": "bgm03_story19",
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 200
+          }
+        ],
+        "nameRight": "Kanagi",
+        "textRight": "Have you decided on your order?",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "id": 301301
+          }
+        ],
+        "nameLeft": "Leila",
+        "textLeft": "Err... I need a bit longer."
+      },
+      {
+        "chara": [
+          {
+            "id": 101602
+          }
+        ],
+        "textRight": "I see. Then I'll come back later."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_010.exp.json",
+            "id": 301501,
+            "motion": 400,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "Mito",
+        "textLeft": "Um, 'scuse me!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 101602,
+            "motion": 0
+          }
+        ],
+        "textRight": "Hm? What is it?"
+      },
+      {
+        "chara": [
+          {
+            "id": 301501,
+            "motion": 1
+          }
+        ],
+        "textLeft": "Are you a maid?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 101602,
+            "motion": 100
+          }
+        ],
+        "textRight": "Yes. I am indeed. I am Maid Nagitan."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_011.exp.json",
+            "id": 301501
+          }
+        ],
+        "textLeft": "[chara:301501:effect_emotion_joy_0][se:7222_happy]Nagitan! I'm Mito! Nice to meet ya!"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 1
+          }
+        ],
+        "textRight": "Yes, a pleasure."
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 400
+          }
+        ],
+        "nameNarration": "",
+        "narration": "*Swish*",
+        "narrationBg": "narration",
+        "narrationEffect": "in"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 301301,
+            "motion": 0,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "Leila",
+        "narrationEffect": "out",
+        "textLeft": "Huh?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 301501,
+            "motion": 100,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "Mito",
+        "textLeft": "Oh, are we shaking hands? [chara:301501:lipSynch_0][wait:0.8][chara:301501:cheek_1][chara:301501:face_mtn_ex_011.exp.json][chara:301501:lipSynch_1]Here! Nice to@meet ya!"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 200
+          }
+        ],
+        "textRight": "Mhm. Well, I'll return shortly."
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "effect": "fadeout",
+            "id": 101602
+          }
+        ],
+        "textClear": 1
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "id": 301501,
+            "pos": 2
+          }
+        ]
+      },
+      {
+        "chara": [
+          {
+            "id": 301501,
+            "motion": 200
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 301301,
+            "motion": 0,
+            "pos": 0
+          }
+        ],
+        "nameRight": "Mito",
+        "textRight": "See, she was a maid!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 301301,
+            "motion": 400
+          }
+        ],
+        "nameLeft": "Leila",
+        "textLeft": "Uh...[chara:301301:lipSynch_0][wait:0.8][chara:301301:cheek_0][chara:301301:face_mtn_ex_030.exp.json][chara:301301:lipSynch_1]well... Hmm."
+      },
+      {
+        "chara": [
+          {
+            "id": 301301,
+            "motion": 0
+          }
+        ],
+        "textLeft": "She's still a lot...different from what I@was expecting."
+      },
+      {
+        "chara": [
+          {
+            "id": 301301
+          }
+        ],
+        "textLeft": "Right, Sei―"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 2,
+            "face": "mtn_ex_020.exp.json",
+            "id": 301401,
+            "lipSynch": 0,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "nameCenter": "Seika",
+        "surround": "7006_cafe",
+        "textCenter": "..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 301301,
+            "motion": 1
+          }
+        ],
+        "textLeft": "Oh, she's frozen stiff."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 301501,
+            "motion": 300
+          }
+        ],
+        "textRight": "Whuh-oh."
+      },
+      {
+        "autoTurnLast": 1.5,
+        "bgm": "stop",
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_010.exp.json",
+            "id": 301501,
+            "motion": 1,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "surround": "stop",
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bgm": "bgm03_story16",
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 200
+          }
+        ],
+        "nameRight": "Kanagi",
+        "textRight": "Apologies for the delay.",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602
+          }
+        ],
+        "textRight": "One fry combo, one gratin, and a parfait."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_011.exp.json",
+            "id": 301501
+          }
+        ],
+        "nameLeft": "Mito",
+        "textLeft": "[chara:301501:effect_emotion_joy_0][se:7222_happy]Can't wait to dig in!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 101602,
+            "motion": 0
+          }
+        ],
+        "textRight": "...Is there a problem?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 301301,
+            "motion": 0,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "Leila",
+        "textLeft": "Um... Aren't you gonna do the thing?"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602
+          }
+        ],
+        "textRight": "\"The thing\"?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_010.exp.json",
+            "id": 301501,
+            "motion": 200,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "Mito",
+        "textLeft": "Y'know, the thing where you go, \"And here's@a dash of love to finish it off!\""
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 300
+          }
+        ],
+        "textRight": "A dash of love..."
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 0
+          }
+        ],
+        "textRight": "..."
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 1,
+            "motion": 200
+          }
+        ],
+        "textRight": "I'm afraid I can't profess my love to you.@We only just met."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 301301,
+            "motion": 1,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "Leila",
+        "textLeft": "Well, yeah. But..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 301501,
+            "motion": 300,
+            "pos": 2
+          }
+        ],
+        "nameRight": "Mito",
+        "textRight": "Hmmm... Yeah, that's fair."
+      },
+      {
+        "nameCenter": "",
+        "textCenter": "One Teddy Bear Burger ready to serve!@Can someone pick it up?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 100,
+            "pos": 2
+          }
+        ],
+        "nameRight": "Kanagi",
+        "textRight": "Ah, I'm needed. Excuse me."
+      },
+      {
+        "autoTurnLast": 0.5,
+        "chara": [
+          {
+            "effect": "fadeout",
+            "id": 101602
+          }
+        ],
+        "textClear": 1
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 301301,
+            "motion": 100
+          }
+        ],
+        "nameLeft": "Leila",
+        "textLeft": "[chara:301301:effect_emotion_surprise_0][se:7226_shock]Hey, hang on!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_011.exp.json",
+            "id": 301501,
+            "motion": 100,
+            "pos": 2
+          }
+        ],
+        "nameRight": "Mito",
+        "textRight": "Ah ha haaa! Nagitan's hilarious!"
+      },
+      {
+        "autoTurnLast": 0.2,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 801100,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "rollInFast"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 100
+          }
+        ],
+        "nameRight": "Kanagi",
+        "textRight": "Sorry for the wait. Here's your burger.",
+        "turnChangeOut": "rollOutFast"
+      },
+      {
+        "chara": [
+          {
+            "id": 801100
+          }
+        ],
+        "nameLeft": "",
+        "textLeft": "Miss Maid! Do the thing!"
+      },
+      {
+        "bgm": "stop",
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 200
+          }
+        ],
+        "textRight": "If you mean the \"dash of love\", I must@decline. I'm no liar."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 801100
+          }
+        ],
+        "textLeft": "What?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 802000,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "nameCenter": "",
+        "textCenter": "I'm sooo sorry, Master! [chara:802000:lipSynch_0][wait:0.8][chara:802000:cheek_0][chara:802000:face_mtn_ex_010.exp.json][chara:802000:lipSynch_1]I'll be taking over@for her for a second, 'kay?"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "id": 802000,
+            "pos": 0
+          }
+        ],
+        "textClear": 1
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 101602,
+            "motion": 0
+          }
+        ],
+        "textRight": "Hm? Why?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 802000
+          }
+        ],
+        "textLeft": "I need to talk to you about something,@Nagitan. Wait over there."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602
+          }
+        ],
+        "textRight": "Understood."
+      },
+      {
+        "autoTurnLast": 2.0,
+        "turnChangeIn": "fadeIn"
+      }
+    ]
+  },
+  "version": 3
+}

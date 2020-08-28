@@ -1,0 +1,117 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21141.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801600,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 0,
+                        "posX": -50,
+                        "posY": 0
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801600
+                    }
+                ],
+                "nameRight": "",
+                "surround": "7001_birdsong",
+                "textRight": "A Magical Girl...?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameLeft": "Kyubey",
+                "textLeft": "That's right. I'll grant you any wish you@want."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "And in return, I want you to become a Magical@Girl."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801600
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhite2]Eek!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ui",
+                "se": "7107_arrivalone",
+                "textCenter": "Don't listen to him! Just run away right@now, okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "You're..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

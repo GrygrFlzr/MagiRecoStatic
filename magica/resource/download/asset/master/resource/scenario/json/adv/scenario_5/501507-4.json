@@ -1,0 +1,74 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.2,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "bgm01_battle06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Gilles",
+                "nameRight": "",
+                "textRight": "There're so many enemies!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textLeft": "Show them no fear! This fort is the first@step toward recapturing Orléans!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 300,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Believe in La Pucelle. Believe in our light@of hope!"
+            },
+            {
+                "autoTurnLast": 2,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

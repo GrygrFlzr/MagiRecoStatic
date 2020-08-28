@@ -1,0 +1,630 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20121.jpg",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Chapter 3@\"Collision\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/memoria_1373.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "nameNarration": "Minou",
+                "narration": "― Minou ―@...",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Minou ―@I understand.@We shall do as you say."
+            },
+            {
+                "autoTurnLast": 1.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Lapin",
+                "textRight": "Welcome back, Minou!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "What are our benefactor's next orders?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Minou",
+                "textRight": "Sorry I took so long. We were instructed to@attack soon."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402700
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "That means..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textRight": "Yes, you, dear sisters, will have your time@in the limelight."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402700,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "[chara:402700:effect_emotion_joy_0][se:7222_happy]Yay!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "Is it going to be a large-scale battle?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "If it is, we'll need some time to prepare.@How can we defend ourselves in the meantime?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "What do we do if the French holy girl comes@for the Fragments of True History?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You two focus on your preparations. Leave@the opening act to me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402400
+                    }
+                ],
+                "textRight": "We mustn't allow the future I saw in my@vision to become reality."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "Outskirts of Orléans - French Army Camp",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "What?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "Melissa and the others are requesting aid?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830300
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "Yes!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Melissa is a Magical Girl on your side,@correct?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Yes. She is defending the Castle of Loches@with the French army."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "This has not been verified, but apparently@Loches was attacked by a monster."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830300
+                    }
+                ],
+                "textRight": "We received word that La Hire was slain!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Melissa's father?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Liz!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Yes, we must go."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "By \"monster\" they must mean a Witch. Darc@and I will go!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "Elisa and Ui, you should accompany them to@Loches.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "The temporal distortion intensified rapidly@around the same time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Are you saying a Fragment of True History is@there?"
+            },
+            {
+                "textRight": "Yes. I suspect a powerful Witch appeared@there because of the Paradox."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "Looks like we have no choice but to go."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "nameRight": "Gilles",
+                "textRight": "I will keep an eye on things here, Holy@Maiden.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Thank you."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 100,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Is the Castle of Loches far?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "It isn't nearby..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601
+                    }
+                ],
+                "textRight": "But we can use a gate."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "You will have to pass through multiple gates.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "But it should not take very much time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "We'll monitor the situation here while you're@away."
+            },
+            {
+                "textRight": "Come back via the gate if anything happens to@Orléans."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Thanks, Qube!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

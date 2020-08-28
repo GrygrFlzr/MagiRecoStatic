@@ -1,0 +1,822 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 2,
+                "bg": "bg_adv_13031.jpg",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "So you feel it, too...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 301
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Now we're sure what happened in the park@was real."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textRight": "That same power that supported us when we@fought Walpurgisnacht is showing itself."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "But this feels so different from last time..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "It does..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textRight": "Can you please tell everyone to be careful?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "I'll ask Touka what's going on."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "All right..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_13031.jpg",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101101,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Is this what I think it is?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "This is the power that helped us before,@right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "But this time...it's not on our side?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Even if that's the case, we're not goin'@down that easy!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14028.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "See? You understand now, don't you?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textRight": "We're still testing our way to liberation."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "We're applying different methods, but our goal@hasn't changed."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "What's so hard to understand about that?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textLeft": "Your goal hasn’t changed... I can see that..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "But if you're not going to sacrifice anything@how do you explain what's going on?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Experiments fail from time to time."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100400,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Iroha & Sana",
+                "textBg": "shout",
+                "textCenter": "[chara:100100:effect_emotion_surprise_0][chara:100400:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100500,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Tsuruno & Felicia",
+                "textBg": "shout",
+                "textCenter": "What?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "You seem calm... I'm assuming you can fix@this?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "I figured this might happen."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "Then, you really are trying to free us..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Of course. How many times do I have to tell@you?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textRight": "I don’t think we can control this power,@though..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "It feels almost as if it's going to crush us..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "So it worked...but it failed?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Well, it was almost a success."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100701,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I hypothesized that if I used the system I @developed to control Witches..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "I could control Familiars in Endless Mirrors@that had evolved to connect spaces."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "I could make them connect to another physical@space altogether."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Then, that power should flow into our world,@like a wormhole or an Alcubierre drive..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Although that kind of technology only exists@in our dreams..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textRight": "...this method is much more realistic. As@we've seen, that part was a success."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "But you can't control it..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Yep! I can't control it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Did it not work because we interfered from@over here?"
+            },
+            {
+                "textLeft": "Last time, this power was being controlled@from the other side."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "We don't know how to control it from this@side..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You're sure are sharp, as usual, Miss Mighty!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "That's correct!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "This power can't be used as it is to free@everyone?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "We would love to dispel your doubts about@our new ideology..."
+            },
+            {
+                "textRight": "But no, we cannot use it."
+            },
+            {
+                "textRight": "The interference this power causes is much@too strong. It may even crush our universe."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "It would be like giving a blood transfusion@to someone with the wrong blood type."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "The laws of that universe don’t seem to@match with ours."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715100,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "How do we stop it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Well, if radio waves can reach it, that'll @work."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But if we want to be sure to stop it, we'll @have to go to Endless Mirrors directly."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100400,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100400,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "If you're using Endless Mirrors, why don't@we contact Kanagi?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "That'll probably be faster than going @there ourselves."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100500,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Oh, good idea."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100500
+                    }
+                ],
+                "textRight": "They told us they were goin' to Endless@Mirrors!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "We're lucky... They can stop this."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

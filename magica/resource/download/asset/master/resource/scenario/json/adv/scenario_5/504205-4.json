@@ -1,0 +1,458 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_13043.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_023.exp.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 300700
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "nameRight": "Black Feather",
+                "textLeft": "*Gasp* *Wheeze*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "*Pant* *Pant*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(They're even coming from other wards.@There's way too many...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300700,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "*Huff*",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][se:4061_landing_jump5]It's over!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[flashEffect:flashRed2][bgEffect:shakeLarge][se:6252_hit_spike_01_s]Gurgh..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715001
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300700,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "Just...a bit further..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "flashEffect": "explosion",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300700
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_023.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300700,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Ah."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "White Feather",
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:7151A01]Waaaaaah!!!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 300700,
+                        "motion": 401,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashRed2][surround:7151A02][bgEffect:shakeLarge][chara:300700:effect_shake]Ahhhhhh!!!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300700
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 4
+            },
+            {
+                "bgm": "bgm03_story12",
+                "nameNarration": "Shizuku",
+                "narration": "Ugh... What...@What happened to me?",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnChangeOutTime": 4
+            },
+            {
+                "narration": "My body hurts so badly, but I can't speak..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100500,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100300,
+                        "motion": 300,
+                        "mouthOpen": 0,
+                        "pos": 2
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "0001_jump01"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100500,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100300
+                    }
+                ],
+                "nameNarration": "Felicia",
+                "narration": "\"All clear!\"",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOutTime": 4
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100300,
+                        "motion": 100
+                    }
+                ],
+                "nameNarration": "Tsuruno",
+                "narration": "\"Thanks, Felicia!\""
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Felicia..."
+            },
+            {
+                "narration": "Felicia?"
+            },
+            {
+                "narration": "I heard Tsuruno, too..."
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    }
+                ],
+                "narration": "..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301901,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "nameNarration": "Ayaka",
+                "narration": "\"Shizuku?!@What terrible wounds!\"",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOutTime": 4
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301901,
+                        "motion": 300
+                    }
+                ],
+                "narration": "\"Did this happen after you called me?\""
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Thank goodness... You managed to evacuate,@Ayaka."
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301901
+                    }
+                ],
+                "narration": "..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "narration": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301901,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 300
+                    }
+                ],
+                "nameNarration": "Ayaka",
+                "narration": "\"Shizuku... I'm so sorry I couldn't keep you@safe.\"",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOutTime": 4
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901
+                    }
+                ],
+                "narration": "\"Get better soon, okay?\""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "narration": "\"You're the only one around who ever laughs@at my jokes...\""
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "I'm really sorry, Ayaka. I didn't mean for@our reunion to end up like this..."
+            },
+            {
+                "narration": "Honestly, I never get any of your jokes@or even your sense of humor, so I'm not@sure how much I'll be able to laugh for you."
+            },
+            {
+                "narration": "But I'm happy just to be by your side. I'm not@sure why, but the idea doesn't bother me at all."
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301901
+                    }
+                ],
+                "narration": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304600,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305300,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "narration": "Ikumi, Ryo...@I got away somehow, thanks to you.@I owe everything to you."
+            },
+            {
+                "narration": "The next time we meet, though,@we won't be allies anymore.@We'll be enemies with different mindsets."
+            },
+            {
+                "narration": "All I can do is apologize for that."
+            },
+            {
+                "narration": "Still, someday... I'd love to go somewhere@with you and have dinner, once again."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 4
+            }
+        ]
+    },
+    "version": 3
+}

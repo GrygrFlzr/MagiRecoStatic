@@ -1,0 +1,482 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20253.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200650,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650
+                    }
+                ],
+                "nameCenter": "Kyoko",
+                "surround": "7002_fountain",
+                "textCenter": "Looks like a bunch of other people came@down here to set off fireworks, too.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200650,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300351,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*WHAM*",
+                "narrationBg": "bg_adv_20253.jpg",
+                "narrationEffect": "in",
+                "narrationFontSize": 40
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 300351
+                    }
+                ],
+                "nameRight": "Hinano",
+                "narrationEffect": "out",
+                "textRight": "Ouch!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Kyoko",
+                "textLeft": "Aw, my bad! You okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300351,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "...Huh? Do I know you from somewhere?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300351
+                    }
+                ],
+                "textRight": "And hey, your ring... Same club, maybe?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200650,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Uh...I guess you could call it that."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Hold up, are you tellin' me this pipsqueak@is a Magical Girl?"
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300351,
+                        "motion": 0
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "[chara:300351:effect_emotion_angry_0][se:7219_strain]P-PIPSQUEAK?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 300351,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I don't know where I met you before, but I@know I'm probably WAY older than you!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300351
+                    }
+                ],
+                "textRight": "I'm Hinano Miyako! I'm a fully grown woman!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200650,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You are?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200451,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sayaka",
+                "textLeft": "Ohhh! It's you, Hinano!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200451,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Thanks for your help the other day!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451
+                    }
+                ],
+                "textLeft": "Are you on a trip too?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200650,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kyoko",
+                "textRight": "You know this little girl, Sayaka?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200451,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yeah, from Kamihama... [chara:200451:lipSynch_0][wait:0.8][chara:200451:cheek_0][chara:200451:face_mtn_ex_050.exp.json:motion_400][chara:200451:lipSynch_1]Wait, don't call her@a little girl!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "I know she doesn't look it, but she's a@veteran Magical Girl!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200650
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300351,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Hinano",
+                "textCenter": "...[wait:1.0][chara:300351:lipSynch_1]\"She doesn't look it\"?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300351
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200650,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "She may have the body of a baby hamster, but@she's basically a rocket scientist!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200451
+                    }
+                ],
+                "textLeft": "Emiri was telling me about her. From what I@hear, she's really amazing."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "You might even learn something from her,@Kyoko!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200650
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "ef_adv_07",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300351,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "Ham...[wait:1.5][chara:300351:lipSynch_1]ster?"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "eyeClose": 1,
+                        "id": 300351
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Rumble* *Rumble*",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300351
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "Sayaka... This kid's gettin' really angry."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200451,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Duh! So stop callin' her \"kid\"!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 200451,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "It doesn't matter how much she looks like@a grade-schooler, it's just rude..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200650
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "ef_adv_07",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300351,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "That's it..."
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "id": 300351,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "I'll blow you both up with my original mix@of fireworks!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300351
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200451,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200650,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "[chara:200451:effect_emotion_surprise_0][se:7226_shock]Whaaaaaat?! Kyoko, hurry up and apologize@to her!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 200650,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "[chara:200650:effect_emotion_angry_0][se:7219_strain]What?! Why do I gotta say sorry?! You're@the one who made her mad!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

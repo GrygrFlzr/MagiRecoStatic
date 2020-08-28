@@ -1,0 +1,561 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_21203.jpg",
+                "nameNarration": "",
+                "narration": "Chapter 8@A Turn for the Worse",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Iroha",
+                "narrationEffect": "out",
+                "textRight": "Yachiyo..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "It's almost time for the final battle!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "So it seems."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Let's hurry, so we aren't late."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You know..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "We're always able to safely meet up with@Darc."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "But I still have no idea how it works."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "We just get sleepy."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "And then, before we wake up in France..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "It's as if I always see...a light?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Oh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "Yeah, now that you mention it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "You've seen it too, Iroha?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101
+                    }
+                ],
+                "textRight": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "At least I think so. Maybe I've just been@imagining it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "We might not ever get an answer...@Shall we go?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yes."
+            },
+            {
+                "autoTurnLast": 1.5,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/51015_candle.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100101
+                    },
+                    {
+                        "eyeClose": 1,
+                        "id": 100201
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/51015_candle.png",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "bg": "bg_adv_20091.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Iroha",
+                "textRight": "Huh?",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textLeft": "Liz hasn't returned?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Yes... It's been a whole day now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 300,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "Do you have any idea where she could be?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textRight": "Maybe we were the last ones to see her."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Really?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Yes, she mentioned going scouting."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Oh, I see."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "That's a relief."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100200,
+                        "pos": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "So she hasn't returned since then."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Yeah, it looks that way..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "Has she come back from reconnaissance@late before?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Yes! So I don't think there is any reason@to worry."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "However, she may not return in time for our@next mission."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textRight": "When is that?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "La Hire",
+                "textRight": "Melissa! It's time to go!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "What? Now?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "That's right..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Then we'll fight as hard as we can in@Liz's place."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "We'll head out first then."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Liz..."
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "The mission to recapture Orléans reached its@climax, though Liz was nowhere to be found.",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "The French forces began advancing@toward the fortress."
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

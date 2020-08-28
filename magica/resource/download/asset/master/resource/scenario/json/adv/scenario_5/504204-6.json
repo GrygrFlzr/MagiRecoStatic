@@ -1,0 +1,288 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "questBg": "bg_adv_19181.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "*Pant* *Pant*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I've lost most of them...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I need to slip out quickly so I can get the@word out to everyone in Kamihama.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Otherwise, there's no saving them...from@whatever the Feathers might do...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(All entrances and exits to and from HQ have@been sealed off...except one.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(They said it should be around the southern@side of the base...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "But which way even is that?",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_compass.png",
+                        "posX": 0,
+                        "posY": 80,
+                        "visible": "appear"
+                    }
+                ],
+                "questBg": "bg_adv_21111.jpg",
+                "questTurnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300701,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Ikumi",
+                "nameRight": "Shizuku",
+                "questTurnChangeOut": "fadeOut",
+                "textRight": "This is...a compass?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yeah! Ryo and I chaaarged it all up super@good with our magic."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_100.exp.json",
+                        "id": 300701,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_compass.png",
+                        "visible": "hide"
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "textLeft": "As for when and what you'll need to use it@for... That's a secret!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "questBg": "bg_adv_19181.jpg",
+                "questTurnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "questTurnChangeOut": "fadeOut",
+                "textCenter": "What does this all mean? Why did they..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "Ikumi...Ryo... What is all this..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "What did you want from me?!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhite2",
+                "surround": "715000A04",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "[flashEffect:flashRed2][surround:715000A03][bgEffect:shakeLarge][chara:300702:effect_shake]*Gasp* Ngh...!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_023.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 300702,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Shizuku",
+                "textRight": "I'm getting out of here... I have to get out@so I can help everyone."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

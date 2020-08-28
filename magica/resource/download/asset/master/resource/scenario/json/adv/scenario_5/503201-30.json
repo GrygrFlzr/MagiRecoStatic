@@ -1,0 +1,681 @@
+{
+    "skipTransitionList": [
+        {
+            "from": "group_1",
+            "to": "group_4"
+        },
+        {
+            "canSkip": false,
+            "from": "group_4"
+        }
+    ],
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20251.jpg",
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "Rumors of the goingon spread online.",
+                "narrationBg": "bg_adv_20251.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "It started to take on a life of its own..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "",
+                "narrationEffect": "out",
+                "textLeft": "Hey, did you see the website?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800500
+                    }
+                ],
+                "textRight": "Yeah, I did."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    }
+                ],
+                "textLeft": "That goingon ghost is supposed to be at@this beach, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800500
+                    }
+                ],
+                "textRight": "No, dude! The goingon is a cryptid!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "I heard that they're mole people!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "You're wrong! It's a visitor from the future!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "No, it's not! It's a monster!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 801300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801300
+                    }
+                ],
+                "textRight": "The goingon is a huge monster that lives in@the ocean by Kamihama!"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "Nobody knew what it was, but@the word \"goingon\" went viral.",
+                "narrationBg": "bg_adv_20251.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "There were so many theories and assumptions@that it became a meaningless buzzword."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20331.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100251,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "nameRight": "Yachiyo",
+                "textRight": "I didn't expect this to happen.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I'm telling you, the goingon is a ghost!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101051,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Quit it, already! That's exactly how this@all started!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100351,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351
+                    }
+                ],
+                "textLeft": "How what started?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101051,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Geeze..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300902,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "textLeft": "Oh, hey you guys! Welcome!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Oh hi, Manaka."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Good timing, Yachiyo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100251,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "It is?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "What do you think of this new dish?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100251
+                    }
+                ],
+                "textRight": "A new dish...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes! I thought of it as fast as I could!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "It's a \"Goingon Parfait\"!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101051,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "[chara:101051:effect_emotion_surprise_0][se:7226_shock]A Goingon...Parfait?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300902,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Yeah! Oh... Do you not know about the@goingon?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101150,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Uh, actually...we do..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300902,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "You do? Isn't it something? It turned into@a hot topic out of nowhere."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "Apparently, it has something to do with this@beach, so people are coming here in droves!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "[chara:110100:effect_emotion_surprise_0][se:7226_shock]What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "That's why I came up with this parfait as@quick as I could!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101150,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "You move fast..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Timing and decisiveness are important for@good business!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "I wonder what the goingon really is,@though..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100251,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "*Sigh*"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100251
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300902
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100451,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "With all the fuss with goingon,@the person worrying about it the most was...",
+                "narrationBg": "bg_adv_20331.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "...none other than Sana."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Sana",
+                "narrationEffect": "out",
+                "textCenter": "(Oh no... This is all because I told@everyone what I saw.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(It's not a lie... It's not a lie, but...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(What am I going to do?!)"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 10,
+                        "group": "group_2",
+                        "textSelect": "Wait until it settles down"
+                    },
+                    {
+                        "alternativeId": 11,
+                        "group": "group_3",
+                        "textSelect": "Continue the investigation"
+                    }
+                ],
+                "turnEffect": "stop"
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100451,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "(It's out of control...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100451,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "(I have no choice!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I just have to wait until things calm@down...)"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100451,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "(That's just it...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(It's a big fuss because we don't know what@the goingon actually is.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(In that case...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "U-um, everyone...?",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100451,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "(What am I going to do?!)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 10,
+                        "group": "group_2",
+                        "textSelect": "Wait until it settles down"
+                    },
+                    {
+                        "alternativeId": 11,
+                        "group": "group_3",
+                        "textSelect": "Continue the investigation"
+                    }
+                ],
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

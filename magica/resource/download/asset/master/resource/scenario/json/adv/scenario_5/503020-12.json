@@ -1,0 +1,51 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20283.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200352,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Homura",
+                "narration": "The cape was still rich with the aroma of@night jasmine in bloom. Even stronger now.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0,
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Homura",
+                "narrationEffect": "out",
+                "textCenter": "Madoka!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Where are you?! Please, answer me!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

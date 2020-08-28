@@ -1,0 +1,83 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "― Prologue ―",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/memoria_1373.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "nameNarration": "???",
+                "narration": "― ??? ―@I saw a vision. A vision of a future where @THEY are rendered a voiceless corpse.",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 10,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― ??? ―@I saw a vision.@In it, a maiden ruined their wish."
+            },
+            {
+                "narration": "― ??? ―@So, using a dream to stage my plans,@I set out to take that maiden's life."
+            },
+            {
+                "narration": "― ??? ―@But my efforts were made meaningless@by a visitor from the distant future."
+            },
+            {
+                "narration": "― ??? ―@If the future defies us, then@we shall eliminate it."
+            },
+            {
+                "narration": "― ??? ―@We shall erase our greatest impediment@and make it so it never existed..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/adv_eve_1065.ExportJson"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

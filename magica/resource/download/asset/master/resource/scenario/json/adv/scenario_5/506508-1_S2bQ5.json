@@ -1,0 +1,753 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Chapter 8@\"Decisive Battle at Patay\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "France - Beaugency",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "nameCenter": "Gilles",
+                "textCenter": "Listen, all of you!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textCenter": "By winning back Beaugency here..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textCenter": "We've secured yet another vital stronghold@of the Loire River in France's honor!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "HEAR! HEAR!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Things are proceeding smoothly.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Almost too smoothly."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 1.3,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "flashEffect": "explosion",
+                "nameCenter": "Minou",
+                "textCenter": "I agree!"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "I'd say you're mimicking that \"True History\"@to a fault."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "[chara:402100:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "It's you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "*Chuckle* So we meet again."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Our leading lady, La Pucelle herself... And@her rabble of extras."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Did you just insinuate that I play a minor@role here? Me?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I do beg pardon for my lack of manners,@O Noble Princess of the Holy Roman Empire."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What do you want?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I came to give you a little advance notice on@where our next battle shall take place."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Notice...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "The stage is set for our clash in Patay."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "You and your French army are bound for the@coronation at Reims."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "And the decisive battle will bear witness to@a grand turnabout!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "You're talking as though you're well aware@of the \"True History\"."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Ah, but I am."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "There's something in Patay we are unwilling@to hand over."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "A Fragment of True History of particular@importance."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "One that, once confirmed, could lead to your@victory."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Essentially, this fragment is the deciding@factor..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "...that determines if your king is coronated."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "It could affect Prince Charles's coronation?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Oh, certainly."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "I sense something in the village of Patay.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "A history fragment of colossal importance@must be waiting there."
+            },
+            {
+                "textRight": "I believe she's telling the truth."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Then why would you ever come here to inform@us about it?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "The answer is quite simple."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Doing so will guarantee a much more rousing@performance for us to savor."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Are you done telling jokes?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Jokes? I assure you, I am very serious."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "You'll see for yourselves..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "When next we meet, I and my sisters will@smite you with the sum of our might."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Until then, farewell."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    }
+                ],
+                "flashEffect": "explosion",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "She disappeared."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402300,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Does that mean our enemies are aware of how@history should proceed?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "I believe she was telling the truth.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "It seems that girl managed a glimpse at the@correct version of events..."
+            },
+            {
+                "textRight": "And thus learned that the war itself ends in@a French victory."
+            },
+            {
+                "textRight": "That must be why she is meddling with the@past...in hopes of changing the future."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameLeft": "Pernelle",
+                "textLeft": "That follows with what we know so far."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "And it's apparent that fragments of even@greater import lie in wait."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "We cannot avoid this decisive battle..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "I can't say I care for that masked girl's@dramatic speech back there, but...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Unfortunately, all we can do is keep going."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402100,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "We'll head to Patay so we can end this once@and for all!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

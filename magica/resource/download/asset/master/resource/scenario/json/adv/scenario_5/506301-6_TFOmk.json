@@ -1,0 +1,998 @@
+{
+    "story":
+    {
+        "group_1": [
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21183.jpg",
+            "bgm": "bgm01_battle02",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100200,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100100,
+                "motion": 0,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 100300,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 100300,
+                "motion": 201
+            },
+            {
+                "id": 100100,
+                "motion": 301
+            },
+            {
+                "id": 100200,
+                "motion": 201
+            }],
+            "nameNarration": "Tsuruno",
+            "narration": "\"All right, that's a win!\"",
+            "narrationBg": "",
+            "narrationCoverOpacity": 110.0,
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "id": 100300
+            }],
+            "narration": "\"I, Tsuruno Yui, am truly the Mightiest!\""
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_001.exp.json",
+                "id": 301200,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": -1,
+                "face": "mtn_ex_020.exp.json",
+                "id": 300500,
+                "motion": 1,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 300800,
+                "motion": 0,
+                "pos": 2
+            }],
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 301200,
+                "motion": 100
+            },
+            {
+                "id": 300800,
+                "motion": 100
+            }],
+            "nameNarration": "Meiyui",
+            "narration": "\"Everything has been going smoothly so far.\"",
+            "narrationBg": "",
+            "narrationCoverOpacity": 110.0,
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": -1,
+                "face": "mtn_ex_010.exp.json",
+                "id": 300500,
+                "motion": 0
+            }],
+            "nameNarration": "Nanaka",
+            "narration": "\"Keep your guard up, Meiyui.\""
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bg": "bg_adv_21182.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101001,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100901,
+                "motion": 0,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101101,
+                "motion": 0,
+                "pos": 2
+            }],
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 101101,
+                "motion": 300
+            }],
+            "nameCenter": "Rena",
+            "nameLeft": "Momoko",
+            "nameRight": "Kaede",
+            "textRight": "The winning teams are really strong...",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100901,
+                "motion": 201
+            }],
+            "textCenter": "Whatever! Bring 'em on! We're gonna have@to beat them all eventually anyway!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101001,
+                "motion": 200
+            }],
+            "textLeft": "Hey, look over there! That's Nanoha's team,@isn't it?"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bg": "bg_adv_21183.jpg",
+            "bgm": "stop",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405200,
+                "motion": 0,
+                "pos": 1
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "bgm": "bgm90_nanoha01",
+            "chara": [
+            {
+                "id": 405200,
+                "motion": 200
+            }],
+            "nameCenter": "Fate",
+            "textCenter": "Here I go!",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "effect": "slideOutLeftFast",
+                "id": 405200
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101300,
+                "motion": 400,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 300400,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameLeft": "Asuka",
+            "nameRight": "Sasara",
+            "textLeft": "She's incredibly fast!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_001.exp.json",
+                "id": 300400,
+                "motion": 201
+            }],
+            "textBg": "shout",
+            "textRight": "Asuka, behind you!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405200
+            }],
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405200
+            }]
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101300,
+                "motion": 200
+            }],
+            "textLeft": "[flashEffect:flashWhite2][se:4061_landing_jump5]Taaake this!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101300
+            },
+            {
+                "effect": "fadeout",
+                "id": 300400
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "eyeClose": 1,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405200,
+                "motion": 0,
+                "pos": 1
+            }],
+            "textCenter": "She's fast...but not fast enough."
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 0,
+                "id": 405200,
+                "motion": 200,
+                "mouthOpen": 1
+            }],
+            "textBg": "shout",
+            "textCenter": "[flashEffect:flashWhite2][surround:4031A07]Photon Lancer!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405200
+            }],
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101300,
+                "motion": 400,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 300400,
+                "motion": 400,
+                "pos": 2
+            }],
+            "textLeft": "[flashEffect:flashRed2][surround:4031A05][chara:101300:effect_shake][bgEffect:shakeLarge]Th-this can't be happening!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101300
+            }],
+            "se": "3002_chara_dead",
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "id": 300400
+            }],
+            "textRight": "Asuka?!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "slideInRightFast",
+                "face": "mtn_ex_020.exp.json",
+                "id": 405200,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Fate",
+            "textLeft": "[flashEffect:flashWhite2][surround:4033A01]Sorry about that."
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "cheek": 0,
+                "eyeClose": 1,
+                "face": "mtn_ex_042.exp.json",
+                "id": 300400,
+                "motion": 300,
+                "mouthOpen": 1
+            }],
+            "textBg": "shout",
+            "textRight": "[flashEffect:flashRed2][surround:4033A03][chara:300400:effect_shake][bgEffect:shakeLarge]Waaaaaah!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 300400
+            }],
+            "se": "3002_chara_dead",
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21182.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101700,
+                "motion": 1,
+                "pos": 1
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "nameNarration": "Mitama",
+            "narration": "This round goes to Team Nanoha!",
+            "narrationBg": "",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "bgm": "stop",
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101700
+            }],
+            "narrationEffect": "out",
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "lipSynch": 0,
+                "motion": 0,
+                "pos": 1
+            }],
+            "nameCenter": "Fate",
+            "textCenter": "..."
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405201
+            }],
+            "textClear": 1
+        },
+        {
+            "bgm": "bgm03_story06",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_001.exp.json",
+                "id": 301201,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": -1,
+                "face": "mtn_ex_020.exp.json",
+                "id": 300501,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Nanaka",
+            "nameRight": "Meiyui",
+            "textRight": "That girl and her super-speed again..."
+        },
+        {
+            "chara": [
+            {
+                "id": 300501,
+                "motion": 300
+            }],
+            "textLeft": "She certainly is incredibly fast."
+        },
+        {
+            "chara": [
+            {
+                "id": 300501
+            }],
+            "textLeft": "And powerful on top of that. She lets@lightning loose with every swing."
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 1,
+                "id": 300501
+            }],
+            "textLeft": "Plus how she flies freely through the air...@If we weren't indoors, she'd be invincible."
+        },
+        {
+            "chara": [
+            {
+                "id": 301201,
+                "motion": 200
+            }],
+            "textRight": "Is she powerful enough to carry their team?"
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 0,
+                "id": 300501,
+                "motion": 0
+            }],
+            "textLeft": "I wonder..."
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 300501
+            },
+            {
+                "effect": "fadeout",
+                "id": 301201
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101001,
+                "lipSynch": 0,
+                "motion": 0,
+                "pos": 1
+            }],
+            "nameCenter": "Momoko",
+            "textCenter": "..."
+        },
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21182.jpg",
+            "chara": [
+            {
+                "id": 7213,
+                "name": "sprite_0",
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405100,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn",
+            "turnEffect": "blackFrame"
+        },
+        {
+            "chara": [
+            {
+                "id": 405101,
+                "motion": 200,
+                "mouthOpen": 1
+            }],
+            "nameLeft": "",
+            "nameRight": "Nanoha",
+            "textBg": "shout",
+            "textRight": "[flashEffect:flashWhite2][surround:4051A09]Exceed...BREAKER!!!",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bgEffect": "shakeLarge",
+            "chara": [
+            {
+                "effect": "shake",
+                "id": 7213,
+                "name": "sprite_0"
+            },
+            {
+                "id": 405100,
+                "mouthOpen": 0
+            }],
+            "flashEffect": "flashRed2",
+            "surround": "4051A10",
+            "textLeft": "...?!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 7213,
+                "name": "sprite_0"
+            }],
+            "se": "3102_enemy_dead",
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21181.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101001,
+                "motion": 0,
+                "pos": 1
+            }],
+            "turnChangeIn": "fadeIn",
+            "turnEffect": "blackFrame"
+        },
+        {
+            "chara": [
+            {
+                "id": 101001,
+                "lipSynch": 0,
+                "motion": 300
+            }],
+            "nameCenter": "Momoko",
+            "textCenter": "(If you saw 'em in action even once...)",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "stop"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_041.exp.json",
+                "id": 101001,
+                "lipSynch": 0
+            }],
+            "textCenter": "(There's no way you'd think one of 'em was@carrying the others.)"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "id": 101001,
+                "pos": 0
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameLeft": "Momoko",
+            "nameRight": "Yachiyo",
+            "textRight": "Fate's done a good job of getting everyone's @attention. They're wary of her speed."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101001,
+                "motion": 400
+            }],
+            "textLeft": "Yachiyo?!"
+        },
+        {
+            "chara": [
+            {
+                "id": 100201,
+                "motion": 301
+            }],
+            "textRight": "They're advancing through the ranks, while@keeping their best moves hidden. Amazing..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101001,
+                "lipSynch": 0,
+                "motion": 0
+            }],
+            "textLeft": "(So Yachiyo picked up on it too. Not that@I'd expect any less.)"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405101,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 405101,
+                "motion": 100
+            }],
+            "nameLeft": "Nanoha",
+            "nameRight": "Fate",
+            "textLeft": "Fate! How are you holding up? You aren't@worn out yet, are you?",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405201
+            }],
+            "textRight": "I'm fine! Thanks for asking, Nanoha!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405301,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Hayate",
+            "textRight": "We're nearly halfway through the tournament,@so let's shift into the next gear!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405101,
+                "motion": 1
+            }],
+            "textLeft": "You got it!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 405201,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameRight": "Fate",
+            "textRight": "Oh!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405201,
+                "motion": 100
+            }],
+            "textRight": "Momoko's team is gonna be in the next@match."
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bgm": "stop",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101700,
+                "motion": 1,
+                "pos": 1
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "bgm": "bgm90_nanoha03",
+            "nameNarration": "Mitama",
+            "narration": "Next, a fated clash: Teacher vs. Student!",
+            "narrationBg": "",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100100,
+                "motion": 1,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100200,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bg": "bg_adv_21183.jpg",
+            "chara": [
+            {
+                "id": 100200,
+                "motion": 201
+            }],
+            "nameNarration": "Mitama",
+            "narration": "Team Mikazuki Villa takes on...",
+            "narrationBg": "",
+            "narrationCoverOpacity": 110.0,
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100300,
+                "motion": 100,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100400,
+                "motion": 1,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100500,
+                "motion": 100,
+                "pos": 2
+            }]
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100900,
+                "motion": 200,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101000,
+                "motion": 0,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101100,
+                "motion": 1,
+                "pos": 2
+            }],
+            "narration": "The KMR Triangle!@That's right! It's Team Momoko!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100900,
+                "motion": 400
+            },
+            {
+                "effect": "fadeout",
+                "id": 101000
+            }],
+            "nameLeft": "Rena",
+            "narrationEffect": "out",
+            "textLeft": "Hey! We didn't approve that nickname!"
+        },
+        {
+            "chara": [
+            {
+                "id": 101100,
+                "motion": 200
+            }],
+            "nameRight": "Kaede",
+            "textRight": "Rena, um, we've got bigger problems...@Do you think we're going to be okay?"
+        },
+        {
+            "chara": [
+            {
+                "id": 101100
+            }],
+            "textRight": "There's three of us here, but there's five@of them…"
+        },
+        {
+            "chara": [
+            {
+                "id": 101100,
+                "motion": 300
+            }],
+            "textRight": "Not only is Yachiyo on that team..."
+        },
+        {
+            "chara": [
+            {
+                "id": 101100
+            }],
+            "textRight": "But the Mightiest Magical Girl, Tsuruno!@And Felicia, too..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101000,
+                "motion": 100,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "No sweat. Just do it like we practiced."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101000
+            }],
+            "textLeft": "We gotta fight in cramped quarters... Havin'@only three of us could work in our favor!"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21182.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101700,
+                "motion": 0,
+                "pos": 1
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 101700,
+                "motion": 300
+            }],
+            "nameNarration": "Mitama",
+            "narration": "Are all the contestants ready?",
+            "narrationBg": "",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101700
+            }],
+            "narration": "Then let's begin!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101700
+            }],
+            "narrationEffect": "out",
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 300200,
+                "motion": 100,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 100100,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameLeft": "Natsuki",
+            "textBg": "shout",
+            "textLeft": "Go! Fight!"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "turnChangeIn": "fadeIn"
+        }]
+    },
+    "version": 3
+}

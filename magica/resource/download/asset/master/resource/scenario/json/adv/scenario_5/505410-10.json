@@ -1,0 +1,534 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19092.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "surround": "7003_wind",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| Touka Satomi, please come forward. |",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "narrationEffect": "out",
+                "textRight": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 1
+                    }
+                ],
+                "textLeft": "| You are to receive the maximum penalty. |"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 401
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "What?!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "No, it can't be..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "They could've written this part however@they wanted!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100301
+                    }
+                ],
+                "textRight": "Why didn't they just force her to make the@verdict not guilty?!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Huh, what...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101601,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Kanagi",
+                "textLeft": "I'm not sure what steps were taken so far,@but this means they've been truthful."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "This just puts them at a disadvantage..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| Nemu Hiiragi, please come forward. |",
+                "narrationEffect": "in",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "narrationEffect": "out",
+                "textRight": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 1
+                    }
+                ],
+                "textLeft": "| You are to receive the maximum penalty. |"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Ui",
+                "textBg": "shout",
+                "textRight": "Touka! Nemu!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "It's okay, Ui. Nothing is decided yet..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "But why, Eternal Sakura...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textRight": "Yachiyo said they were just doing it for@show... She said that they're young..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "That's right..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Then why?!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "white",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 300
+                    }
+                ],
+                "nameNarration": "Eternal Sakura",
+                "narration": "| I thought so too, but \"maximum penalty\"@were the words I uttered... |",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "black",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| I am the Uwasa of the Eternal Sakura.@I was an Uwasa that awaited Iroha Tamaki,@Ui Tamaki, Touka Satomi, and Nemu Hiiragi. |",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "| As such, the purpose of my@existence is to protect them. |"
+            },
+            {
+                "narration": "| But now, I have been appointed@another duty. |"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| And in order to fulfill that duty, [textRed:I am in@the process of killing two of them...]  |",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

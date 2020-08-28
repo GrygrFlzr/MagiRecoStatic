@@ -1,0 +1,161 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20271.jpg",
+                "chara": [
+                    {
+                        "id": 830800,
+                        "pos": 0,
+                        "posX": 40,
+                        "posY": 120
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "Homura",
+                "narration": "Guided by the cat,@we walked deeper into the trees@until we arrived at a clearing.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830800
+                    }
+                ],
+                "nameLeft": "",
+                "narrationEffect": "out",
+                "surround": "7001_birdsong",
+                "textLeft": "[se:7101_catvoice]Meow!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Homura",
+                "textRight": "There's a shrine this far in the forest?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830800
+                    }
+                ],
+                "textLeft": "[se:7101_catvoice]Meowww."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200151,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Madoka",
+                "textRight": "It's next to the shrine... Do you think it's@trying to call us over?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830800
+                    }
+                ],
+                "textLeft": "*Purr* *Purr*"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 230000,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "Meow, mew?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200151,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "It does want us to go over there, I think!@[chara:200151:lipSynch_0][wait:0.8][chara:200151:cheek_0][chara:200151:face_mtn_ex_010.exp.json:motion_100][chara:200151:lipSynch_1]Maybe it lives underneath it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "We won't be able to make it under there."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "We could say hello from the front, though..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200151,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Meow, meow, meow♪"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Huh? There's something underneath the@shrine... [chara:230000:lipSynch_0][wait:1.0][chara:230000:motion_100][chara:230000:lipSynch_1]A notebook?"
+            },
+            {
+                "autoTurnLast": 2,
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

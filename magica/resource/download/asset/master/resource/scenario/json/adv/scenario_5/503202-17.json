@@ -1,0 +1,720 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51032_storyselect_mizugi/51032_day6.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51032_storyselect_mizugi/51032_day1.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20251.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100550,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "Our trip began to near@its end on the sixth day.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Our first stop that day was...the beach!"
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "id": 100351,
+                        "motion": 101
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "narrationEffect": "out",
+                "textLeft": "'Kay! Felicia, you ready?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "You betcha! Come at me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "This is gonna be our final match of the@summer!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351
+                    }
+                ],
+                "textLeft": "Whoever swims around that buoy and makes@it back here first..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "They're the winner, got it!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "And it's gonna be me! [chara:100550:lipSynch_0][wait:1.0][chara:100550:cheek_0][chara:100550:face_mtn_ex_011.exp.json:motion_200][chara:100550:lipSynch_1]I'll show you the@greatest swimmin' of the summer, just watch!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100351,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "All right! Momoko, we're counting on you to@judge!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 101051,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Momoko",
+                "textCenter": "Yeah, sure."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101051,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100351,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100550,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Okay guys! On your marks... Get set..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101051,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "Gooo!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "slideOutRightFast",
+                        "id": 100550
+                    },
+                    {
+                        "effect": "slideOutRightFast",
+                        "id": 100351
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20311.jpg",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnFirst": 0.7,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "textBg": "shout",
+                "textCenter": "Yep-yep-yep!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "slideOutLeftFast",
+                        "id": 100351
+                    }
+                ]
+            },
+            {
+                "autoTurnFirst": 0.4,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100550,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Felicia",
+                "textBg": "shout",
+                "textCenter": "Go-go-go-go-go!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "slideOutLeftFast",
+                        "id": 100550
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20251.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100451,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "bgm": "bgm03_story19",
+                "chara": [
+                    {
+                        "id": 100451
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "They're already so far!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "motion": 401
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Wooow..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101051,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "They're gonna be wiped out when it comes@time to swim back."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100251,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Time really flies, doesn't it? I can't @believe we're already on day 6."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "For real..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "It went by so fast..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100451,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I had so much fun...[chara:100451:lipSynch_0][wait:1.0][chara:100451:cheek_1][chara:100451:face_mtn_ex_030.exp.json][chara:100451:eyeClose_1][chara:100451:lipSynch_1] *Sob* *Sob*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Oh, Sana!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100451,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "A-ah...s-sorry, don't mind me... I just@suddenly got sad about it being over..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100451,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Traveling with everyone like this, all as@a group..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100451
+                    }
+                ],
+                "textRight": "Hm? Wait, where's Kaede? And Rena?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101051,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Oh, they said they were gonna buy drinks@at the beach diner."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101051
+                    }
+                ],
+                "textLeft": "Here they are now!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101051
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100951,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101150,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Momokooo! Guuuys!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100951,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "Listen up! We saw something at the diner!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101051,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Oh? What was it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100951,
+                        "motion": 201,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "A poster! A summer festival poster!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101150,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "It's happening today, right around here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101051,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "A summer festival, huh?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101150
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101051
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110100,
+                        "motion": 100,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Ohhh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "motion": 200
+                    },
+                    {
+                        "id": 110100,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "That sounds...like so much fun![chara:100451:lipSynch_0][wait:1.0][chara:100451:cheek_1][chara:100451:tear_1][chara:100451:lipSynch_1]@*Sob* *Sob*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100251,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "A festival sounds lovely."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101051,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Yeah! That's what I'm talkin' about!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101051
+                    }
+                ],
+                "textRight": "And it's today, too! We sure are lucky."
+            },
+            {
+                "autoTurnLast": 0.4,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100550,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 100351,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Pwaaah!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 100550,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "*Wheeze* *Splutter*"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100351,
+                        "motion": 201,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "M-Momokooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100550,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Who won?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101051,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Momoko",
+                "textCenter": "Ah."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101051,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textCenter": "Errr..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 101051,
+                        "motion": 100
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100351,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100550,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "It was a draw! I think..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

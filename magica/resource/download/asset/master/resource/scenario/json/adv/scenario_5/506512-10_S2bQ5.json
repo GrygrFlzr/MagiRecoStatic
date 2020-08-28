@@ -1,0 +1,962 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21131.jpg",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "― Epilogue ―",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime02",
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "(I wonder what's wrong...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(This is just a normal day like any other,@same as always.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(But I can't focus, and I don't know why...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "The sun feels so nice today.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yeah... I guess it does."
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101
+                    }
+                ],
+                "enableSkipAutoTurn": 1,
+                "nameNarration": "",
+                "narration": "*Beep Beep*",
+                "narrationBg": "bg_adv_21131.jpg",
+                "narrationEffect": "in",
+                "surround": "7105_telphone",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "enableSkipAutoTurn": 0,
+                "narrationEffect": "out",
+                "surround": "stop",
+                "textRight": "Hm, who is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Touka, I think."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Okay, got it. Thanks for telling me!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Beep*",
+                "narrationBg": "bg_adv_21131.jpg",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "What did Touka have to say?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "She's probably going to show up a bit late@for our slumber party."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "A slumber party! That's a nice idea. Are you@going to have it at Nemu's house?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_ui_phone.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "(There's that strange feeling again.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401
+                    }
+                ],
+                "textRight": "Hey? What's wrong?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "Just... Whenever I look at my phone..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I feel like I'm forgetting something really,@really important."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "When you look at your phone?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_ui_phone.png",
+                        "visible": "hide"
+                    }
+                ],
+                "textRight": "Maybe you'll remember something if you try@using it for a bit?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "That's a good idea... I'll try that."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "I don't want to peek at whatever's on your@phone, so I'll look over here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "Thanks."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101503,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "(Messages, Calendar... I don't see anything@out of the ordinary here.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Photos... Oh!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "(Huh? There's a photo here that I don't@recognize.)"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 101503,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "What is this?",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/memoria_1376.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm05_event05",
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@(Why is this on my phone?)",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Ui ―@(I don't know these girls in this photo...@I don't even remember when I took it.)"
+            },
+            {
+                "narration": "― Ui ―@(But...)"
+            },
+            {
+                "narration": "― Ui ―@..."
+            },
+            {
+                "flashEffect": "explosion",
+                "narration": "― Ui ―@*Sob*",
+                "turnEffect": "promist"
+            },
+            {
+                "flashEffect": "explosion",
+                "narration": "― Ui ―@*Sob* *Hic*"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1,
+                        "tear": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "textClear": 1,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 2,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "Waaaaaaaaah!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101503,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "id": 101503,
+                        "motion": 0,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]Huh...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textRight": "Wh-what's the matter, Ui?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    },
+                    {
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I don't know..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I don't know, I can't remember!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "But I can't...stop crying..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Why am I crying...[chara:101503:lipSynch_0][chara:101503:lipSynch_1]?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "*Sniff* [chara:101503:effect_shake]*Sob*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "pos": 0,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "S-sorry, Iroha..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 300,
+                        "pos": 1,
+                        "posX": -150
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "It's okay to cry."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textLeft": "You're right...[chara:101503:lipSynch_0][wait:1.2][chara:101503:lipSynch_1][chara:101503:eyeClose_1]thank you."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "turnChangeIn": "whiteIn",
+                "turnChangeOutTime": 0.8
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:\"Please have a wonderful future.\"]",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "bg": "bg_adv_21131.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "tear": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 300,
+                        "pos": 1,
+                        "posX": -150
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "(Huh...?)",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "mouthOpen": 1,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "[chara:101503:eyeClose_1]*Sniffle* [chara:101503:eyeClose_0][chara:101503:effect_shake]Iroha...",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "Let's have a wonderful future together."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Yes, let's."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1.4
+            },
+            {
+                "bgm": "bgm03_story23",
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I'm okay now. I can make my way back.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I need to help get things ready for the@slumber party."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "All right. I'll head home after I'm done,@then."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Okay! Thank you so much for helping me today,@Sis!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101503
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "*Giggle*"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21241.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 301
+                    }
+                ],
+                "textCenter": "Let's see, first I need to pick up some@groceries...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Then maybe I'll drop by the Coordinator's@shop after?"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_11061.jpg",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 2
+            },
+            {
+                "bgm": "bgm01_anime03",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Click*",
+                "narrationBg": "bg_adv_11061.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Iroha",
+                "narrationEffect": "out",
+                "textRight": "Hello!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "Why, hellooo there, Iroha."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101700
+                    }
+                ],
+                "textLeft": "*Giggle* You came here at just the right@time."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I did? Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101700,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Well, the truth is..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700
+                    }
+                ],
+                "textLeft": "[chara:101700:effect_emotion_joy_0][se:7222_happy]I just learned a very interesting little charm.@It's rather effective!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1.8
+            },
+            {
+                "nameNarration": "",
+                "narration": "La Fin.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

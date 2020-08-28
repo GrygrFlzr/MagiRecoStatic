@@ -1,0 +1,942 @@
+{
+    "story":
+    {
+        "group_1": [
+        {
+            "bg": "bg_adv_20231.jpg",
+            "nameNarration": "",
+            "narration": "On May 7th, 1429@Tourelles surrendered.",
+            "narrationEffect": "in",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "sepiaFrame"
+        },
+        {
+            "narration": "The next day, England abandoned Orléans.@With that, Jeanne d'Arc carried out her@greatest feat of liberating the city."
+        },
+        {
+            "narration": "A poet from the same era,@Christine de Pizan, wrote about her@in \"The Tale of Jeanne d'Arc.\""
+        },
+        {
+            "autoTurnLast": 0.2,
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn",
+            "turnEffect": "stop"
+        },
+        {
+            "nameNarration": "",
+            "narration": "In 1429, the sun shone once again.",
+            "narrationBg": "bg_adv_20111.jpg",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "bg": "bg_adv_21201.jpg",
+            "bgm": "bgm03_story02",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 100101,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Yachiyo",
+            "nameRight": "Iroha",
+            "narrationEffect": "out",
+            "textRight": "Thank goodness!",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100101
+            }],
+            "textRight": "Darc's wish came true."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 100101,
+                "motion": 400
+            }],
+            "textRight": "She was able to bring light to France!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_014.exp.json",
+                "id": 100201
+            }],
+            "textLeft": "Yes, it looks like it."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 300
+            }],
+            "textLeft": "If what Qube said is true..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "We'll be forgetting about everyone soon."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100201
+            }],
+            "textLeft": "I'm going to miss them..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 301
+            }],
+            "textRight": "Yeah..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100101
+            }],
+            "textRight": "Huh?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 0
+            }],
+            "textRight": "Yachiyo, look at the picture in this old@book about La Pucelle!"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "item": [
+            {
+                "path": "resource/scenario/img/51015_singleraid_tart/memoria_1177.jpg",
+                "posX": 0,
+                "posY": 0,
+                "visible": "appear"
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "nameNarration": "Yachiyo",
+            "narration": "―Yachiyo―@Wait, is that?!",
+            "narrationAnchor": "bottom",
+            "narrationBg": "narration",
+            "narrationCoverOpacity": 110.0,
+            "narrationEffect": "in",
+            "narrationFontSize": 30.0,
+            "narrationLineMargin": 35.0,
+            "narrationLineSpace": 20.0,
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "narration": "―Yachiyo―@Is that us...next to Jeanne d'Arc?"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_051.exp.json",
+                "id": 100201,
+                "motion": 0,
+                "pos": 0
+            }],
+            "item": [
+            {
+                "path": "resource/scenario/img/51009_tsuruno_aname_training/51009_tsuruno_doppel.jpg",
+                "visible": "hide"
+            }],
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 200
+            }],
+            "textRight": "Yeah, that looks like us in our Magical@Girl outfits.",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100201
+            }],
+            "textLeft": "It must be because of what happened."
+        },
+        {
+            "bg": "bg_adv_20091.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 402100,
+                "motion": 1,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100100,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100200,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameNarration": "Gilles",
+            "narration": "\"Fear not, soldiers of France!\"",
+            "narrationBg": "narration",
+            "narrationEffect": "in",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "narration": "\"The will of God has descended to us once@again!\""
+        },
+        {
+            "narration": "\"Through our heaven-sent La Pucelle.\""
+        },
+        {
+            "narration": "\"And our two new holy maidens!\""
+        },
+        {
+            "bg": "bg_adv_21201.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100101,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_014.exp.json",
+                "id": 100201,
+                "motion": 0,
+                "pos": 0
+            }],
+            "narrationEffect": "out",
+            "textLeft": "Darc must've remembered what happened@in the dream.",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 100
+            }],
+            "textRight": "I guess she told someone about it."
+        },
+        {
+            "autoTurnLast": 0.2,
+            "bg": "bg_adv_20121.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 402100,
+                "motion": 1,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100100,
+                "motion": 100,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "blackFrame"
+        },
+        {
+            "chara": [
+            {
+                "id": 402100
+            }],
+            "nameLeft": "Darc",
+            "nameRight": "Iroha",
+            "textLeft": "And I will never..."
+        },
+        {
+            "chara": [
+            {
+                "id": 402100
+            }],
+            "textLeft": "I will never forget you and Yachiyo!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 100100,
+                "motion": 301
+            }],
+            "textRight": "I'll never forget you either, Darc!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 402100
+            }],
+            "textLeft": "Thank you for everything!"
+        },
+        {
+            "bg": "bg_adv_21201.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 301,
+                "pos": 0
+            }],
+            "nameLeft": "Yachiyo",
+            "nameRight": "Iroha",
+            "textLeft": "Well, I don't think anyone else will realize@that's us.",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "stop"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_041.exp.json",
+                "id": 100101,
+                "motion": 200
+            }],
+            "textRight": "It's a little embarrassing."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_042.exp.json",
+                "id": 100201
+            }],
+            "textLeft": "More than a little."
+        },
+        {
+            "bg": "bg_adv_11061.jpg",
+            "bgm": "bgm01_anime03",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 200,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101700,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Mitama",
+            "nameRight": "Yachiyo",
+            "textRight": "So as you can see, at one point...",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textRight": "It was an end-of-all-humanity level crisis."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101700,
+                "motion": 300
+            }],
+            "textLeft": "I'm so sorry."
+        },
+        {
+            "chara": [
+            {
+                "id": 101700
+            }],
+            "textLeft": "I'll take the book and candles and properly@dispose of them!"
+        },
+        {
+            "chara": [
+            {
+                "id": 101700
+            }],
+            "textLeft": "I had no idea it was such a terrible spell."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Iroha",
+            "textRight": "Oh, no."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "The antique candles were what triggered@everything, not the spell."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameRight": "Yachiyo",
+            "textRight": "The spell itself was actually harmless."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101700,
+                "motion": 100
+            }],
+            "textLeft": "That's a relief!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101700
+            }],
+            "textLeft": "It actually became widespread in France@during Jeanne d'Arc's era."
+        },
+        {
+            "chara": [
+            {
+                "id": 101700
+            }],
+            "textLeft": "I guess it was just some little spell that's@been passed down!"
+        },
+        {
+            "bgm": "stop",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_051.exp.json",
+                "id": 100201
+            }],
+            "textRight": "What?!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100101,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameRight": "Iroha",
+            "textRight": "From Jeanne d'Arc's time?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101700,
+                "motion": 1
+            }],
+            "textLeft": "That's right."
+        },
+        {
+            "bgm": "bgm03_story13",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 1,
+                "pos": 0
+            }],
+            "nameLeft": "Yachiyo",
+            "textLeft": "Hey, do you think?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "After we taught Melissa that spell in the@dream..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "Maybe she remembered it even after@waking up."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201,
+                "motion": 100
+            }],
+            "textLeft": "And then she shared it with everyone?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 400
+            }],
+            "textRight": "Really?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 301
+            }],
+            "textRight": "I guess it's possible..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "There's even a picture of us in the book@after all."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_042.exp.json",
+                "id": 100201,
+                "motion": 0
+            }],
+            "textLeft": "Having to use red and blue candles also@feels awfully specific."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 100
+            }],
+            "textRight": "Maybe that's another custom we set?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100201
+            }],
+            "textLeft": "I think you might be right."
+        },
+        {
+            "bgm": "bgm03_story01",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100101,
+                "motion": 0
+            }],
+            "textRight": "Oh, but...huh?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 300
+            }],
+            "textRight": "Wait a minute. I'm so confused!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 100
+            }],
+            "textLeft": "What's wrong?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 200
+            }],
+            "textRight": "Um, so..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "The spell we shared became widespread@in Darc's era."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "And that's how Mitama learned of it, and@then she was the one to teach it to us."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "And then we taught the spell to Melissa..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 100
+            }],
+            "textRight": "Which brings us right back to the start?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100201,
+                "motion": 0
+            }],
+            "textLeft": "I guess so."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "Then who came up with that spell in the@first place?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 301
+            }],
+            "textRight": "Ugh, it's just like the telephone game."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100201,
+                "motion": 100
+            }],
+            "textLeft": "It really is. The book never mentioned how@to set up the candles."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "Everyone passed along what they heard."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "The spell that no one came up with just@circled around and around."
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 1,
+                "id": 100201,
+                "lipSynch": 0
+            }],
+            "textLeft": "..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "eyeClose": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 301
+            }],
+            "textLeft": "Could it be?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "We were so worried the whole time about@changing history, but..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "Everything worked out in the end. So maybe@it would have, no matter what?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "motion": 0
+            }],
+            "textRight": "Now that you mention it..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201,
+                "motion": 1
+            }],
+            "textLeft": "Qube said something like that too."
+        },
+        {
+            "bg": "bg_adv_20103.jpg",
+            "chara": [
+            {
+                "id": 810000,
+                "motion": 0,
+                "pos": 1,
+                "posX": 0,
+                "posY": 80
+            }],
+            "nameCenter": "Qube",
+            "textCenter": "It could even be said...",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "blackFrame"
+        },
+        {
+            "chara": [
+            {
+                "id": 810000
+            }],
+            "textCenter": "That it's your destiny to save France."
+        },
+        {
+            "bg": "bg_adv_11061.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100101,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 0,
+                "pos": 0
+            }],
+            "textRight": "Oh, but what about that picture?",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "stop"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 200
+            }],
+            "textRight": "We must've changed the past."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "That's why that picture was made of us,@right?"
+        },
+        {
+            "chara": [
+            {
+                "id": 100201,
+                "motion": 100
+            }],
+            "textLeft": "I wonder..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textLeft": "Maybe we just didn't know."
+        },
+        {
+            "chara": [
+            {
+                "id": 100201,
+                "motion": 301
+            }],
+            "textLeft": "That picture could have existed before we@ever even lit those candles."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101,
+                "lipSynch": 0,
+                "motion": 301
+            }],
+            "textRight": "..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100201,
+                "lipSynch": 0
+            }],
+            "textLeft": "...@..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100201,
+                "motion": 0
+            }],
+            "textLeft": "I guess there's no point wondering about@something we'll never know."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101700,
+                "lipSynch": 0,
+                "motion": 1,
+                "pos": 0
+            }],
+            "nameLeft": "Mitama",
+            "textLeft": "...?"
+        },
+        {
+            "autoTurnLast": 1.5,
+            "bgm": "stop",
+            "surround": "stop",
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "bg": "black",
+            "item": [
+            {
+                "path": "resource/scenario/img/51015_singleraid_tart/memoria_1177.jpg",
+                "posX": 0,
+                "posY": 0,
+                "visible": "appear"
+            }],
+            "surround": "7010_bell",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "item": [
+            {
+                "path": "resource/scenario/img/51015_singleraid_tart/memoria_1177.jpg",
+                "visible": "hide"
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "nameNarration": "",
+            "narration": "FIN",
+            "narrationBg": "bg_adv_narration.jpg",
+            "narrationEffect": "in",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn"
+        }]
+    },
+    "version": 3
+}

@@ -1,0 +1,360 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20251.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200451,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 200550,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "id": 200451
+                    }
+                ],
+                "nameLeft": "Sayaka",
+                "textLeft": "Taaake that!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "Hey, do it now!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200451
+                    }
+                ],
+                "textLeft": "Show us that patented Lightning Serve,@Mami!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200550,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Mami",
+                "textRight": "Don't think I'll show you mercy just because@it's beach volleyball, Kyoko!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200550
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Kyoko",
+                "textLeft": "Ugh."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Just try not to split the ball in two, 'kay?@For real."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 230000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200650
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 200550,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Mami",
+                "textCenter": "[se:4061_landing_jump5][flashEffect:flashWhite2]Take this!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200550
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200650,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "Ooof! Yikes!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/memoria_1237.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgEffect": "shakeSmall",
+                "nameNarration": "Homura",
+                "narration": "[flashEffect:flashRed2][se:3001_chara_damage][bgEffect:shakeLarge]— Homura —@Ouuuch!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 40,
+                "narrationLineSpace": 15,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Madoka",
+                "narration": "— Madoka —@Homura?!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_131.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 0,
+                        "tear": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200550,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/memoria_1237.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "id": 200550,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Mami",
+                "narrationEffect": "out",
+                "textRight": "I'm so sorry, Homura! Are you okay?!@Did I hurt you?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 300,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "Owww... I fink I'm awwight..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200550,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Does anyone have something cold to put on@the swelling? Ice or anything?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200550,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Oh, but you mustn't move around before we@take care of it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200550,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I'll make you a stretcher out of my ribbons!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200451,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sayaka",
+                "textLeft": "Calm down, Mami!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200451
+                    }
+                ],
+                "textLeft": "You can't just use magic out here on the@beach in the middle of the day!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200151,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "textLeft": "Here, why don't you rest for a bit in the@shade with me, Homura?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200550,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mami",
+                "textRight": "Hold on while I go buy something cold@to put on it, okay?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Homura",
+                "textCenter": "I-I think I'll be okay if I just rest...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

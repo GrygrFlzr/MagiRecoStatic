@@ -1,0 +1,732 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304600,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Ikumi... Ryo...@What do you have planned for me?",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "You were thinking of my best interests when@you gave me all those farewell gifts, right?"
+            },
+            {
+                "narration": "You told me all about yourselves because@you wanted to reassure me, didn't you?"
+            },
+            {
+                "autoTurnLast": 0.02,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 305300
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300700,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "narration": "Or was it all because you wanted to@tear this place I'd found away from me?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_150.exp.json",
+                        "id": 300700
+                    }
+                ],
+                "narration": "Did I get in your way somehow?@Did you put on an act to drive me away?"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21143.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_160.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 101
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "*Pant* *Pant*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I'm...going nuts...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I don't think my heart has ever been in such@a mess...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(What happened to me?)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300700,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "No... I don't want to think about it.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I hate having time to think things over.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I just end up feeling vaguely like I'm@looking at myself from a distance...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Like the world, which is so precious @to me, is drifting away...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "I can't stand that thought.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300700
+                    }
+                ],
+                "textCenter": "And yet..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21012.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Help me, Mr. R.",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "You found a place to belong with me...@And you were a place like that for me, too."
+            },
+            {
+                "narration": "I just wanted to be by your side.@If I was with you I could be myself...@I could relax and feel safe."
+            },
+            {
+                "narration": "I could just...be.@Without overthinking things."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21143.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300700,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "But you're gone now...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700
+                    }
+                ],
+                "textCenter": "That's why I found a place to belong with@the Wings of the Magius. One last place..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_150.exp.json",
+                        "id": 300700,
+                        "motion": 0
+                    }
+                ],
+                "surround": "7009_night_townbuzz",
+                "textCenter": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_120.exp.json",
+                        "id": 300700
+                    }
+                ],
+                "textCenter": "That's why I..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "I have to protect it."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304600,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 305300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "I have to protect it from them. Or I'll lose@this special place, where I can be myself.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_19181.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "nameRight": "Ikumi",
+                "textLeft": "Everyone's new assignments should be set@by today or tomorrow.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "This time it's not just the new recruits...@Many will be assigned to new posts too."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715104
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 715005
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "The other new recruits said something@similar."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "We're getting our new assignments soon."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300702
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Ooo, I see. But, Shizu... [chara:715005:lipSynch_0][wait:1.0][chara:715005:cheek_0][chara:715005:face_mtn_ex_000.exp.json][chara:715005:lipSynch_1]*Cough*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005
+                    }
+                ],
+                "textRight": "I bet you absolutely positively won't need to@worry about any of all that!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005
+                    }
+                ],
+                "textRight": "I've heard you're already an expert at@fighting like a Black Feather."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715005,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "I think this is the perfect timing for you.@Though I'll be sad to see you go..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "It's a bit early to be getting all soppy.@Besides, we'll probably still bump into her."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715104
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 715005
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "I wouldn't be so sure..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "715000A04",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300702
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715104,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:715000A04]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715005,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715104,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Wh-what're you doing?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715104
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 715005
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "You two have been trying to get rid of me@this whole time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "No more. I won't let you get away with it."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300702
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "What are you talking about?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715104,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "This is a misunderstanding."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715104
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 715005
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 200,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:715000A04]Haaah!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300702
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715104,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "Damn it. She's really coming for us..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Hey! Stop this! We're friends, aren't we?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715104
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 715005
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "Stop lying. It's obvious you are."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "If you're trying to drive me out, I'll never@forgive you!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

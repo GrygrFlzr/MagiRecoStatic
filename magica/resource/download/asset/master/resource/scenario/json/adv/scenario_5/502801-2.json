@@ -1,0 +1,558 @@
+{
+  "story": {
+    "group_1": [
+      {
+        "autoTurnLast": 0.5,
+        "bg": "bg_adv_15081.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 802000,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bgm": "bgm01_anime03",
+        "chara": [
+          {
+            "id": 101602
+          }
+        ],
+        "nameLeft": "Kanagi",
+        "textLeft": "That parfait order is ready! ",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "id": 802000
+          }
+        ],
+        "nameRight": "",
+        "textRight": "That was fast! Thanks!"
+      },
+      {
+        "chara": [
+          {
+            "effect": "fadeout",
+            "id": 101602
+          },
+          {
+            "effect": "fadeout",
+            "id": 802000
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 801100,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "nameNarration": "",
+        "narration": "*Jingle* *Clink*",
+        "narrationBg": "bg_adv_15081.jpg",
+        "narrationEffect": "in"
+      },
+      {
+        "chara": [
+          {
+            "id": 801100
+          }
+        ],
+        "nameCenter": "",
+        "narrationEffect": "out",
+        "textCenter": "So this is a maid cafe?"
+      },
+      {
+        "nameLeft": "",
+        "textLeft": "Welcome home, Master!"
+      },
+      {
+        "autoTurnLast": 0.2,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 802000,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "rollInFast"
+      },
+      {
+        "chara": [
+          {
+            "id": 802000
+          }
+        ],
+        "textRight": "We're short on greeters today. Hold off @on that parfait, would you?",
+        "turnChangeOut": "rollOutFast"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 200
+          },
+          {
+            "effect": "fadeout",
+            "id": 802000
+          }
+        ],
+        "nameLeft": "Kanagi",
+        "textLeft": "Then I'll keep it in the fridge for now."
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 0,
+            "pos": 1
+          }
+        ],
+        "nameCenter": "Kanagi",
+        "textCenter": "(Let's see... Hot drinks come first, right?)",
+        "turnEffect": "thinking"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 0,
+            "motion": 1
+          }
+        ],
+        "textCenter": "(That way you can take care of cold drinks@while the tea steeps.)"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 0
+          }
+        ],
+        "textCenter": "...",
+        "turnEffect": "stop"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 0,
+            "motion": 0
+          }
+        ],
+        "textCenter": "(Oh, she's coming back.)",
+        "turnEffect": "thinking"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 802000,
+            "motion": 0,
+            "pos": 2
+          },
+          {
+            "id": 101602,
+            "pos": 0
+          }
+        ],
+        "textRight": "Sorry for the wait, I'll take the...[chara:802000:lipSynch_0][wait:1.0][chara:802000:cheek_0][chara:802000:face_mtn_ex_050.exp.json][chara:802000:lipSynch_1]huh?@You already had the parfait ready?",
+        "turnEffect": "stop"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 101602,
+            "lipSynch": 1,
+            "motion": 200
+          }
+        ],
+        "textLeft": "Yes, I took it out of the fridge when I saw@you coming."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 802000
+          }
+        ],
+        "textRight": "Thanks for that! Great initiative!"
+      },
+      {
+        "autoTurnLast": 0.5,
+        "chara": [
+          {
+            "effect": "fadeout",
+            "id": 802000
+          }
+        ],
+        "textClear": 1
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "lipSynch": 0,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "nameCenter": "Kanagi",
+        "textCenter": "(The food will be coming from the back@kitchen in a little while.)",
+        "turnEffect": "thinking"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101602,
+            "lipSynch": 0,
+            "motion": 300
+          }
+        ],
+        "textCenter": "(I can have the drinks prepared by then,@but there aren't enough staff in the hall.)"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 1
+          }
+        ],
+        "textCenter": "Maybe I should slow down so they can@catch up...",
+        "turnEffect": "stop"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "id": 101602,
+            "pos": 0
+          }
+        ],
+        "textClear": 1
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 800700,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "nameRight": "Cafe Manager",
+        "textRight": "No, I'll go out and handle things. You just@keep doing what you're doing, hun."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 101602,
+            "motion": 0
+          }
+        ],
+        "textLeft": "Yes, sir."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 2,
+            "face": "mtn_ex_030.exp.json",
+            "id": 800700
+          }
+        ],
+        "textRight": "[chara:800700:effect_emotion_angry_0][se:7219_strain]I told you already! It's \"madam\"!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 101602,
+            "motion": 200
+          }
+        ],
+        "textLeft": "Of course. I appreciate it, madam."
+      },
+      {
+        "autoTurnLast": 1.0,
+        "bgm": "stop",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 101602,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 802000,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bgm": "bgm03_story02",
+        "chara": [
+          {
+            "id": 101602
+          }
+        ],
+        "textLeft": "Looks like the hall finally calmed down.",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "id": 802000
+          }
+        ],
+        "nameRight": "",
+        "textRight": "Yeah... I wish we had just one more maid@out here, though."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 800700,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "nameRight": "Cafe Manager",
+        "textRight": "You're right..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 800700
+          }
+        ],
+        "textRight": "Hey, why don't you go out into the hall and@give the maid thing a whirl?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 101602,
+            "motion": 100
+          }
+        ],
+        "textLeft": "Hm? Me?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 800700
+          }
+        ],
+        "textRight": "You've only been here a week and you've@already mastered the kitchen!"
+      },
+      {
+        "chara": [
+          {
+            "id": 800700
+          }
+        ],
+        "textRight": "And we've never had any girls quite like you@before."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 2,
+            "face": "mtn_ex_010.exp.json",
+            "id": 800700
+          }
+        ],
+        "textRight": "[chara:800700:effect_emotion_joy_0][se:7222_happy]I think it's a great idea!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101602,
+            "motion": 200
+          }
+        ],
+        "textLeft": "Hm...But—"
+      },
+      {
+        "chara": [
+          {
+            "id": 800700
+          }
+        ],
+        "textRight": "Oh, and we'd give you a raise. Your wage@would be..."
+      },
+      {
+        "bgm": "stop",
+        "nameNarration": "",
+        "narration": "*Scribble* *Scribble*",
+        "narrationEffect": "in"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 101602,
+            "lipSynch": 0
+          }
+        ],
+        "narrationEffect": "out",
+        "textLeft": "[chara:101602:cheek_0][chara:101602:face_mtn_ex_020.exp.json][chara:101602:lipSynch_1]Hmm..."
+      },
+      {
+        "bgm": "bgm03_story19",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 101602,
+            "motion": 100
+          }
+        ],
+        "textLeft": "It would be my honor to take the position!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 802000,
+            "motion": 0,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "",
+        "textLeft": "[chara:802000:effect_emotion_joy_0][se:7222_happy]Lovely!"
+      },
+      {
+        "chara": [
+          {
+            "id": 800700
+          }
+        ],
+        "textRight": "Delighted to hear it."
+      },
+      {
+        "chara": [
+          {
+            "id": 800700
+          }
+        ],
+        "textRight": "Now, we just have to give you your maid@name..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 101602,
+            "motion": 200,
+            "pos": 0
+          }
+        ],
+        "nameLeft": "Kanagi",
+        "textLeft": "Maid name?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 800700
+          }
+        ],
+        "textRight": "Kanagi... Ka-na-gi... Nagi...@[chara:800700:lipSynch_0][wait:1.0][chara:800700:cheek_0][chara:800700:face_mtn_ex_020.exp.json][chara:800700:lipSynch_1]Got it!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 800700
+          }
+        ],
+        "textRight": "[chara:800700:effect_emotion_joy_0][se:7222_happy]From now on, you'll be known as \"Maid@Nagitan\"!"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602
+          }
+        ],
+        "textLeft": "Nagitan? Umm... [chara:101602:lipSynch_0][wait:0.8][chara:101602:cheek_0][chara:101602:face_mtn_ex_010.exp.json][chara:101602:lipSynch_1]Not bad."
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "motion": 100
+          }
+        ],
+        "textLeft": "Maid Nagitan, at your service. I'll do my@best!"
+      },
+      {
+        "chara": [
+          {
+            "id": 101602,
+            "lipSynch": 0
+          }
+        ],
+        "textLeft": "(This should help my family breathe a@little easier.)",
+        "turnEffect": "thinking"
+      },
+      {
+        "autoTurnLast": 2.0,
+        "bgm": "stop",
+        "turnChangeIn": "fadeIn",
+        "turnEffect": "stop"
+      }
+    ]
+  },
+  "version": 3
+}

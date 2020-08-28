@@ -1,0 +1,722 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_12066.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "Is everyone done writing?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Yup, I am!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Me too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textCenter": "All done!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Okay, keep your wishes safe, everyone."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| Where shall we go next? |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "It's a bit far, but I want to go to the@lookout point!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21011.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100702,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100702
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "You know, the one in Hokuyo Ward?",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "I went on a day trip there a long time ago."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "The light from the city doesn't reach up@there, so you can see the stars clearly!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100702,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "A clear, starry sky! I'd love to see that,@too!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_12066.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "nameLeft": "Ui",
+                "surround": "7001_birdsong",
+                "textLeft": "Nooo...[chara:101501:lipSynch_0][wait:1.0][chara:101501:lipSynch_1] I don't want to.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Ui?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I don't want to."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "I don't want to go to all the best places@first."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "It feels rushed, somehow."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "That's not true."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "I just think we should go while we're able@to go."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "I feel essentially the same way as Touka..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403
+                    }
+                ],
+                "textRight": "But I'm sorry, I didn't mean to make you@feel bad."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101501,
+                        "lipSynch": 1
+                    }
+                ],
+                "surround": "stop",
+                "textLeft": "No, I'm sorry. I know I'm being stubborn."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I've just been feeling really nervous is @all..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "I'm sorry."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Okay. Let's go to the lookout point, then."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "No!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "Whaaaaaat?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 400
+                    },
+                    {
+                        "id": 100701,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "We can go to the historiography room that@Nemu suggested."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "But that place is..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21011.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101402,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101402
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Nemu",
+                "textRight": "In the annex wing of the Central Library...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "They have a room for historical records.@They display all kinds of interesting stuff!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101402,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Hmm... That sounds like a fun place."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_12066.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Like I said earlier, it's still closed...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "But if we're going to go to the lookout point@then I want to go everywhere else too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "Because!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "Huh?"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Um..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 1
+                    }
+                ],
+                "textRight": "| I agree with Ui. We should go. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Eternal Sakura..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304302,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "| You four wished to visit all of the places@you've heard of, or wrote a story about. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textRight": "| It was a dream that was likely never going@to come true. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textRight": "| That's why this tour will give you hope for@the future. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "| The shrine was just one stop. |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302
+                    }
+                ],
+                "textRight": "| You're making wishes at the shrine because@you're thinking about the future. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| And if you're looking toward the future,@you must also face reality. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| That is what I think. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Hmm... You've learned some odd things from@that server."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

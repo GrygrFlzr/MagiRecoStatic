@@ -1,0 +1,379 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_47107.jpg",
+                "bgm": "bgm01_anime16",
+                "chara": [
+                    {
+                        "id": 7107,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 7107,
+                        "name": "sprite_0"
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeSmall]...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101500,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Ui",
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashRed1][se:3001_chara_damage][bgEffect:shakeSmall][chara:101500:effect_shake]Agh!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 7107,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101000,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Momoko",
+                "textCenter": "Ui, you okay?!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 7107,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 300,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "*Huff* *Wheeze*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[surround:1015A06][flashEffect:flashWhite2]I can still...keep going!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 7107,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textLeft": "[surround:1015A08][flashEffect:flashRed2][bgEffect:shakeLarge][chara:7107:effect_shake]..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 7107,
+                        "name": "sprite_0"
+                    }
+                ],
+                "se": "3102_enemy_dead",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "id": 101500,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101000,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Nice!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 300,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "*Huff* *Puff*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101000,
+                        "motion": 300
+                    },
+                    {
+                        "eyeClose": 0,
+                        "id": 101500,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "This is takin' a ton of magic. We're reachin'@our limit."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000
+                    }
+                ],
+                "textRight": "Ui, you promised... Time to get outta here."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "[chara:101500:lipSynch_0][wait:0.8][chara:101500:lipSynch_1]Okay..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101000
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 101000
+                    }
+                ],
+                "se": "7201_detect_magic"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Momoko?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101000,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Not good."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000
+                    }
+                ],
+                "textRight": "She really does have a big appetite. Now@she's tryin' to chow down on us."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_46107.jpg",
+                "bgChangeEffect": "enterWitchSpace",
+                "se": "7208_wander_into",
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm01_anime08",
+                "chara": [
+                    {
+                        "id": 101000,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Is this the deepest part of the Labyrinth?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101000,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "We've got our backs against a wall..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Then we have to... We have to defeat@this Witch ourselves!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "effect": "ef_adv_08",
+                        "id": 6107,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "菩人無建　念中念於　民音孔光"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6107,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 101000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "How excitin'..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

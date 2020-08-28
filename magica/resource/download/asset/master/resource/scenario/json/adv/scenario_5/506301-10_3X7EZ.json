@@ -1,0 +1,656 @@
+{
+    "story":
+    {
+        "group_1": [
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21183.jpg",
+            "bgm": "bgm90_nanoha01",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405300,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101100,
+                "motion": 0,
+                "pos": 0
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "id": 101100,
+                "motion": 100,
+                "mouthOpen": 1
+            }],
+            "flashEffect": "flashWhite2",
+            "se": "4061_landing_jump5",
+            "textClear": 1,
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "id": 405300,
+                "motion": 200
+            },
+            {
+                "id": 101100,
+                "mouthOpen": 0
+            }],
+            "nameLeft": "Kaede",
+            "nameRight": "Hayate",
+            "textRight": "Hah!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101100,
+                "motion": 300
+            }],
+            "textLeft": "Ugh, she dodged it again!"
+        },
+        {
+            "chara": [
+            {
+                "id": 405300,
+                "lipSynch": 0
+            }],
+            "textRight": "(I have to keep the distance between us!)"
+        },
+        {
+            "chara": [
+            {
+                "id": 405300,
+                "motion": 400
+            }],
+            "textRight": "Hya!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405300
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101100,
+                "motion": 0
+            }],
+            "textLeft": "[chara:101100:effect_emotion_surprise_0][se:7226_shock]She...flew?! That's no faiiir!"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405300,
+                "motion": 0,
+                "pos": 2
+            }],
+            "item": [
+            {
+                "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1365.png",
+                "posX": -300,
+                "posY": 0,
+                "visible": "appear"
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 405300,
+                "lipSynch": 0
+            }],
+            "nameRight": "Hayate",
+            "textRight": "(I'm in a good position! Here should be@perfect!)",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "id": 405300,
+                "motion": 100
+            }],
+            "textRight": "Let's do this, Rein!"
+        },
+        {
+            "nameLeft": "Reinforce Zwei",
+            "textLeft": "Got it, Hayate!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405300,
+                "motion": 200,
+                "mouthOpen": 1
+            }],
+            "textBg": "shout",
+            "textRight": "Reinforce Zwei... Unison In!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405300
+            }],
+            "flashEffect": "flashWhite2",
+            "item": [
+            {
+                "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1365.png",
+                "visible": "hide"
+            }],
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 2.0,
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "ef_adv_05",
+                "face": "mtn_ex_110.exp.json",
+                "id": 405302,
+                "motion": 0,
+                "pos": 1
+            }],
+            "flashEffect": "explosion",
+            "se": "7205_magic_girl"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "id": 405302,
+                "pos": 2
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101100,
+                "motion": 400,
+                "pos": 0
+            }],
+            "nameLeft": "Kaede",
+            "nameRight": "Hayate",
+            "textLeft": "[chara:101100:effect_emotion_surprise_0][se:7226_shock]Sh-she transformed?!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_120.exp.json",
+                "id": 405302,
+                "motion": 200
+            }],
+            "textRight": "[flashEffect:flashWhite2][surround:4053A06]Hah!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "shake",
+                "face": "mtn_ex_030.exp.json",
+                "id": 101100
+            }],
+            "textLeft": "Huh?! What's happening? I can't move?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405100,
+                "motion": 1,
+                "pos": 2
+            }],
+            "nameRight": "Nanoha",
+            "textRight": "Bind! Nice one, Hayate!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405100
+            },
+            {
+                "effect": "fadeout",
+                "id": 101100
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "eyeClose": 1,
+                "face": "mtn_ex_120.exp.json",
+                "id": 405302,
+                "lipSynch": 0,
+                "motion": 0,
+                "pos": 1
+            }],
+            "nameCenter": "Hayate",
+            "textCenter": "..."
+        },
+        {
+            "autoTurnLast": 0.01,
+            "item": [
+            {
+                "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1361.jpg",
+                "posX": 0,
+                "posY": 0,
+                "visible": "appear"
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "bg": "black",
+            "nameNarration": "Hayate",
+            "narration": "― Hayate ―@Resound, Horn of the End...",
+            "narrationAnchor": "bottom",
+            "narrationCoverOpacity": 110.0,
+            "narrationEffect": "in",
+            "narrationFontSize": 30.0,
+            "narrationLineMargin": 35.0,
+            "narrationLineSpace": 20.0,
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.1,
+            "narration": "― Hayate ―@Ragnarök!"
+        },
+        {
+            "flashEffect": "flashWhite2",
+            "item": [
+            {
+                "action":
+                {
+                    "sequence": [
+                    {
+                        "moveTo":
+                        {
+                            "duration": 0.05,
+                            "posX": -50,
+                            "posY": -50
+                        }
+                    },
+                    {
+                        "moveTo":
+                        {
+                            "duration": 0.05,
+                            "posX": 50,
+                            "posY": 50
+                        }
+                    },
+                    {
+                        "moveTo":
+                        {
+                            "duration": 0.05,
+                            "posX": -50,
+                            "posY": -50
+                        }
+                    },
+                    {
+                        "moveTo":
+                        {
+                            "duration": 0.05,
+                            "posX": 50,
+                            "posY": 50
+                        }
+                    },
+                    {
+                        "moveTo":
+                        {
+                            "duration": 0.05,
+                            "posX": -50,
+                            "posY": -50
+                        }
+                    },
+                    {
+                        "moveTo":
+                        {
+                            "duration": 0.05,
+                            "posX": 50,
+                            "posY": 50
+                        }
+                    },
+                    {
+                        "moveTo":
+                        {
+                            "duration": 0.05,
+                            "posX": 0,
+                            "posY": 0
+                        }
+                    }]
+                },
+                "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1361.jpg"
+            }],
+            "surround": "4053A06"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21183.jpg",
+            "chara": [
+            {
+                "cheek": 1,
+                "face": "mtn_ex_060.exp.json",
+                "id": 101100,
+                "motion": 0,
+                "pos": 1
+            }],
+            "item": [
+            {
+                "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1361.jpg",
+                "visible": "hide"
+            }],
+            "narrationEffect": "out",
+            "turnChangeIn": "whiteIn",
+            "turnChangeInTime": 1.5
+        },
+        {
+            "autoTurnLast": 0.5,
+            "jingle": "300104_magia"
+        },
+        {
+            "chara": [
+            {
+                "id": 101100,
+                "motion": 200
+            }],
+            "nameCenter": "Kaede",
+            "textBg": "shout",
+            "textCenter": "[flashEffect:flashRed2][surround:4053A07][chara:101100:effect_shake][bgEffect:shakeLarge]Ahhhhhh!",
+            "turnChangeOut": "whiteOut",
+            "turnChangeOutTime": 2.0
+        },
+        {
+            "chara": [
+            {
+                "cheek": 1,
+                "effect": "shake",
+                "eyeClose": 1,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101100
+            }],
+            "textCenter": "U-ugh..."
+        },
+        {
+            "bgm": "stop",
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101100
+            }],
+            "nameNarration": "",
+            "narration": "*Fwhump*",
+            "narrationEffect": "in",
+            "se": "3002_chara_dead"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 1,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101000,
+                "motion": 0,
+                "mouthOpen": 1,
+                "pos": 1
+            }],
+            "nameCenter": "Momoko",
+            "narrationEffect": "out",
+            "textBg": "shout",
+            "textCenter": "Kaede!"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21182.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_051.exp.json",
+                "id": 101700,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_051.exp.json",
+                "id": 100201,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "bgm": "bgm90_nanoha02",
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "nameLeft": "Mitama",
+            "nameRight": "Yachiyo",
+            "textRight": "I can't believe it... ",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "id": 100201
+            }],
+            "textRight": "I was expecting something big, but not a@magical attack of that scale!"
+        },
+        {
+            "chara": [
+            {
+                "id": 101700,
+                "motion": 100
+            }],
+            "textLeft": "And here I was thinking she was a support@specialist like little old me."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100101,
+                "motion": 301,
+                "pos": 2
+            }],
+            "nameRight": "Iroha",
+            "textRight": "In a cramped area, there's a chance she@might hit everybody..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100101
+            }],
+            "textRight": "That's why she wasn't using her magic."
+        },
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21183.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "eyeClose": 1,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101100,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_130.exp.json",
+                "id": 405302,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 101100,
+                "lipSynch": 0
+            }],
+            "nameLeft": "Kaede",
+            "nameRight": "Hayate",
+            "textLeft": "...",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "id": 405302
+            }],
+            "textRight": "Sorry..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_120.exp.json",
+                "id": 405302,
+                "motion": 100
+            }],
+            "textRight": "I feel bad taking you out 2-on-1 like this,@but we've got to win!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101100
+            },
+            {
+                "effect": "fadeout",
+                "id": 405302
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101000,
+                "motion": 300,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405100,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameLeft": "Momoko",
+            "nameRight": "Nanoha",
+            "textLeft": "Kaede's down too! Man, this is really bad!"
+        },
+        {
+            "autoTurnLast": 0.1,
+            "chara": [
+            {
+                "id": 405100,
+                "motion": 1
+            }],
+            "textRight": "[flashEffect:flashWhite2][surround:4051A02]Incoming! Axel Shooter!"
+        },
+        {
+            "flashEffect": "flashWhite2",
+            "surround": "4051A02"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "shake",
+                "face": "mtn_ex_050.exp.json",
+                "id": 101000,
+                "motion": 400,
+                "posX": -80
+            }],
+            "textLeft": "[flashEffect:flashRed2][surround:4051A04][chara:101000:effect_shake][bgEffect:shakeLarge]Whoa, whoa!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "id": 405100,
+                "pos": 1
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_120.exp.json",
+                "id": 405302,
+                "motion": 200,
+                "pos": 2
+            }],
+            "nameRight": "Hayate",
+            "textRight": "[flashEffect:flashWhite2][surround:4053A06]Balmung!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_060.exp.json",
+                "id": 101000,
+                "motion": 0
+            }],
+            "textLeft": "[flashEffect:flashRed2][surround:4053A07][chara:101000:effect_shake][bgEffect:shakeLarge]You're attacking, too?!"
+        },
+        {
+            "chara": [
+            {
+                "id": 405100,
+                "motion": 100
+            }],
+            "nameCenter": "Nanoha",
+            "textCenter": "I won't let you get close!"
+        },
+        {
+            "chara": [
+            {
+                "id": 405302,
+                "motion": 0
+            }],
+            "textRight": "Push through!"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "turnChangeIn": "fadeIn"
+        }]
+    },
+    "version": 3
+}

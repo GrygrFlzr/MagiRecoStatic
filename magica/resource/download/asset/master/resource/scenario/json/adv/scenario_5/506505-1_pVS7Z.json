@@ -1,0 +1,511 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Chapter 5@\"From the Depths of Darkness\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "France - Orléans Outskirts",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "nameRight": "Qube",
+                "textRight": "Good morning, Darc. Can you hear me?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "That voice... Monsieur Angel?! [chara:402101:lipSynch_0][wait:1.0][chara:402101:motion_100][chara:402101:cheek_1][chara:402101:face_mtn_ex_011.exp.json][chara:402101:lipSynch_1]Good morning@to you as well!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "What's wrong? The sun isn't even up yet."
+            },
+            {
+                "textRight": "It isn't up at any time of the day. Anyway,@I have important news."
+            },
+            {
+                "textRight": "I found a massive temporal distortion."
+            },
+            {
+                "textRight": "Far different than what we've seen so far."
+            },
+            {
+                "textRight": "I believe you may be able to recover a@very significant Fragment of True History."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "It's located in La Pucelle's hometown."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Domrémy?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "It's worth heading there, then.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Our first step towards a counterstrike!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Yes!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "nameLeft": "Gilles",
+                "textLeft": "Is that so? Then let me accompany you, along@with the French army!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "No, we can't leave Orléans without a way to@defend itself."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "Let us handle this by ourselves."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "We'll have Qube keep watch to make sure the@enemy doesn't make any advances."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "If anything does happen, we'll rush to your@aid at once!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "La Hire",
+                "textLeft": "We've got this place covered. You do your best@out there, Melissa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "I will, Father!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "The gate to Domrémy can be found inside the@Royal Fortress of Chinon.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Head for the Royal Fortress and take the@gate."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "We shall do exactly that, thank you."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "The Royal Fortress of Chinon...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "Chinon is the castle where I first laid my@eyes on Darc."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Oh, the memories."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Are you ready to leave?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Y-yes!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Our fight to bring daylight back to France@begins today!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "Let's do this!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "Yes! We shall!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "*Giggle*"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

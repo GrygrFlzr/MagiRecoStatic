@@ -1,0 +1,598 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20351.jpg",
+                "bgm": "bgm03_story21",
+                "nameNarration": "Iroha",
+                "narration": "The festival was full of bizarre@stalls! We decided to go visit...",
+                "narrationBg": "bg_adv_20351.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100301
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "narrationEffect": "out",
+                "textCenter": "*Sniff* *Sniff*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Something over there smells AMAZING!"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "Since we couldn't make up our minds,@we decided to let Tsuruno's nose@lead the way to more stalls.",
+                "narrationBg": "bg_adv_20351.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "And what we found was..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "nameCenter": "Tsuruno's Father",
+                "narrationEffect": "out",
+                "textCenter": "Welcome, welcome!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Wait, that's...!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "[chara:100301:effect_emotion_surprise_0][se:7226_shock]D-Dad?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Heeey!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Hey, look at the sign out front!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Chinese Food Cart Banbanzai!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "Whaaat! Why are we doing a food cart?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno's Father",
+                "textLeft": "A pal of mine called in a favor."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I didn't hear anything about this!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "That's because we only just talked about it@on the day you left for your trip."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "I had to really rush to get all the stock@together. It sure was a pain!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "Ah. Wait, so that's why!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Huh? What are you talking about?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901
+                    }
+                ],
+                "textLeft": "Tsuruno got lured over by the smell. It's@because it's so familiar to her."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100301,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "[chara:100301:effect_emotion_sad_0][se:7224_fall_into]Gah! That makes sense."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno's Father",
+                "textLeft": "I thought running a food stall might make@for some good PR for the restaurant."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "But now that I'm here and doing it for@real, it's way tougher than I thought..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Well, yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "Ah well. I'll pull through somehow. You go@have fun with your pals, Tsuruno."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "lipSynch": 1,
+                        "motion": 101
+                    }
+                ],
+                "textRight": "No, I wanna help out! I can't just leave ya@now that I know you're in trouble!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800900
+                    }
+                ],
+                "textLeft": "Aw, come on, Tsuruno..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "When a dad's working his butt off for his@daughter's sake..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "That's when a daughter's gotta pitch in!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Tsuruno..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100301,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Yeah, so...sorry, guys. He needs me here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "I'll help out, too!"
+            },
+            {
+                "bgm": "bgm03_story19",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "[chara:100301:effect_emotion_surprise_0][se:7226_shock]Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 100301,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Me...too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "I might be able to get some customers over."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "I already work at Banbanzai! I'm great@at helpin' out!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101001,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "I'll pitch in too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "I've...got other plans."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Renaaa..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100901,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "All right, fine! Geeze!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "textCenter": "Aw, guys..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "tear": 1
+                    }
+                ],
+                "textCenter": "Weeeh... Thank you so muuuch!"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "That's how we all ended up working at @Banbanzai's food stall!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "I think our time there made for some@wonderful memories, too!"
+            },
+            {
+                "narration": "Though...it did mean we weren't able to@enjoy the rest of the festival.@I guess I'm a little sad about that..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/51032_badend.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

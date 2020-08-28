@@ -1,0 +1,1305 @@
+{
+    "skipTransitionList": [
+        {
+            "from": "group_1",
+            "to": "group_4"
+        },
+        {
+            "canSkip": false,
+            "from": "group_4"
+        }
+    ],
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20252.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "Seika, the girl who Leila and Mito@were looking for, finally arrived!",
+                "narrationBg": "bg_adv_20252.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "And someone was with her..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Leila",
+                "nameRight": "Seika",
+                "narrationEffect": "out",
+                "textRight": "I'm over here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Hm? Who's that?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401
+                    }
+                ],
+                "textRight": "Oh, she's..."
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301901,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ayaka",
+                "textRight": "Whoa, this is a huge crowd!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textLeft": "This is Ayaka Mariko!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "[chara:301901:effect_emotion_joy_0][se:7222_happy]I'm not sure why all these people are here,@but it's sure gonna be worth their while!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "Could she be..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301501,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mito",
+                "textLeft": "...your friend?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "Well, I told my mom she's my friend to@keep things simple."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "She's actually...my mentor!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "Your mentor...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yeah, my comedy mentor."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mito",
+                "textLeft": "Comedy..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "[chara:301301:effect_emotion_surprise_0][se:7226_shock]Oh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Leila, could you explain?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Actually, this might be, um..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100401,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Please...please tell us what goingon means!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301901,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ayaka",
+                "textRight": "[chara:301901:effect_emotion_surprise_0][se:7226_shock]Aha, you've heard about goingon?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "[chara:301401:effect_emotion_surprise_0][se:7226_shock]How did you know about that?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I heard it...last night, at this beach!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Oh, now I understand..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 301401,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301901,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ayaka",
+                "textRight": "You must've seen it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901
+                    }
+                ],
+                "textRight": "That's kinda embarrassing... It was still a@work in progress."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textLeft": "Let us show it to you, properly!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "B-but...there are so many people here..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "You gotta get used to performing for a big@crowd, ya know?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901
+                    }
+                ],
+                "textRight": "Otherwise you'll never improve!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Ah, okay! I'm nervous...but I'll try my@best!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "You're going to show us something?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textLeft": "I really only wanted to show Leila and@Mito..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Nah, we're lucky to have so many people to@workshop this sketch on."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301901
+                    }
+                ],
+                "textRight": "The jokes can only get better once we see@how our audience reacts to 'em!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "You're right! Let's give it a try!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Jokes...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301501,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mito",
+                "textLeft": "You don't mean...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301301,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Yeah... It's Seika's new passion."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301901,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ayaka",
+                "textCenter": "All right, everyone! Check us out!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "",
+                "textLeft": "Hey, it's finally starting!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800600
+                    }
+                ],
+                "textRight": "Tell us what goingon is!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301901,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Seika",
+                "nameRight": "Ayaka",
+                "textRight": "Presenting the sketch, \"Goingon\"..."
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "So the other day, I saw someone running@towards me super fast."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Oh, like someone who was late for an@appointment?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Exactly. They had a look of desperation in@their eyes, and they rushed towards me..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "They were going, going, going...GONE!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Going...gone? Like, they ran past you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401
+                    }
+                ],
+                "textRight": "Then I saw another person, running from a@different direction!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401
+                    }
+                ],
+                "textLeft": "They must've been running late, too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "This time, it was from the opposite side.@They were going, going, going...GONE!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Another one?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "And someone else, too! They were@going, going, going...GONE!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401
+                    }
+                ],
+                "textLeft": "Going, going, going...gone..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Another one, going, going, going...gone!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401
+                    }
+                ],
+                "textLeft": "Going, going, going...gone..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "And again! Going... Gone!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:301401:effect_emotion_surprise_0][se:7226_shock]That one was faster!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Going-gone! Hey, hey!@Going-gone! Hey, hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You're getting into a rhythm!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Going-gone! Hey, hey!@Going-gone! Hey, hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "This is kind of fun..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Going-gone! Hey, hey!@Going-gone! Hey, hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[chara:301401:effect_emotion_joy_0][se:7222_happy]Going-gone! Hey, hey!@Going-gone! Hey, hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Going-gone! Hey, hey!@Going-gone! Hey, hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Going-gone! Hey, hey!@Going-gone! Hey, hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Goingon!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Goingon!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Goingon-gon-gon-gon-gooone!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Say it with us, everyone!@Goingon!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "Going...gon..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Goingon!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Goingon..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Goingon!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Seika",
+                "textBg": "shout",
+                "textLeft": "Goingon!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Goingon-gon-gon-gon-gooone!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301901,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[bgEffect:shakeSmall]Goingooone!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301901,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Thank you and good night, everybody!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Leila",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301901,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Seika",
+                "nameRight": "Ayaka",
+                "textRight": "Whew!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301901
+                    }
+                ],
+                "textRight": "There's so much more energy when we perform@with an audience!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "You're so right!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 301401,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Seika",
+                "textRight": "What did you think, Leila?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301
+                    }
+                ],
+                "nameLeft": "Leila",
+                "textLeft": "What did I think...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401
+                    }
+                ],
+                "textRight": "Yeah. This sketch was new."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301401,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "It's our first rhythm-based comedy sketch!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301901,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ayaka",
+                "textRight": "We took the meaning of the words and built@them into a tempo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Comedy...sketch..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Leila",
+                "textRight": "Well, umm..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301
+                    }
+                ],
+                "textRight": "It's kind of like stand-up comedy...I@guess..."
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "At that moment, I looked over at Sana.",
+                "narrationBg": "bg_adv_20252.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301301
+                    }
+                ],
+                "narration": "She was..."
+            },
+            {
+                "narrationEffect": "out",
+                "select": [
+                    {
+                        "alternativeId": 12,
+                        "group": "group_2",
+                        "textSelect": "Staring dumbfoundedly"
+                    },
+                    {
+                        "alternativeId": 13,
+                        "group": "group_3",
+                        "textSelect": "Clapping awkwardly"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20252.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "lipSynch": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "Sana was at a loss for words,@staring with a blank look on her face.",
+                "narrationBg": "bg_adv_20252.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "Then, at that moment..."
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20252.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "Ah...ahaha...ha...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "Sana was clapping awkwardly with@a tight smile on her face.",
+                "narrationBg": "bg_adv_20252.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "Then, at that moment..."
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_4": [
+            {
+                "bg": "bg_adv_20252.jpg",
+                "bgm": "bgm03_story20",
+                "nameNarration": "Iroha",
+                "narration": "At that moment, I looked over at Sana.",
+                "narrationBg": "bg_adv_20252.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "She was..."
+            },
+            {
+                "narrationEffect": "out",
+                "select": [
+                    {
+                        "alternativeId": 12,
+                        "group": "group_2",
+                        "textSelect": "Staring dumbfoundedly"
+                    },
+                    {
+                        "alternativeId": 13,
+                        "group": "group_3",
+                        "textSelect": "Clapping awkwardly"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}

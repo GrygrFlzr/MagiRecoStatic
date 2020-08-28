@@ -1,0 +1,1145 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20121.jpg",
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "This girl will repeat history and its@tragedies until her soul itself is lost...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "It's just a matter of time, now."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "ef_adv_08",
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "motion": 300,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Here, I shall let you make this final choice@for yourself without compelling you.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Choose of your own volition."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "That will make the despair all the more@potent."
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 400
+                    }
+                ],
+                "flashEffect": "explosion",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_ui_phone_magic.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "promist"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "",
+                "narration": "← Return to Start      Confirm History →",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "It's time to choose.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Confirm history as it stands, and return to@the time you came from?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Or wipe the Prophecy clean, and perform yet@another encore for this tragedy?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "If she chooses to confirm this history, your@defeat will be sealed as well."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "*Chuckle*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "And yet, you are not the one who may decide@the future."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Accept La Pucelle's death? Or cycle through@time in vain?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Those are your only options."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101503,
+                        "motion": 200,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "There has to be another option!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Oh? Like what?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Um, like..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textRight": "Turning back time, and then..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101503
+                    }
+                ],
+                "textRight": "Finding a way to save Darc from her fate..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "There is no way to save her."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    },
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "The contradictions in time have already been@established at this point."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Without recovering the True History..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "The world will stand just as it does now,@irreparably broken, forever."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "I can't stand this."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "This means there was never a choice! Our@only shot at victory is a pre-ordained fate!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "So the only way to restore the future is to@sacrifice Darc..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 200,
+                        "tear": 1
+                    }
+                ],
+                "textRight": "No... I can't! There's no way I can make@that choice!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Then please, go ahead and turn back time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "If you can't bring yourself to choose..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "There's always the option to extend your@time to decide by turning back the clock."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "You have that privilege..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "← Return to Start      Confirm History →",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "motion": 300,
+                        "pos": 1,
+                        "soulGem": 0,
+                        "tear": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "(I could never... I could never go on ahead@if it meant sacrificing Darc!)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "(So my only choice is to turn back time!)"
+            },
+            {
+                "autoTurnLast": 1.3,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "ef_adv_08",
+                        "eyeClose": 1,
+                        "id": 101503
+                    }
+                ],
+                "flashEffect": "explosion",
+                "textClear": 1,
+                "turnEffect": "promist"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "\"It's all right, Ui.\"",
+                "narrationBg": "bg_adv_20121.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "nameRight": "Ui",
+                "narrationEffect": "out",
+                "textRight": "Huh?"
+            },
+            {
+                "bgm": "bgm05_event05",
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Elisa."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Darc?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "You have always fought tooth and nail to earn@the future you chose for yourself."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "I deeply admire that about you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "You admire...me?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "You refused the hand you were dealt with all@of your heart, Elisa."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "I think that is a noble, precious thing."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "And you, Ui..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 200,
+                        "pos": 2,
+                        "soulGem": 0,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Y-yes?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "You and your sister taught me something truly@important."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 100,
+                        "tear": 1
+                    }
+                ],
+                "textRight": "W-we did? What...?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_iroha_ui1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "― Darc ―@So long as there is hope to be found in the@future, there will be light to guide us.",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 15,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0,
+                        "tear": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "So here, of my own volition...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "I choose to accept the fate I've been given."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20121.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402100,
+                        "motion": 1,
+                        "posX": 100
+                    },
+                    {
+                        "id": 101503,
+                        "posX": -100
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_ui_phone_magic.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Grab*",
+                "se": "4141_jumping"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 101503,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Ui",
+                "narrationEffect": "out",
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Darc took hold of my hand...?)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "← Return to Start      Confirm History →",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 402600,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textCenter": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]...?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(She's trying to confirm this history?!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "Darc, no!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Minou",
+                "textCenter": "She's trying to sacrifice herself?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "It won't be that easy![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:0002_jump02]"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "shake",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "lipSynch": 0,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Hah![flashEffect:flashWhite2]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402400,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Augh?[flashEffect:flashRed2][bgEffect:shakeLarge][chara:202400:effect_shake][surround:4024A02]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(She repelled my magic?!)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textBg": "shout",
+                "textCenter": "Stop it! Stop it now, Darc!"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0,
+                        "posX": 130
+                    },
+                    {
+                        "cheek": 2,
+                        "effect": "shake",
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "motion": 200,
+                        "pos": 2,
+                        "posX": -130,
+                        "soulGem": 0,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "No! Darc, please don't!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "tear": 1
+                    },
+                    {
+                        "id": 402100
+                    }
+                ],
+                "flashEffect": "explosion",
+                "textRight": "(Oh no... My finger!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "I'm sorry, Ui."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "← Return to Start      [textRed:Confirm History →]",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "(Command Accepted)",
+                "surround": "7010_bell"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "promist"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "explosion",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textCenter": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0,
+                        "tear": 1
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "No!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Darc!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "flashEffect": "explosion",
+                "nameCenter": "Darc",
+                "textCenter": "Farewell, Ui."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100
+                    }
+                ],
+                "textCenter": "Please have a wonderful future."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 2
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,58 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_47105.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "nameRight": "Iroha",
+                "textRight": "It looks like the girl is trapped in this@Labyrinth.",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "We must rescue her at once!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Naturally."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,752 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20231.jpg",
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "Act 1",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "Chapter 1@A Dream of France",
+                "narrationBg": "bg_adv_narration.jpg",
+                "turnEffect": "stop"
+            },
+            {
+                "bg": "bg_adv_20073.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textLeft": "БЯЯяяЯяЯЯ!!!!"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 760000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "\"Ahhh!!!\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "\"Captain, we won't last much longer!\""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830300
+                    }
+                ],
+                "nameCenter": "",
+                "narrationEffect": "out",
+                "textCenter": "We can't handle them one-on-one!@Engage them in teams of 3!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "in",
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "se": "3211_fog"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760090,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "ББЯЯЯЯЯЯЯ！@БББЯЯЯяяЯ!!!!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 760000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 760090
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "Another one?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830500,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeSmall]БЯЯяяЯяЯЯ!!!!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830500,
+                        "motion": 0
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "se": "3001_chara_damage",
+                "textRight": "A-arrrghhh!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830500
+                    }
+                ],
+                "se": "3102_enemy_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Hey, hang in there! Damn! We're not getting@anywhere in this fight."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830300
+                    }
+                ],
+                "textRight": "Retreat! We'll rendezvous in the south."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 760000
+                    }
+                ]
+            },
+            {
+                "nameLeft": "???",
+                "textLeft": "Aww, leaving so soon?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "But I've barely begun toying with you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830300,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "You're that English Witch, aren't you?!@Corbeau!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "Addressing me as a Witch once again..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "I told you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][surround:4025A02]I'm a Magical Girl!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830300,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "[flashEffect:flashRed2][surround:4025A03][chara:830300:effect_shake][bgEffect:shakeLarge]GrrraaaAAAGH!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][surround:4025A05]...Die."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 830300
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "surround": "4025A07"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    }
+                ],
+                "se": "3102_enemy_dead"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100104,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "Huh?",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100104
+                    }
+                ],
+                "textCenter": "What's that noise? It sounds like a@battlefield..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100104,
+                        "motion": 301
+                    }
+                ],
+                "textCenter": "Something strange is going on!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100104,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "in",
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "se": "1004_adv_word"
+            },
+            {
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Iroha",
+                "textBg": "shout",
+                "textLeft": "ББЯЯЯЯЯЯЯ――!!!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100104,
+                        "motion": 401
+                    }
+                ],
+                "textRight": "[chara:100104:lipSynch_0][wait:0.8][chara:100104:motion_400][chara:100104:lipSynch_1]Aaagh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100104,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "???",
+                "textRight": "[flashEffect:flashWhite2][se:4050_landing_jump]Iroha!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 760000
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "se": "6256_hit_spike_02_v",
+                "textBg": "shout",
+                "textLeft": "БЯЯяяя――?????!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 760000
+                    }
+                ],
+                "se": "3102_enemy_dead"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "out"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson"
+                    }
+                ],
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100104,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Are you all right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100104,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Yachiyo... Thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100104
+                    }
+                ],
+                "textLeft": "Where are we? We should be in our beds@at home."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I don't know what's happening either.@But we can talk later."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "БББЯЯяяяяЯЯ――!!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "That living armor seems like a Familiar.@Hurry and transform!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100104,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "G-got it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textRight": "Here goes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "Well, well...isn't this interesting?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Who would've thought I'd meet new@Magical Girls here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Wh-who are you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Are you allied with that holier-than-thou@French girl?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textRight": "Holier than what?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "You don't know her? Well, no matter."
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "in",
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "se": "3211_fog",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760090,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "(She's a Magical Girl, but she summoned@Familiars?!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402500,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "I haven't had my fill of destruction yet."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "So, now..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "You will crumble before me!"
+            },
+            {
+                "autoTurnLast": 2,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

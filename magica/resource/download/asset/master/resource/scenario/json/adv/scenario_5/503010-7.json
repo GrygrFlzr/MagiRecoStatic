@@ -1,0 +1,261 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20261.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200151,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 200151,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "textLeft": "Wow! The ground's covered in pine cones!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Homura",
+                "textRight": "Yeah! You get your pick."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 230000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200151
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830800,
+                        "pos": 1,
+                        "posX": 0,
+                        "posY": 120
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "[se:7101_catvoice]Meow!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200151,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "Oh! [chara:200151:lipSynch_0][wait:0.8][chara:200151:cheek_0][chara:200151:face_mtn_ex_011.exp.json][chara:200151:lipSynch_1]There's a cat here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200151,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Do you think this is Kei?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "It could be? Should we call it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200151,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[chara:200151:effect_emotion_joy_0][se:7222_happy]Kei♪ Keeeiii♪"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 230000,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Mew, mew?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 230000,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830800,
+                        "pos": 0,
+                        "posX": 40,
+                        "posY": 120
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "[se:7101_catvoice]Meow!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Homura",
+                "textRight": "It's looking over at us... It doesn't seem to@be angry or anything."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:August 11]@[textBlack:The cat took a few steps and looked back at]@[textBlack:us, then took a few more and did it again.]@[textBlack:Right as we thought it might go away,]@[textBlack:it came rushing back, mewing and circling,]@[textBlack:as though asking us to follow.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 830800,
+                        "pos": 1,
+                        "posX": 0,
+                        "posY": 120
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810100
+                    }
+                ],
+                "nameCenter": "",
+                "narrationEffect": "out",
+                "textCenter": "[se:7101_catvoice]Meow! Meow!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:When we stepped closer, it stood up straight]@[textBlack:and waved its tail, clearly satisfied.]@[textBlack:It kept this up as it walked, like a guide.]@[textBlack:The cat led us deep into the forest,]@[textBlack:occasionally glancing back to check on us.]@[textBlack:It really felt as though it was leading us.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,1232 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "bgm": "bgm03_movie12",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 830300
+                    },
+                    {
+                        "effect": "shake",
+                        "id": 830400
+                    },
+                    {
+                        "effect": "shake",
+                        "id": 830500
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "\"Santé! Cheers!\"",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Whoa! Were this many people always here?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Many soldiers have returned to us in droves,@spurred on by His Majesty's arrival!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "You two haven't taken your eyes off of Darc@in a while. Are you monitoring her?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "That's right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "We're making sure she doesn't touch a drop@of wine, just in case!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "[chara:402601:effect_emotion_sad_0][se:7224_fall_into]So you ARE monitoring her."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    },
+                    {
+                        "id": 402301,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "nameRight": "La Hire",
+                "textRight": "Oh, Melissa!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textRight": "They've opened a bottle of fine wine. Would@you and La Pucelle care for some?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "No."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402301,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "No, no, no!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Wh...[chara:402101:lipSynch_0][wait:1][chara:402101:lipSynch_1]what?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "I'm not sure what's going on here..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "It feels like something really terrible might@happen if she drinks it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Oh well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We should focus on more important things,@like getting ourselves dessert."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Okay!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801200
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "What would you like?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Hmmm..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "Is there anything there that you recognize@from your own time?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Oh! Cheesecake! That'll do perfectly!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "[chara:402601:effect_emotion_surprise_0][se:7226_shock]Why would you choose THAT of all things?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    },
+                    {
+                        "id": 101503,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Do you have a nice fluffy, delicious one?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801200
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "We do, mademoiselle."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801200
+                    }
+                ],
+                "textLeft": "And here, help yourself to some wine!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Um, I don't think I'm allowed to drink..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Do you have any grape juice, perhaps? From@before it was fermented into wine?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200
+                    }
+                ],
+                "textLeft": "Oh, that! Here you go."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Thank you so much!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830200,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 2.4,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "Oh! Ui!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 402101,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "You sure were surrounded by a lot of @important people, huh Darc?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "She certainly was. King Charles..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "And the admiral of France's army, Baron@Gilles de Rais!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "I'm only a simple country girl, so it's quite@nerve-wracking to stand next to them."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "I'm sure your throat is parched from all that.@I'll pour you some grape juice."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "A-are you sure?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Here, take it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Well, if you insist..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I wonder... [wait:1.2]Why do I feel so uneasy about@this?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Do you have any grape juice, perhaps? From@before it was fermented into wine?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "Oh, that! Here you go."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Thank you so much!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event09",
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Elisa! That's wine!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I'm the only one who was served juice@instead!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101503
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "[chara:402201:effect_emotion_surprise_0][se:7226_shock]WHAT?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Darc, did you drink any of it?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Er... No, not yet, but..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Did it touch your lips?!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "Yes."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "We were too late!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Are you serious? Is she that much of a@lightweight?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "No, I'm..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "pos": 1,
+                        "posX": 110
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Lurch*",
+                "narrationBg": "bg_adv_20103.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "nameCenter": "Darc",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textCenter": "...nooooooooot..."
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Grab*",
+                "narrationBg": "bg_adv_20103.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 400
+                    },
+                    {
+                        "id": 402101,
+                        "motion": 200
+                    }
+                ],
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textRight": "[chara:402601:effect_emotion_surprise_0][se:7226_shock]H-hey, now! What in the...?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "She won't let go of her!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 300
+                    },
+                    {
+                        "id": 101503,
+                        "motion": 0,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "Oh no... So it begins."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Her rampant hugging..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Rampant...hugging?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Oh, Ui! Do you want a hug, toooooo?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "[chara:101503:effect_emotion_surprise_0][se:7226_shock]Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Here you gooo, Uiiiiii!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "pos": 1,
+                        "posX": 125
+                    },
+                    {
+                        "cheek": 2,
+                        "id": 101503
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Zoom*",
+                "narrationBg": "bg_adv_20103.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "Wh-wh-whaaat?!"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101503,
+                        "motion": 400,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Nooo, stop! Darc, stop it!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101503
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Liz & Melissa",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

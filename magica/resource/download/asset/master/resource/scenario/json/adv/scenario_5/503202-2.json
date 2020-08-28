@@ -1,0 +1,551 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20301.jpg",
+                "nameNarration": "Iroha",
+                "narration": "Tsuruno had been acting suspiciously@since morning, anyone could tell.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "But it sounded like Sana might@have an idea why that was."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "...A surprise tour?",
+                "narrationBg": "bg_adv_20301.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "nameRight": "Sana",
+                "narrationEffect": "out",
+                "textRight": "Yeah."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "She wrote that down?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Yes, on a sticky note."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100402,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Sana",
+                "narration": "I slept next to her last night,@and when I woke up this morning...",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 100402,
+                        "motion": 300,
+                        "mouthOpen": 1,
+                        "tear": 1
+                    }
+                ],
+                "nameCenter": "Sana",
+                "narrationEffect": "out",
+                "textCenter": "*Yawn*",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "id": 100402,
+                        "motion": 0,
+                        "mouthOpen": 0,
+                        "tear": 0
+                    }
+                ],
+                "textCenter": "*Stretch*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100402,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Hm?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100402,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Why are sticky notes scattered everywhere?)"
+            },
+            {
+                "nameNarration": "Sana",
+                "narration": "Tsuruno had dropped right into bed and@fallen asleep, sending sticky notes flying.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "narration": "I figured I couldn't just leave them@so I tried to tidy up, and then..."
+            },
+            {
+                "narration": "I noticed something written on one.@Next to today's date, it said..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100402,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "\"Surprise Tour Project\".",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "What else was written on it?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Oh, well...right then is when Tsuruno@woke up."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textRight": "I put it next to her pillow where I found it@as fast as I could!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But it looked like she'd scribbled a bunch@of notes on it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "You talkin' about...THIS?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "What the...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100401,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Yeah! That's it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "That's Tsuruno's handwriting, all right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "Felicia! Where did you find that?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "I dunno, she just left it where she was@sittin'."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "She must've been so focused on her act to@get out of here that she forgot it."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "That's Tsuruno for you, forgetting something@vital like that."
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Let's read it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "But the note said it's a surprise!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yeah...I guess..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Ugh! I knooow we shouldn't! Buuut!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501
+                    }
+                ],
+                "textRight": "Now I REALLY wanna know what it says!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Well, now that I've caught a glimpse, I do@want to check it out, too..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "What?! [chara:100101:lipSynch_0][wait:0.8][chara:100101:cheek_0][chara:100101:face_mtn_ex_030.exp.json][chara:100101:lipSynch_1]Yachiyo, come on!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "I...actually want to read it too..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]Even you, Sana?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Come on, let's skim it! Just a quick look!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100101,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I guess I do kind of want to take a peek,@too..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I know, right?! So! We all agree!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Then let's take a look."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Heck yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Um..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "lipSynch": 1,
+                        "motion": 401
+                    }
+                ],
+                "textLeft": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]Oh no!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

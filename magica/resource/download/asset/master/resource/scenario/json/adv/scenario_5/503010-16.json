@@ -1,0 +1,773 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20303.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200152,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200551,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200452,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 200152,
+                        "motion": 100
+                    },
+                    {
+                        "id": 200551,
+                        "motion": 100
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200452
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/black.jpg",
+                        "setVisible": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ]
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Night, August 11]@[textBlack:We came back to the inn and found futons]@[textBlack:had been laid out for us. I was grateful.]@[textBlack:The bedding was soft and downy, with a smell]@[textBlack:I didn't recognize. After I got into bed,]@[textBlack:I kept talking with Madoka and the others,]@[textBlack:until sleep stole my thoughts away.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 4,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ]
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Night, August 12]@[textBlack:I don't know how much time had passed.]@[textBlack:Perhaps it was a dream. It should have been]@[textBlack:my dream, but I knew it was someone else's.]@[textBlack:The smell of rain. The smell of plants.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20382.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "nameNarration": "???",
+                "narration": "Unable to convey the gloom of these showers@in text, I sent 3 umbrella emojis in a row.",
+                "narrationBg": "bg_adv_20382.jpg",
+                "narrationEffect": "in",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0,
+                "surround": "7004_rain",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 2
+            },
+            {
+                "narration": "Yusa Yumeno is already at the gate, holding@an umbrella in one hand and two popsicles in@the other. She's tall, so she stands out."
+            },
+            {
+                "narration": "It's hot and humid today, but why would she@go for popsicles on a rainy day like this?@I've loved them since I was a little kid.@She gets one for me sometimes, even now."
+            },
+            {
+                "narration": "Maybe to her I haven't changed since@then, much like she hasn't."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "narration": "I take what she offers without thanks,@then I start complaining to her."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "nameCenter": "???",
+                "narrationEffect": "out",
+                "textCenter": "Ugh, geeze."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "I told you you don't have to come on rainy@days."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "Actually, you don't have to come on sunny @days either. You live pretty far away."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "You don't have to come see me every day."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "It's hard on you, isn't it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 802200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "???",
+                "narration": "Though I was the one who said it, even I@think it was a crappy way to put it.",
+                "narrationBg": "bg_adv_20382.jpg",
+                "narrationEffect": "in",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "nameRight": "Yusa",
+                "narrationEffect": "out",
+                "textRight": "If I don't come say hi then I don't get@to see you at all."
+            },
+            {
+                "nameNarration": "???",
+                "narration": "Standing so close, I could smell that floral@scent she always had. The same scent, ever@since we were kids. Even on rainy days.@Why's she so determined to stay close to me?@It doesn't make any sense at all.",
+                "narrationBg": "bg_adv_20382.jpg",
+                "narrationEffect": "in",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "nameLeft": "???",
+                "narrationEffect": "out",
+                "textLeft": "We're not kids anymore, you know."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "It's not even like your high school is that@close to here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "And what about your old lady?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Didn't she tell you not to come see me@anymore?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "I'm really sorry if my mom was rude to you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "She did tell me...I should pick my friends@more carefully."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "But it's not like I just decided on who to be@friends with without being picky, y'know?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Aw, please. To that old bag..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "It doesn't matter where you go, or what you@do, you'll always be her golden girl."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Apple of everyone's eye."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "You don't need to come saddle yourself with@a loser like me every day."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "Let's say that WAS how she really felt@about me, then."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "Why does that mean I have to live exactly@how she expects?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "I'm way more cowardly and cruel than she'd@ever expect."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "I mean, I have no one."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "That's not you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "There's no way that's who you really are."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "You're just, how do you say...misinterpreting@yourself?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "I'm only my real self when I come to see@you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "But in the end, it's not you who decides@who your \"real self\" is, is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Isn't it the people around you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "The whole point of being named is so people@who aren't you can address you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "I don't need any name other than the one you@use for me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "But we don't have the freedom to decide@that."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "We aren't responsible for making our selves."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "We're just made up of a bunch of stuff that@other people decided about us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "That's a rather cerebral way of looking at@it..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "True. What I mean is, it's not like your@identity is even tied to your body."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Like, if my body got destroyed..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Those who knew me would keep on@revising my identity in their memories."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "It's the same when you're alive, too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "It's the perspectives of the people around@us that make up our identities."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "Other people can think what they want."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "I'm just happy if you know who I am. That's@enough for me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "Don't you feel that way?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Ugh, geeze."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "From my perspective... I'm just an@ordinary schoolgirl."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "I'm not as cute as you, or as rich."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "I'll never be as smart as you or as popular."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "And I'm not putting myself down, okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "I am just a mediocre person at best."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Everyone except you knows it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "What does that have to do with what I asked?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "...[wait:1.0][chara:800100:lipSynch_1]Hey."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "I'm thinking of giving up on the college@entrance exams."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "I know I talked about going to a school in@the same town as you... Sorry."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "What? Are you serious? Why?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Well, you know how my grandma is...and@there's the stuff with my dad's job."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "I gotta pick up the slack for them."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "So I need to get a job too."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "Then I'll go to a college near here..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Don't make this harder."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "You've gotta go to the university you@decided on."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "My life and yours are completely separate@things."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Yours is like a flower, blooming tall...and@mine is like a weed."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "The two of us are headed in completely@different directions."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "I barely even eat popsicles anymore, you@know?"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/black.jpg",
+                        "setVisible": 0
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

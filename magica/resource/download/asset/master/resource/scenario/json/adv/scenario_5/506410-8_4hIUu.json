@@ -1,0 +1,750 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20472.jpg",
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 1,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textLeft": "*Pant* *Wheeze* We finally caught up to@you...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101901,
+                        "motion": 100,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 101801,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "You're really fast, you know!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "Hey! That thing you're holding..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "Is that the Coral Necklace?!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": 50
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "Shrine Maiden",
+                "nameRight": "Tsukasa",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Hey... Why did you do this?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "textCenter": "We'll go with you to apologize to the elder."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "I'm sure he'll forgive you if we go now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "I refuse to apologize!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "The festival and ritual should be canceled!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Huh? Didn't you want to fulfill your duty as@a shrine maiden in the ceremony?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "textCenter": "Even the townspeople said—"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "I don't care about that!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "I don't care what anyone else thinks!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "The elder, the townspeople... Even you girls."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Everyone is ignoring how I feel! Why should@I care?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We didn't mean to..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "Then what do you want?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "It's not like you can be substitute shrine@maidens!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "You're not from here, so stay out of it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "I know it's a treasured object."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800300
+                    }
+                ],
+                "textLeft": "We shouldn't have kept it around for so@long!"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 800300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Ngh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 400
+                    },
+                    {
+                        "id": 101801,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Wha?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "in"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "nameNarration": "",
+                "narration": "*Smash*",
+                "narrationBg": ""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "Th-the necklace!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "*Sob* "
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "lipSynch": 0,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textRight": "Tsukuyo..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "Tsukasa..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "textRight": "What are a shrine maiden's duties, anyway?",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Why did she seem like she had no other@choice?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Was she overwhelmed by her responsibilities?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I didn't think this would happen."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "We got too involved, and forgot our place."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(We just wanted to show the Magius the@festival and ceremony...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(We just wanted to entertain them so we@could get that reward...)"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "bg": "bg_adv_20342.jpg",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100,
+                        "live2dName": "live2d_0",
+                        "motion": 0,
+                        "pos": 0,
+                        "tear": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800100,
+                        "live2dName": "live2d_1",
+                        "motion": 0,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100,
+                        "live2dName": "live2d_1"
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "",
+                "textRight": "We're...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100,
+                        "live2dName": "live2d_0"
+                    }
+                ],
+                "textLeft": "Please stop..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100,
+                        "live2dName": "live2d_1"
+                    }
+                ],
+                "textRight": "Save us!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20472.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "nameCenter": "Shrine Maiden",
+                "textCenter": "It's not like you can be substitute shrine@maidens!",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "You're not from here, so stay out of it!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textRight": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Tsukuyo, let's gather up the necklace@fragments."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Even if it's in pieces, I still want to@return it to the elder."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes, I agree."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "(Let's stay out of this town's affairs from@now on.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(We're outsiders, after all.)"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

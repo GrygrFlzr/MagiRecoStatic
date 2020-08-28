@@ -1,0 +1,531 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20361.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story21",
+                "nameNarration": "Iroha",
+                "narration": "Felicia chose...@\"Double-handed goldfish scooping\"!",
+                "narrationBg": "bg_adv_20361.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "narrationEffect": "out",
+                "textCenter": "So let's see, the rules for this game...@Hmm...[chara:303300:lipSynch_0][wait:1.0][chara:303300:cheek_0][chara:303300:face_mtn_ex_010.exp.json:motion_100][chara:303300:lipSynch_1]oh, they're really easy!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "You hold a paper scoop in each hand to@scoop up the goldfish!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Other than that, it's exactly the same as@regular goldfish scooping!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101001,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "So basically, ya use two scoops."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "textRight": "That way, you have one left if one breaks..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Though it's probably really difficult to@scoop with your non-dominant hand."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "(Heh heh heh...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Okay, on your marks! Get set..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "GO!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm01_anime25",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "Cool! I'll start off with my right hand..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "[flashEffect:flashWhite2]Haaaaaa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 400
+                    },
+                    {
+                        "id": 301001,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "[chara:100501:effect_emotion_surprise_0][se:7226_shock]What the?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Eep! Our goddess starts out with a furious@rush!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "[bgEffect:shakeSmall][flashEffect:flashWhite2]Take that, and that, and thaaat!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "She's alternating rapidly from left hand to@right, and scooping up schools of fish!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "[chara:303300:effect_emotion_joy_0][se:7222_happy]She's incredible!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "(Ooh ho ho ha! I've been a master at@goldfish scooping since I was a little kid!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I scooped up every last one, no matter what@handicaps they tried to put on me!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(The guy at the stall even came up with a@nickname for me...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "Ria",
+                "narration": "\"The Goldfish Hunter\"!",
+                "narrationEffect": "in",
+                "narrationFontSize": 40,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "[bgEffect:shakeSmall][flashEffect:flashWhite2]There's no way I can lose at this!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100501,
+                        "motion": 200
+                    },
+                    {
+                        "id": 301001,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "Damn iiiiiit!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "Iroha",
+                "narration": "It went on like this until time ran out.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 200
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "And that's a wrap!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "Our winner is..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "[chara:303300:effect_emotion_joy_0][se:7222_happy]...our magnificent goddess!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "Ahh hah hah hahh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Damn it! This SUCKS!"
+            },
+            {
+                "nameNarration": "Felicia",
+                "narration": "I chose wrong...",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "I should've picked a game I could win at!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/51032_badend.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

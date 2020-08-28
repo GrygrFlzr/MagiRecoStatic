@@ -1,0 +1,972 @@
+{
+    "story":
+    {
+        "group_1": [
+        {
+            "bg": "bg_adv_21183.jpg",
+            "bgm": "bgm05_event09",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100200,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_040.exp.json",
+                "id": 100400,
+                "motion": 1,
+                "pos": 2
+            }],
+            "nameNarration": "",
+            "narration": "Before the match...",
+            "narrationBg": "bg_adv_21183.jpg",
+            "narrationEffect": "in",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "blackFrame"
+        },
+        {
+            "chara": [
+            {
+                "id": 100200,
+                "motion": 301
+            }],
+            "nameLeft": "Yachiyo",
+            "nameRight": "Sana",
+            "narrationEffect": "out",
+            "textLeft": "Okay, let's go over this one last time."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100200,
+                "motion": 0
+            }],
+            "textLeft": "Rena's quick attack is what we have to worry@about. She risks it all with that lunge."
+        },
+        {
+            "chara": [
+            {
+                "id": 100400,
+                "motion": 100
+            }],
+            "textRight": "So, I'll put my shield up to guard against@her attack..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100100,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Iroha",
+            "textRight": "And I'll be Sana's backup."
+        },
+        {
+            "chara": [
+            {
+                "id": 100200,
+                "motion": 200
+            }],
+            "textLeft": "Tsuruno and Felicia, you take that chance@to knock out Kaede."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100300,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Tsuruno",
+            "textRight": "2-on-1... I feel kinda bad for her..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100200
+            }],
+            "textLeft": "Remember what I told you? Their strength is@their impeccable teamwork."
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 1,
+                "id": 100200
+            }],
+            "textLeft": "But if just one of them falls, the whole@team crumbles."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100500,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Felicia",
+            "textRight": "You okay handlin' her on your own, Yachiyo?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "eyeClose": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100200,
+                "motion": 201
+            }],
+            "textLeft": "I have no intention of losing to Momoko."
+        },
+        {
+            "chara": [
+            {
+                "id": 100200
+            }],
+            "textLeft": "I've known her far too long to let her win."
+        },
+        {
+            "autoTurnLast": 2.0,
+            "bgm": "stop",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100500,
+                "motion": 0,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100300,
+                "motion": 0,
+                "pos": 0
+            }],
+            "turnChangeIn": "fadeIn",
+            "turnEffect": "stop"
+        },
+        {
+            "bgm": "bgm01_battle08",
+            "chara": [
+            {
+                "id": 100500,
+                "motion": 400
+            }],
+            "nameLeft": "Tsuruno",
+            "nameRight": "Felicia",
+            "textBg": "shout",
+            "textRight": "...Hey Yachiyo!",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100500
+            },
+            {
+                "effect": "fadeout",
+                "id": 100300
+            }],
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 2.0,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101100,
+                "live2dName": "live2d_0",
+                "motion": 100,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101100,
+                "live2dName": "live2d_1",
+                "motion": 200,
+                "pos": 2
+            }]
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101100,
+                "live2dName": "live2d_0"
+            },
+            {
+                "effect": "fadeout",
+                "id": 101100,
+                "live2dName": "live2d_1"
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100500,
+                "motion": 200,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_040.exp.json",
+                "id": 100300,
+                "motion": 0,
+                "pos": 0
+            }],
+            "textRight": "This isn't goin' how you said it would!"
+        },
+        {
+            "chara": [
+            {
+                "id": 100300,
+                "motion": 300
+            }],
+            "textLeft": "Right... I forgot that Rena can transform@into other people..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100500,
+                "motion": 200
+            }],
+            "textRight": "Which one do we knock out?!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bg": "bg_adv_21182.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 405101,
+                "motion": 1,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 405201,
+                "motion": 0,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 405301,
+                "motion": 1,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 405201
+            }],
+            "nameCenter": "Fate",
+            "nameLeft": "Nanoha",
+            "nameRight": "Hayate",
+            "textCenter": "There are two Kaedes?",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405301,
+                "motion": 100
+            }],
+            "textRight": "Whoa! Transformation magic!"
+        },
+        {
+            "chara": [
+            {
+                "id": 405101
+            }],
+            "textLeft": "Then one of them is Rena!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bg": "bg_adv_21183.jpg",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100300,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100500,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 100500,
+                "motion": 200
+            }],
+            "nameLeft": "Tsuruno",
+            "nameRight": "Felicia",
+            "textRight": "Oh, screw this! I'm just gonna take out@BOTH of ya!",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100300,
+                "motion": 200
+            }],
+            "textLeft": "Hey, wait! We're supposed to fight as a duo.@That's what Yachiyo said..."
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101100,
+                "motion": 400,
+                "pos": 2
+            }],
+            "nameRight": "???",
+            "textRight": "Now!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "ef_adv_05",
+                "face": "mtn_ex_020.exp.json",
+                "id": 100900,
+                "motion": 0,
+                "pos": 2
+            }],
+            "se": "7205_magic_girl"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100900,
+                "motion": 201
+            }],
+            "nameRight": "Rena",
+            "textBg": "shout",
+            "textRight": "[flashEffect:flashWhite2][se:4052_landing_dive_sv]Haaah!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bgEffect": "shakeLarge",
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "shake",
+                "face": "mtn_ex_060.exp.json",
+                "id": 100300,
+                "motion": 400
+            }],
+            "flashEffect": "flashRed2",
+            "se": "3001_chara_damage",
+            "textLeft": "Dang it!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100300
+            }],
+            "se": "6259_hit_spike_03_v",
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 2.0,
+            "chara": [
+            {
+                "id": 100900,
+                "motion": 200
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_051.exp.json",
+                "id": 100200,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Yachiyo",
+            "nameRight": "Momoko",
+            "textLeft": "Tsuruno?!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100900
+            }]
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "slideInRightFast",
+                "face": "mtn_ex_020.exp.json",
+                "id": 101000,
+                "motion": 1,
+                "pos": 2
+            }],
+            "textRight": "You aren't goin' anywhere!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100200,
+                "motion": 301
+            }],
+            "textLeft": "Khhh... Momoko!"
+        },
+        {
+            "chara": [
+            {
+                "id": 101000,
+                "motion": 200,
+                "mouthOpen": 1
+            }],
+            "textBg": "shout",
+            "textRight": "Now, Kaede! Give 'em everythin' you've got!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100200
+            },
+            {
+                "effect": "fadeout",
+                "id": 101000
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101100,
+                "motion": 300,
+                "pos": 2
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100900,
+                "motion": 1,
+                "pos": 0
+            }],
+            "nameLeft": "Rena",
+            "nameRight": "Kaede",
+            "textRight": "U-um..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100900,
+                "motion": 201
+            }],
+            "textLeft": "If you don't do this the team's over!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101100,
+                "motion": 200
+            }],
+            "textRight": "G-got it!"
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 1,
+                "id": 101100,
+                "motion": 0
+            }],
+            "textBg": "shout",
+            "textRight": "I'm going to put everything [chara:101100:lipSynch_0][chara:101100:eyeClose_0][chara:101100:motion_100][chara:101100:lipSynch_1][flashEffect:flashWhite2][se:4004_equip_arms_magic_vh][bgEffect:shakeLarge]I have into this@one move!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "flashEffect": "flashWhite2",
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.01,
+            "turnChangeIn": "whiteIn",
+            "turnChangeInTime": 2.0
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_060.exp.json",
+                "id": 100100,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "eyeClose": 1,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100400,
+                "motion": 300,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "eyeClose": 1,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100500,
+                "motion": 300,
+                "pos": 2
+            }],
+            "se": "6200_hit_explosion_01_vh"
+        },
+        {
+            "chara": [
+            {
+                "effect": "shake",
+                "id": 100100
+            },
+            {
+                "effect": "shake",
+                "id": 100400,
+                "lipSynch": 0
+            },
+            {
+                "effect": "shake",
+                "id": 100500
+            }],
+            "nameCenter": "Everyone",
+            "textCenter": "[bgEffect:shakeLarge]...",
+            "turnChangeOut": "whiteOut"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100400
+            }],
+            "se": "3002_chara_dead",
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "shake",
+                "id": 100500
+            }]
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100500
+            }],
+            "se": "3002_chara_dead"
+        },
+        {
+            "autoTurnLast": 1.0,
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "shake",
+                "eyeClose": 1,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100100,
+                "motion": 301
+            }]
+        },
+        {
+            "autoTurnLast": 0.5,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100100
+            }],
+            "se": "3002_chara_dead"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_060.exp.json",
+                "id": 100200,
+                "motion": 300,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101000,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameLeft": "Yachiyo",
+            "nameRight": "Momoko",
+            "textLeft": "You're kidding..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100200
+            }],
+            "textLeft": "They just completely outsmarted us?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101000,
+                "motion": 200
+            }],
+            "textRight": "Guess it's 'cause I've known ya for so long."
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "shake",
+                "eyeClose": 1,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100200
+            }],
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 1.0,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100200
+            }],
+            "se": "3002_chara_dead"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 1,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100900,
+                "motion": 200,
+                "pos": 0
+            }],
+            "nameLeft": "Rena",
+            "textLeft": "Did you guys see that?"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100900
+            },
+            {
+                "effect": "fadeout",
+                "id": 101000
+            }],
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 2.0,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405101,
+                "motion": 1,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 0,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405301,
+                "motion": 100,
+                "pos": 2
+            }]
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405101
+            },
+            {
+                "effect": "fadeout",
+                "id": 405301
+            }]
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "id": 405201,
+                "pos": 2
+            }]
+        },
+        {
+            "chara": [
+            {
+                "cheek": 1,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100900,
+                "motion": 200,
+                "pos": 0
+            }],
+            "textLeft": "We'll see ya in the finals!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405201,
+                "lipSynch": 0
+            }],
+            "nameRight": "Fate",
+            "textRight": "..."
+        },
+        {
+            "autoTurnLast": 0.1,
+            "bgm": "stop",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 100100,
+                "motion": 100,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 301101,
+                "motion": 400,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 303001,
+                "motion": 400,
+                "mouthOpen": 1,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "autoTurnLast": 1.3,
+            "bgm": "bgm90_nanoha02",
+            "chara": [
+            {
+                "id": 100100
+            },
+            {
+                "id": 301101
+            },
+            {
+                "id": 303001
+            }],
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100100
+            },
+            {
+                "effect": "fadeout",
+                "id": 301101
+            },
+            {
+                "effect": "fadeout",
+                "id": 303001
+            }]
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_051.exp.json",
+                "id": 101700,
+                "motion": 400,
+                "pos": 1
+            }],
+            "nameCenter": "Mitama",
+            "textCenter": "I'm shocked! The top contenders have been@knocked out of the running!"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101700
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405201,
+                "motion": 100,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405301,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameLeft": "Fate",
+            "nameRight": "Hayate",
+            "textLeft": "It definitely wasn't a fluke, though."
+        },
+        {
+            "chara": [
+            {
+                "id": 405301,
+                "motion": 100
+            }],
+            "textRight": "Yeah, no way. Those guys pack a real punch."
+        },
+        {
+            "nameNarration": "Raising Heart",
+            "narration": "<<Wisdom and tactics.>>",
+            "narrationBg": "",
+            "narrationEffect": "in"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 405101,
+                "motion": 1,
+                "pos": 0
+            }],
+            "nameLeft": "Nanoha",
+            "narrationEffect": "out",
+            "textLeft": "You're right, Raising Heart. They won because@they had wisdom and tactics in their favor."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405101
+            }],
+            "textLeft": "I'm really excited to fight them!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405301,
+                "motion": 1
+            }],
+            "textRight": "If the two of us keep up our respective@winning streaks..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 400,
+                "pos": 0
+            }],
+            "nameLeft": "Fate",
+            "textLeft": "Yeah!"
+        },
+        {
+            "chara": [
+            {
+                "id": 405201
+            }],
+            "textLeft": "We'll probably face them in the finals!"
+        },
+        {
+            "bgm": "stop",
+            "nameNarration": "",
+            "narration": "To be continued...",
+            "narrationBg": "black",
+            "narrationEffect": "in",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn"
+        }]
+    },
+    "version": 3
+}

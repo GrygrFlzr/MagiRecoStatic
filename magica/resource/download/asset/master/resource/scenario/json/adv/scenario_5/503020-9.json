@@ -1,0 +1,142 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Night, August 12]@[textBlack:I've been thinking since I saw that diary.]@[textBlack:About the self others decide on for you, and]@[textBlack:the self you find on your own. Which am I?]@[textBlack:I do feel constrained, only able to think the]@[textBlack:way others deem to be right. Denied choice.]@[textBlack:I'm clearly just mediocre, after all.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20293.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200151,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Homura",
+                "surround": "7009_night_townbuzz",
+                "textLeft": "Madoka... What kind of person do you think@I am?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200151,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Madoka",
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200151,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You're just Homura."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 200151
+                    },
+                    {
+                        "id": 230000,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You're my really dear friend. You're so@kind, and you work so hard..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:What would she think of me, really?]@[textBlack:I came back here from the future to fix the]@[textBlack:past. Naturally, she just thinks of me as a]@[textBlack:normal person, living in the same time.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:But she's not the only one who thinks]@[textBlack:that. I'm fooling everyone right now.]@[textBlack:I'm scared that if I let them know the]@[textBlack:truth, it'll end up another mistake.]"
+            },
+            {
+                "narration": "[textBlack:If I did let the truth slip, would that mean]@[textBlack:that I'd no longer be able to be the version]@[textBlack:of myself that Madoka knows?]"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

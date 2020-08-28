@@ -1,0 +1,852 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19092.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm02_boss01",
+                "chara": [
+                    {
+                        "id": 304300,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][surround:3043A01]| Yaaaaaahhh! |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "[flashEffect:flashRed1][surround:3043A03][chara:100100:effect_shake][bgEffect:shakeLarge]Hurgh...!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 101800,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsukuyo",
+                "textRight": "Iroha!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "I-I'm...okay! I can still fight!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "nameNarration": "",
+                "narration": "[se:7106_telmail]*Beep beep*",
+                "narrationEffect": "in",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "narration": "[se:7106_telmail]*Beep Beep*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Mitama",
+                "narrationEffect": "out",
+                "textRight": "Iroha! The texts are coming in!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "Yachan and the others are collecting the@surveys right now!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textBg": "shout",
+                "textRight": "Eternal Sakura!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Please let me submit evidence that the@surveys are coming in!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100100,
+                        "motion": 301,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "*Gasp* *Wheeze*"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 304300,
+                        "lipSynch": 0
+                    },
+                    {
+                        "id": 100100,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "surround": "7003_wind",
+                "textLeft": "| ... |"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "| If I find out you've fabricated evidence,@you, too, will be punished. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| Is what you have to submit accurate? |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yes. You can check them yourself."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "| Let me see them. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Can the trial be delayed?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "| Only after checking the images. If it is@as Nemu Hiiragi said... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| ...and the deadline is proven to have been@tampered with, I will accept them. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| But, the surveys must arrive here by the@end of the day. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Here you are..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| I will check for traces of data@falsification. |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "[chara:304302:eyeClose_0][chara:304302:lipSynch_1]| Very well... |"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "surround": "stop",
+                "textLeft": "| The evidence is acceptable. Please submit@the surveys by the end of the day. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Th-thank goodness..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| I really mean this... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "| Thank you, Iroha. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textLeft": "| I was able to hold myself back because of@your quick thinking. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I saw when Ai went into a frenzy, so I knew@what state you were in."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 100100,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101700,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100600,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameRight": "Mitama",
+                "textRight": "You did wonderfully, Iroha."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Thanks for your help, too, Mitama and@Mifuyu."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Sis..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "I'm so relieved."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "Now we can wait for Yachiyo and everyone to@get back."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Yeah."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101900,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101800,
+                        "motion": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Tsukasa",
+                "textRight": "But we don't know what the surveys say..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101800
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "textCenter": "I think it'll be all right, Tsukasa."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "Yes. Looking at the photos, I think it will@turn out in our favor."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101900
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Touka and Nemu."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "You should read these."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "They're photos, but you can clearly see@what people have written."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101403,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event10",
+                "nameNarration": "",
+                "narration": "\"Considering what they did, I don't think@they should be let off without punishment,@but I don't think a death sentence is right,@either. That would just feel wrong.\"",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 130,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "\"The Magical Girls of Kamihama are banding@together now. It's an important time.@I think that killing them sends the wrong@message. Please reconsider.\""
+            },
+            {
+                "narration": "\"I'm really angry about what they did to our@city, but I won't feel better if they're@dead. They should atone some other way.\""
+            },
+            {
+                "narration": "\"We must take into consideration that many@of us are alive thanks to those girls. We@can't turn our backs on them when we@continue to be indebted to them.\""
+            },
+            {
+                "narration": "\"My house is ruined, so if I saw them in@person I might tell them to go die. But@I'll be fine as long as I don't see them.\""
+            },
+            {
+                "narration": "\"I heard these girls speak at that meeting.@Aren't they the only ones who know all@about Magical Girls, Witches, and Kyubey?@Wouldn't it be bad if they died?\""
+            },
+            {
+                "narration": "\"I don't know who raised them, but they need@a good scolding. Then give them a more@experienced mentor. It'd be awful to kill@them without trying to rehabilitate them. I'd@lose faith in the system if that happened.\""
+            },
+            {
+                "narration": "\"We're almost the same age.@I'd like to meet them.\""
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100701,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "tear": 1
+                    }
+                ],
+                "textCenter": "Oh...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "tear": 1
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101500,
+                        "motion": 100,
+                        "pos": 0,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Thank goodness..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

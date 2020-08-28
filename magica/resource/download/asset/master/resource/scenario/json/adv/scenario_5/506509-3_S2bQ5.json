@@ -1,0 +1,1295 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    },
+                    {
+                        "id": 402600
+                    }
+                ],
+                "nameCenter": "Darc & Elisa",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "[chara:402100:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Huh?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "Ui! Where are we?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 402100,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "We are standing offstage."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "What does that even mean?! [chara:402600:lipSynch_0][wait:0.8][chara:402600:effect_shake][chara:402600:lipSynch_1]Ugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "[chara:402100:effect_shake]I can't move...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402400,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "No, you cannot."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "If you were to act out this memory, the \"True@History\", to its climax..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Our defeat would be sealed."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "That's why I have retired you from the@stage for the time being."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Retired us from the stage?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Indeed. Where we stand now is a space created@by the Blank Prophecy."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Until a fragment finishes playing..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Anyone who was not a player in that scene is@held apart in this spectator viewing area."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "All of you may only witness the historic@scene here, not participate in it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Yes, just like that girl. The one who wields@the Blank Prophecy."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Ui...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "You're spouting nonsense."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "Even if you keep us locked in here..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "There's no way that would change the natural@course of history where we win in Patay."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "But that history is changing, I'm afraid."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I'm sure you will need to see it to fully@believe it. Shall we take a look?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101500,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "We can have this girl use the Blank Prophecy@to do so."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 100
+                    }
+                ],
+                "flashEffect": "explosion",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_minou_magic_circle.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "se": "3205_charm",
+                "textClear": 1,
+                "turnEffect": "promist"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_ui_phone_magic.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 1.5,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1.3,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "June 18, 1429",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.3
+            },
+            {
+                "narration": "Central France - Patay"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "nameNarration": "",
+                "narration": "*Chatter*",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830500
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Gilles",
+                "textRight": "What happened?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textRight": "Our Holy Maiden, she...she suddenly vanished@into thin air..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "nameLeft": "La Hire",
+                "textLeft": "Melissa! What the devil is going on here?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402300,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "I-I'm afraid I don't understand at all@myself..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Elisa was with Darc, but now they're nowhere @to be found."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_0",
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_1",
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_2",
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 1.6,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 831200,
+                        "live2dName": "live2d_0"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 831200,
+                        "live2dName": "live2d_1"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 831200,
+                        "live2dName": "live2d_2"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "La Hire",
+                "textCenter": "We don't have time for this! The English@forces are going to tear us apart."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textCenter": "All armed units here, rally to me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textCenter": "Those without weapons, do your best to@regain them now that the beast is gone!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830000
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "R-Right!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Corbeau",
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402300,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Liz! Look over there!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Corbeau!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "That is the True History of the battle of@Patay...",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "...and we've been erased from it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "How...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Minou",
+                "textLeft": "Because, for the brief time it will take for@true history to be determined..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "The two of you, who should have been present@for the battle, are now quarantined here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Now things will proceed in this manner, with@all of you winked out of existence..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "What should've been a paradox will be@established as official history."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "How did you do this?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "It was a simple application of this@teleportation magic I recently acquired."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "It has its limits though. It can only be@used once."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "So you forced another one of your maids@to make a wish for it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I did. Why, do you have an issue with that?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Anyway, we have more to watch..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "Such as the upcoming moment where France's@historic victory will change for good."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Right now, vast swaths of your French army@are experiencing the battle..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textLeft": "And losing their lives en masse at the hands@of my older sister, Corbeau."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "No![chara:402100:effect_shake]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Release these bonds this second![chara:402600:effect_shake]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "ef_adv_08",
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "flashEffect": "explosion",
+                "nameCenter": "Ui",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "promist"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402400,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Minou",
+                "textCenter": "*Chuckle*"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "flashEffect": "explosion",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20091.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_0",
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_1",
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831200,
+                        "live2dName": "live2d_2",
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831200,
+                        "live2dName": "live2d_0",
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 831200,
+                        "live2dName": "live2d_1",
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 831200,
+                        "live2dName": "live2d_2",
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "Now! Attack!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 831200,
+                        "live2dName": "live2d_0"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 831200,
+                        "live2dName": "live2d_1"
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 831200,
+                        "live2dName": "live2d_2"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashRed2][bgEffect:shakeLarge][chara:830300:effect_shake][se:3001_chara_damage]Ugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830400
+                    }
+                ],
+                "nameRight": "",
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashRed2][bgEffect:shakeLarge][chara:830400:effect_shake][se:3001_chara_damage]Merde!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "La Hire",
+                "textCenter": "Tch!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textCenter": "I can't believe we're struggling so much@without La Pucelle to guide us!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 830000,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 831200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830000
+                    }
+                ],
+                "nameRight": "La Hire",
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeLarge][chara:830000:effect_shake]Raaagh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 831200,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "[flashEffect:flashRed2][bgEffect:shakeLarge][chara:831200:effect_shake][se:3001_chara_damage]Urk!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "We'll take out Corbeau! Melissa! Come on!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402300,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Yes, of course!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Corbeau",
+                "textCenter": "You never disappoint, girl in black!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "I'm counting on you to show me a good, tasty@fight!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

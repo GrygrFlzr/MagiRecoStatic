@@ -1,0 +1,514 @@
+{
+    "skipTransitionList": [],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21141.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "surround": "7001_birdsong",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 0,
+                        "posX": -50,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "(She ran. That's good.)"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameLeft": "Kyubey",
+                "textLeft": "I didn't expect that you'd get in the way,@Ui Tamaki."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Sorry. But I couldn't let you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "Why not?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51057_tower_ui/memoria_1342_1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@Because then she'll have to suffer@through the same things we do...",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 10,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Ui ―@We don't become Witches only in Kamihama.@It's bad for a girl here to make a contract."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@That makes things difficult for me."
+            },
+            {
+                "narration": "― Kyubey ―@You know I can't currently enter Kamihama."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@Can't you stop granting wishes just for now?"
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@..."
+            },
+            {
+                "narration": "― Kyubey ―@I thought you understood the great@importance of what we're doing."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@Huh?"
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@I form Magical Girl contracts for@the good of the entire universe."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@I know that.@Touka told me all about it."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@But you insisted on stopping me."
+            },
+            {
+                "narration": "― Kyubey ―@One could say that such behavior is suicidal@from the perspective of the human race."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@It is?@How do you mean?"
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@It's simple really."
+            },
+            {
+                "narration": "― Kyubey ―@The universe is supported by the tremendous@emotional energy humans release."
+            },
+            {
+                "narration": "― Kyubey ―@And the role fulfilled by Magical Girls@is especially large."
+            },
+            {
+                "narration": "― Kyubey ―@That is to say, the universe could not@be maintained without Magical Girls."
+            },
+            {
+                "narration": "― Kyubey ―@Don't you think that could be@considered a danger to humanity?"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@Yes, but...giving wishes and using@girls' hearts is going too far..."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@Then what do you want to do about it?"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@...?!"
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@This is an extraordinary problem@that the whole universe faces."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@Well, I..."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@How do you intend to live,@as one lone Magical Girl?"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "black",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51057_tower_ui/memoria_1342_1.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(What do I want to do?)"
+            },
+            {
+                "autoTurnLast": 3,
+                "bg": "bg_adv_21203.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "I'm back.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Hi, Ui. Did you find the book at home?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "You're thinkin' about it too hard."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "textLeft": "You wanna live, yeah? What's it matter how?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Just smash Witches, like BAM! Don't be dumb@about it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100401,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Stop it, Felicia! You're being mean!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Who gives a crap?"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 100401,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Sorry, Ui..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textLeft": "Felicia's got such a bad attitude."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "I think she's right when she says I'm @thinking too hard about it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Are you sure?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yeah, I'm going to change. I don't have the@time to be worried about that right now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401
+                    }
+                ],
+                "textLeft": "Right, it's tomorrow, huh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Uh huh. I have an important test, so I have@to get to work."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Welcome home, Ui."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Hi, Iroha."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textLeft": "Dinner's almost ready. It won't be long."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100201,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Tomorrow's your live combat test, so we're@making fried pork cutlets!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Oh, thanks!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

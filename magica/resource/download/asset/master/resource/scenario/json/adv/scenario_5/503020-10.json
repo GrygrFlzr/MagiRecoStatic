@@ -1,0 +1,327 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20293.jpg",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Dawn, August 13]@[textBlack:We ate back at the inn. It should've been]@[textBlack:fun, but the diary plagued my thoughts.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:We chatted a little, each of us tucked into]@[textBlack:our futons, and then...]@[textBlack:Then I think I fell asleep. Because once]@[textBlack:again, I dreamed about someone.]"
+            },
+            {
+                "autoTurnLast": 3,
+                "bg": "bg_adv_20264.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "nameCenter": "Kei",
+                "narrationEffect": "out",
+                "textCenter": "Yu... Yu.",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "The promised day is here. Hurry, let's@go."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "I wore my favorite outfit to see you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "And I picked out the best, cutest ribbon@to tie us both together!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "The weather's perfect, too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textCenter": "The view from the cape has never looked@prettier than right now, has it?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 800100,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yu",
+                "textRight": "Hey, this... What we're doing..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 802200
+                    }
+                ],
+                "textRight": "Even if we're both okay with it, your dad...@Your grandmother..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800100,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "shake",
+                        "id": 802200
+                    }
+                ],
+                "flashEffect": "flashWhite1",
+                "se": "3001_chara_damage",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kei",
+                "textLeft": "What do they have to do with it?! Do we@need to bring them into this?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Don't even suggest that my life belongs@to someone else!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "My life exists for you, so that you can@destroy it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Trample me... Crush my future beneath your@feet. Could you do that for me?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "This is wrong."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200
+                    }
+                ],
+                "textRight": "You could ask anyone at all, and they'd@think this was messed up..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Yeah, I know."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "Of course I know that."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "textLeft": "But do I always have to think about what@the right thing to do is?"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20284.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100,
+                        "motion": 0,
+                        "pos": 0,
+                        "posX": 150
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 802200,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": -150
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "autoTurnLast": 5,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Yu",
+                "narration": "[textBlack:August 13]@@[textBlack:We had decided on our last words.]@[textBlack:\"In every life, we end whenever we meet.\"]@[textBlack:Nothing fancy, but honestly there's]@[textBlack:no higher purpose I could hope for.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:No matter what forms the two of us may take,]@[textBlack:even if we can't understand each other's]@[textBlack:language, are born to hate each other, or]@[textBlack:born believing in different gods...]@[textBlack:We swore to make our vow come true.]@[textBlack:That vow is our proof we are who we are.]"
+            },
+            {
+                "narration": "[textBlack:Kei, held in my arms at the precipice, was]@[textBlack:more lovely than anything else alive.]"
+            },
+            {
+                "autoTurnLast": 5,
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 0.01
+            }
+        ]
+    },
+    "version": 3
+}

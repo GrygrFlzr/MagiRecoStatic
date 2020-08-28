@@ -1,0 +1,912 @@
+{
+    "skipTransitionList": [
+        {
+            "from": "group_1",
+            "to": "group_4"
+        },
+        {
+            "canSkip": false,
+            "from": "group_4"
+        }
+    ],
+    "story": {
+        "group_1": [
+            {
+                "nameNarration": "Iroha",
+                "narration": "The subtitle for the festival read:@\"Ria Bash\".@And of course, by \"Ria\", it meant...",
+                "narrationBg": "bg_adv_20351.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20351.jpg",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "Naturally, it refers to yours truly!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "narrationEffect": "out",
+                "textLeft": "Oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "[chara:100301:effect_emotion_surprise_0][se:7226_shock]Oh!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300601,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Emiri",
+                "textCenter": "There she iiis!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300601
+                    }
+                ],
+                "textCenter": "Princess Ria!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 300601,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "Charmed to see you all."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "(I KNEW it!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "So you're here...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301
+                    }
+                ],
+                "textLeft": "Princess Boa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Boa?! Do you see any feathers on me?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "No, that's not her name. It's..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Princess Ribbie!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Ugh! Are you calling me boney?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "You guys aren't getting it right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "She's Princess Receipt, duh."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I'm not a piece of paper!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101101,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "Guys, come on..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101
+                    }
+                ],
+                "textLeft": "Her name is Princess Retiree."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 301001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "I refuse to quit! I am me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "textRight": "You can't even get the number of syllables@right!!!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "*Pant* *Wheeze*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 1,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "Any other suggestions?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "N-no, I think that's enough for today."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001
+                    }
+                ],
+                "textRight": "Good!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:301001:effect_emotion_surprise_0][se:7226_shock]Wait, no, not good at all!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300601,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Emiri",
+                "textLeft": "Anyways, she's kinda like a symbol or@whatever for the festival? Ya know?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300601
+                    }
+                ],
+                "textLeft": "It's totally vital to have a mascot for@this kinda event, right? A big personality!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301001,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "She's powering through to the next topic!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "So I was like, \"Who could be gorgeous enough@for that? OMG! Princess Ria!\""
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Gorgeous..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "*Chuckle* Well, she is the producer. It's@natural that she picked up on my talent."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001
+                    }
+                ],
+                "textRight": "And yes! I am this festival's dazzling@goddess!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "Ahh hah hah hah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 301001,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I see my breathtaking divinity has stolen@your words away, Yachiyo Nanami!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 401
+                    }
+                ],
+                "textLeft": "Hm? No, I just zoned out for a moment."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 301001
+                    }
+                ],
+                "textRight": "No wonder! I'm sure you're in shock!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 301001
+                    }
+                ],
+                "textRight": "\"Why did they choose her instead of me?\""
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "The disappointment must be brutal! Don't@feel bad for being sour about it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I don't really care..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Just the way the cookie crumbles, Yachiyo@Nanami! But I'll give you an opportunity."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "textRight": "An opportunity to topple me from my divine@throne!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "*Sigh* In one ear and out the other..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Emily, would you let this girl enter the@running too?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300601,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Emiri",
+                "textLeft": "You mean the Goddess Challenge?! Oooh!@You wanna take part too, Yacho?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Did you not listen to a single word I've@been saying either?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "Um... What's the Goddess Challenge?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "All will be revealed in time, on the special@stage we set up by the storage unit."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "textRight": "An elegant clash will occur, with the@goddess's throne at stake!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303101,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rika",
+                "textLeft": "It's an event for the festival."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303101
+                    }
+                ],
+                "textLeft": "You compete with the Goddess in a game,@and if you win, you get a prize!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100901,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "So it's a little show in other words."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Wrong! It's an elegant clash!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yachiyo Nanami! I challenge thee! Clash@with me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I will show you the real power of a goddess@before the onlookers at the festival!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Why would I need to see any of that?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I said, I'm gonna show you!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Oh come on..."
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "What will Yachiyo do about this challenge@that Ria is proposing?",
+                "narrationBg": "bg_adv_20351.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narrationEffect": "out",
+                "select": [
+                    {
+                        "alternativeId": 24,
+                        "group": "group_2",
+                        "textSelect": "Think on it more."
+                    },
+                    {
+                        "alternativeId": 25,
+                        "group": "group_3",
+                        "textSelect": "Turn it down."
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20351.jpg",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(Ugh...what to do...)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Um...",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "???",
+                "narration": "Let's DO this!",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "...Hm?"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20351.jpg",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(I don't really want to do this.)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I just want to enjoy the festival@like normal...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Um...",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_4": [
+            {
+                "bg": "bg_adv_20351.jpg",
+                "nameNarration": "Iroha",
+                "narration": "What will Yachiyo do about this challenge@that Ria is proposing?",
+                "narrationBg": "bg_adv_20351.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narrationEffect": "out",
+                "select": [
+                    {
+                        "alternativeId": 24,
+                        "group": "group_2",
+                        "textSelect": "Think on it more."
+                    },
+                    {
+                        "alternativeId": 25,
+                        "group": "group_3",
+                        "textSelect": "Turn it down."
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}

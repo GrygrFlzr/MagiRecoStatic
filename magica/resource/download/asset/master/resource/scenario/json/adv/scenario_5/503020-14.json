@@ -1,0 +1,331 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "black",
+                "nameNarration": "Homura",
+                "narration": "It was so dark I couldn't tell if@my eyes were open or shut.@The potent smell of night jasmine, the sea's@roar, the insects' drone...all swallowed up.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0,
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I'd been fighting so hard not to lose@my footing and slip over the edge.@But now even the rocky ground beneath my@feet was gone. Had the cliff transformed@into some other landscape?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 128,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "nameRight": "???",
+                "narrationEffect": "out",
+                "textRight": "Someone, anyone? Is anyone there?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200300
+                    }
+                ],
+                "nameCenter": "Homura",
+                "textCenter": "That voice! Is that...[chara:200300:lipSynch_0][wait:1.0][chara:200300:cheek_0][chara:200300:face_mtn_ex_050.exp.json][chara:200300:lipSynch_1]Ren?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200300,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Yes! Yes, I'm here!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200300
+                    }
+                ],
+                "textCenter": "It's Homura Akemi! I met you last night on@the beach!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 200300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302500,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ren",
+                "textRight": "Oh! Homura...! I-I'm...glad..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 302500,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "U-um..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500
+                    }
+                ],
+                "textRight": "Kyoko and her friends are, um, looking@for you...and Madoka..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500
+                    }
+                ],
+                "textRight": "W-we all teamed up...to search...yeah."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302500,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "B-but it looks like only I could, um, get@into this area..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_163.exp.json",
+                        "id": 200152,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 128,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200152
+                    }
+                ],
+                "nameLeft": "Madoka (Kei)",
+                "textLeft": "Is someone here?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200152,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Madoka (Kei)",
+                "textRight": "Is someone here?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 200152,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Madoka (Kei)",
+                "textCenter": "Ah ha ha ha ha ha ha ha!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302500,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 128,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500
+                    }
+                ],
+                "nameRight": "Ren",
+                "textRight": "Huh? Was that...Madoka?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200300,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "She's under the Witch's control!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200300,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I can't use my magic, so I don't know what@to do..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302500,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "This is just a guess, but, um, maybe..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500
+                    }
+                ],
+                "textRight": "The thing controlling Madoka..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500
+                    }
+                ],
+                "textRight": "It might be something, uh, other than a@Witch...I think..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302500,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I think it's...kind of similar to the magic@I can use..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 302500
+                    }
+                ],
+                "textRight": "S-sorry, it's a bit, um, hard to explain..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200300,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "(Then it was an Uwasa controlling Madoka,@after all?)"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/black.jpg",
+                        "setVisible": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

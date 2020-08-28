@@ -1,0 +1,1086 @@
+{
+    "skipTransitionList": [
+        {
+            "from": "group_1",
+            "to": "group_4"
+        },
+        {
+            "canSkip": false,
+            "from": "group_4"
+        }
+    ],
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "slideInLeftFast",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302001,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Himika",
+                "textCenter": "Aaaaaaaaaaaaugh!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "effect": "shake",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textCenter": "I can't...anymore..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302001
+                    }
+                ],
+                "se": "3102_enemy_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300902,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "textLeft": "Aww, too bad."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101150,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "What? Huh? ...What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "What's going on?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300201,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Natsuki",
+                "textLeft": "Aww, she couldn't do it..."
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101150,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Hey! It's Natsuki!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Kaede?! [chara:300201:lipSynch_0][wait:0.8][chara:300201:cheek_0][chara:300201:face_mtn_ex_011.exp.json][chara:300201:lipSynch_1]Wow! Long time no see!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101051,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Wha? Now we're meeting a friend of@Kaede's?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101150,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Remember? I told you about her before.@This is Natsuki Utsuho!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100951,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "Oh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101051,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Ohhh! So this is Natsuki!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101150,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Natsuki, this is Momoko and Rena!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Natsuki",
+                "textLeft": "Nice to meet you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101051,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Same here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100951,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "Hello..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101150,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "How long has it been?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Umm..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302001,
+                        "motion": 400,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "Himika",
+                "textRight": "Fwaaaaaah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300201,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:300201:effect_emotion_surprise_0][se:7226_shock]Oops, almost forgot... Himika, are you@okay?!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 302001
+                    }
+                ],
+                "textRight": "Ow ow ow..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101150,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "What's this all about?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300902,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "textLeft": "Allow me to explain!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101150
+                    }
+                ],
+                "textRight": "Uh, sure!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "It's an event that we only do in the @summer..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "The \"Ultra Spicy Curry Challenge\"!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Ultra spicy...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101150,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Uhh, I don't think I need to know any more @to understand what's going on."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "We make a special ultra spicy curry,@only available here at the beach diner."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "It's tough to eat the whole thing."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "But if a customer finishes a plate, they@receive a meal voucher for Walnut's!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "That's the event."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Anyone can do the challenge if they@order the curry!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300201,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Natsuki",
+                "textLeft": "Himika here found out about the event@somewhere..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300201
+                    }
+                ],
+                "textLeft": "She really wants the meal voucher, so she@said she wanted to try."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101150,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Then why are you here, Natsuki?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "After hearing about it, I wanted to cheer@her on! Wouldn't you?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101150,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Oh, uh, yeah..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101150
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101051,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100951,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "nameRight": "Rena",
+                "surround": "7202_telepathy",
+                "textLeft": "She's exactly as Kaede described!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100951
+                    }
+                ],
+                "textRight": "Looks that way..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101051
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100951
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300201,
+                        "motion": 301,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001,
+                        "motion": 300,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "Natsuki",
+                "nameRight": "Himika",
+                "textLeft": "But...my cheering didn't do any good."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302001
+                    }
+                ],
+                "textRight": "I...give up..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300201
+                    }
+                ],
+                "textLeft": "So, that's what happened."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302001,
+                        "tear": 1
+                    }
+                ],
+                "textRight": "What a shame... I really wanted that@voucher..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Maybe you can train for it, then take on@the challenge again!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302001,
+                        "motion": 0,
+                        "tear": 1
+                    }
+                ],
+                "textRight": "Huh? Please...give me water..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "We'll be going now! Bye, Kaede! It was@nice meeting everyone!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Let's start your training by eating a@habanero pepper whole!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302001
+                    }
+                ],
+                "textRight": "W-water..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300201
+                    }
+                ],
+                "textLeft": "You can improve your spiciness tolerance!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302001,
+                        "motion": 400,
+                        "tear": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Wateeer!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300902,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100451,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "nameRight": "Sana",
+                "textLeft": "There goes another challenger, returning@home empty-handed.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300902,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[chara:300902:effect_emotion_angry_1][se:7218_anger]Our spicy curry is the mightiest curry ever!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "All that hard work to develop the recipe@was worth it!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451
+                    }
+                ],
+                "textRight": "Um, Manaka... Does that really suit your@western menu?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Ohh, it's fine! It's summer, after all!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "What does that have to do with anything...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "Did you just say...the \"mightiest\"?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300902,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Hmm?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351
+                    }
+                ],
+                "textRight": "\"Mightiest\"... Did you just say that?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "Yeah. Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100351,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "If you did, then I gotta do this challenge!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Oho!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Wait, Tsuruno!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100550,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "If she's doin' it, I'm gonna do it too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 401,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "You too?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100351,
+                        "motion": 101,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "I'm gonna win against this \"mightiest@curry\"! Yep, yep!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "(Oh no, should I stop them? This likely@won't end well...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I think I'll...)"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 1,
+                        "group": "group_2",
+                        "textSelect": "Gently advise against it"
+                    },
+                    {
+                        "alternativeId": 2,
+                        "group": "group_3",
+                        "textSelect": "Vehemently put a stop to it"
+                    }
+                ],
+                "turnEffect": "stop"
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100351,
+                        "motion": 101,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Tsuruno",
+                "textLeft": "(If I speak too harshly, it might fire them@up even more...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 110100,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "(Okay!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100
+                    }
+                ],
+                "textLeft": "Hey, guys? You might want to think about@this a little bit...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100351,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Hm?"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100351,
+                        "motion": 101,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Tsuruno",
+                "textLeft": "(Yeah... This could be dangerous!)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I need to put a stop to it!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Don't do it, you guys!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100351,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Hm?"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100351,
+                        "motion": 101,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Tsuruno",
+                "textLeft": "(I think I'll...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 1,
+                        "group": "group_2",
+                        "textSelect": "Gently advise against it"
+                    },
+                    {
+                        "alternativeId": 2,
+                        "group": "group_3",
+                        "textSelect": "Vehemently put a stop to it"
+                    }
+                ],
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

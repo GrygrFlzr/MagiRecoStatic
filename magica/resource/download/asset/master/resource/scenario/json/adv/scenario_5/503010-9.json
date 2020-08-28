@@ -1,0 +1,397 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20271.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Homura",
+                "textCenter": "(Whose is this?)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy_cover.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Flip*",
+                "narrationCoverOpacity": 100,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime07",
+                "nameNarration": "???",
+                "narration": "[textBlack:April 20]@[textBlack:Seniors start taking more college prep]@[textBlack:classes around now. I opted to get a referral]@[textBlack:to enroll in a college near Kei.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:I wish we could go to the same school, but]@[textBlack:she hated the idea of me having to hold]@[textBlack:myself back for her, so I guess that's that.]@[textBlack:It's a shame, but I guess I'd say the same]@[textBlack:if our positions were reversed. Still, it'll]@[textBlack:be much easier to see her than it is now.]"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Flip* *Flip*",
+                "narrationBg": "black",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:June 24]@[textBlack:No matter how strong the aroma lingers in]@[textBlack:your memory, it fades in the wind in time.]@[textBlack:Just like I'll fade someday, influenced by]@[textBlack:someone else's ideals. Someone else's]@[textBlack:justice. I won't be me anymore.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:\"I don't think that's how you really feel.\" ]@[textBlack:\"You'd never say something like that.\" ]"
+            },
+            {
+                "narration": "[textBlack:Someday I will reveal myself completely to Kei.]@[textBlack:Then she'll hate me. She'll give up on me.]@[textBlack:I don't have the courage yet.]"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Flip* *Flip*@*Flip*",
+                "narrationBg": "black",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:August 3]@[textBlack:The more I try to convince Kei, the more]@[textBlack:I end up saying the same things all those]@[textBlack:empty fools, whom I truly hate and who]@[textBlack:speak with such arrogance, say.]@[textBlack:I know very well that those idiotic]@[textBlack:words couldn't possibly be my own.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "*Flip* *Flip*",
+                "narrationBg": "black",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:August 6]@[textBlack:I finally agreed to Kei's plan. We made a]@[textBlack:promise to each other. Yet I don't regret it.]@[textBlack:Rather, I cannot contain my excitement,]@[textBlack:though I know for sure it's wrong.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:But ][textRed:I][textBlack: just...]@[textBlack:The thought of this heartache between us]@[textBlack:someday turning into a memory we'll laugh]@[textBlack:at is much harder for ][textRed:me][textBlack: to bear.]"
+            },
+            {
+                "narration": "[textBlack:If that's how things will end up, then...]@[textBlack:Our lives are nothing anyone hoped for,]@[textBlack:nor are they anything anyone desired.]"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200151,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200151,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Madoka",
+                "narrationEffect": "out",
+                "surround": "7001_birdsong",
+                "textRight": "Homura? What's the matter?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "Uh, nothing... [chara:230000:lipSynch_0][wait:1.0][chara:230000:cheek_0][chara:230000:face_mtn_ex_040.exp.json][chara:230000:lipSynch_1]This was just underneath the@shrine."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200151,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "A notebook? Did someone drop it here?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "It seems more like a diary."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "I wonder... Did someone drop it, or did@they hide it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "It's hard to tell."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200151,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Do you think the cat brought it here?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "That's definitely possible."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I only glanced at it, but I didn't see a@name written anywhere."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "Maybe if I look through it more carefully I@can find one."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200151,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But it's a diary..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200151
+                    }
+                ],
+                "textRight": "They probably wouldn't like it if someone@read it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200151,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "You should probably just put it back where@you found it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Yeah, you're right."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "bg": "bg_adv_20312.jpg",
+                "surround": "stop",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_anime07",
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Evening, August 11]@[textBlack:After I put the diary back under]@[textBlack:the shrine, we couldn't find our]@[textBlack:cat guide (Kei?) anywhere.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:I might be overthinking it, but maybe]@[textBlack:she called us there to make sure the]@[textBlack:diary found its way back to its owner.]@[textBlack:If so, I feel bad for not taking care of it.]"
+            },
+            {
+                "narration": "[textBlack:My hands still have a sweet flowery smell]@[textBlack:from where I touched the diary.]"
+            },
+            {
+                "narration": "[textBlack:We decided to return to the beach.]@[textBlack:But something seemed to be tugging me back.]"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

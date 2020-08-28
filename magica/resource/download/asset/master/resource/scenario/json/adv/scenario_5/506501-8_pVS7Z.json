@@ -1,0 +1,842 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "bgm05_event05",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "We entrusted Elisa with a great responsibility.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "She was to sneak into France alone, search@for the root of these phenomena..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "...and to then lead us to a solution to them."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Thanks to her, the situation is becoming@clearer."
+            },
+            {
+                "textRight": "We also now know who likely caused the Time@Paradox to occur."
+            },
+            {
+                "textRight": "Those masked Magical Girls from earlier must@have played a part."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Was Elisa fighting all by herself until now?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "Yes, I was."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I'm not like some people, who say whatever@they want a safe distance from danger."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "textRight": "For our part, we feel we are aiding you by@monitoring your situation from the outside."
+            },
+            {
+                "textRight": "We are also helping navigate for you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "But we did also put the fate of the world in@Elisa's hands."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_31031.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "The fate of the world... [chara:101503:lipSynch_0][wait:1.0][chara:101503:motion_100][chara:101503:cheek_0][chara:101503:face_mtn_ex_050.exp.json][chara:101503:lipSynch_1]Do you mean the@future?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "That's right. It's no exaggeration."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "The future depends on you and your prophecy."
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_ui_phone_magic.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "The future...depends on my phone."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_ui_phone_magic.png",
+                        "visible": "hide"
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Hey... What?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Is something wrong?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "Um... It's my phone."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I had a photo I took with my sister on it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "A \"photo\"?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "Oh, [chara:101503:lipSynch_0][wait:1.0][chara:101503:motion_100][chara:101503:cheek_0][chara:101503:face_mtn_ex_030.exp.json][chara:101503:lipSynch_1]um, it's like a picture of our faces."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Do you mean a portrait?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Kind of..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_iroha_ui3.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_iroha_ui3.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "And it's a portrait of you and your sister?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Yeah...I'm supposed to be next to her in the@photo, but I'm not there."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "And the background is...like this place. It's@all broken."
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "I think that might be showing you the state@of the future.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "The future from which you came may be@disappearing."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:101503:effect_emotion_surprise_0][se:7226_shock]What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "No! I don't want that!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I don't want to be apart from my sister!"
+            },
+            {
+                "textRight": "The Paradox's influence is starting to appear@there, too."
+            },
+            {
+                "textRight": "A future where you are with your sister, and@a future where you alone aren't there."
+            },
+            {
+                "textRight": "The two contradictory possibilities are@overlapping and conflicting with each other."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "So, I'm going to vanish without a trace in my@sister's world?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "And then the future will turn pitch black?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "That might not be all that happens."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "I wouldn't be surprised if the darkness that@covers this country swallows up the world."
+            },
+            {
+                "textRight": "It could eradicate the entire future."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_31031.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story23",
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Haven't you two frightened the poor, innocent@girl enough?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402601
+                    }
+                ],
+                "textRight": "The Holy Roman Empire still stands. The Order@of the Dragon is in high spirits."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "And we succeeded in rescuing the bearer of@the Blank Prophecy, Ui Tamaki."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "She is our key to fighting back."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "The battle to recover the proper history@begins here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402601
+                    }
+                ],
+                "textRight": "Have hope!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "You came to my rescue so that you can@recover the future...your history?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "Is that right, Elisa?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "That's right."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "You probably want to return to the future as@soon as you can, Ui.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Your existence in this era is in and of@itself a Time Paradox."
+            },
+            {
+                "textRight": "But you will likely be able to return to the@future if history is properly restored."
+            },
+            {
+                "textRight": "The information that Elisa found points@toward that possibility."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_31031.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "So, Ui Tamaki.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "Would you like to join me?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Let's fight to take back our future!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101503,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "[chara:101503:effect_emotion_joy_0][se:7222_happy]Yes! I'm in, Elisa!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Heh... Good answer!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Hee hee."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "I mean, I'm scared about disappearing."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "But more importantly..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "More importantly?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I don't want my sister to ever look that sad!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "(She's afraid of making her sister sad?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(She's more afraid of that than about@disappearing?)"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

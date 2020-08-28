@@ -1,0 +1,333 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "nameRight": "Kako",
+                "textLeft": "Yachiyo is in the lead, but Kako is hot on@her heels!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101
+                    }
+                ],
+                "textRight": "*Chew* *Chew*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300902,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "What will Yachiyo do?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(She can't keep that pace up forever.@She'll need to rest soon.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "lipSynch": 0,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "(That's when I'll go into overdrive, and@eat my way to victory!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "*Sigh*",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Now's my chance!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 100251,
+                        "motion": 301
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Haaaaaaaaah!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100251,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300902,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "nameRight": "Yachiyo",
+                "textLeft": "[chara:300901:effect_emotion_surprise_0][se:7226_shock]Yachiyo has suddenly picked up the pace!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "motion": 201
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Nomnomnomnomnomnom!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Wow! Are you okay going that fast?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251
+                    }
+                ],
+                "textRight": "Nom..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100251,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Nom!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300902,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "textLeft": "Yachiyo gives the thumbs up! Is she that@confident in her victory?!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100251,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "shake",
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100251,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "*Burp*"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100251
+                    }
+                ],
+                "se": "3102_enemy_dead"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100550,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "nameLeft": "Iroha",
+                "nameRight": "Felicia",
+                "textBg": "shout",
+                "textLeft": "[chara:100550:effect_emotion_surprise_0][chara:100351:effect_emotion_surprise_0][chara:110100:effect_emotion_surprise_0][se:7226_shock]Oh nooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100351,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textCenter": "She fell over, with her thumb still up!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100550,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Yachiyooo!"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "Yachiyo's stomach was stretched to capacity@after eating too much pasta too quickly.@The battle was over...@Nanaka's team was declared the victor.",
+                "narrationBg": "bg_adv_20331.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "Ever since that day,@Yachiyo followed the old adage..."
+            },
+            {
+                "narration": "\"Do everything in moderation.\""
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/51032_badend.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "bg": "black",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

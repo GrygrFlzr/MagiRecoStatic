@@ -1,0 +1,300 @@
+{
+    "story":
+    {
+        "group_1": [
+        {
+            "bg": "bg_adv_12021.jpg",
+            "bgm": "bgm03_story08",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 303201,
+                "lipSynch": 0,
+                "motion": 0,
+                "pos": 1
+            }],
+            "nameCenter": "Mayu",
+            "textCenter": "...",
+            "turnChangeIn": "fadeIn",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "textCenter": "(I won, but it was only a Familiar.)",
+            "turnEffect": "thinking"
+        },
+        {
+            "chara": [
+            {
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "textCenter": "(Is it normal for them to carry on even@after their Witch has been defeated?)"
+        },
+        {
+            "chara": [
+            {
+                "id": 303201,
+                "lipSynch": 0,
+                "motion": 300
+            }],
+            "textCenter": "(Not to mention it was clearly coming after@me specifically.)"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "textCenter": "(Is it because I defeated its Witch?)"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101301,
+                "motion": 0,
+                "pos": 1
+            }],
+            "turnChangeIn": "fadeIn",
+            "turnEffect": "stop"
+        },
+        {
+            "bg": "bg_adv_19041.jpg",
+            "chara": [
+            {
+                "id": 101301
+            }],
+            "nameCenter": "Asuka",          
+            "textCenter": "Are you injured? It was really persistent@in going after you.",
+
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "blackFrame"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 303201,
+                "motion": 1,
+                "pos": 1
+            }],
+            "turnChangeIn": "fadeIn",
+            "turnEffect": "stop"
+        },
+        {
+            "bg": "bg_adv_12021.jpg",
+            "chara": [
+            {
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "nameCenter": "Mayu",
+            "textCenter": "(Come to think of it, I kept being attacked@yesterday too for some reason.)",
+            "turnChangeOut": "fadeOut",
+            "turnEffect": "thinking"
+        },
+        {
+            "chara": [
+            {
+                "id": 303201,
+                "motion": 100
+            }],
+            "textCenter": "Why?",
+            "turnEffect": "stop"
+        },
+        {
+            "chara": [
+            {
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "textCenter": "..."
+        },
+        {
+            "bgm": "stop",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 303201,
+                "lipSynch": 0,
+                "motion": 0
+            }],
+            "textCenter": "[chara:303201:effect_ef_adv_01][se:7201_detect_magic]...?!"
+        },
+        {
+            "bgm": "bgm03_story10",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 303201
+            }],
+            "textCenter": "I sense more magic."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 303201,
+                "lipSynch": 0,
+                "motion": 400
+            }],
+            "textCenter": "[chara:303201:effect_ef_adv_01][se:7201_detect_magic]...?! There's more than one."
+        },
+        {
+            "chara": [
+            {
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "textCenter": "(They're all over the city!)",
+            "turnEffect": "thinking"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 303201,
+                "motion": 200
+            }],
+            "textCenter": "This is bad! I have to defeat as many as@I can and protect the city!",
+            "turnEffect": "stop"
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 1,
+                "id": 303201
+            }],
+            "textCenter": "Where's the closest?"
+        },
+        {
+            "chara": [
+            {
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "flashEffect": "flashWhiteSlow2",
+            "se": "7211_souljem_02",
+            "textCenter": "..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "eyeClose": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 303201,
+                "motion": 0
+            }],
+            "textCenter": "The museum?"
+        },
+        {
+            "chara": [
+            {
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "textCenter": "(It might be planning to steal more art.)",
+            "turnEffect": "thinking"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 303201,
+                "lipSynch": 0
+            }],
+            "textCenter": "(I should go check it out.)"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 303201,
+                "lipSynch": 0,
+                "motion": 400
+            }],
+            "textCenter": "[chara:303201:effect_ef_adv_01][se:7201_detect_magic]...?!",
+            "turnEffect": "stop"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 303201
+            }],
+            "textCenter": "No! It's here?!"
+        },
+        {
+            "autoTurnLast": 0.5,
+            "bg": "bg_adv_47001.jpg",
+            "bgChangeEffect": "enterWitchSpace",
+            "chara": [
+            {
+                "id": 303201,
+                "pos": 2
+            }],
+            "se": "7208_wander_into",
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "id": 7001,
+                "name": "sprite_0",
+                "pos": 0
+            }],
+            "textBg": "shout",
+            "textLeft": "SHLー！＋＃￥・＄＠!!!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 303201,
+                "motion": 0
+            }],
+            "textRight": "I can't believe the Familiars keep coming@after me!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "effect": "ef_adv_05",
+                "face": "mtn_ex_020.exp.json",
+                "id": 303200,
+                "motion": 100,
+                "pos": 2
+            }],
+            "se": "7205_magic_girl",
+            "textRight": "Anyway, I need to head to the museum as@soon as I defeat it!"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "turnChangeIn": "fadeIn"
+        }]
+    },
+    "version": 3
+}

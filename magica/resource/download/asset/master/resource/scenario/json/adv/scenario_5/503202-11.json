@@ -1,0 +1,639 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20271.jpg",
+                "bgm": "bgm03_story02",
+                "nameNarration": "Iroha",
+                "narration": "We walked on in search of treasure...",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narration": "And Tsuruno guided us here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "narrationEffect": "out",
+                "textLeft": "Hrmmm... It should be close by according@to the map."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "Ohh? I see someone over there! Let's try@asking them!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "(Here comes the next part.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Ahem, 'scuse me! Could I ask you something?",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "Oh! The girl from earlier!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "[chara:100301:effect_emotion_surprise_0][se:7226_shock]Er..."
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 1
+                    },
+                    {
+                        "id": 100301,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "After parting ways I looked into it, but..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "It turns out this shrine was erected about@500 years ago."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I believe it was built by the feudal lord@who governed this area."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    },
+                    {
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "[chara:303201:effect_emotion_joy_0][se:7222_happy]Look at the incredible ornamentation!@Such splendid, intricate work!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "It must have been crafted by extremely@skilled artisans..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "What do you think? Oh, especially this part@here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100301,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Ummm..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303201,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "[chara:303201:effect_emotion_surprise_0][se:7226_shock]...Oh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 303201,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303201,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303201,
+                        "lipSynch": 1,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Are you here looking for treasure?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "(She only just got into character!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Uh, yeah, that's right!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301
+                    }
+                ],
+                "textLeft": "The map we have told us it should be around@here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Where in the world is it?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "There certainly is treasure..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "But! I'm afraid it's not here!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Wha-wha-WHAAAT?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "There's another part to the map! That'll@show you where the treasure is!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "However, that other piece of the map is held@by the Dark Queen!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "A qu-qu-queen?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "Did you hear that, guys?! A Dark Queen!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Oh, wooow!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "id": 100101,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "That's so...scaaary!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Wow! Real royalty!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mayu",
+                "textRight": "Ummm... Which one of you is cursed?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "That'd be me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "The queen is the cause of your curse!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303201
+                    }
+                ],
+                "textRight": "She wants to hoard the treasure all for@herself, so she curses all who seek it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "O-oh! I see!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 303201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "And that same Dark Queen awaits you at@the edge of the coast..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 303201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "So go forth brave heroes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100901,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "(We're heroes now?!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Um, is that right...?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Thanks so much!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301
+                    }
+                ],
+                "textLeft": "Here's my thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Wow! Thank you! I'll make sure to use them."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "See you there!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "(More discount coupons.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "(Maybe this is also a plan to boost@Banbanzai's sales?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Sooo...we goin' to the cliff now?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "That's right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "I can almost smell that treasure!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

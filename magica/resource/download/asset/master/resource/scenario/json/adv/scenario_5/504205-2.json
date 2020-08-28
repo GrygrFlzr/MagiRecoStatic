@@ -1,0 +1,142 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1279.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event10",
+                "nameNarration": "Shizuku",
+                "narration": "— Shizuku —@*Pant*...*Pant*",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 40,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "— Shizuku —@Ryo, Ikumi... I'm sorry."
+            },
+            {
+                "narration": "— Shizuku —@I'll probably become exactly@what you expected me to."
+            },
+            {
+                "narration": "— Shizuku —@I won't forgive the Magius for betraying@their allies while saying they'll save us."
+            },
+            {
+                "narration": "— Shizuku —@I can't believe in the future that@those three have promised us."
+            },
+            {
+                "narration": "— Shizuku —@So I'm going to put a stop to whatever it is@that the Wings of the Magius are planning."
+            },
+            {
+                "nameNarration": "Ryo",
+                "narration": "― Ryo ―@I won't have any regrets about letting@you go. Not even if you stop us."
+            },
+            {
+                "narration": "― Ryo ―@But I might cry a little, or hold a grudge."
+            },
+            {
+                "narration": "― Ryo ―@I'm starting to hate myself, too. I want@to save you, but I still cling to liberation."
+            },
+            {
+                "nameNarration": "Ikumi",
+                "narration": "― Ikumi ―@I fully intend to bring about liberation, @even if it means using the Magius."
+            },
+            {
+                "narration": "― Ikumi ―@I feel the same as you, Ryo.@I might cry a little, too..."
+            },
+            {
+                "narration": "― Ikumi ―@But, Shizuku, don't worry about us."
+            },
+            {
+                "narration": "― Ikumi ―@We still managed to keep from crossing a@line that no Magical Girl should cross."
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "— Shizuku —@I knew it...@You DID help me."
+            },
+            {
+                "nameNarration": "Ikumi",
+                "narration": "― Ikumi ―@..."
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "— Shizuku —@Thank you..."
+            },
+            {
+                "narration": "— Shizuku —@I hope...I can meet you two again someday,@under better circumstances."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19181.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_033.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_034.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "nameRight": "Ikumi",
+                "textRight": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "*Sniff* *Sob*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_034.exp.json",
+                        "id": 715104,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

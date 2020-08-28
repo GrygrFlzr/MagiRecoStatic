@@ -1,0 +1,276 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20031.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "nameNarration": "Ui",
+                "narration": "What is it that I can do?",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I learned all sorts of things from the@older Magical Girls, but I still don't@know what I want to do myself."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "narration": "I know we have to fight Witches,@but I feel like that isn't enough somehow."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20013.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "I wish I could do something to help,@like that statue of the prince in@The Happy Prince story...",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "narration": "The prince and a swallow help people by@giving away pretty jewels and gold leaves."
+            },
+            {
+                "narration": "But I don't have anything like that..."
+            },
+            {
+                "narration": "I could help everyone before,@but now, I'm just the same as..."
+            },
+            {
+                "narration": "No, that's not right..."
+            },
+            {
+                "narration": "I'm still so inexperienced. I'm nowhere @near as good as everyone else..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "Touka knows so much and is working@so hard to research a way to use what@she learned as a Magius to help us.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Nemu's soul is damaged, but she's trying@to find a way to make an Uwasa that@can stop Doppels from coming out."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "So I'm the only one that's got nothing..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20031.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "*Sigh*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "stop",
+                "nameLeft": "???'s Voice",
+                "surround": "7102_townbuzz",
+                "textLeft": "...Make a...with...nd............irl."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "[chara:101501:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21141.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801600,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 0,
+                        "posX": -50,
+                        "posY": 0
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801600
+                    }
+                ],
+                "nameRight": "",
+                "surround": "7001_birdsong",
+                "textRight": "A Magical Girl...?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameLeft": "Kyubey",
+                "textLeft": "That's right. I'll grant you any wish you@want."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "And in return, I want you to become a Magical@Girl."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801600
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhite2]Eek!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ui",
+                "se": "7107_arrivalone",
+                "textCenter": "Don't listen to him! Just run away right now,@okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "You're Ui Tamaki."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

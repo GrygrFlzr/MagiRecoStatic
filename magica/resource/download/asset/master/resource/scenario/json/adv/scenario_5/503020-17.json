@@ -1,0 +1,355 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 200100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 128,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "id": 200100,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Madoka (Kei)",
+                "textRight": "[flashEffect:flashWhite2][se:5007_shooting_05_s]HA HA HA HA HA HA",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302500,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ren",
+                "textCenter": "[flashEffect:flashWhite2][surround:3025A02]Lo...look out!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 302500,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200300,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "Thanks!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 302500,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Ren",
+                "textRight": "Homura..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500
+                    }
+                ],
+                "textRight": "I-I can't be certain...this will work...@But my magic..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302500,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "It might...be able to draw out, w-whatever's@possessing Madoka!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 200100,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Madoka (Kei)",
+                "textLeft": "AH HA HA HA HA HA HA"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500,
+                        "motion": 200,
+                        "pos": 1
+                    },
+                    {
+                        "id": 200100,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameCenter": "Ren",
+                "textCenter": "[flashEffect:flashWhite2][surround:3025A02]Ack!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200100,
+                        "motion": 300,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Madoka (Kei)",
+                "textRight": "HA HA HA HA HA HA HA HA"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302500,
+                        "motion": 400
+                    },
+                    {
+                        "id": 200100,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textCenter": "[flashEffect:flashWhite2][surround:3025A02]Take...this!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_111.exp.json",
+                        "id": 200100,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "HEE HEE HEE HEE HEE"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302500,
+                        "motion": 300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200100
+                    }
+                ],
+                "textCenter": "I...I can't hit her!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200300,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Homura",
+                "textCenter": "(We have to get her to stop moving around@somehow.)"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20284.jpg",
+                "bgm": "stop",
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 0.5
+            },
+            {
+                "autoTurnLast": 1,
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 128,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeOutTime": 0.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200300,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "[chara:200300:effect_emotion_surprise_0][se:7226_shock]...!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200300,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Ren! Focus on the smell!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200300,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Nothing else here has a scent, but Madoka@smells like the flowers on the cliff!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200300,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "And now..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 200300
+                    }
+                ],
+                "textCenter": "*Inhale*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200300,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeSmall]Kei! I'm right here!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200300
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeSmall]\"In every life, we end whenever we meet\"!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

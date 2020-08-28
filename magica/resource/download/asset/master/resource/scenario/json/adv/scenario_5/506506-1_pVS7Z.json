@@ -1,0 +1,552 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Chapter 6@\"A Promise and the Truth\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20121.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 831300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 831301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 831300
+                    },
+                    {
+                        "id": 831301
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 831300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 831301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Minou",
+                "textCenter": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "So now you girls are Magical Girls, too?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "I presume you used your wishes for the@benefit of my older sister."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 831300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Nod*",
+                "narrationBg": "narration",
+                "narrationCoverOpacity": 145,
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 831300
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402400,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Ah, I understand now. That was why Lapin@led that solo attack...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(She wanted to test out the new powers she'd@gained from their wishes.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402400,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "This won't do at all.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "We only have so many lady's maids who@have the potential to become Magical Girls."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "We can't waste them away on frivolities."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "That goes double for Corbeau..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "She even took that overwhelming power of@hers she was granted at the start..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "And forced a maid into a contract just so she@could seal it away."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "(She says it's to avoid hurting us in the@midst of battle...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(But we don't matter in the grand scheme of@things. Only our benefactor's will matters.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Well, regardless. I'll have to start work on@the next phase of our plan soon."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831301,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Minou",
+                "textCenter": "A shame that I can't use these girls."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "I'll have some other maid summoned right@away..."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400
+                    }
+                ],
+                "textCenter": "To the benefactor's room."
+            },
+            {
+                "autoTurnLast": 1,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "nameNarration": "",
+                "narrationBg": "bg_adv_20121.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "*Knock*",
+                "se": "7107_arrivalone",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/memoria_1373.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Minou",
+                "narration": "― Minou ―@Forgive me for intruding on your rest.",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Minou ―@It seems this young lady@has a wish for you to grant."
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1.2
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "France - Orléans Outskirts",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "nameRight": "Gilles",
+                "textRight": "Our Holy Maiden, I bring news.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textRight": "There is a Cathedral of the Holy Cross in@Orléans."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textRight": "A great miasma is forming around it."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "Sounds like another distortion in history.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "Now that you resolved the large paradox that@occurred in Domrémy..."
+            },
+            {
+                "textRight": "Fragments that were hidden before are starting@to make themselves visible."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Does this mean we may be able to win back@another Fragment of True History?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "Yes. Though I'm certain the church is now a@nesting ground for Witches."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Take precautions."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "We will."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "We will head for the church. Ui, make sure@you have the Blank Prophecy.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "I will!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Gilles",
+                "textRight": "We're counting on you."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

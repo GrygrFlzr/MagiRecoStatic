@@ -1,0 +1,432 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_31031.jpg",
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "*Pant* *Pant*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402700,
+                        "motion": 100,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "Minou, can I kill her already?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    },
+                    {
+                        "eyeClose": 0,
+                        "id": 101500
+                    }
+                ],
+                "nameRight": "Minou",
+                "textRight": "Oh... But the performance has only just@begun."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4027A01]But I can't take it anymore!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "[chara:101500:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402700,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Oh?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "She's gone..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "bgm": "bgm01_battle02",
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "That was a close one.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "You're..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I'm pleased you asked!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I am the daughter of Barbara Celjska,@empress of the Holy Roman Emperor Sigismund."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "I belong to the Order of the Dragon..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "You're Elisa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]Uh, how do you know who I am?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Er, well... I had a dream about you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Who, or what, are you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I'm Ui Tamaki. I go to the Kamihama@University Affiliated School—"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402700,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "That's the girl who interrupted us!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "I see."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "The Order of the Dragon princess. How@amusing."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Minou",
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "I'm not inclined to fight those three again.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Can you run? Retreating would be best, at@the moment!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "O-okay!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

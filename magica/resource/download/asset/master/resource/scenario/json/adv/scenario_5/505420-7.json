@@ -1,0 +1,1056 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19092.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_08",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm02_boss01",
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 1,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Touka...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "[chara:101403:lipSynch_1]I can't believe her Doppel is appearing at a@time like this..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Eternal Sakura... Please, see reason...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textRight": "You exist to protect the four of us, don't@you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "| And now I exist to kill them. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "That's a contradiction..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "| That's why... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300
+                    }
+                ],
+                "textLeft": "| If I kill one of you, I will probably die@because I went against my [textBlue:Rumor]. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "textRight": "And you're okay with that?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][surround:3043A01]| That is my role as an Uwasa. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashRed2][surround:3043A03][chara:100100:effect_shake][bgEffect:shakeLarge]Aaagh!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "| ... |",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100100,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "*Gasp* Ugh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300,
+                        "lipSynch": 1,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "| Ui, this doesn't concern you. Get out of@my way. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300
+                    }
+                ],
+                "textLeft": "| Or else I will have to adhere to my data@and judge you, too. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "I don't care if you do!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304300,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][surround:3043A01]| I see. |"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 101500,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100600,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "[flashEffect:flashRed1][chara:100600:effect_shake][bgEffect:shakeLarge][surround:3043A03]Aaaugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_032.exp.json",
+                        "id": 101700,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Mitama",
+                "textRight": "[flashEffect:flashRed1][chara:101700:effect_shake][bgEffect:shakeLarge][surround:3043A03]Urgh!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "Mitama! Mifuyu!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "I just tripped and fell forward..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101700,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "I was trying to talk to her, that's all."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700
+                    }
+                ],
+                "textRight": "I just couldn't control myself at the thought@of seeing this poor little girl get hurt."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| You mean to say you didn't intend to @fight. |"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textLeft": "That's right..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700
+                    }
+                ],
+                "textRight": "That's exactly what I'm saying."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "Please, stop!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| Stand in my way, and I will destroy you. |"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304300
+                    }
+                ],
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Nemu",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101403,
+                        "lipSynch": 1
+                    }
+                ],
+                "textCenter": "It appears I'll have to stand up for myself@and resist as well..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "I'm sorry."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textCenter": "Be it today, or with the Magius, we never@seem to do anything productive..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "*Pant* Ugh...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "I still haven't heard from Yachiyo and the@others!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100100,
+                        "lipSynch": 1
+                    }
+                ],
+                "textCenter": "The map of Kamihama..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "textCenter": "We were exploring it so happily just a few@hours ago..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/chapter8/101803_bigmap_spot_photo.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@Hey, this is the map from back then!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "― Touka ―@*Giggle*"
+            },
+            {
+                "narration": "― Touka ―@It was basically poster-sized,@so I scanned it."
+            },
+            {
+                "narration": "― Touka ―@Amazing, right?@Now we can carry it around with us."
+            },
+            {
+                "nameNarration": "Nemu",
+                "narration": "― Nemu ―@For those of us less digitally inclined,@it's a bit difficult to read."
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "surround": "7003_wind",
+                "textCenter": "Pictures!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm01_battle02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "surround": "stop",
+                "textCenter": "Mitama! Mifuyu!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "Ask them to send pictures of the surveys!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Mitama",
+                "textRight": "But we've got our hands full here!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304300,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| ... |"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "We don't have enough time!"
+            },
+            {
+                "bgEffect": "shakeSmall",
+                "nameCenter": "Tsukuyo and Tsukusa's Voices",
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:1018A05][surround:1019A04]Flute Blossom Resonance!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304300,
+                        "lipSynch": 0,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 101700
+                    }
+                ],
+                "textLeft": "[flashEffect:flashRed2][bgEffect:shakeLarge][surround:1018A06][surround:1019A08][chara:304300:effect_shake]| ...?! |"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101900,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101800,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameRight": "Tsukasa",
+                "textRight": "We don't mind if our sentences get a little@heavier!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101800,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "textCenter": "Mifuyu, please use this time to collect the@photographs!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101800
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101900
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 304300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 101700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "Thank you, Tsukuyo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101700,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Mitama",
+                "textRight": "Thank you, girls!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100600
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Nemu",
+                "textCenter": "Oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101403,
+                        "lipSynch": 1
+                    }
+                ],
+                "textCenter": "Do we really deserve to be protected to this@extent?"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 101403,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100100,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "*Pant* *Pant*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100
+                    },
+                    {
+                        "eyeClose": 0,
+                        "id": 101403,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You'll see the answer to that soon enough..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Thank you, Tsukuyo and Tsukasa!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 401
+                    }
+                ],
+                "textLeft": "Let me fight, too!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

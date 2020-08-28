@@ -1,0 +1,544 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "black",
+                "bgm": "bgm03_story12",
+                "nameNarration": "Iroha",
+                "narration": "...",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "narrationEffect": "out",
+                "textCenter": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "This isn't France."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "And...where's Yachiyo?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "What do I do? It's totally dark, and I@don't know which way is which."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "Did I really get lost at a time like this?"
+            },
+            {
+                "nameRight": "Yachiyo's Voice",
+                "surround": "7202_telepathy",
+                "textRight": "Iroha, can you hear me?",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Yachiyo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Where are you?"
+            },
+            {
+                "textRight": "It looks like we're in the space we go to@before we enter the dream."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "I'm trying to find you, but..."
+            },
+            {
+                "textRight": "Don't move."
+            },
+            {
+                "textRight": "I'll listen to your telepathy and move in@the direction it's coming from."
+            },
+            {
+                "textRight": "Keep talking."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Yachiyo",
+                "surround": "stop",
+                "textLeft": "Yachiyo!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100200
+                    }
+                ],
+                "textRight": "I'm glad we managed to find each other."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "How do we get out of here?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I haven't the slightest idea."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "Should we try talking again?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "We can see if anyone else responds to our@telepathy."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "Let's give it a try."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textRight": "Hopefully someone answers."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "textCenter": "Hello? Can anybody hear me?!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "If you can, please respond!"
+            },
+            {
+                "nameLeft": "Melissa's Voice",
+                "textLeft": "Um...who's there?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "Oh, someone answered!"
+            },
+            {
+                "textLeft": "Is that you, Iroha?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Melissa! You can hear us!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "We're lost!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textCenter": "Keep answering when we call out, and we'll@find our way to you!"
+            },
+            {
+                "textLeft": "Uh, okay?!"
+            },
+            {
+                "textLeft": "I don't really understand, but I'll try to@help!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "surround": "stop",
+                "textCenter": "Melissa really has all the makings of a@Magical Girl.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 201,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "[flashEffect:flashWhite2]I see a light. [chara:100200:lipSynch_0][wait:0.8][chara:100200:cheek_0][chara:100200:face_mtn_ex_014.exp.json][chara:100200:lipSynch_1]I think we're getting close@to the dream France.",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "surround": "7202_telepathy",
+                "textCenter": "We're almost there! Thank you, Melissa!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "textLeft": "Please be safe!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "bg": "bg_adv_20103.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Yachiyo",
+                "surround": "stop",
+                "textLeft": "We finally made it!",
+                "turnChangeOut": "whiteOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100200,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Yes, thank you, Melissa."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "I'm so happy you're all right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "I wonder why we got lost this time."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "I have no idea."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "Iroha, what is that old book?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Oh, right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Looks like we managed to get it here safely."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "This book has information..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textRight": "...on the magical trap our enemy is using@on Darc."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Truly?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Yes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textRight": "We were hoping Qube could read it for us!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 0,
+                        "posX": 0,
+                        "posY": 0
+                    }
+                ],
+                "nameLeft": "Qube",
+                "textLeft": "You called?"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

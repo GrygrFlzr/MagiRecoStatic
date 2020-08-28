@@ -1,0 +1,485 @@
+{
+  "story": {
+    "group_1": [
+      {
+        "autoTurnLast": 0.01,
+        "bg": "black",
+        "item": [
+          {
+            "path": "resource/scenario/img/51049_storyselect_homura/51049_frame.png",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear",
+            "zOrder": "charaFront"
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bgm": "bgm01_anime17",
+        "nameNarration": "",
+        "narration": "When Sayaka transformed into a Witch, the@first person who rushed to save her was...",
+        "narrationCoverOpacity": 90.0,
+        "narrationEffect": "in",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "narration": "One who had clashed with her countless times.@Kyoko."
+      },
+      {
+        "autoTurnLast": 0.01,
+        "bg": "bg_adv_20031.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 200601,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 200101,
+            "motion": 0,
+            "pos": 2,
+            "soulGem": 0
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "chara": [
+          {
+            "id": 200601,
+            "motion": 1
+          }
+        ],
+        "nameLeft": "Kyoko",
+        "nameRight": "Madoka",
+        "textLeft": "Ya wanna save Sayaka Miki?",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_051.exp.json",
+            "id": 200101,
+            "lipSynch": 0
+          }
+        ],
+        "textRight": "...?!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 200101,
+            "motion": 101
+          }
+        ],
+        "textRight": "Do you think there's a way? Really?"
+      },
+      {
+        "chara": [
+          {
+            "id": 200601,
+            "motion": 0
+          }
+        ],
+        "textLeft": "Even if she was turned into a Witch..."
+      },
+      {
+        "chara": [
+          {
+            "id": 200601
+          }
+        ],
+        "textLeft": "Maybe she'd be able to remember the voice @of a friend."
+      },
+      {
+        "chara": [
+          {
+            "id": 200601,
+            "motion": 300
+          }
+        ],
+        "textLeft": "I was thinkin'... Maybe if you call out to@her, she'll remember being human."
+      },
+      {
+        "chara": [
+          {
+            "id": 200601
+          }
+        ],
+        "textLeft": "You're probably the only one who could..."
+      },
+      {
+        "chara": [
+          {
+            "id": 200601,
+            "motion": 0
+          }
+        ],
+        "textLeft": "I mean, don'tcha think?"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "bgm": "stop",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 200201,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "turnChangeIn": "rollInFast"
+      },
+      {
+        "chara": [
+          {
+            "id": 200201,
+            "lipSynch": 0
+          }
+        ],
+        "nameCenter": "Homura",
+        "textCenter": "...",
+        "turnChangeOut": "rollOutFast"
+      },
+      {
+        "autoTurnLast": 1.5,
+        "bgm": "stop",
+        "item": [
+          {
+            "path": "resource/scenario/img/51049_storyselect_homura/51049_witch_mermaid.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "autoTurnLast": 0.5,
+        "bgm": "bgm02_anime09"
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@Hey Sayaka. It's me. It's Madoka.",
+        "narrationAnchor": "bottom",
+        "narrationCoverOpacity": 130.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 23.0,
+        "narrationLineMargin": 20.0,
+        "narrationLineSpace": 10.0,
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "narration": "— Madoka —@C-can you hear me?@Do you recognize my voice?"
+      },
+      {
+        "narration": "— Madoka —@Try to remember! Please!@I know you never wanted to hurt anyone!"
+      },
+      {
+        "narration": "— Madoka —@Please, Sayaka...@Turn back into your old self!"
+      },
+      {
+        "nameNarration": "Kyoko",
+        "narration": "― Kyoko ―@Damnit Sayaka!"
+      },
+      {
+        "narration": "― Kyoko ―@Come on! You told me you@believed in your power!"
+      },
+      {
+        "narration": "― Kyoko ―@You were gonna use it to help people, remember?!"
+      },
+      {
+        "autoTurnLast": 1.0,
+        "bg": "bg_adv_narration.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_000.exp.json",
+            "id": 200600,
+            "motion": 300,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 200101,
+            "motion": 300,
+            "pos": 1,
+            "posX": 100,
+            "soulGem": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 200200,
+            "motion": 0,
+            "pos": 2,
+            "posX": 50
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "chara": [
+          {
+            "id": 200200,
+            "motion": 400
+          }
+        ],
+        "nameNarration": "Homura",
+        "narration": "\"Kyoko!\"",
+        "narrationEffect": "in",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "eyeClose": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 200600,
+            "motion": 0
+          }
+        ],
+        "nameNarration": "Kyoko",
+        "narration": "\"Hey...\""
+      },
+      {
+        "narration": "\"Me and my stupid ideas...\""
+      },
+      {
+        "narration": "\"She shouldn't've come. Take care of her.\""
+      },
+      {
+        "chara": [
+          {
+            "id": 200600,
+            "motion": 100
+          }
+        ],
+        "narration": "\"Get out of here.@Don't worry...I'll take care of her.\""
+      },
+      {
+        "chara": [
+          {
+            "id": 200200,
+            "motion": 0
+          }
+        ],
+        "nameNarration": "Homura",
+        "narration": "..."
+      },
+      {
+        "autoTurnLast": 0.01,
+        "item": [
+          {
+            "path": "resource/scenario/img/51049_storyselect_homura/51049_witch_mermaid.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "nameNarration": "Kyoko",
+        "narration": "― Kyoko ―@I know, Sayaka.",
+        "narrationAnchor": "bottom",
+        "narrationCoverOpacity": 110.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 30.0,
+        "narrationLineMargin": 35.0,
+        "narrationLineSpace": 20.0,
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "narration": "― Kyoko ―@It sucks to be alone. Believe me, I know."
+      },
+      {
+        "narration": "― Kyoko ―@But it's okay now, 'cause I'm here with you."
+      },
+      {
+        "autoTurnLast": 0.5,
+        "flashEffect": "explosion",
+        "narrationEffect": "out",
+        "textClear": 1
+      },
+      {
+        "autoTurnLast": 2.0,
+        "bg": "bg_adv_21152.jpg",
+        "bgm": "stop",
+        "chara": [
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 200101,
+            "motion": 300,
+            "pos": 0,
+            "soulGem": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 200200,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "whiteIn",
+        "turnChangeInTime": 3.0
+      },
+      {
+        "chara": [
+          {
+            "id": 200200
+          }
+        ],
+        "nameRight": "Homura",
+        "textRight": "Kyoko...",
+        "turnChangeOut": "whiteOut",
+        "turnChangeOutTime": 3.0
+      },
+      {
+        "autoTurnLast": 1.0,
+        "bg": "black",
+        "item": [
+          {
+            "path": "resource/scenario/img/51049_storyselect_homura/51049_frame.png",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear",
+            "zOrder": "charaFront"
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "nameNarration": "",
+        "narration": "Kyoko lost her life,@thus breaking the alliance@against Walpurgisnacht.",
+        "narrationCoverOpacity": 90.0,
+        "narrationEffect": "in",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "narration": "The uninvited guest who visited@Homura Akemi knew what that meant."
+      },
+      {
+        "autoTurnLast": 1.0,
+        "bg": "bg_adv_23011.jpg",
+        "chara": [
+          {
+            "id": 810000,
+            "pos": 0,
+            "posX": -50,
+            "posY": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 200200,
+            "motion": 1,
+            "pos": 2
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bgm": "bgm01_anime05",
+        "chara": [
+          {
+            "id": 200200
+          }
+        ],
+        "nameLeft": "Kyubey",
+        "nameRight": "Homura",
+        "textRight": "Was there any chance...",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "id": 200200
+          }
+        ],
+        "textRight": "For Kyoko Sakura to save Sayaka Miki?"
+      },
+      {
+        "textLeft": "Of course not."
+      },
+      {
+        "textLeft": "She should've known that was impossible."
+      },
+      {
+        "chara": [
+          {
+            "id": 200200,
+            "motion": 0
+          }
+        ],
+        "textRight": "Then why didn't you try to stop her?"
+      },
+      {
+        "textLeft": "I would have stopped her if I thought her@dying was pointless."
+      },
+      {
+        "textLeft": "But the fact is, her death actually serves a @more important purpose."
+      },
+      {
+        "textLeft": "Walpurgisnacht is coming, and you are the @only Magical Girl left..."
+      },
+      {
+        "textLeft": "To stand in its way."
+      },
+      {
+        "textLeft": "There's no way you can beat it all by @yourself."
+      },
+      {
+        "textLeft": "So if Madoka wants to protect this city..."
+      },
+      {
+        "textLeft": "She'll have to become a Magical Girl."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 200200,
+            "lipSynch": 0
+          }
+        ],
+        "textRight": "..."
+      },
+      {
+        "chara": [
+          {
+            "id": 200200,
+            "motion": 200
+          }
+        ],
+        "textRight": "That won't happen. I swear it!"
+      },
+      {
+        "autoTurnLast": 2.0,
+        "turnChangeIn": "fadeIn"
+      }
+    ]
+  },
+  "version": 3
+}

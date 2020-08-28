@@ -1,0 +1,76 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "in",
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.2,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20073.jpg",
+                "bgm": "bgm01_battle06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "nameRight": "Gilles",
+                "textLeft": "Bourges is in sight! We need only to break@through their defenses!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100
+                    }
+                ],
+                "textRight": "Brethren, fear not! Remember, we have@the blessed maidens on our side!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "La Hire",
+                "textRight": "Baron Gilles sure knows how to rouse his@troops!"
+            },
+            {
+                "autoTurnLast": 2,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

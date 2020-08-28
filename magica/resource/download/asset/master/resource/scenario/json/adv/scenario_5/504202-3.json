@@ -1,0 +1,560 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "nameNarration": "Shizuku",
+                "narration": "I got another text from Ayaka today.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Her texts were always very polite,@which is unusual for someone like her.@It almost made me feel bad for making@her do something she normally wouldn't."
+            },
+            {
+                "narration": "But I knew if I replied to her I'd just@go back to being dragged around by@her whims again, and I'd be torn away@from the Wings of the Magius."
+            },
+            {
+                "narration": "I was scared of being hauled around by@her and losing my time to think..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304601,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 305301,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "narration": "Though to be honest, I wasn't exactly@in a calm state of mind here, either. Even@with these two kind girls looking after me."
+            },
+            {
+                "narration": "I can't help but suspect there was@some motive behind their kindness."
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 305301
+                    }
+                ],
+                "narration": "How selfish of me."
+            },
+            {
+                "narration": "Even with all this time to think things@through, I was doubting other people@and trying to put distance between us."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19081.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715002,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "nameRight": "Black Feather",
+                "textLeft": "Are you used to fighting like a Black @Feather?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715002
+                    }
+                ],
+                "textRight": "Not really... I'm still training by sparring@with the girls who've been here longer."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715001,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Same here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textLeft": "I train out in the field sometimes, but I@only manage to take out Familiars."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I accidently used my unique magic once@and they told me not to do that."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715002
+                    }
+                ],
+                "textRight": "How about you?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "textLeft": "I managed to beat a Witch the other day..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textLeft": "Though obviously I had my mentors helping me@the whole time."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715002
+                    }
+                ],
+                "textRight": "Man, wish I could say that..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715001,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "textLeft": "I could tell from the start they were made of@tougher stuff than us, so no wonder."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715002
+                    }
+                ],
+                "textRight": "Yeah, I'm so jealous..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "textLeft": "But you're getting used to it, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textLeft": "Just because I learned the basics fast@doesn't mean you guys won't catch up."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715002,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I have a hard enough time beating Witches@when I'm not using Black Feather moves..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:300702:effect_emotion_surprise_0][se:7226_shock]...!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715002,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "It's all fine as long as the rest of the@Wings of the Magius are around, though."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715002
+                    }
+                ],
+                "textRight": "I bet they'll make you a White Feather one@of these days. Maybe you can lead us."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "That'd depend on my assignments..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715002,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Yeah. No telling at this stage..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715001,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "textLeft": "I wanna handle something besides Witches..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715002,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yeah I mean, if you're assigned to an Uwasa,@an outpost, or the base it's mainly defense."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I'd rather do something like that. As long as@I don't need to fight."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textLeft": "Although they might get mad if they hear me@say that..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "nameRight": "Black Feather",
+                "textLeft": "Oh! I need to figure out where we're eating@dinner today."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715000
+                    }
+                ],
+                "textRight": "You're eating with someone?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textLeft": "Yeah, I've been going out to eat with my@mentors. Today's my turn to find a place."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Ah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I probably shouldn't have let that slip.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715000,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "*Giggle* I eat with my mentor all the time@too, it's no big deal.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You do?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "We aren't supposed to, but it seems@everyone's still doing it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I see... Well, that's a relief..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textLeft": "I just thought the rules were really strict@about not giving away your identity."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000
+                    }
+                ],
+                "textRight": "Yeah, I get you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "That must mean all of you got that thing from@your mentors too, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715000
+                    }
+                ],
+                "textRight": "What thing?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textLeft": "You know, that thing that all Black Feathers@need once they join."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715000,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I don't know what you're talking about..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Black Feather",
+                "textRight": "I never got anything like that, either."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Huh?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715002,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Black Feather",
+                "textRight": "What did they give to you?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Um, you know...! A Grief Seed...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715002,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "That proves it! Your mentors are spoiling you@rotten!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Y-yeah, I guess they are."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

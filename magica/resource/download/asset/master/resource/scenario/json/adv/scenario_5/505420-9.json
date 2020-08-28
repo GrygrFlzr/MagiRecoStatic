@@ -1,0 +1,924 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "white",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "nameNarration": "Eternal Sakura",
+                "narration": "| Based on the surveys that arrived,@Touka and Nemu's sentences were reduced. |",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "| The surveys also had a big impact on@the rulings for the other defendants. |"
+            },
+            {
+                "narration": "| Mifuyu Azusa: Monitoring.@Mitama Yakumo: Monitoring.@Amane Sisters: Not Guilty. |",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "narration": "| Not enough people requested that these@results be deliberated further, so we@moved on to the final verdict. |",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "narration": "| A few Feathers revealed their identities@and requested they be tried as well, but@given that the Amane sisters were not@guilty, their cases were also dismissed. |"
+            },
+            {
+                "narration": "| Nobody was to be blamed for the natural@disasters and accidents that occurred. |"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21261.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 3
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Mifuyu",
+                "textRight": "Yachan, where is my tea?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Glare*",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100601,
+                        "motion": 400
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "[chara:100601:effect_emotion_surprise_0][se:7226_shock]What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601
+                    }
+                ],
+                "textRight": "What's with that look?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "You can get your own tea."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| Shall I take this to the table? |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes, thank you."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100201,
+                        "motion": 201
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "See? You could learn something from her."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100601,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Mifuyu",
+                "textRight": "Oh my, do I have less manners than an@Uwasa?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "Take a look around you."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21201.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100401
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_21261.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "This house isn't a meeting hall...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601
+                    }
+                ],
+                "textRight": "S-sorry..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21201.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| Here you go. Hot cocoa for Ui and Touka. |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| Coffee for Nemu, and tea for Iroha. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "| Did I get that right? |"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Yes. Thank you, Eternal Sakura."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textCenter": "I never thought we'd be able to hang out like@this ever again."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "No amount of apologizing or penitence will@suffice for what we did..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "I'm sorry, too."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I think your punishments are more than@enough."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Those bracelets are controlling your powers,@right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "Yeah."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "I think it's the same as a Magical Girl@enchanting an object."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textCenter": "Even just thinking about transforming put@me in bed for an entire day..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Y-you shouldn't do that, Touka! What if it@kills you?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I would never test my bracelet..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textRight": "You'd have to be insane to experiment with@it on your own body."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "I feel like if anyone could crack it, Touka@could. That's what's scary."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| If she does, she will have to fight me@again. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "I don't want that!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "| Well, now that the trial has concluded, I@can finally speak freely. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Nemu",
+                "textCenter": "What do you want to say?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| Look at me. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Okay."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304302,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "| Here it is. |"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "[bgEffect:shakeSmall][flashEffect:flashWhite2]Slap!",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "[flashEffect:flashRed1][se:3001_chara_damage][chara:100701:effect_shake]Nyagh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101403,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "[flashEffect:flashRed1][se:3001_chara_damage][chara:101403:effect_shake]Ow!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "She spoke with her hands, not her mouth..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story05",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| I thought it necessary to get angry with @you in order to protect you. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "What's that supposed to mean?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304302,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "| Don't you dare use me for your own@convenience ever again. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101403
+                    }
+                ],
+                "textRight": "| It won't help you learn to be mature. |"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| To tell the truth, the Uwasa have known@your personalities for quite some time. |",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51054_mannenzakura/memoria_1328.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "― Uwasa of the Eternal Sakura ―@| Ever since we were created, we watched@over the three of you at the hospital. |",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 10,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Uwasa of the Eternal Sakura ―@| I had the chance to speak with other@Uwasa about you on many occasions. |"
+            },
+            {
+                "narration": "― Uwasa of the Eternal Sakura ―@| We all felt the same way. |"
+            },
+            {
+                "narration": "― Uwasa of the Eternal Sakura ―@| We worried about the three of you, and@prayed that your dreams would come true. |"
+            },
+            {
+                "narration": "― Uwasa of the Eternal Sakura ―@| But we knew about your faults, too. |"
+            },
+            {
+                "nameNarration": "",
+                "narration": "\"The director's daughter is very demanding.@She does whatever she wants in her lessons,@and knows she's smarter than everyone else.\""
+            },
+            {
+                "narration": "\"The hospital director is very ethnocentric,@so she probably gets it from him...\""
+            },
+            {
+                "narration": "\"What about Nemu?\""
+            },
+            {
+                "narration": "\"She used to be a crybaby, but now she is@stubborn. She needs people to hear her@opinions, and seeks approval from them.\""
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "― Uwasa of the Eternal Sakura ―@| We heard people say these things often. |"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51054_mannenzakura/memoria_1328.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,1347 @@
+{
+    "skipTransitionList": [
+        {
+            "from": "group_1",
+            "to": "group_5"
+        },
+        {
+            "canSkip": false,
+            "from": "group_5"
+        }
+    ],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20361.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100901,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "Felicia ended up being the one@who stood against Ria on the stage!",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "And it's almost time for the challenge!"
+            },
+            {
+                "bgm": "bgm03_story21",
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Momoko",
+                "narrationEffect": "out",
+                "textRight": "We really lucked out, huh, Rena!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901,
+                        "motion": 201
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "[chara:100901:effect_emotion_joy_0][se:7222_happy]Waaaaaaaaah! I can't believe we ran into@her here!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Hiii, everyone!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Hiiiiiiiii!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "[chara:303300:effect_emotion_joy_0][se:7222_happy]Gosh! Thank you all so much!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "An event is about to start on this special@stage we've got here!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Yaaay!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303300,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "And that event is called..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "The Goddess Challenge!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "Woooooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800500
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "Sayu Sayuuu!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "And the MC for this event iiis..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 303300,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "I'll slash my way into your heart!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "It's me, your beloved blade-bearing beauty.@[chara:303300:lipSynch_0][wait:2.0][chara:303300:cheek_1][chara:303300:face_mtn_ex_011.exp.json:motion_400][chara:303300:lipSynch_1]Sayuki Fumino, cutting in!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "I'm still new to this MC thing..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "But I'm gonna try my hardest, so please@be patient with me!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "We wiiiiiill!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Okay! It's time we challenged the festival@goddess to a game!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "So, um... Here's our challenger!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 303300,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Whoaaaaaa!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "This is Felicia Mitsuki!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Feliciaaa!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Good luuuck!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Huh? Is Felicia the only contestant?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303101,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rika",
+                "textRight": "Well, about that..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 302501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ren",
+                "textLeft": "The other people who entered didn't show@up."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "I see."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100901,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "Did you tell the royal goddess about that?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rika",
+                "textRight": "We did! And she said..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "nameCenter": "Ria",
+                "textCenter": "Aha...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "So everyone is too afraid to challenge@the might of the goddess, I see!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901
+                    }
+                ],
+                "textRight": "That's what she took from it.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "There's optimism, and then there's blind@faith..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 303101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "It's time! Everyone, put your hands together@for the glorious goddess!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "You know her, you love her..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Miss Amiga!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "[chara:301001:effect_emotion_surprise_0][se:7226_shock]Whuh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    },
+                    {
+                        "id": 301001,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Ami...ga...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "Hang on, now!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Ack! Whoopsie daisy!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "Uh, I mean... Miss R-Ria Ami!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Ahem."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Hah hah haaah! Your goddess has descended@to greet you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "Oh, er...um..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "You over there! No umm-ing or ahh-ing!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Oh. Er, woooooow!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Right! That's more like it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300601,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Emiri",
+                "textLeft": "Yaaaaaay! You're adorbs, Princess Ria!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:301001:effect_emotion_joy_0][se:7222_happy]Thank you!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "So, let's have you start the challenge."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300
+                    }
+                ],
+                "textCenter": "Please choose one of the following three@games!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303300,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "And the game will be chosen by...[chara:303300:lipSynch_0][wait:1.0][chara:303300:cheek_0][chara:303300:face_mtn_ex_010.exp.json:motion_400][chara:303300:lipSynch_1]you,@Felicia!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 303300,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Me?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "First up is...@\"Double-handed goldfish scooping\"!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Double handed?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "The next choice is...@\"Cookie-carve five shapes in a row\"!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "That's a pretty common festival game."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Last is...@\"Mushroom drumming\"!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Mushroom drumming...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "Which will you choose?!"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100401
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "Felicia decided to go with...",
+                "narrationBg": "bg_adv_20361.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narrationEffect": "out",
+                "select": [
+                    {
+                        "alternativeId": 26,
+                        "group": "group_2",
+                        "textSelect": "Double-handed goldfish scooping"
+                    },
+                    {
+                        "alternativeId": 27,
+                        "group": "group_3",
+                        "textSelect": "Cookie-carve five shapes"
+                    },
+                    {
+                        "alternativeId": 28,
+                        "group": "group_4",
+                        "textSelect": "Mushroom drumming"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Awwwright! I'm gonna go with goldfish@scoopin'!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Our challenger has chosen@\"double-handed goldfish scooping\"!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "The game will start as soon as we're done@setting up!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "I've done the cuttin' one before! You carve@the shape out, right? Let's go!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Wow! Our challenger picked the \"cookie-carve@five shapes in a row\" game!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "The game will start as soon as we're done@setting up!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Mushroom drummin' sounds pretty fun![chara:100501:lipSynch_0][wait:0.8][chara:100501:cheek_0][chara:100501:face_mtn_ex_010.exp.json:motion_200][chara:100501:lipSynch_1]@Let's do that one!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 303300,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Felicia has chosen \"mushroom drumming\"@for our challenge!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 303300
+                    }
+                ],
+                "textLeft": "The game will start as soon as we're done@setting up!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ],
+        "group_5": [
+            {
+                "bg": "bg_adv_20361.jpg",
+                "nameNarration": "Iroha",
+                "narration": "Felicia decided to go with...",
+                "narrationBg": "bg_adv_20361.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narrationEffect": "out",
+                "select": [
+                    {
+                        "alternativeId": 26,
+                        "group": "group_2",
+                        "textSelect": "Double-handed goldfish scooping"
+                    },
+                    {
+                        "alternativeId": 27,
+                        "group": "group_3",
+                        "textSelect": "Cookie-carve five shapes"
+                    },
+                    {
+                        "alternativeId": 28,
+                        "group": "group_4",
+                        "textSelect": "Mushroom drumming"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}

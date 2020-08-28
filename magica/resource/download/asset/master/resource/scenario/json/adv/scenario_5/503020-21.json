@@ -1,0 +1,192 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20283.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302502,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302502,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Ren",
+                "surround": "7009_night_townbuzz",
+                "textCenter": "Homura...!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302502
+                    }
+                ],
+                "textCenter": "I'm sorry...I took too long..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302502,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "A-are you okay? Did you get hurt...?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200152,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200352,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Homura",
+                "textRight": "Ren! I'm fine!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352
+                    }
+                ],
+                "textRight": "I managed to beat the Witch, and Madoka@didn't get hurt."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 200152
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "textLeft": "Mngh... [chara:200152:lipSynch_0][wait:1.0][chara:200152:motion_0:eyeClose_0][chara:200152:lipSynch_1]H-huh? Homura?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200352,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Do you feel okay? Nothing feels weird,@does it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200152,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Uh, I don't think so?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200152,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:200152:effect_emotion_surprise_0][se:7226_shock]What the... Why am I outside?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200152,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Did I actually toss and turn this far out@of bed?!"
+            },
+            {
+                "autoTurnLast": 3,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Dawn, August 13]@[textBlack:Our friends and the Kamihama girls found us.]@[textBlack:We thanked them and celebrated being safe.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:I know it sounds unusual coming from me,]@[textBlack:someone who fights Witches with magic...]@[textBlack:But what I experienced on the cliff was very]@[textBlack:strange. Too strange for me to comprehend.]@[textBlack:Maybe it was even impossible to understand.]"
+            },
+            {
+                "bgm": "bgm01_anime05",
+                "narration": "[textBlack:I remembered then, for some reason,]@[textBlack:that Kyubey once used the term \"soul\".]@[textBlack:A soul...]@[textBlack:I forget the details of our conversation, but]@[textBlack:I do remember that Kyubey called it a soul.]"
+            },
+            {
+                "narration": "[textBlack:We receive a \"Soul Gem\" when]@[textBlack:we become Magical Girls.]@[textBlack:That Soul Gem contains our life force.]@[textBlack:Then it's literally a gem housing our soul?]"
+            },
+            {
+                "narration": "[textBlack:Our actual spirit?]@[textBlack:Do Kyubeys use metaphors like that?]@[textBlack:Do they just call them that to impart]@[textBlack:how critically important they are to us?]@[textBlack:But say it's not a metaphor...]@[textBlack:What is a soul, something without cells or]@[textBlack:synapses... A mass of emotions? A memory?]"
+            },
+            {
+                "narration": "[textBlack:I don't know...]"
+            },
+            {
+                "autoTurnLast": 3,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 2
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,455 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_21261.jpg",
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "Felicia got a 52 on her test!@The day that shocking news@hit Mikazuki Villa...@We decided to celebrate with a@sukiyaki hot pot for dinner.",
+                "narrationBg": "bg_adv_21261.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Felicia really wanted to go to@Moo Moo Park...but she seemed@happy enough with the hot pot."
+            },
+            {
+                "narration": "The next morning..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "narrationEffect": "out",
+                "textCenter": "What shall we have for breakfast?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Ah, there should be some salad left over@from dinner last night.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "*Open*",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "...Hm?"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Clatter* *Thud*",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 400,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]What's this?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "What's wrong?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Oh, Yachiyo... Umm, when I opened the@fridge..."
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "Tsuruno's phone fell out..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "What's it doing there?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textRight": "Did she leave it by mistake? But why would@she put it there in the first place?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Um, what should we do?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Well, I suppose I'll just have to take it@to her."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textRight": "Ah, but today is..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "You have a modeling job today, don't you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "That's right..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Then I'll take it to Banbanzai later."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textLeft": "I'm sure Tsuruno's pretty worried already."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Thank you."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21201.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textCenter": "Okay, are we ready?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Then..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story19",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Everyone",
+                "textCenter": "Let's eat!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100201,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "Hey, hey. We're eatin' meat tonight, right?♪"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_042.exp.json",
+                        "id": 100201,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "You're thinking about dinner already? We're@still eating breakfast."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Come on, you know I gotta know."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "*Giggle*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "I'll pick up some tasty meat later. You can@look forward to it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yeah! I'm countin' on ya!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Ah, Sana, today's horoscopes are starting!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100401,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Oh! I'll...I'll turn on the TV!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 1
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "Experience glorious, true-to-life nature,@complete with tons of farming attractions!@The moo moo cows are waiting♪@So come on down, everybody!@Come now! To Moo Moo Park!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "Ah... The commercial..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "Moo Moo Paaark!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

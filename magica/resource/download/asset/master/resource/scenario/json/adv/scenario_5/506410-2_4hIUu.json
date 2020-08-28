@@ -1,0 +1,1280 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20255.jpg",
+                "bgm": "bgm03_story21",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100750,
+                        "motion": 201
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textCenter": "Okay, everyone hold hands.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100750
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100650,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "Mifuyu",
+                "nameRight": "Tsukasa",
+                "textCenter": "Like this?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802
+                    }
+                ],
+                "textRight": "We're holding hands in a line, so..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100650,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Oh, are we playing Red Rover?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 111801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 111802
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100750,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Nooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100850,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Alina",
+                "textLeft": "*Sigh* Hurry it up, it's too hot out here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Okay, then let's go!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101450,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textRight": "Whoa!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801
+                    }
+                ],
+                "textLeft": "Eek!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 111802
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 111801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750,
+                        "motion": 201,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textBg": "shout",
+                "textCenter": "Three, two, one..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51064_swim_amane/summer_magiusu.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "― Touka ―@JUMP!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "",
+                "narration": "SPLASH!",
+                "narrationFontSize": 100
+            },
+            {
+                "nameNarration": "Tsukasa",
+                "narration": "— Tsukasa —@Ah ha ha! This is so refreshing!",
+                "narrationFontSize": 30
+            },
+            {
+                "nameNarration": "Tsukuyo",
+                "narration": "— Tsukuyo —@It's so cold!"
+            },
+            {
+                "nameNarration": "Alina",
+                "narration": "― Alina ―@What was that, even?"
+            },
+            {
+                "nameNarration": "Touka",
+                "narration": "― Touka ―@You do it when you go to the beach."
+            },
+            {
+                "narration": "― Touka ―@You have to hold hands,@and jump into the ocean!"
+            },
+            {
+                "nameNarration": "Nemu",
+                "narration": "― Nemu ―@Is that actually a thing?"
+            },
+            {
+                "nameNarration": "Mifuyu",
+                "narration": "— Mifuyu —@*Giggle* Oh, who cares?"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 50
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 111802,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51064_swim_amane/summer_magiusu.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100750,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "nameLeft": "Touka",
+                "nameRight": "Tsukasa",
+                "textLeft": "Okay, next let's do...that!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 111801,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "What is \"that\"?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100750
+                    }
+                ],
+                "textLeft": "It's a type of hoverboard. You can fly using@water pressure."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100750,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Come on! Give it a try, Amane sisters!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 300
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801
+                    }
+                ],
+                "textRight": "Huh? Us?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Are you sure?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750
+                    }
+                ],
+                "textLeft": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100750,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I want to see how it works before I give it a@try."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802,
+                        "motion": 400
+                    },
+                    {
+                        "id": 111801,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "\"How it works\"? Are we your guinea pigs?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "*Giggle* Come on, it'll be fun!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Aw..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "She's toying with us, when we thought@we'd be the ones having fun by the ocean."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100750
+                    }
+                ],
+                "textLeft": "You're gonna go on a banana boat next,@all right?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100650,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100850,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100650,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Alina",
+                "nameRight": "Mifuyu",
+                "textRight": "Ahhh.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100650
+                    }
+                ],
+                "textRight": "It's hot, but the sunshine really is @pleasant."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100850,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Mifuyu, get into the shade."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100650,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Huh? Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100850
+                    }
+                ],
+                "textLeft": "If the skin on that body of yours got burned@it would be a crime against humanity."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100650
+                    }
+                ],
+                "textRight": "Are you worried about me? How sweet."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100850,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Now, pose."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100650,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100850
+                    }
+                ],
+                "textLeft": "Getting dragged out here..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100850,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Sketching you is the only interesting thing@for me to do."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100650,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Wh-what? But I'm in my swimsuit..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 100850
+                    }
+                ],
+                "textLeft": "Exactly. This is my only chance to sketch@you like this."
+            },
+            {
+                "nameCenter": "Nemu's Voice",
+                "textCenter": "Heeey."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100850,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Hm?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101450,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "I got some juice. Would you like any, Mifuyu?@Alina?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100650,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "Oh, Alina! Hear that? She's being so kind.@Let's take her up on those drinks."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100650
+                    }
+                ],
+                "textLeft": "Thank you, Nemu."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100650,
+                        "motion": 400
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Sluuurp*",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100650,
+                        "motion": 300
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "Ahh, it's delicious."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100850,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Alina",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_013.exp.json",
+                        "id": 100850,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Slurp* *Slurp*",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101450,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "You must've been really thirsty."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20311.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "motion": 400
+                    },
+                    {
+                        "id": 111802,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textBg": "shout",
+                "textLeft": "[chara:111801:effect_shake][chara:111802:effect_shake][bgEffect:shakeLarge]Kyaaaaaagh!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[chara:111801:effect_shake][chara:111802:effect_shake][bgEffect:shakeLarge]Help meee!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20255.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100750,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750,
+                        "motion": 201
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textBg": "shout",
+                "textCenter": "Hey, ride the banana boat more gracefully!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20311.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textBg": "shout",
+                "textLeft": "I'm hanging on with everything I've got!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802,
+                        "motion": 300
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Nooo! I-I'm going to fall... Ahh!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "cheek": 1,
+                        "effect": "shake",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "in"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "fadeout",
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "effect": "fadeout",
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Splash*",
+                "narrationBg": ""
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20255.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "id": 111802,
+                        "motion": 300
+                    },
+                    {
+                        "id": 111801,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textRight": "*Pant* *Pant*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "motion": 0,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 111802,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "I-I'm exhausted."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 111801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "pos": 1,
+                        "posX": 50
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100750,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Hmm."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100750
+                    }
+                ],
+                "textLeft": "I'm getting bored of watching the Amane@sisters..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "textCenter": "D-don't be so mean!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100750,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Isn't there something more fun we could do?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "W-we had plenty of fun!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100750,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Not you, Amane sisters. I want to have fun@myself!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Oh."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100750
+                    }
+                ],
+                "textLeft": "Come on, think of something!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100750,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I'll give you a reward if you think of@something fun for me to do."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "You make it sound so easy."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100750
+                    }
+                ],
+                "textLeft": "How about a pair of tickets to Minaminagi@Sea, plus a hotel voucher?"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "lipSynch": 0,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Tsukuyo & Tsukasa",
+                "textCenter": "...?!"
+            },
+            {
+                "bgm": "bgm01_anime03",
+                "chara": [
+                    {
+                        "id": 111802
+                    },
+                    {
+                        "id": 100750,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "A trip for two for just me and Tsukuyo?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 111801,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "textCenter": "It's more than I could ever ask for!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111802,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Oh, but... I'm busy with housework, and@Tsukuyo's busy with her lessons."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Aw... That's true."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801
+                    }
+                ],
+                "textCenter": "And we don't know if our families would allow@us to go."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100750,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Hmm, well, I'll figure something out for you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100750,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Or do you not want to go on a trip together?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Mngh..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100750
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 111801
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 111802,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Okay. Let's give it a try, Tsukuyo!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 111801,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "textLeft": "Tsukasa..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 111802
+                    }
+                ],
+                "textRight": "I have some reservations, but we can deal@with them after we win!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 111801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Okay, then."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801
+                    }
+                ],
+                "textLeft": "Let's work together and find something fun@for Touka to do!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

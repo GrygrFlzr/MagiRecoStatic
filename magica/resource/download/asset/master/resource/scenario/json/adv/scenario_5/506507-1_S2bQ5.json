@@ -1,0 +1,721 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20231.jpg",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Act 2",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Chapter 7@\"The Loire Campaign Begins\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "bgm01_battle05",
+                "nameNarration": "Gilles",
+                "narration": "\"Now is the time!\"",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "\"We must launch our counterattack at once!\""
+            },
+            {
+                "narration": "\"Many of our men who had once fallen to@the darkness have returned to the French@army, thanks to the saint's miracle!\""
+            },
+            {
+                "narration": "\"Now is the perfect time to strike back,@and head for Reims — our coronation site!@God himself has decreed it so!\""
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "\"HEAR! HEAR!\""
+            },
+            {
+                "narration": "\"La Pucelle!\"@\"Jeanne La Pucelle!\""
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "B-but I wasn't the one who caused it...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Does it matter?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "You kept on fighting without even a hint of@hesitation, even when you were cornered."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600
+                    }
+                ],
+                "textRight": "That we're here now is a testament to that."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "Lady Elisa, have you gotten nicer since I saw@you last?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "I-I've always been nice!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "It's strange, though..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "Now that I can hear the voices of everyone in@the French army…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I feel a great excitement bubbling up from@within!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "I'm sure that's not just your imagination."
+            },
+            {
+                "textRight": "Each one of their wishes has made you@stronger."
+            },
+            {
+                "textRight": "From the beginning until now that is true."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Their wishes have made her stronger?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "(That may actually be true.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Whether by coincidence or by fate...)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402600,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Darc is the one always standing right at the@heart of France's karmic destiny.)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story23",
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "nameLeft": "La Hire",
+                "textLeft": "The troops' morale is at its peak.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "I'm sure that's in no small part due to@clearing our objective."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402300,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Objective?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "You mean the march towards Reims?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "Oh yes, I should clarify."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "The French army started out with two goals."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "First, liberate Orléans."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "Second, ensure Prince Charles is coronated@in the sacred city of Reims."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "That way we can ensure a legitimate heir to@the throne is given the crown. Right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "Yes. That is just what Monsieur Angel@foretold!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402300,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Orléans is currently safely under our@protection."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "Yeah, but the problem is Prince Charles."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "He went missing in all the chaos over the@past months...but there's good news, too."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "Just as La Pucelle said, many of the men@who we thought fallen have come back to us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "The more battles we win, the more soldiers@join the fight for France."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "So now we're at the point where we can head@into Reims..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "And at last we can settle the problem of our@missing prince."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830000
+                    }
+                ],
+                "textLeft": "There's a high chance he might come back to@us, too."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Yes, we can't discount that at all."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402200
+                    }
+                ],
+                "textRight": "Provided that's the \"correct\" path for@history to take..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameLeft": "Pernelle",
+                "textLeft": "When you fixed the issue at the cathedral...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "A number of unforeseen Fragments of True@History appeared."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "The battles that take place at the Loire@River valley are of particular importance."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "By recapturing these territories and then@advancing to Reims..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "I believe even more of these fragments of@proper history will come to light."
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "I've observed something in the patterns so@far."
+            },
+            {
+                "textRight": "More fragments tend to be unlocked if they@relate to that specific area."
+            },
+            {
+                "textRight": "If the \"True History\" ends with a victory for@France..."
+            },
+            {
+                "textRight": "Then the march for Reims is one of our goals.@That is clear."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "nameLeft": "Gilles",
+                "textLeft": "So now, I call on our saint to give the@order!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Yes!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830100
+                    },
+                    {
+                        "id": 402100,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "Let us advance as one."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "So we may bring light back to France!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "",
+                "textBg": "shout",
+                "textCenter": "HEAR! HEAR!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

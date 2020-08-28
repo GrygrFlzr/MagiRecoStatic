@@ -1,0 +1,466 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20073.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Darc",
+                "textLeft": "La Pucelle! You're okay!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textRight": "How goes the battle?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830400,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Not well. Actually, it went terribly!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "se": "3211_fog",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760090,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "ББЯЯЯЯЯЯЯ！@БББЯЯЯяяЯ！",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Iroha",
+                "textLeft": "The Familiars from earlier!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textRight": "There's so many of them!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "They are Corbeau's minions!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 300,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Ever since those creatures appeared@among the English forces..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ],
+                "textRight": "France has been utterly overwhelmed."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Iroha",
+                "surround": "7202_telepathy",
+                "textRight": "France? England? What's going on?",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textLeft": "This looks like a medieval battalion, @doesn't it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textRight": "Is this a battle that took place in the past?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes. Based on what they're saying, Darc is@a member of the French military..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textLeft": "And their enemy, the English, appear to be@summoning monsters to fight them."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Jeanne d'Arc...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(She was a saint who fought to liberate@France from English rule.)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Could Darc really be her?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760090,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "БЯЯЯЯЯЯяЯЯЯ!!!!",
+                "turnChangeIn": "rollInFast",
+                "turnChangeOut": "rollOutFast",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "nameRight": "Melissa",
+                "textRight": "They're coming!",
+                "turnChangeIn": "rollInFast",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "I shall fight them! Ensure everyone gets@away to safety!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "There's no way you can take this many!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I'll be fine! Please, go help the soldiers@of France!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(So she is with the French army. But@the enemy has no soldiers, just monsters.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I suppose it's probably best to follow@Darc's instructions for now.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Iroha, use this.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Huh, a Grief Seed?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes. Restore some of your magic."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textLeft": "We're going to help them escape."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textLeft": "Let's kill any Familiars that bar their path@and get them out of here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_09",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "se": "7210_souljem_01",
+                "textRight": "Okay."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Darc, please stay safe!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "I will!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760090,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "[bgEffect:shakeLarge]БЯЯяяЯЯяЯЯЯ!!!@БЯЯяяЯЯяЯЯЯ!!!"
+            },
+            {
+                "autoTurnLast": 2,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

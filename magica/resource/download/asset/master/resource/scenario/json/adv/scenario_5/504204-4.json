@@ -1,0 +1,207 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 6105,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "questBg": "bg_adv_46105.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Shizuku",
+                "textRight": "*Pant* *Pant*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(What is a Witch doing in our base?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Did they prepare this just in case there@were Feathers like me still here?!)"
+            },
+            {
+                "textBg": "shout",
+                "textLeft": "菫ｗｐ＊斬翫Лｑ!!!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(The other Feathers are gonna catch me if@I'm stuck fighting this.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I need to find a way to escape quickly...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "...?!",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300702,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "questBg": "bg_adv_13023.jpg",
+                "questTurnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "questTurnChangeOut": "fadeOut",
+                "textLeft": "Oh, I almost forgot! Here's your cut of@today's spoils.",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_roofkey.png",
+                        "posX": 0,
+                        "posY": 80,
+                        "visible": "appear"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Did a Familiar drop this?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ikumi",
+                "textLeft": "Yeah. You can hang on to it."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "questBg": "bg_adv_46105.jpg",
+                "questTurnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "questTurnChangeOut": "fadeOut",
+                "textCenter": "The Rooftop Key they gave me... I can use it@to get out of here!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

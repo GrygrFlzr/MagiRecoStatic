@@ -1,0 +1,532 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20303.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200352,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 200352
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event08",
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Dawn, August 12]@[textBlack:The clock's second hand is all that moves in]@[textBlack:the still dark room. I'd startled awake,]@[textBlack:my body drenched in sweat. A strong]@[textBlack:scent of the sea assailed my nose.]@[textBlack:Not so much sea breeze, as of shoreside rocks.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Perhaps we left the window open.]"
+            },
+            {
+                "narration": "[textBlack:The AC was still running, which I thought]@[textBlack:careless so I decided to turn it off after]@[textBlack:getting some water. I tried to get up, but...]@[textBlack:My body refused to move.]@[textBlack:Or rather, nothing except my eyes]@[textBlack:and my lungs would move.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 200352,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 200352
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:I'd heard of sleep paralysis before,]@[textBlack:but this was my first time experiencing it.]@[textBlack:Had I really worn myself out so much]@[textBlack:by playing in the sun?]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:If only I'd read about how to free]@[textBlack:yourself from paralysis...]@[textBlack:I even had my smartphone with me,]@[textBlack:but I couldn't lift a finger to use it.]"
+            },
+            {
+                "narration": "[textBlack:I considered this vacantly for a while,]@[textBlack:with the strong smell of the sea in]@[textBlack:my room only growing clearer.]"
+            },
+            {
+                "narration": "[textBlack:Where was it wafting in from?]"
+            },
+            {
+                "narration": "[textBlack:My head was locked in place. But somehow,]@[textBlack:I managed to drag my gaze to the window,]@[textBlack:and I saw the curtains hanging motionless.]@[textBlack:I could hear the bugs, but they sounded far]@[textBlack:away. The window couldn't be open.]@[textBlack:Then where was the smell coming from?]"
+            },
+            {
+                "bgm": "stop",
+                "narration": "[textBlack:My eyes moved from the window to the hall.]@[textBlack:And then they, too, came to a dead stop.]@[textBlack:In that second, my very thoughts froze.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830700,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bgm": "bgm03_story17",
+                "narrationEffect": "out",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:A human shadow. Pitch black.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:I couldn't come up with any other words to]@[textBlack:describe it, but it was no ordinary shadow.]@[textBlack:It was as though darkness itself was seated]@[textBlack:there, in the shape and size of a person.]"
+            },
+            {
+                "narration": "[textBlack:The shadow, darker than the darkened room]@[textBlack:around it, appeared to be swaying.]@[textBlack:Though human-shaped, it was clearly inhuman.]"
+            },
+            {
+                "narration": "[textBlack:Our futons were laid in the room, with]@[textBlack:Mami closest to the hall, then Madoka,]@[textBlack:then me. Sayaka and Kyoko's futons were]@[textBlack:lined up across from us. The shadow]@[textBlack:sat between Mami and Sayaka's futons,]@[textBlack:as though looking down on them both.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200352,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Homura",
+                "narrationEffect": "out",
+                "textCenter": "(Is-is this a Witch's minion?!)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200352,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I don't sense any magic from it, though...@Could it be an Uwasa?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(We're pretty close to Kamihama here, but@could they really be in a place like this?)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830700,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830700
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "*Mutter* *Grumble*",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:I watched from the corner of my eye as the]@[textBlack:shadow stared at everyone's sleeping faces.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:While still kneeling, it twisted with]@[textBlack:abnormal ease close to Sayaka's face.]@[textBlack:Then it bobbed its head all about her, as]@[textBlack:though examining every inch of her face.]"
+            },
+            {
+                "narration": "[textBlack:After some time, it stopped, and with]@[textBlack:a low grumble moved over to Mami and]@[textBlack:repeated the same thing.]@[textBlack:This time, I could make out the words.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 830700,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830700
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "Wro...ng...all w..rong...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:The dark shadow was whispering,]@[textBlack:\"Wrong, wrong, all wrong.\"]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:I wonder what was wrong with them?]@[textBlack:No, that part wasn't important.]@[textBlack:Much more urgently pressing was if it]@[textBlack:were laying an Uwasa's curse on them.]"
+            },
+            {
+                "narration": "[textBlack:I had to raise my voice somehow. I had to]@[textBlack:make them get up, drive the shadow back.]"
+            },
+            {
+                "narration": "[textBlack:But the more I thought this, the less my]@[textBlack:body would cooperate. This was no normal]@[textBlack:paralysis. Rather than being held down, it]@[textBlack:was as though all the wires sending orders]@[textBlack:to my limbs had been disabled.]"
+            },
+            {
+                "narration": "[textBlack:As I wrestled with this, the shadow,]@[textBlack:still kneeling, drew slowly closer,]@[textBlack:clothes rustling as it moved.]@[textBlack:It stared at Madoka, who slept beside me.]"
+            },
+            {
+                "narration": "[textBlack:As I grew more frustrated, the chasm between]@[textBlack:my mind and body grew wider. I was helpless.]@[textBlack:The smell grew stronger, as if seaweed]@[textBlack:were hung from my nose, agitating me more.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 200352,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Homura",
+                "narrationEffect": "out",
+                "textCenter": "(I can't move... I can't move an inch!)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 200352,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Come on! Move! Move!)"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 200352,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "！"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_shadow.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 5,
+                "nameCenter": "",
+                "textCenter": "[voice:vo_char_8307_00_01]You can see me?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200352,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "motion": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Homura",
+                "textCenter": "Eek?!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 200352,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "AAAAAAAAAAAAHHH!!!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "flashEffect": "flashWhite2",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20302.jpg",
+                "bgChangeEffect": "fade"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

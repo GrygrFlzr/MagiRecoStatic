@@ -1,0 +1,826 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19171.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "nameRight": "Ikumi",
+                "textLeft": "I'm becoming a full-fledged Feather, so now@you have nothing to do with me.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textLeft": "I think that's for the best...for all of us."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Were Ryo and Ikumi really@trying to drive me out of here?",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I don't know why they would...@But, maybe they had a reason.@They were always talking about belonging..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Ikumi belongs on the stage, where she can@make her dream with her friend come true.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narration": "Ryo belongs behind the symbol of her fate@and intent."
+            },
+            {
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_3.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narration": "And I belong wherever I can just be myself@without thinking things over too hard."
+            },
+            {
+                "narration": "I belong with the Wings of the Magius."
+            },
+            {
+                "narration": "But is that really true?"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19112.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "(Lately I've been thinking way too much.)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I'm constantly feeling scared of being@kicked out...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Can I really call that the place I belong?)"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "\"Attention, everyone!@The day of our freedom is at hand.\"",
+                "narrationBg": "bg_adv_19111.jpg",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "narration": "\"All we need to do now@is to gather more energy.\""
+            },
+            {
+                "narration": "\"Let's spread this miracle of@Kamihama across the entire world!\""
+            },
+            {
+                "narration": "\"And then, let's keep it that way forever!\""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "(Can I really belong where I'm just another@cog in a machine?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "\"We want you to kill all the Magical Girls@of Kamihama, without any mercy at all.@They are standing in the way of our future.\"",
+                "narrationBg": "bg_adv_19111.jpg",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "No..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I see now...this is a checkpoint on the way@to the future, not a place to belong...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "nameLeft": "Ikumi",
+                "nameRight": "Shizuku",
+                "textRight": "Here with the Wings of the Magius is where I@belong.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005
+                    }
+                ],
+                "textLeft": "Huh? Where you belong?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ryo",
+                "textLeft": "That's unusual, too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "Both your skill level and your reasons for@joining up are super unheard of..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "They all belong elsewhere. They only joined@up to protect those places.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_3.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "So... Where does that leave me?@Where's the place I want to be?",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Mr. R is already gone."
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3002_mind_purple.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21251.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100600,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "nameRight": "Shizuku",
+                "textLeft": "Good. Rest assured, you are safe here.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    },
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    },
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_3.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "No, I'm in pain now because I'm thinking too@much. I know this is where I belong. I need to@stop overthinking. I'll lose this place if I don't.@Leave enough alone. Don't look at it objectively.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I can't... I can't take this..."
+            },
+            {
+                "narration": "Someone, please...Keep me so occupied I can't@overthink. Don't give me a second to breathe."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/memoria_1280_4.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Shizuku",
+                "narration": "Ayaka...",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Of course. You never give me a second@to think to myself, because you're always@pulling me from one thing to the next."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19112.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Brrrt* *Brrrt*",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "narrationEffect": "out",
+                "textCenter": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "Ayaka..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "Ayaka",
+                "narration": "Shizuku, I'm so sorry... I know it's@annoying to keep getting these, so this@is my last text. Please call if you can.",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 150
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "(I'm sorry too, Ayaka...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I think you might be the closest thing I@have to a place where I belong.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(And Ikumi and Ryo noticed that fact long@before I did...)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19171.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "nameLeft": "Shizuku",
+                "nameRight": "Ryo",
+                "textRight": "You shouldn't wear your pendant tomorrow.@For your own good.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19112.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "surround": "7003_wind",
+                "textCenter": "Right...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Clink*",
+                "narrationCoverOpacity": 100,
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300702
+                    }
+                ],
+                "nameNarration": "???",
+                "narration": "\"Commit yourselves to us, and I will grant@you the powers you'll need for the task.\"",
+                "narrationBg": "bg_adv_19111.jpg"
+            },
+            {
+                "narration": "\"You won't have one drop of doubt,@or any clouded judgment.@I shall grant you the pure power@to massacre all Magical Girls.\""
+            },
+            {
+                "narration": "\"So, do as we ask and fulfill your duties.@Move us one step closer towards our freedom.\""
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "flashWhite2"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Black Feather",
+                "textCenter": "...[wait:1.5][chara:715000:lipSynch_1][chara:715000:mouthOpen_1]Ah...a...",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "What..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textCenter": "What's going on?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "What's happening to them?"
+            },
+            {
+                "bgm": "bgm03_story17",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_023.exp.json",
+                        "id": 715001,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Black Feather",
+                "surround": "stop",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:715000A04]Vvvaaaaaa...aaagh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge]*Gasp*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textCenter": "(They're acting strange...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(Did the Magius do something to them?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Did they use an [textBlue:Uwasa] on us...to control our@minds?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_023.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Black Feather",
+                "textCenter": "Aaagh..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_023.exp.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textCenter": "Vvvaaagh...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_023.exp.json",
+                        "id": 715002,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715002,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:715000A04]Agh...vvvaaaaaah!!!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "live2dParam": {
+                            "name": "PARAM_PENDANT",
+                            "value": 0
+                        },
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "textCenter": "They'll hunt me down if I stay here.@I have to get out, fast!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

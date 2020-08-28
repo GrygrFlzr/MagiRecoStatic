@@ -1,0 +1,610 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_15042.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100201,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/6106_shin_emblem.png",
+                        "posX": 0,
+                        "posY": 120,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "ef_adv_06"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "eyeClose": 0,
+                        "id": 100201
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 1
+                    }
+                ],
+                "textRight": "The Witch is on the move."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textRight": "We really can't wait any longer now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I'm sorry, Ui..."
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "bg_adv_19022.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/6106_shin_emblem.png",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "There aren't many people over here, so I@doubt there're many Witches...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "But...there's still a chance."
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101501
+                    }
+                ],
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "eyeClose": 0,
+                        "id": 101501
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "surround": "7007_evening_townbuzz"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "See? There's one."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Really!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhiteSlow2][se:7211_souljem_02]..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 101001,
+                        "lipSynch": 1
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "You're right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 300
+                    },
+                    {
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "We could've compared it with the other one if@Felicia didn't erase our memory..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Still, Yachiyo saw the test Witch in Sakae @Ward.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "(Meanin' this Witch must be a different one.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "Momoko, look. That person has that thing@on their neck.",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101001
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801100,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "Yep, that's a Witch's Kiss all right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Yeah. And he's walking up the mountain."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "textRight": "Even though the sun's goin' down..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800900,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Ah..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Are you girls going up the mountain too?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0
+                    },
+                    {
+                        "id": 101001,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Um, no... We're headed somewhere else."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textCenter": "Okay. The mountain at night is quite nice,@you know..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textCenter": "What do you say? You should come with@us..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Um, we're fine!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Y-yeah, we've got plans!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800900
+                    }
+                ],
+                "textCenter": "Well, if you change your minds, come on up..."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800900
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Creepy..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Yeah, but take a look around."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801400,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801400,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Young, old, men, women... All different@kinds of people...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "All going to the same mountain..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "You know what's on the mountain then."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yeah, a Witch..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001
+                    }
+                ],
+                "textRight": "Yep..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

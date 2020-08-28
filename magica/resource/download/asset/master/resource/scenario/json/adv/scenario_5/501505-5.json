@@ -1,0 +1,1003 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.2,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Liz",
+                "nameRight": "Corbeau",
+                "textLeft": "[flashEffect:flashWhite2][surround:4022A01]Hahhh!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "[flashEffect:flashRed2][surround:4022A04][chara:402500:effect_shake][bgEffect:shakeLarge]Curse you!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textRight": "Coming at me so recklessly... I can't @counterattack!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "It ends here!"
+            },
+            {
+                "nameNarration": "Yachiyo",
+                "narration": "\"You shouldn't put your own life on the@line. Even if it's to save someone else.\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "[flashEffect:flashWhite2][surround:4025A05][bgEffect:shakeLarge]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Ha ha ha ha! Close, but not close enough!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textRight": "If you'd really tried to land a killing blow@there, you'd be dead!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But hey..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textRight": "Here you are, exhausted, and at your limit!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Don't think you can beat me while being@concerned over your own safety!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[flashEffect:flashRed2][se:6256_hit_spike_02_v][chara:402500:effect_shake][bgEffect:shakeLarge]Gagh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Are you okay, Liz?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402500,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Tch... Blue wench!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Thank you for that, Yachiyo."
+            },
+            {
+                "nameNarration": "Liz",
+                "narration": "\"Very well.\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "\"I'll take care to protect myself, too.\""
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textLeft": "I would've been really upset if you got@hurt because of something I said."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I suppose so."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402500,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Corbeau",
+                "textRight": "What are the two of you chattering on about?"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Liz",
+                "nameRight": "Darc",
+                "surround": "7202_telepathy",
+                "textLeft": "Now, Darc!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "All right!"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    },
+                    {
+                        "id": 402100,
+                        "pos": 1
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "bgm": "bgm01_battle02",
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "nameCenter": "Darc",
+                "surround": "4021A03",
+                "textBg": "shout",
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:3025A02]La Lumière!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "white",
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "surround": "4021A05"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Corbeau",
+                "textRight": "What?!",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textRight": "The fortress is collapsing?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "That must be Darc!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Gilles",
+                "nameRight": "Melissa",
+                "textBg": "shout",
+                "textLeft": "Now we storm the dungeons!",
+                "turnChangeIn": "rollInFast",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402300
+                    }
+                ],
+                "textRight": "Save the dauphin!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "La Hire",
+                "textLeft": "Leave it to me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "nameRight": "Corbeau",
+                "textRight": "Hmm, so that's what you were all planning@from the start.",
+                "turnChangeIn": "rollInFast",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Exactly."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Indeed."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Heh heh. Kah ha ha ha ha!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I must admit, you beat me. The fort is@all yours!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textRight": "I should never have underestimated the@holy one's magic. That's all on me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I won't forget the two of you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500
+                    }
+                ],
+                "textRight": "Next I see you, we'll have a proper fight...@To the death!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textRight": "Look up at the sky!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100200,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "The sunlight is coming back!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "bg": "bg_adv_20091.jpg",
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "nameRight": "Gilles",
+                "textLeft": "Monsieur Gilles de Rais! Give us a speech.",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textRight": "I thought you would never ask."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameNarration": "Gilles",
+                "narration": "Hear me now!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "The Dauphin Charles, rightful heir@to the throne of France..."
+            },
+            {
+                "narration": "...has finally been released@thanks to Les Pucelles!"
+            },
+            {
+                "nameCenter": "",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeLarge]YEAAAAAAH!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Dauphin Charles",
+                "nameRight": "Darc",
+                "textLeft": "La Pucelle... What a delight it was to be@rescued by you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830200
+                    }
+                ],
+                "textLeft": "I thank you from the bottom of my heart!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Oh, u-um..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textRight": "D-Dauphin?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Wow..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ],
+                "textRight": "The crown prince himself took Darc's hand@as he thanked her!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Oh, and look!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "He's going to give a speech."
+            },
+            {
+                "nameNarration": "Dauphin Charles",
+                "narration": "My brave soldiers gathered here in Bourges@today! Behold, the glow that fills our sky!",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "The heavens have not@forsaken France after all!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "narration": "These fair maidens are living proof!"
+            },
+            {
+                "narration": "The sun will rise...if only we have faith!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 830200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Dauphin Charles",
+                "nameRight": "Darc",
+                "narrationEffect": "out",
+                "textLeft": "Now, recognized by God and with the@protection of Les Pucelles...",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830200
+                    }
+                ],
+                "textLeft": "We aim for Château de Chinon!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Dauphin!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Château de Chinon?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "A French stronghold in the north."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textRight": "We will march there, and free any forts@and villages as we go!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 830200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Dauphin Charles",
+                "textLeft": "If we can force our way into Château de@Chinon, we can begin our plans at last."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameNarration": "Dauphin Charles",
+                "narration": "For the most important mission in France...@We can recapture Orléans!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "nameCenter": "",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeLarge]YEAAAAAAH!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 830500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 300,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "nameRight": "Yachiyo",
+                "textLeft": "The dauphin, he's finally called us to@action!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "So now it begins."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Yes. This will be the decisive battle."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "The same place we once tasted defeat..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "We will fight there once more. For Orléans!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

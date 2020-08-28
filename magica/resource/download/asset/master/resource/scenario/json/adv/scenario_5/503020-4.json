@@ -1,0 +1,256 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20251.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200550,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200650,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2.5,
+                "chara": [
+                    {
+                        "id": 200650,
+                        "motion": 100
+                    }
+                ],
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event08",
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Morning, August 12]@[textBlack:I still feel terrible about the diary.]@[textBlack:I may have only glanced through it,]@[textBlack:but the longer I sat with what I'd read,]@[textBlack:the more clearly I understood it.]@[textBlack:As though I'd experienced it myself...]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:What's more, it felt as though I could]@[textBlack:still smell that sweet, floral scent.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200151,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 200151
+                    },
+                    {
+                        "id": 200451,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:July 2]@[textBlack:I did something really messed up.]@[textBlack:So messed up I don't even want to]@[textBlack:remember what I did.]@[textBlack:I put my hands against her throat, and...]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Why? Why did I go that far?]@[textBlack:Maybe this is who I really am.]@[textBlack:The real me...]"
+            },
+            {
+                "narration": "[textBlack:I took my hands away at once and apologized.]@[textBlack:If she rejected me, I couldn't say a word. ]@[textBlack:I deserved to be punished.]"
+            },
+            {
+                "narration": "[textBlack:But then...]@[textBlack:Then her teary eyes shone brighter than]@[textBlack:they ever had. The corners of her mouth]@[textBlack:formed a shaky smile, and she gripped my]@[textBlack:hand so tightly. So, so tightly.]@[textBlack:I thought my fingers might break.]@[textBlack:The heat of her sigh. Her scent.]"
+            },
+            {
+                "narration": "[textBlack:Perhaps she wasn't angry with me.]@[textBlack:Or maybe that's just what I want to think.]"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Flip* *Flip*",
+                "narrationBg": "black",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:July 5]@[textBlack:I hate reptiles. It's not that they're gross]@[textBlack:to look at it. It's that if you touch their]@[textBlack:pale, clammy, sticky bellies, it feels]@[textBlack:like your fingers sink right in.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Kei's neck was slender, pale, and soft.]@[textBlack:I couldn't help but think of the lizard]@[textBlack:I killed by accident as a kid. It felt like]@[textBlack:how my fingers had sunk into its guts.]"
+            },
+            {
+                "narration": "[textBlack:...]"
+            },
+            {
+                "narration": "[textBlack:Since that day, I can't get how her]@[textBlack:neck felt out of my mind.]"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Flip* *Flip*",
+                "narrationBg": "black",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:July 12]@[textBlack:Nowadays, even if I don't go to her,]@[textBlack:Kei will come to see me.]@[textBlack:She calls for me like she used to.]@[textBlack:She looks at my face like she did back then.]@[textBlack:Because she knows how warped I am.]@[textBlack:I can't hide it now, anyway.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:I stand before her and the heat leaves my]@[textBlack:body. Both reason and lies have no meaning.]@[textBlack:Kei's mind fills my lungs like tar, unable]@[textBlack:to mix with anything else. It wreaths my]@[textBlack:neck and knocks me off my feet, like a wave.]"
+            },
+            {
+                "narration": "[textBlack:I can only be satisfied by her scent.]@[textBlack:When you say my name, I can be Yu.]@[textBlack:No one else. Yu, who no one else knows.]"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Flip*",
+                "narrationBg": "black",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "[textBlack:July 20]@[textBlack:We shouldn't have met.]@[textBlack:Kei's warped, too.]@[textBlack:I knew it.]@[textBlack:I just always ignored it until now.]@[textBlack:I refused to notice it.]@[textBlack:Kei and I are the same.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Ever since she started calling me Yu again,]@[textBlack:Kei's shadow has grown darker and more]@[textBlack:visible every day, just like the bruises]@[textBlack:on each of our necks. I probably caused it.]"
+            },
+            {
+                "narration": "[textBlack:To hide the marks, we never go out]@[textBlack:without bandages. The smell of fresh]@[textBlack:bandages makes Kei's profile shine brighter.]@[textBlack:She laughed, pointed at mine, said we match.]"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,769 @@
+{
+    "story":
+    {
+        "group_1": [
+        {
+            "autoTurnLast": 0.01,
+            "bg": "bg_adv_21181.jpg",
+            "bgm": "bgm01_anime03",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101101,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405101,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "chara": [
+            {
+                "id": 101101,
+                "motion": 300
+            }],
+            "nameLeft": "Kaede",
+            "textLeft": "Nanoha, Fate, and Hayate...",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101001,
+                "motion": 100,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "You three aren't Kamihama Magical Girls,@are you?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405101,
+                "motion": 100
+            }],
+            "nameRight": "Nanoha",
+            "textRight": "Nope! We go to Seisho University Affiliated@School in Uminari City."
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101001
+            }],
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "id": 405101,
+                "pos": 0
+            }]
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405101
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 0,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405301,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameLeft": "Nanoha",
+            "surround": "7202_telepathy",
+            "textLeft": "There's no point in telling them we work at@the Administrative Bureau, right?",
+            "turnEffect": "ef_adv_02"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405101,
+                "motion": 300
+            }],
+            "textLeft": "They wouldn't know what it is."
+        },
+        {
+            "chara": [
+            {
+                "id": 405301,
+                "motion": 300
+            }],
+            "nameRight": "Hayate",
+            "textRight": "Yeah, it's not like we're here to solve an@interdimensional crime."
+        },
+        {
+            "chara": [
+            {
+                "id": 405201,
+                "motion": 100
+            }],
+            "nameCenter": "Fate",
+            "textCenter": "Right... Plus, we're only here today to take@part in the tournament."
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 405301
+            },
+            {
+                "effect": "fadeout",
+                "id": 405101
+            }],
+            "surround": "stop",
+            "textClear": 1,
+            "turnEffect": "stop"
+        },
+        {
+            "autoTurnLast": 0.2,
+            "chara": [
+            {
+                "id": 405201,
+                "pos": 2
+            }]
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100901,
+                "motion": 100,
+                "pos": 0
+            }],
+            "nameLeft": "Rena",
+            "textLeft": "You all look really young, but you've got@some super powerful magic."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 0
+            }],
+            "nameRight": "Fate",
+            "textRight": "Well, we borrow some of our power from@these Devices."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100901
+            }],
+            "textLeft": "Devices?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405101,
+                "motion": 200,
+                "pos": 2
+            }],
+            "nameRight": "Nanoha",
+            "textRight": "Here's mine! Raising Heart."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100901,
+                "motion": 0
+            }],
+            "textLeft": "You mean your weapon?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405101,
+                "motion": 0
+            }],
+            "textRight": "Yeah! She can change into all kinds of@useful stuff. She's one smart weapon!"
+        },
+        {
+            "nameNarration": "Raising Heart",
+            "narration": "<<Thank you, Master.>>",
+            "narrationBg": "",
+            "narrationEffect": "in"
+        },
+        {
+            "chara": [
+            {
+                "id": 100901,
+                "motion": 400
+            }],
+            "narrationEffect": "out",
+            "textLeft": "[chara:100901:effect_emotion_surprise_0][se:7226_shock]Did that thing just talk?!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101101,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Kaede",
+            "textLeft": "It sounds like a girl!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 400,
+                "pos": 2
+            }],
+            "nameRight": "Fate",
+            "textRight": "Bardiche."
+        },
+        {
+            "nameNarration": "Bardiche",
+            "narration": "<<Yes, Sir.>>",
+            "narrationBg": "",
+            "narrationEffect": "in"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101001,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "narrationEffect": "out",
+            "textLeft": "That's a fancy-soundin' voice comin' outta@your weapon, Fate."
+        },
+        {
+            "chara": [
+            {
+                "id": 101001,
+                "motion": 100
+            }],
+            "textLeft": "What about Hayate's?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405301,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameRight": "Hayate",
+            "textRight": "My magic is a little different from Fate's@and Nanoha's."
+        },
+        {
+            "chara": [
+            {
+                "id": 405301
+            }],
+            "textRight": "And I actually have more than one weapon."
+        },
+        {
+            "chara": [
+            {
+                "id": 405301,
+                "motion": 200
+            }],
+            "textRight": "This magical book here, the \"Tome of the@Night Sky\"... And Schwertkreuz, my staff."
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 1,
+                "id": 405301
+            }],
+            "textRight": "And of course..."
+        },
+        {
+            "chara": [
+            {
+                "eyeClose": 0,
+                "id": 405301,
+                "motion": 0
+            }],
+            "textRight": "There's Reinforce."
+        },
+        {
+            "autoTurnLast": 0.5,
+            "flashEffect": "flashWhiteSlow1",
+            "textClear": 1
+        },
+        {
+            "autoTurnLast": 0.5,
+            "item": [
+            {
+                "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1365.png",
+                "posX": 0,
+                "posY": 0,
+                "visible": "appear"
+            }]
+        },
+        {
+            "nameCenter": "Reinforce Zwei",
+            "textCenter": "Reporting for duty, Hayate!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100901,
+                "motion": 400,
+                "pos": 0
+            }],
+            "nameLeft": "Rena",
+            "textLeft": "It's so small!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101101,
+                "motion": 100,
+                "pos": 0
+            }],
+            "nameLeft": "Kaede",
+            "textLeft": "I-is that...a fairy?"
+        },
+        {
+            "chara": [
+            {
+                "id": 405301,
+                "motion": 100
+            }],
+            "textRight": "She's a Unison Device that fights by my@side..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405301
+            }],
+            "textRight": "And an important member of my family."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101001,
+                "motion": 300,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "...Wow, this is a lot to take in!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101101,
+                "motion": 200,
+                "pos": 0
+            }],
+            "nameLeft": "Kaede",
+            "textLeft": "Hey, guys..."
+        },
+        {
+            "chara": [
+            {
+                "id": 101101
+            }],
+            "textLeft": "Are you all gonna take part in Mitama's@tournament, too?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405301,
+                "motion": 0
+            }],
+            "textRight": "Yep! That's why we're here."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405101,
+                "motion": 300,
+                "pos": 2
+            }],
+            "item": [
+            {
+                "path": "resource/scenario/img/51063_singleraid_nanoha/memoria_1365.png",
+                "visible": "hide"
+            }],
+            "nameRight": "Nanoha",
+            "textRight": "So you're also competing?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101101,
+                "motion": 300
+            }],
+            "textLeft": "Yeah!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101101,
+                "motion": 100
+            }],
+            "nameLeft": "Kaede",
+            "textLeft": "Looking forward to see you in battle!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405101,
+                "motion": 100
+            }],
+            "textRight": "Same here! We'll fight with all our might!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101001,
+                "motion": 100,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "That's a good line. Let's do this! With all@our might!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 100901,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Rena",
+            "textLeft": "Oh yeah... Have you guys ever come to@Mirrors before?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Fate",
+            "textRight": "No, actually we only just got here."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100901,
+                "motion": 200
+            }],
+            "textLeft": "Magical Girl copies tend to show up after@this section..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100901
+            }],
+            "textLeft": "So be on your guard!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 405201
+            }],
+            "textRight": "Copies?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101001,
+                "motion": 200,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "Fakes who look just like real Magical Girls,@but their skills and personalities are off."
+        },
+        {
+            "chara": [
+            {
+                "id": 101001
+            }],
+            "textLeft": "They're actually monsters that the Witch@controls."
+        },
+        {
+            "chara": [
+            {
+                "id": 101001
+            }],
+            "textLeft": "When you figure out they're fakes, they'll@attack you."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 405201,
+                "motion": 0
+            }],
+            "textRight": "So... Are they really alive? Like, do they@have souls?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100901,
+                "motion": 0,
+                "pos": 0
+            }],
+            "nameLeft": "Rena",
+            "textLeft": "I think you'll know once you meet one..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100901,
+                "motion": 201
+            }],
+            "textLeft": "They aren't anything like a living being!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101001,
+                "motion": 1,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "You can knock 'em out without any guilt."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 405201,
+                "motion": 300
+            }],
+            "textRight": "I see..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 405101,
+                "motion": 1,
+                "pos": 2
+            }],
+            "nameRight": "Nanoha",
+            "textRight": "So...we might meet some copies who look@exactly like we do?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101101,
+                "motion": 100,
+                "pos": 0
+            }],
+            "nameLeft": "Kaede",
+            "textLeft": "Yes! And probably more than once!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101001,
+                "motion": 300,
+                "pos": 0
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "Yeah... I bet they already took a \"mold\" of@you guys at some point too."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100901,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Rena",
+            "textRight": "There are copies of other Magical girls too."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 101001,
+                "motion": 0
+            }],
+            "textLeft": "You guys seem pretty tough..."
+        },
+        {
+            "chara": [
+            {
+                "id": 101001
+            }],
+            "textLeft": "Might be good practice for you to fight some@copies before the matches start."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 405301,
+                "motion": 100,
+                "pos": 2
+            }],
+            "nameRight": "Hayate",
+            "textRight": "All right! Let's find some and try sparring@with them!"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "bgm": "stop",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101001,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100901,
+                "motion": 0,
+                "pos": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101101,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "bgm": "bgm05_event07",
+            "chara": [
+            {
+                "id": 101001,
+                "motion": 300
+            }],
+            "nameLeft": "Momoko",
+            "textLeft": "So those girls are participating too... I bet@they're gonna give us a run for our money.",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100901,
+                "motion": 200
+            }],
+            "nameCenter": "Rena",
+            "textCenter": "That's no reason to back out, though. We@promised, remember?"
+        },
+        {
+            "chara": [
+            {
+                "id": 101101,
+                "motion": 300
+            }],
+            "nameRight": "Kaede",
+            "textRight": "Yup... We already told everybody as well..."
+        },
+        {
+            "chara": [
+            {
+                "id": 101001,
+                "motion": 0
+            }],
+            "nameNarration": "Kaede",
+            "narration": "If we don't win, we're breaking up the team!",
+            "narrationBg": "",
+            "narrationEffect": "in"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "narrationEffect": "out",
+            "turnChangeIn": "fadeIn"
+        }]
+    },
+    "version": 3
+}

@@ -1,0 +1,951 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20351.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story21",
+                "nameNarration": "Iroha",
+                "narration": "The festival was full of bizarre@stalls! We decided to go visit...",
+                "narrationBg": "bg_adv_20351.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "The grilled mushroom stall!"
+            },
+            {
+                "narration": "As our first stop, it made sense to opt for@mushrooms. Mushrooms are food, after@all, and we wanted to fill our bellies first..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "narrationEffect": "out",
+                "textLeft": "I'm going to buy something for us from@over here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Everyone, you can check out the other@stalls if you like."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Ah, all right. Thanks."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101001,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "Thanks, Iroha!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101,
+                        "motion": 401,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "No problem!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "Excuse me!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kanoko",
+                "textLeft": "What'll it be?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Come! Welcome! What'll it be, eh? What'll@it be?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300101,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Ah! Wait a moment! You're that girl!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Uh, yes, that's me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Another wild coincidence!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Are you running this stall...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300101
+                    }
+                ],
+                "textLeft": "Huh? [chara:300101:lipSynch_0][wait:0.8][chara:300101:cheek_0][chara:300101:face_mtn_ex_030.exp.json][chara:300101:lipSynch_1]Ah ha ha. It sure turned out that way,@I guess!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "It \"turned out that way\"?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "It must be fate, us meeting again here!@Please buy something!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101
+                    }
+                ],
+                "textRight": "Um, well...what do you have?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Grilled mushrooms!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "(I could have guessed that much.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "First, I carefully selected Kamihama's@finest mushrooms and grilled them up!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Then, I coated them in a special soy sauce@glaze to finish them off!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101
+                    }
+                ],
+                "textLeft": "They're the finest dish I've ever made@while on my mushroom journey!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "lipSynch": 1,
+                        "motion": 401
+                    }
+                ],
+                "textRight": "Huhhh... They look delicious!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Try some, try some!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Okay, I'll take eight!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[chara:300101:effect_emotion_joy_0][se:7222_happy]Fantastic! Thank you kindly!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "I got the food!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Nice! Thanks!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100201,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "How does it look?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "Mmm, it smells amazing!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100901,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "Looks pretty good, doesn't it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Let's eat 'em, already!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Here goes!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Kanoko",
+                "textCenter": "Whew, people finally started buying...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101
+                    }
+                ],
+                "textCenter": "Whether or not I can afford the materials for@my new dress depends on these sales..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "I gotta do this! Yeah! Gotta make and sell@tons of mushroom dishes! "
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300101
+                    }
+                ],
+                "textCenter": "Hm?"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300101,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "[chara:300101:effect_emotion_surprise_0][se:7226_shock]Ack! Oh my god! I can't believe I mixed some@of THESE ones in!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Huh...?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Wh-what is this?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100501,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textBg": "shout",
+                "textRight": "Aaagh!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101
+                    }
+                ],
+                "textCenter": "These mushrooms...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101
+                    }
+                ],
+                "textCenter": "I found a patch of them so I kind of just@picked them without even thinking."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 300101,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "The elusive super smelly mushroom!@It's called..."
+            },
+            {
+                "nameNarration": "Kanoko",
+                "narration": "The \"Eternal Stench of Kamihama\"!@\"E.S.K.\" for short!",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "motion": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "They're infamous for how once you bite@into one, a hideous smell comes out."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101
+                    }
+                ],
+                "textCenter": "And it's so sneaky! It doesn't smell at all@before you bite into it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Urk! I cooked a bunch of them without@even realizing."
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100301,
+                        "motion": 200,
+                        "mouthOpen": 1,
+                        "tear": 1
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "textCenter": "Th-this...STINKS!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100901,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Rena",
+                "textLeft": "What the hell?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Ah ha...ha... I see a bright light..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901
+                    }
+                ],
+                "textLeft": "K-Kaede! [chara:100901:lipSynch_0][wait:0.8][chara:100901:cheek_0][chara:100901:face_mtn_ex_030.exp.json:motion_300][chara:100901:lipSynch_1]Oh, crap... I'm starting to feel@light-headed, too..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "[chara:100201:effect_shake]Grrrgkhhh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Yachiyo! Please hold on!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100201,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "It smells so awful!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101
+                    }
+                ],
+                "nameCenter": "Kanoko",
+                "textCenter": "The smell is so intense that no ordinary@person can stand it.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300101,
+                        "lipSynch": 1,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Oh well. That's just how it is. I'd better@take down the stall banner."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300101,
+                        "motion": 200
+                    }
+                ],
+                "nameNarration": "Kanoko",
+                "narration": "Then I can rebrand and reopen as \"Grilled@Mushrooms feat. E.S.K.\"!",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300101,
+                        "motion": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "E.S.K. actually has its fair share of secret@fanatics."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "And I already made so many, so..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300101,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "[chara:300101:effect_emotion_joy_0][se:7222_happy]Great! Let's get this show on the road!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20303.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100104,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "We were left in no condition to enjoy the@festival, with such hellish odors stuck@clinging to our nostrils.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "We gave up and went back to our rooms@where we spent the night wide awake..."
+            },
+            {
+                "narration": "Goodbye, summer..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100104
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "narrationEffect": "out",
+                "textCenter": "Ugh, [chara:100104:lipSynch_0][wait:0.8][chara:100104:cheek_2][chara:100104:face_mtn_ex_060.exp.json:motion_401][chara:100104:mouthOpen_1][chara:100104:tear_1:eyeClose_1][chara:100104:lipSynch_1]it stinks!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/51032_badend.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

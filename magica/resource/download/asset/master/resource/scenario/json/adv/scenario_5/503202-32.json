@@ -1,0 +1,631 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/51032_rebadend.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "bg": "black",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20361.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "Damn iiiiiit!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "Ria",
+                "textRight": "[chara:301001:effect_emotion_joy_0][se:7222_happy]Aah hah hah hah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "What bad luck for you, picking cookie carving@as the challenge!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Urghhh! I really thought I could do it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "...How about if I carve it like this?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Hm?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "No, that's not right. This is how you do it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Ohhh..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "textRight": "You have to be more careful when you're@cutting away this part."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Oooh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    },
+                    {
+                        "id": 100501,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "And...[chara:301001:lipSynch_0][wait:0.8][chara:301001:cheek_0][chara:301001:face_mtn_ex_011.exp.json:motion_400][chara:301001:lipSynch_1]there! All finished!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Damn! It sucks I lost, but...[chara:100501:lipSynch_0][wait:0.8][chara:100501:cheek_0][chara:100501:face_mtn_ex_010.exp.json][chara:100501:lipSynch_1]you're really@good at this!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "lipSynch": 1,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Am I? Oh, it's nothing special!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Ahh! Her eyes are glittering with respect!@This girl...is a very sweet girl indeed!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "lipSynch": 1,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "And if you do this...",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sayuki",
+                "textCenter": "Umm... Could we clear the stage?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301001,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "Whoa!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001
+                    }
+                ],
+                "textRight": "Then you can tweak it like this!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301001
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "textCenter": "Uhh...they aren't listening at all..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 303300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "There! All done!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501
+                    }
+                ],
+                "textLeft": "Sweeeet! It came out so clean!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Hm? Whatever is the matter?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "lipSynch": 1,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:100501:effect_emotion_surprise_0][se:7226_shock]Oh yeah! That's perfect!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Huh? What? What is?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yeah, this'll do great!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501
+                    }
+                ],
+                "textLeft": "Thanks a bunch, Princess Whatsyerface!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301001,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "My name is RIA!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303300,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sayuki",
+                "textLeft": "Hey, um, we have to finish up here..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301001,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "Ah."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301001,
+                        "motion": 100,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "Well, everyone, do have a wonderful day!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Yachiyo! Look, look!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Felicia, I'm so sorry..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Who cares about that! Listen!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "textRight": "Well... *Whisper* *Whisper*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Aha..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201
+                    }
+                ],
+                "textLeft": "Mhm. That's not a bad idea."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "[chara:100501:effect_emotion_joy_0][se:7222_happy]Right?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Yes...In that case, we should..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Hm? Yeah. Mmhmm."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Sounds great!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I'll help you out a little, too."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Heh heh. Thanks!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "All right! I'm gonna do it!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

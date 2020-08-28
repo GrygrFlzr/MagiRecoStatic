@@ -1,0 +1,404 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20092.jpg",
+                "bgm": "bgm01_battle06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "nameRight": "Gilles",
+                "textLeft": "I see the keep!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830100
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Let the siege begin!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 100200
+                    }
+                ],
+                "se": "7201_detect_magic"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Iroha",
+                "textBg": "shout",
+                "textRight": "Wait a second!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I sense magic!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 830000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "4025A05",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 830000,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "nameRight": "La Hire",
+                "textRight": "Whoa, watch out!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "Mwa ha ha ha! You're lucky to be alive!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "You should be thanking the girl in white!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Corbeau!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 400,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "No... And Liz isn't here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Oh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "No girl in black?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "She's not here today."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "We'll be fighting in her place!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Ah, the girl in blue from before...@You're not too bad either."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "But I really want to fight to the death with@the girl in black though."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "She's like me. She would kill me without@hesitation."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100
+                    }
+                ],
+                "textRight": "Liz is nothing like you..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][surround:4025A05]Oh? What's different about us?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "[surround:4025A07][bgEffect:shakeLarge]Ugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Darc!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "I'm fine!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Ahh, I love the determination in your eyes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "Come to think of it, the one in black..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "When I attacked the Holy Maiden before,@she snapped and tried to kill me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Be careful, Darc."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 201,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "I will!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "So I'll try crushing Her Holiness again."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "And then maybe she'll come back!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

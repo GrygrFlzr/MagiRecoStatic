@@ -1,0 +1,1206 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14131.jpg",
+                "bgm": "bgm05_event09",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "textLeft": "She does?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Yes. Even I know that sometimes my plans@can be too risky."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "That's why Nemu set up a password, as a@fail-safe."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "Are you lying?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "It is not a lie... Not a small lie, or even a@cryptic one..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Just the honest truth."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "No, we don't believe you. It's probably a lie@just to get her back."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "We're just trying to stop the experiment. You@saw what we're doing, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textRight": "Yes, what we're doing is a little reckless,@but we are trying to free everyone."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "We don't want Magical Girls to turn into@Witches."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Yeah, just like you! That's why we should do@this together."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "textLeft": "But the Magius no longer exists."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "They're now just two girls who've lost their@edge."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304600,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ryo",
+                "textRight": "You really think the Magius back then were@better?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304600
+                    }
+                ],
+                "textRight": "I used to be a White Feather, and even I@don't believe that."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 305300,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ikumi",
+                "textRight": "Same... No one should be sacrificed for this."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "We wanted the strength to see our plans@through, even if it meant making sacrifices."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "The Magius we knew are dead, after all."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textBg": "shout",
+                "textRight": "Stop this!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "I'm not afraid to die. You're next, Touka!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "flashWhite2",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "nameNarration": "White Feather",
+                "narration": "\"What?!\"",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/61019_2nd_anniversary/memoria_1393_1.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm01_battle02",
+                "nameNarration": "Tsuruno",
+                "narration": "― Tsuruno ―@Ha! Your back is wide-open!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 25,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Felicia",
+                "narration": "― Felicia ―@Comin' through!@We're takin' her back!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "flashEffect": "flashWhite2",
+                "se": "8000_flame_01_s",
+                "surround": "0001_jump01"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "explosion",
+                "se": "8001_flame_01_v",
+                "surround": "1005A01"
+            },
+            {
+                "nameNarration": "Black Feather",
+                "narration": "― Black Feather ―@Aggghhh!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20
+            },
+            {
+                "nameNarration": "White Feather",
+                "narration": "― White Feather ―@So you're willing to put Nemu in danger..."
+            },
+            {
+                "nameNarration": "Sana",
+                "narration": "― Sana ―@No, we're going to save her!"
+            },
+            {
+                "nameNarration": "White Feather",
+                "narration": "― White Feather ―@How did you...?!"
+            },
+            {
+                "nameNarration": "Sana",
+                "narration": "― Sana ―@I was invisible!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "flashWhite2",
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/61019_2nd_anniversary/memoria_1393_2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 0.1
+            },
+            {
+                "nameNarration": "White Feather",
+                "narration": "― White Feather ―@Ugh...",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 0.1
+            },
+            {
+                "nameNarration": "Sana",
+                "narration": "― Sana ―@I'll get you out of here!"
+            },
+            {
+                "nameNarration": "Nemu",
+                "narration": "― Nemu ―@I'm sorry about all this.@Thank you very much."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/61019_2nd_anniversary/memoria_1393.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Good work, everyone.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "nameLeft": "White Feather",
+                "textLeft": "When did you..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "While we were talking."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "surround": "7202_telepathy",
+                "textLeft": "You might be able to buy some time by causing@an argument.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Can you get me out of here while they're@distracted?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "But they're so close to being convinced..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Yeah, maybe we can get them on our side if@we keep trying."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "We don't know how much time we have left.@We can't risk it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "As much as we'd like to avoid a fight, the@risk is only growing larger"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "I didn't want to do this, but..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200
+                    }
+                ],
+                "textRight": "Sana, Felicia, Tsuruno... Can you please save@her?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "White Feather",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 715100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_001.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Okay, Nemu. Enter the password!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "Let's see."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "There we go."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "All right. [chara:100701:lipSynch_0][wait:1.0][chara:100701:motion_201][chara:100701:cheek_0][chara:100701:face_mtn_ex_020.exp.json][chara:100701:lipSynch_1]Annnd...SEND!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "*Sigh*"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I hope they come up with a safer way to do@this next time..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 100100,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "*Giggle* Me too..."
+            },
+            {
+                "autoTurnLast": 2.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 304300,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "｜...｜"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 304300
+                    }
+                ],
+                "textLeft": "｜Nothing's changed.｜"
+            },
+            {
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "id": 300300,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Hinano",
+                "textRight": "Uh... Is the gate really closed now?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100300,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "I have a bad feeling about this..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100500,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "There're less feathers, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100400,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "No... Nothing's changed..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "Touka..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Hmm..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "I-it didn't stop, did it?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "I wasn't anticipating the Witch cutting off@the Labyrinth!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I'm not sure but...maybe it's because the@Labyrinth is now smaller."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Perhaps the space itself has become warped@and the radio waves can't reach the device."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_19021.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "I have a backup plan just in case something@goes wrong, though!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Don't underestimate me. I'm a genius!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100201,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Even geniuses can be taken by surprise."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "[chara:100701:effect_emotion_angry_0][se:7219_strain]What did you just say?"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 2,
+                "bg": "bg_adv_14131.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "textCenter": "Looks like you really were taken by @surprise...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgEffect": "shakeLarge",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "\"Don't...\"",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "narrationBg": "black",
+                "textLeft": "[chara:100100:effect_emotion_surprise_0][se:7226_shock]...?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "I think I heard something..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100200,
+                        "motion": 301
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Me too..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

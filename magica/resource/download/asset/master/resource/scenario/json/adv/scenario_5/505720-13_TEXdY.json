@@ -1,0 +1,273 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51057_tower_ui/memoria_1342_2.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story05",
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@Are you really going to keep stopping me?",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@I've been thinking since then, but we still@can't let you make any more Magical Girls."
+            },
+            {
+                "narration": "― Ui ―@You were even going to burden that girl@just now with the same fate as us."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@Still?"
+            },
+            {
+                "narration": "― Kyubey ―@In other words, at some point in time,@you won't get in the way of my new contracts?"
+            },
+            {
+                "narration": "― Kyubey ―@Am I correct in that understanding?"
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@Yeah, because I've found how@I want to live as a Magical Girl."
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "― Iroha ―@It's not just her.@I've reached the same answer."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@Ah, your reason to fight together as sisters.@I'm curious, would you tell me what it is?"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "― Iroha ―@All right.@We're going to continue fighting..."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@...to coexist with you, Kyubey."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@Coexist?"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "― Iroha ―@If we keep on denying you, we'll end up@being destroyed along with the universe."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "― Ui ―@That's why we've decided to be idealistic."
+            },
+            {
+                "narration": "― Ui ―@We want to live happily as Magical Girls@while helping you keep the universe going."
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "― Iroha ―@I realized it when Ui released her Doppel."
+            },
+            {
+                "narration": "― Iroha ―@The miracle in Kamihama can do more@than prevent us from becoming Witches."
+            },
+            {
+                "narration": "― Iroha ―@It's a bridge that can bring us together."
+            },
+            {
+                "nameNarration": "Kyubey",
+                "narration": "― Kyubey ―@I'd welcome that if it lets us@avoid all the needless fighting."
+            },
+            {
+                "narration": "― Kyubey ―@But to tell you the truth, we haven't reached@any conclusions about the Kamihama phenomenon."
+            },
+            {
+                "narration": "― Kyubey ―@So I will not be able to stop@searching for new Magical Girls."
+            },
+            {
+                "narration": "― Kyubey ―@Even as we speak, the universe@is continuing to deteriorate."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21141.jpg",
+                "chara": [
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 0,
+                        "posX": -50,
+                        "posY": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51057_tower_ui/memoria_1342_2.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameLeft": "Kyubey",
+                "textLeft": "But your position...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "Actually, perhaps it's better to say the@position of Kamihama Magical Girls."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "I understand it now."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "That's enough for now then."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101
+                    }
+                ],
+                "textRight": "We're going to continue to pursue our ideals.@That's all."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Right, that's all I wanted to say too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Later, Kyubey."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "Could I say one more thing?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "The opinions of Magical Girls throughout the@world are not as unified as you believe."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Okay..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Thanks..."
+            },
+            {
+                "nameNarration": "Ui",
+                "narration": "From now on, I wonder how much@I can give to everyone...",
+                "narrationBg": "bg_adv_11011.jpg",
+                "narrationCoverOpacity": 100,
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Happiness, I mean."
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1.5
+            }
+        ]
+    },
+    "version": 3
+}

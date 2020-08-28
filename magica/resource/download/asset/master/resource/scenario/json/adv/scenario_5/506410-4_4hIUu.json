@@ -1,0 +1,1011 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20471.jpg",
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Tsukuyo",
+                "textRight": "Um, so what exactly is this historical@adornment?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "We call it the Coral Necklace, and it has@been kept in the town for many generations."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Huh, I see. How valuable is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "It was made by a resident ages ago, so@it's very old. It isn't that unusual..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "But it's invaluable to us, because we need@it to invoke the gods in our ritual."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsukasa",
+                "textRight": "I see."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "The necklace is normally stored in a shrine@at the top of the hill, just ahead."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "It's only taken out once a year, on the day@of the ceremony."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "That was today, which was when you realized@the necklace was missing, correct?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "Yes..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20271.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textRight": "So this is the hilltop shrine.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "ef_adv_01",
+                        "id": 101901
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "What was that?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100801,
+                        "motion": 300,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Alina",
+                "textLeft": "*Yawn*[chara:100801:lipSynch_0][wait:0.8][chara:100801:mouthOpen_0][chara:100801:eyeClose_0][chara:100801:lipSynch_1] I'm done here."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100601
+                    }
+                ],
+                "nameRight": "Mifuyu",
+                "textRight": "A-Alina! Where are you going?"
+            },
+            {
+                "nameLeft": "Alina's Voice",
+                "textLeft": "I'm bored. I'm going back to town."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Geeze..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Nemu",
+                "textRight": "Mister, will you please show us the shrine?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "S-sure."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "The vault isn't damaged, so I suspect a key@was used to open it."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101401
+                    }
+                ],
+                "textRight": "The thief must have had access to the key,@or is an outsider who knows where it is."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101401,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "If it's someone who knows where the key is@kept, then the thief may be from here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "[chara:801100:effect_emotion_surprise_0][se:7226_shock]Do you mean someone from the town?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "That can't be! The necklace isn't even that@valuable."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I was merely hypothesizing about the method@of entry, not the motive for the crime."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textRight": "Even if someone stole the necklace, I highly@doubt that they were after money."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I would find that hard to believe."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "Why is that?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "As precious stones go, coral is expensive."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textRight": "But considering the state of the necklace,@its market value should be close to zero."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "It's not rare, either, so I don't think it@was taken for research purposes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "So if the necklace has no objective value,@then the culprit is likely not an outsider."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "Then why did they steal the necklace?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101401
+                    }
+                ],
+                "textRight": "It may have been taken because it had some@other appealing quality."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsukasa",
+                "textLeft": "Hmm..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "So it's not expensive, and isn't rare..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "Maybe the necklace has other advantages, like@bringing fame and fortune to its wearer?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "I've never heard of it being able to do that."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "If the necklace itself has no appealing@qualities, then perhaps..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textRight": "...the culprit's intent lies elsewhere..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textRight": "Perhaps the theft was a means to an end."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "textLeft": "What do you mean?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "For example, a burglar's goal isn't to break@into someone's home."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401
+                    }
+                ],
+                "textRight": "The burglar's goal is to find something@inside the house."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101401,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Perhaps the necklace thief's objective, then,@wasn't simply to steal it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101401,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Maybe they wanted the ceremony to be canceled@and that's why they chose now to do it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "textLeft": "What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "*Giggle* This is getting interesting!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "I see, so that's why the hair ornament..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsukuyo",
+                "textRight": "Hair ornament?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "The necklace was stolen, but there's one@other adornment we use at the festival."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "The Pearl Comb... It's still safe."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Only one of the two accessories required for@the festival is missing?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101401
+                    }
+                ],
+                "textRight": "If that's true, then my hunch may be correct."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "The culprit likely wanted to stop the festival@and ceremony from happening."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Where is the comb? I would like to see it,@please."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textLeft": "It's in the ocean shrine. I'll show you the@way."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101401
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 101901,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101801,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Tsukasa",
+                "textRight": "We're coming too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 201,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Me too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101401
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Sorry, I'd rather you didn't come, Touka."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Why not?! No fair, Nemu!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401
+                    }
+                ],
+                "textRight": "Since the culprit is likely a resident, they@may hide or destroy the evidence."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401
+                    }
+                ],
+                "textRight": "I'd like you to go back into town and do@background checks on the townspeople."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Why me?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101401,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Other than me, you're the only person@here who can make logical deductions."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Hmph."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100601,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "Touka shouldn't go alone. I'll go with her."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101401,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Thank you, Mifuyu."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Fine, then."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "But you owe me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I'm eating your dessert tonight, Nemu!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "Let's go, Mifuyu."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101401,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:101401:effect_emotion_surprise_0][se:7226_shock]What... Hey! I didn't agree to that!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101401
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Tsukasa",
+                "surround": "7003_wind",
+                "textCenter": "Hm?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(Something's on the ground by the shrine.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textCenter": "I wonder what this is? A glittery silver@strip of paper?",
+                "turnEffect": "stop"
+            },
+            {
+                "nameRight": "Tsukuyo's Voice",
+                "textRight": "Tsukasa, we're going now!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Oh, okay! I'm coming!"
+            },
+            {
+                "autoTurnLast": 2,
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,913 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_46104.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20073.jpg",
+                "bgChangeEffect": "exitWitchSpace",
+                "se": "7209_gate_close"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.8,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Hmph! That was too easy."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "That fragment should be right in front of@you.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20073.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "This must be it. It's all up to you now,@Ui.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "You got it!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "narrationBg": "bg_adv_20073.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "visible": "hide"
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Flash*",
+                "surround": "7023_camera"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnEffect": "promist"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "white",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "textClear": 1,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "[textBlack:...?]",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "narration": "[textBlack:Whose memories...are these?]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "Several Years Earlier",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "Northern Italy - House of Visconti"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20122.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "nameRight": "Qube",
+                "textRight": "You want to create a true hero on your own?",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "textRight": "That's an unusual wish, Liz Visconti."
+            },
+            {
+                "textRight": "Make no mistake, your wish will be granted."
+            },
+            {
+                "textRight": "You are offering up your soul in exchange,@after all."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "The famed House of Visconti...@They are the family running Milan.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "She was born into the Visconti family,@with the blood of the man who betrayed them.@Thus, she left..."
+            },
+            {
+                "narration": "She went on a journey, together with Qube,@in search of an undiscovered hero..."
+            },
+            {
+                "narration": "So that her youthful wish would come true."
+            },
+            {
+                "autoTurnLast": 1.2,
+                "bg": "bg_adv_20072.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800200,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800200
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "This is the end for me...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800200
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "I'm sorry I wasn't able to protect you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "She wasn't the one either."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "She wasn't ready to handle the burden a@true hero must bear."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20121.jpg",
+                "chara": [
+                    {
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "I'm sorry, Liz.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "I couldn't save the world with you..."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800300
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402200
+                    }
+                ],
+                "textCenter": "I am the shadow, I can never become the@light."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "id": 402200,
+                        "motion": 100,
+                        "tear": 1
+                    }
+                ],
+                "textCenter": "But you could've become the true hero."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "During her travels, she met@countless girls who could fight.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "But they died without ever becoming heroes.@Until..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20071.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Does that mean she is just ahead?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "The future \"true hero\" we've been searching@for..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Yes, that's right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Her potential power is unlike any other@Magical Girl I've ever met."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "She is really quite extraordinary!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I wonder what kind of person she is..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "white",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "textClear": 1,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "[textBlack:That day, she met...@La Pucelle.]",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20073.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "...",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Um, Elisa? What we saw just now..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Yes. It was a glimpse of Liz's journey."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textRight": "I didn't want to watch that without her@permission."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "The weapons of the girls who died..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503
+                    }
+                ],
+                "textLeft": "They were the same as Liz's weapons."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:402601:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Now that you mention it... A machete, and@a whip!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Are her weapons a tribute to her fallen@friends?)"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Do you have a particularly strong attachment@to those weapons?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "No, I don't have a preference."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "If a form can protect Darc, then that's the@one I prefer."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20073.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 402601,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textBg": "shout",
+                "textRight": "[chara:402601:effect_emotion_angry_1][se:7218_anger]She was lying to me!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "[chara:101503:effect_emotion_surprise_0][se:7226_shock]What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "(I thought she was hard to read.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(But she must be more devoted to La Pucelle@than anyone else.)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Elisa?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Let's head back to where La Pucelle is@fighting."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "Lapin seems to be giving them a hard time.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "Ugh, how bothersome!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

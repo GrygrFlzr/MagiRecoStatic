@@ -1,0 +1,1359 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_46104.jpg",
+                "bgm": "bgm01_anime15",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301200,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 301200,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Meiyui",
+                "textBg": "shout",
+                "textLeft": "Kako!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300800,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Akira",
+                "textBg": "shout",
+                "textRight": "Kakooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6104,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "...![flashEffect:flashWhite2][bgEffect:shakeSmall]",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 301100,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Ack!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 300,
+                        "pos": 1
+                    },
+                    {
+                        "id": 6104,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "shake",
+                        "id": 300500
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "se": "3001_chara_damage"
+            },
+            {
+                "nameCenter": "Nanaka",
+                "textCenter": "...Ah...ugh!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    }
+                ],
+                "se": "3102_enemy_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301100
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "...Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301200,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300800,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Meiyui",
+                "textLeft": "Nanaka?!"
+            },
+            {
+                "nameRight": "Akira",
+                "textRight": "You shielded Kako!"
+            },
+            {
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301100,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Kako",
+                "textBg": "shout",
+                "textCenter": "Nanaka!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6104,
+                        "name": "sprite_0",
+                        "pos": 1
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300800
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "…！！！！！"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301200,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cutInId": 0,
+                        "effect": "fadeout",
+                        "id": 6104,
+                        "name": "sprite_0"
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300800,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Meiyui",
+                "textBg": "shout",
+                "textClear": 1,
+                "textLeft": "We won't let you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300800,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "Akira",
+                "textBg": "shout",
+                "textRight": "Uraaaaaagh!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21251.jpg",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300502,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Nanaka",
+                "textLeft": "...",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes... That's what happened..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300502
+                    }
+                ],
+                "nameRight": "???",
+                "textRight": "Do you remember now?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I do..."
+            },
+            {
+                "textRight": "You risked your life to save Kako."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300502,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Was that not an attempt to redeem yourself?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Redemption..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300502,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You unconsciously protected her..."
+            },
+            {
+                "textRight": "Because you are conscious of your sins."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300502,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You accept it don't you?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300502,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "You accept that now is the time to repent!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "id": 300501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "It seems we really aren't the same person."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300502,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What do you mean?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You are correct."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "My body reacted in an instant, without@thinking, to protect her."
+            },
+            {
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "However...it was not due to any sense of@guilt."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300502,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Deceive yourself all you want..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I am not deceiving myself!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300502,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "What I felt in that moment..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "I remembered that as well, and I can tell@you now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I am not...deceiving myself."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300502,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "All right... Tell me then."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I am using them, as you say."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "There is no mistaking that."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "And it is true that my convictions wavered@as a result of that."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300502,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "So, then—"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "id": 300501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "However! I am not going to use my allies just@to throw them away."
+            },
+            {
+                "textLeft": "Your interpretation is fundamentally flawed."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300502,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "It is?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "We are connected by pure coincidence."
+            },
+            {
+                "textLeft": "A common enemy is what brought us together."
+            },
+            {
+                "textLeft": "Sharing the same target was therefore@guided by fate."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300502,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "That is only telling half the story..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "No... This is a certainty, an inevitable@consequence."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "Every blooming flower is gathered in the same@vase."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "id": 300501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "So it is fitting that we support each other@as one."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I use them... But that is mutual."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300502,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Talk, as they say, is cheap."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "That may be... But my body moved on its@own."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300502,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "That is why I am quite certain this is how@I truly feel."
+            },
+            {
+                "textLeft": "What I need to do is hold onto my@conviction."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "My path is supported by my dignity."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I will never betray those who share my fate."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 0,
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "I would stake my life on that.[chara:300501:lipSynch_0][chara:300501:cheek_-1][chara:300501:motion_200][chara:300501:lipSynch_1]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300502,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300502,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Hmm."
+            },
+            {
+                "textRight": "I no longer sense any wavering in your heart.@I suppose that ends this conversation."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "...I see."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300502,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Vengeance... That is how you intend to see@through your convictions?"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501
+                    }
+                ],
+                "textLeft": "It is."
+            },
+            {
+                "textRight": "Then...I shall observe your journey..."
+            },
+            {
+                "bgm": "bgm03_story17",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300502,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "...in great detail...from the depths of your@heart..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Are we ever to meet again?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300502,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "I cannot say..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300502,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I will say only this..."
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/50480_nanaka_training/50480_nanaka_doppel.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "I am without question...you.",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "black",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "id": 300501,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameNarration": "Nanaka",
+                "narration": "...",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300501
+                    }
+                ],
+                "narration": "Mm..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300800,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21163.jpg",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300800,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Akira",
+                "narrationEffect": "out",
+                "textRight": "Ah! [chara:300800:effect_emotion_surprise_0][se:7226_shock]She's awake!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "Wha?!"
+            },
+            {
+                "bgm": "bgm03_story18",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "N-Nanaka!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Ah...everyone..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "Thank goodness!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301100,
+                        "motion": 300,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Aaah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301200,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "id": 300500,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "That was quite a shock. It was very unlike@you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300800,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "Yeah, really!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500
+                    }
+                ],
+                "textLeft": "So the Witch...is defeated."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "Of course!"
+            },
+            {
+                "textLeft": "Then..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300500,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "All's well that ends well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300800,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "Well, yeah, but... "
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301100,
+                        "motion": 1,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Nanaka! I...I...!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You needn't worry about it. After all..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "We are teammates!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Oh, Nanaka!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300800,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "Hahaha!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Meiyui",
+                "textRight": "I can't help but think there's some hidden@meaning when you say it..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300500,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Please! That is how I truly feel."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301200
+                    }
+                ],
+                "textRight": "Hm..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300800,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "id": 300500,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Akira",
+                "textRight": "All right, all right! Everything's good, @yeah?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300800,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "I mean, we should get you to the Coordinator@though, Nanaka."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300800
+                    }
+                ],
+                "textRight": "You took some damage there. Just to be@sure, y'know?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes, you're right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(That \"other me\"...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Perhaps Mitama has some information to@shed light on it.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "Hey, um, Nanaka!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes? What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 301100,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Kako",
+                "textRight": "...Thank you so much! Really!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300500
+                    }
+                ],
+                "textLeft": "*Chuckle*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "You are quite welcome!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "id": 300500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Yes... This is how I truly feel.)"
+            },
+            {
+                "nameNarration": "Nanaka",
+                "narration": "We each are our own flower...@But ones that support each other...",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "...in our shared fate."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

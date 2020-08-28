@@ -1,0 +1,662 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20112.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Minou",
+                "textRight": "La Pucelle and her friends are nothing @special.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textRight": "Don't you think?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "They really aren't."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "Their soldiers retreated as soon as we took@their weapons away, too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I guess it doesn't take much to be called the@saint of France."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402301,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "[chara:402301:effect_emotion_angry_0][se:7219_strain]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "They're taunting us. Leave this to me."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "It appears our transformations only get@turned back temporarily."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "Will you be all right without a weapon, Liz?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes. I haven't lived as a mercenary this long@for nothing."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "Stand back. We can't afford to lose the@Prophecy."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Okay. Be careful, Liz."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "nameNarration": "",
+                "narrationBg": "bg_adv_20112.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101503
+                    }
+                ],
+                "narration": "*Step*",
+                "se": "7107_arrivalone"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": -70
+                    }
+                ]
+            },
+            {
+                "bgm": "bgm05_event04",
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "nameCenter": "Minou",
+                "narrationEffect": "out",
+                "textCenter": "I'd commend her for thinking she alone can@take on the two of us..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "But I'll deal with this one."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "textLeft": "They'll pay for turning our dear sister into@that abomination."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "This is for Lapin![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4025A02]"
+            },
+            {
+                "autoTurnLast": 0.4,
+                "chara": [
+                    {
+                        "effect": "slideOutRightFast",
+                        "id": 402500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "...?![flashEffect:flashRed2][bgEffect:shakeLarge][surround:4025A03]"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Hah![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4022A01]"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Hmph![flashEffect:flashWhite2][chara:402500:effect_shake]"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(My opponent is more used to fighting@without weapons.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(If we fight fairly, I may lose.)"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    }
+                ],
+                "flashEffect": "flashWhiteSlow1",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "She vanished?! She retreated into the@shadows!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRightFast",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Here![flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4022A01]"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "What?!"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 402500
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "She stopped my movements with her shadows?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Haaah!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20112.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Crack*",
+                "se": "3001_chara_damage"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 400,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Melissa",
+                "narrationEffect": "out",
+                "textCenter": "(Her arm...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Minou",
+                "textCenter": "Corbeau?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20112.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Thud*",
+                "se": "3002_chara_dead"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402400
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 402500,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textLeft": "Aaaaaagh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "You broke...my arm... Heh heh! Hahaha!@Great move, girl in black!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_09",
+                        "id": 402500
+                    }
+                ],
+                "se": "7210_souljem_01",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "(She healed herself.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "She's the real deal."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I can enjoy a true fight to the death with@this one! Oh, it's been a long time..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 402200,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 20
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 100,
+                        "pos": 1,
+                        "posX": 80,
+                        "soulGem": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Liz!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "There's still one more enemy. Protect the@girl."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "O-okay!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

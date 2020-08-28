@@ -1,0 +1,670 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_14131.jpg",
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100300,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100300,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "It's going to be really bad if we don't do@something, right?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Well, if the laws of another universe started@to affect ours..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Anything could happen."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100701
+                    }
+                ],
+                "textRight": "But like you just said, this is definitely@going to wind up being a disaster..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100500,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "Can you make it self-destruct or somethin'?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100701,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "It'll stop on its own if it doesn't receive a@signal for a certain amount of time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "But that might not happen because of all this@corruption."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Nemu, can you try entering the password@again?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "About that..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I've tried a bunch of times, but the device@doesn't seem to be receiving any signals."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "The power that once helped us is now going@to destroy everything..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "7003_wind",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100400,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "Iroha? Yachiyo?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "Is that...?"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Yes, I can hear it too..."
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100100
+                    },
+                    {
+                        "eyeClose": 1,
+                        "id": 100200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "\"...long before...@...been watching...\"",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "\"...don't contact...@...record...keep turning...\""
+            },
+            {
+                "narration": "\"...can...close it...\""
+            },
+            {
+                "narration": "\"...this power...is with...\""
+            },
+            {
+                "autoTurnLast": 0.5,
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100
+                    },
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100200
+                    }
+                ]
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3005_ultfeather.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6003_ultfeather.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 2,
+                "bg": "bg_adv_14131.jpg",
+                "bgChangeEffect": "fade",
+                "bgm": "bgm02_anime17",
+                "turnEffect": "promist"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Sana..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Sana",
+                "textCenter": "Y-yes!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 301,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "This power flowing through the world, the@universe, is really strong."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "It's not trying to hurt us, though..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "It's trying to save us, like it did before."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "Yachiyo."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 201
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Let's close the gate, together."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100200
+                    }
+                ],
+                "textRight": "Like we did back then, right?"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Touka... Ui..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "H-huh? I can be of help too?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Will the same thing work?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100200,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "Touka, you can't transform but you can still@use your conversion magic, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Well, yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Then we can do this."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100200,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "Ui will collect all the magic flowing from us@and Touka can convert it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100200,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "The power that's contained within these@feathers has built up inside us."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I know this will work."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Like I did before..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Exactly."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100
+                    }
+                ],
+                "textLeft": "Our arrow will close the gate."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

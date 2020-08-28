@@ -1,0 +1,252 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20281.jpg",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_window.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*Rrrooooooooom* *Whoooooosh*",
+                "narrationCoverOpacity": 80,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story19",
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Morning, August 11. Weather: Clear.]@@[textBlack:Summer awaited us at the]@[textBlack:far end of the long tunnel.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:We sat facing each other in our seats like]@[textBlack:it was our own private space.]@[textBlack:Sunbeams poured in from the carriage window]@[textBlack:as we sped to the coast, as if to say,]@[textBlack:\"We've only just begun to shine!\" Like they]@[textBlack:couldn't help but clamor for our attention.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20311.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200601,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_window.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "setVisible": 1,
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 200501,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:With Kyoko sitting by Mami's side,]@[textBlack:she tucked herself into the meager]@[textBlack:shadow of Mami's hat while sinking]@[textBlack:as deep into her seat as she could.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Even so, the express train had AC cold]@[textBlack:enough to combat the scorching air that]@[textBlack:shimmered outside, allowing us to keep the]@[textBlack:shades up and gaze at the ever flat horizon]@[textBlack:while we shared idle complaints, like how we ]@[textBlack:should have chosen a warmer train car.]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200101,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_window.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "setVisible": 1,
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 200401,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:We ultimately tired of the well-mannered]@[textBlack:horizon and became absorbed in our attempts ]@[textBlack:to abate the freezing temperature. The train]@[textBlack:was not packed, but still we remained in our ]@[textBlack:car, and when a food cart came by from ]@[textBlack:maybe a warmer one, we all bought ice cream.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200301,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_window.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "setVisible": 1,
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20261.jpg",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Noon, August 11. Weather: Clear.]@@[textBlack:Half of my summer vacation has already passed.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "[textBlack:Last night, Sayaka's relatives invited us]@[textBlack:to come stay at their seaside inn. A sudden]@[textBlack:cancellation meant we could do a 2-night,]@[textBlack:3-day stay for only the cost of meals.]@[textBlack:And this morning found us well on our way,]@[textBlack:aboard this very train.]"
+            },
+            {
+                "narration": "[textBlack:I'd seen the sea before, but couldn't recall]@[textBlack:the last time I had walked on a beach.]"
+            },
+            {
+                "narration": "[textBlack:When the view from the window filled with]@[textBlack:a jutting peninsula, craning itself out]@[textBlack:as though taking in the sea breeze, we bid]@[textBlack:goodbye to our lavishly cooled train.]@[textBlack:The open door let in the scent of sea salt.]@[textBlack:Not wanting to waste this feeling, I removed]@[textBlack:my glasses for a moment.]"
+            },
+            {
+                "narration": "[textBlack:My heart is dancing, unwilling to be]@[textBlack:outshone by the day's warming sunshine.]"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

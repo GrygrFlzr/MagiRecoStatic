@@ -1,0 +1,967 @@
+{
+    "skipTransitionList": [
+        {
+            "from": "group_1",
+            "to": "group_5"
+        },
+        {
+            "canSkip": false,
+            "from": "group_5"
+        }
+    ],
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20261.jpg",
+                "nameNarration": "Iroha",
+                "narration": "Tsuruno had secretly planned@a \"Surprise Tour\" for all of us.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "We learned about it in advance but decided@to play along with whatever she proposed."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "And so, we were dragged along to@the next stop on Tsuruno's list."
+            },
+            {
+                "bgm": "bgm03_story19",
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "narrationEffect": "out",
+                "textCenter": "Wow, what perfect weather!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textCenter": "Oh? What's that? I spy someone over there!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100901,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "(Here we go.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(This must be the next part.)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100901
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "Hey, Kaede."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101101
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "Huh? What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "She looks kinda lonely, standing there all@by herself."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textLeft": "But I don't think we know her, so let's just@keep moving!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "(She's narrating every detail...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "'Scuse meee...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "Oh yeah! Iroha!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]Wh-what?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301
+                    }
+                ],
+                "textLeft": "You know that thing we picked up before with@\"treasure\" written on it? Kinda like a map?"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "???",
+                "narration": "You there!",
+                "narrationBg": "narration",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "narrationEffect": "out",
+                "textLeft": "[chara:100501:effect_emotion_surprise_0][se:7226_shock]Whoa! That made me jump."
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 303001,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Konomi",
+                "textRight": "From whereupon did you happen upon that@map-esque paper?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101101,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "textLeft": "Ah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303001,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "[chara:303001:effect_emotion_surprise_0][se:7226_shock]Oh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "(Konomi?!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303001,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Kaede?!)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 101101,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "What's up, Kaede?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "O-oh, uh, nothing..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 101101,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "surround": "7202_telepathy",
+                "textLeft": "What are YOU doing here, Konomi?!",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303001,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Konomi",
+                "textRight": "I'm here on business for the shop..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303001
+                    }
+                ],
+                "textRight": "But then this girl called out to me all of a@sudden and asked me to do her a favor."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303001
+                    }
+                ],
+                "textRight": "And, well..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "surround": "stop",
+                "textLeft": "Umm!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 303001,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Y-yes?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Is this what you were talking about? We@found it in a bottle that washed ashore!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303001,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 303001,
+                        "lipSynch": 1,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Shiver me timbers! Ach, who'd've e'er known@that'd be ensconced in there!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101101,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kaede",
+                "surround": "7202_telepathy",
+                "textLeft": "Um, Konomi... What kind of character are@you playing?",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 303001,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "*Whine* Kaedeee! Please let me carry@through with the act!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Ah, uh, okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101
+                    }
+                ],
+                "textLeft": "Sorry you got caught up in this!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 303001,
+                        "motion": 200
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "Ah, yes... Ya see, that object you found@and hold in yer hands...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303001
+                    }
+                ],
+                "textRight": "It's a real, bonafide, grade A map that'll@lead y'all to actual treasure!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303001,
+                        "motion": 0
+                    },
+                    {
+                        "id": 101101,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But mark my words, girlies! Ye'd better@keep vigilant!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303001
+                    }
+                ],
+                "textRight": "Fer whosoever seeks that there treasure... "
+            },
+            {
+                "chara": [
+                    {
+                        "id": 303001,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "A perilous curse will befall ye!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101101,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "(Konomi is acting her guts out.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "(Wait! The curse!)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 1,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Umm...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "id": 100101,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Yep...yep...yep..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "(I knew it! She's staring right at me!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 1
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "textLeft": "Irohaaa... Irohaaa...",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "(And her thoughts are leaking out again!)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    }
+                ],
+                "surround": "stop",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 301,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(Do your best Iroha! That's all I can say...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Momoko",
+                "textRight": "(Still...what's up with this curse?!)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101001
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "(What should I do?!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 16,
+                        "group": "group_2",
+                        "textSelect": "Feel out how to act getting cursed"
+                    },
+                    {
+                        "alternativeId": 17,
+                        "group": "group_3",
+                        "textSelect": "Become horribly cursed"
+                    },
+                    {
+                        "alternativeId": 18,
+                        "group": "group_4",
+                        "textSelect": "Act like it's all fine"
+                    }
+                ]
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20261.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "(I really have no idea what I should do@here.)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "(I'll just have to muddle through it. It'll@work out!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(...Hopefully?)"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20261.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "(Well...)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(It's a curse, so it's gotta be crazy, @right?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 401
+                    }
+                ],
+                "textCenter": "(So I guess I need to give it everything@I have!)"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20261.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "(Should I act like I'm in pain or something?)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(No, I think that would just make Tsuruno@more suspicious.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "(In that case...I'll play it like this...)"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ],
+        "group_5": [
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20261.jpg",
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "(What should I do?!)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 16,
+                        "group": "group_2",
+                        "textSelect": "Feel out how to act getting cursed"
+                    },
+                    {
+                        "alternativeId": 17,
+                        "group": "group_3",
+                        "textSelect": "Become horribly cursed"
+                    },
+                    {
+                        "alternativeId": 18,
+                        "group": "group_4",
+                        "textSelect": "Act like it's all fine"
+                    }
+                ]
+            }
+        ]
+    },
+    "version": 3
+}

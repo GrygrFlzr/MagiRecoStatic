@@ -1,0 +1,134 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20303.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200352,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 3,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "???",
+                "narration": "If I could read her mind...@Maybe I might've had hope for the future.",
+                "narrationBg": "bg_adv_20382.jpg",
+                "narrationEffect": "in",
+                "narrationHAlignment": "center",
+                "narrationPosX": 0,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "But that's impossible."
+            },
+            {
+                "narration": "Time will change the both of us,@just like it did to our parents.@One day Yusa will become a stranger,@and my future self will kill my present one."
+            },
+            {
+                "narration": "If nothing ever changed, then we could've@stayed together, just like we were..."
+            },
+            {
+                "narration": "How do you see me?@Do I look kind to you? Chaste? Shy?"
+            },
+            {
+                "narration": "It's all a lie."
+            },
+            {
+                "narration": "I'm sorry...@All of it, from start to finish. All lies."
+            },
+            {
+                "narration": "When I get home, there's another letter from@someone at her school, full of hatred. A@petition more or less, considering the girls@who wrote it... They even put a stamp on it."
+            },
+            {
+                "narration": "The handwriting differs each day, probably@due to a different girl taking the duty. High@class girls can go to such lengths. I mean,@they can send a letter every day, no problem.@It doesn't bruise, so she'll never find out."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20303.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200352,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "opacity": 90,
+                        "path": "resource/scenario/img/black.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "scale": 1,
+                        "setVisible": 1,
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 2
+            },
+            {
+                "autoTurnLast": 3,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 200352
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200352,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Homura",
+                "textCenter": "(Was that...a dream?)"
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/black.jpg",
+                        "setVisible": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

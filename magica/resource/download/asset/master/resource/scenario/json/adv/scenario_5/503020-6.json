@@ -1,0 +1,552 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20261.jpg",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "bgm03_story19",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Noon, August 12]@[textBlack:We spent the day walking along the coast]@[textBlack:to an aquarium some ways away.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650
+                    }
+                ],
+                "nameLeft": "Kyoko",
+                "narrationEffect": "out",
+                "textLeft": "Huh? An aquarium? Just lookin' at stuff@is so boring.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200650,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "We're out here, may as well go fishin'!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200451,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Sayaka",
+                "textBg": "shout",
+                "textRight": "[bgEffect:shakeLarge]Noooooope! Fishing is the one thing that's@off the table for sure!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200650,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Huh? If ya hate it that much, you don't@gotta do it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 200650
+                    }
+                ],
+                "textLeft": "You got some fishin' trauma or somethin'?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200451,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "I do! I do! I aaabsolutely have trauma!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "effect": "shake",
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 200451
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhite1][surround:4023A03]Aaaaaagh!!! I'm gettin' numb all over just@remembering it!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Numb?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Homura",
+                "textRight": "You can't blame her."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000
+                    }
+                ],
+                "textRight": "The other day, Sayaka and I went to a@fishing tournament in Kamihama."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 230000,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "The eryngii gave her a tough time."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200650,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:200650:effect_emotion_surprise_0][se:7226_shock]Eryngii? Gave you a tough time?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200451,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sayaka",
+                "textLeft": "Yeah... I only just managed to avoid@drowning."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I really thought she was done for."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 200650,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Kyoko",
+                "textLeft": "Uh, okay. Then whatever, I guess I'll@drop it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200650,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Kamihama... That place is bizarre as ever.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200550,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mami",
+                "textRight": "(An eryngii mushroom...almost drowned her?@Maybe she got food poisoning?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200151,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Madoka",
+                "textLeft": "So you went to a fishing tournament?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200151
+                    }
+                ],
+                "textLeft": "With Homura?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200151,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I wish you invited me too..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200151,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I would've loved to have gone."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200451,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sayaka",
+                "textRight": "Did you not just hear what I said?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200451
+                    }
+                ],
+                "textRight": "The Kamihama fishing competition..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200451,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "...was about a million billion times worse@than whatever you're imagining."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "[textBlack:Afternoon, August 12]@[textBlack:At the aquarium, we circled gigantic tanks]@[textBlack:of jellyfish and strange deep sea creatures]@[textBlack:that glimmered in the dark. We ate fish]@[textBlack:burgers in the cafe, then watched a cute]@[textBlack:seal and dolphin show. As we left the cool]@[textBlack:building, the sun was already setting.]",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "narrationHAlignment": "left",
+                "narrationPosX": 100,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20262.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200650,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650
+                    }
+                ],
+                "nameLeft": "Kyoko",
+                "narrationEffect": "out",
+                "textLeft": "Those jellyfish sure were sparkly.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200650,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "They look so different when you cook 'em up@in Chinese food..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200451,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Sayaka",
+                "textRight": "Well, yeah, obviously."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200451
+                    }
+                ],
+                "textRight": "But hey, you had fun too, admit it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200650,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Nah, I was just eyein' 'em up 'cause they@looked so tasty."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 200451,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Sure, whatever you say."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200451
+                    }
+                ],
+                "textRight": "Oh, hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200451,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "We timed it just right. Wanna go for a walk@up to the cape?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200451
+                    }
+                ],
+                "textRight": "The one we saw from the train!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200451,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I bet the sunset looks amazing from there!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200650
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200550,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200151,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Mami",
+                "textRight": "What a lovely idea."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200550
+                    }
+                ],
+                "textRight": "We're out here already, so why don't we@all go?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 200550
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200151
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Homura",
+                "textCenter": "The cape..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

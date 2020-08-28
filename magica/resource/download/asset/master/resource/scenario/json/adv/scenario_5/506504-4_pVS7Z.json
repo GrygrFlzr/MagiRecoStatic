@@ -1,0 +1,519 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "bgm03_story12",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/memoria_1373.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Minou",
+                "narration": "― Minou ―@Yes, it is unfolding beautifully.",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Minou ―@Just as we wrote in the script..."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20121.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402700,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event08",
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Minou",
+                "textRight": "Sorry to keep you both waiting. I have@finished giving my report to our benefactor.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Lapin",
+                "textCenter": "Hey, hey... When do we get our next shot?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400
+                    }
+                ],
+                "textRight": "I will tell you when the time comes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500
+                    }
+                ],
+                "nameLeft": "Corbeau",
+                "textLeft": "*Sigh*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I can't wait to get my hands on that girl in@black again."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "You're really into that one, huh, Corbeau?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Sure. Nothing gets my heart racing like a@clash to the death with a strong opponent."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Next time I bet we'll have our most vicious@bloodbath yet."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402400,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "(Corbeau doesn't seem to remember a thing.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Her dream battles with La Pucelle...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Nor the brutal fight she put up against@them at Orléans after she awoke.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "(The only person who should've been able@to recall what happened in that dream...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Is I, because I conjured it. No one else@should be able to...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402700,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Hey, hey, hey... Cooorbeeeaaauuu.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700
+                    }
+                ],
+                "textCenter": "You really like pain, don't you?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I guess I do. Whether I'm experiencing it or@causing it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "I prefer tormenting weaklings."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700
+                    }
+                ],
+                "textCenter": "Especially that little shrimp on their side!@She seems really stupid, too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "You mean the one bearing the Blank Prophecy?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Yeah, her! How come she's the one holding@the Prophecy, anyway?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402400,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I don't know why the Blank Prophecy selected@that girl to possess it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textRight": "All I know is that once that girl is removed@from the picture..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textRight": "We will be able to prevent an unpleasant@future from ever occurring."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Just like our benefactor wants."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I'm fine with whatever we need to do, so long@as I can keep you and Lapin safe."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402700,
+                        "motion": 400,
+                        "pos": 1,
+                        "posX": -150
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700
+                    }
+                ],
+                "textCenter": "You're sooo sweet! I love you, Corbeau!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402400,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(So long as she can keep Lapin and I safe?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(What about...our benefactor?)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402700
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402700,
+                        "motion": 100,
+                        "pos": 1,
+                        "posX": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700
+                    }
+                ],
+                "textCenter": "Oh, yeah! That reminds me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700
+                    }
+                ],
+                "textCenter": "Minou! You didn't answer before."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Didn't answer what?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "Do you like the pain? Or getting to inflict @it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402400,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "*Chuckle*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textRight": "Now, let me see... I wouldn't say I like@tormenting people."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400
+                    }
+                ],
+                "textRight": "My favorite is allowing someone the hope of@salvation...then plunging them into despair."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402500,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Makes sense."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402700,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "That's so like you, Minou!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402400,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "*Chuckle* Well then, shall we retire to our@chambers?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/memoria_1375.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Minou",
+                "narration": "― Minou ―@Dear sisters...",
+                "narrationAnchor": "bottom",
+                "narrationBg": "",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "― Minou ―@Good night..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnChangeInTime": 1.2
+            }
+        ]
+    },
+    "version": 3
+}

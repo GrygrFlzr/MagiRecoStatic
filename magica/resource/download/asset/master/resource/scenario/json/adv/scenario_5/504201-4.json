@@ -1,0 +1,968 @@
+{
+    "skipTransitionList": [],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19181.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "nameRight": "Shizuku",
+                "textRight": "So I charge my magic like this...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "se": "7211_souljem_02",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:715000A02]And then unleash it through this chain!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715001,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[flashEffect:flashRed2][surround:715000A05][bgEffect:shakeLarge][chara:715001:effect_shake]Ack!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Are you all right?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715001,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Y-yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715001
+                    }
+                ],
+                "textLeft": "It's just a little scratch, it'll heal in no@time."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Thank goodness..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I think I'm getting the hang of it, bit by@bit...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715002,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715000,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715002,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Black Feather",
+                "nameRight": "Black Feather",
+                "textLeft": "*Pant* *Wheeze*",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715000,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Damn, I can't rein it in..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Shizuku",
+                "nameLeft": "White Feather",
+                "nameRight": "Shizuku",
+                "textCenter": "(It looks like the others are having a rough@time of it, though.)",
+                "turnChangeOut": "rollOutFast",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715100,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "Okay, that's enough sparring for today.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Report to your supervisors for feedback."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textLeft": "Tomorrow I'd like to start mixing real@combat into your training."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Got it."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "???",
+                "nameRight": "Shizuku",
+                "textLeft": "You did awesome for your first time!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textRight": "Me?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005
+                    }
+                ],
+                "textLeft": "Your technique was solid. I was really @surprised!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "I agree. I felt the same way."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "I did notice, though, that there were times@where you used your unique magic..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "That's not allowed. It'll give you away."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "A-all right. I'll be careful."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "Still, it's only your first day of training."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005
+                    }
+                ],
+                "textLeft": "It's really unusual for a new recruit to@become so adept so quickly."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005
+                    }
+                ],
+                "textLeft": "You must be a really powerful Magical Girl@if you're this in tune with your magic."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "N-no way!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "No need to act all humble about it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "Right! I bet if it were the old Kamihama..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "You could kill a Witch or two without anyone@else's help."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I figured that was pretty normal..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "It's pretty unusual among Black Feathers."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textRight": "You're saying they couldn't beat a Witch on@their own?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "There's lots of girls like that out there.@That's the main reason why..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "They can't take it when we tell them what's@in store for them."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "So you're a really rare case."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "It's not every day we recruit a Magical Girl@as strong as you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I didn't notice at all..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "Hey... You don't have to answer this if you@don't want to, but..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715005
+                    }
+                ],
+                "textLeft": "Why did you join the Wings of the Magius,@anyway?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textRight": "I joined because..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "explosion",
+                "textClear": 1
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3002_mind_purple.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_21251.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100600,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300700,
+                        "motion": 0,
+                        "pos": 2,
+                        "tear": 1
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "nameRight": "Shizuku",
+                "textLeft": "Good. Rest assured, you are safe here.",
+                "turnChangeOut": "whiteOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300700
+                    }
+                ],
+                "textRight": "What?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "You're meant to be here. Here, you can@be yourself without fear of retribution."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300700,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Oh, but I..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100600,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "The Wings of the Magius can be the place @you belong, wanderer."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300700,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "This could..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300700
+                    }
+                ],
+                "textRight": "Be where I belong?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100600,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Yes. It IS where you belong."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715005,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "???",
+                "nameRight": "Shizuku",
+                "textRight": "Because...",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textRight": "The Wings of the Magius is where I belong."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005
+                    }
+                ],
+                "textLeft": "Huh? Where you belong?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715104,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "???",
+                "textLeft": "That's unusual, too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "Both your skill level and your reasons for@joining up are super unheard of..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "What do you mean?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715104,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I think you're the only Magical Girl around@who feels like she belongs here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "Everyone else thinks of this as something@they have to do to protect what matters."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715005,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "???",
+                "textRight": "Hey! That sounds like you're taking issue@with what she said."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715005
+                    }
+                ],
+                "textRight": "Everyone has their own reasons to join!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 715104,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "That's true. Sorry, of course everyone's @reasons are their own."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "I didn't mean anything bad by it. Sorry."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Shizuku",
+                "textRight": "No... I know you just mean it's unusual."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I do feel like the Wings of the Magius is the@place I was searching for."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300702
+                    }
+                ],
+                "textRight": "That's enough for me, really."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Even if you did tell me my reasons for@joining were wrong, I'd still feel the same."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "That's what matters most."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715104
+                    }
+                ],
+                "textLeft": "Anyway..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yes?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715104,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Here, have this."
+            },
+            {
+                "autoTurnLast": 1,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51042_Accomplish_feather/51042_blankgem.png",
+                        "posX": 0,
+                        "posY": 80,
+                        "visible": "appear"
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300702
+                    }
+                ],
+                "textRight": "Hm? It doesn't contain any magic..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715104,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yeah. So you're going to to have to imbue it@with your own, little by little."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 300702,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "What for?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715104,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "That's a secret."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

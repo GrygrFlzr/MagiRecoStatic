@@ -1,0 +1,809 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20255.jpg",
+                "bgm": "bgm03_story21",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textRight": "We...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "We..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Tsukuyo & Tsukasa",
+                "textBg": "shout",
+                "textCenter": "[chara:101801:effect_emotion_joy_0][chara:101901:effect_emotion_joy_0][se:7222_happy]We're here! / We have arrived."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 101801,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "It's the ocean, Tsukuyo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "What a lovely place, Tsukasa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Wow, look! There's a couch on the beach!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "With an umbrella, and a curtain! Everything@is absolutely dazzling!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "How is it that we're able to do this?"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 1,
+                        "posX": 50
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "I can put whatever I want out here."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "It's my private beach, after all."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Y-your private beach?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "That means it's just for us!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "Tsukuyo",
+                "textCenter": "This whole beach is just for us?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "I would expect no less from a wealthy scion.@Your financial assets are on another level."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100801,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Alina",
+                "textLeft": "Ugh... It's estremamente hot out here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mifuyu",
+                "textRight": "Is it okay to be out here?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100601
+                    }
+                ],
+                "textRight": "A typhoon just passed, so it's extra-hot out@today."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100801
+                    }
+                ],
+                "textLeft": "Seriously... Why must I be here?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "I think it's a good opportunity."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101401,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "As creators, we need to be inspired with@fresh ideas, don't we?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "At this rate, I'll melt away before I get@inspired."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100801
+                    }
+                ],
+                "textLeft": "I need to cool off."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Okay, then let's head over to my vacation@home!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20291.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801800,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story19",
+                "chara": [
+                    {
+                        "id": 801800
+                    }
+                ],
+                "nameLeft": "Housekeeper",
+                "nameRight": "Touka",
+                "textLeft": "Welcome, Miss Satomi.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Hi..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100701,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsukuyo",
+                "textRight": "Is something the matter?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100701
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Well... Papa really likes this vacation@home."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "But I think it's way too old and outdated."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "What does he even like about it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100601,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Mifuyu",
+                "textRight": "Just because your father owns the building @doesn't mean it's okay to say that, Touka."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 100701,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801800,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Housekeeper",
+                "textLeft": "No it's okay, miss. She's right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801800
+                    }
+                ],
+                "textLeft": "This vacation home is the oldest one@owned by the Satomi Medical Group."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801800
+                    }
+                ],
+                "textLeft": "It may be a bit inconvenient for you young@ladies."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801800
+                    }
+                ],
+                "textLeft": "But I shall do my best to serve you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Sure. Thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801800
+                    }
+                ],
+                "textLeft": "My pleasure."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801800
+                    }
+                ],
+                "textLeft": "Let me bring you some refreshments."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801800
+                    }
+                ],
+                "textLeft": "What would everyone like to drink?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Iced cocoa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100801,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Alina",
+                "textLeft": "Seltzer water."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Plain water for me."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100601,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "I'll have lemonade, please."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Tsukasa",
+                "textRight": "Um...um...[chara:101901:lipSynch_0][wait:0.8][chara:101901:cheek_0][chara:101901:face_mtn_ex_030.exp.json][chara:101901:lipSynch_1] Iced tea, please!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "textLeft": "Same for me...please."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801800,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Housekeeper",
+                "textCenter": "Very well. Please relax in your rooms."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801800
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100601,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Mifuyu",
+                "textRight": "We appreciate the hospitality."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Once we get changed, we'll go straight to@the beach, okay?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "This vacation home feels like a dream."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "We're just ordinary people, so the idea of@owning a building like this is crazy."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "It's like an entirely different universe..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "The housekeeper is so thoughtful and@welcoming."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:101901:effect_emotion_surprise_0][se:7226_shock]Oh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "This might be a once-in-a-lifetime experience@for us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Let's not hold back like we usually do."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Indeed. I believe doing our best to enjoy@ourselves is the correct choice."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We don't get to do this every day. Let's take@advantage of the next three days to relax."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "For sure!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

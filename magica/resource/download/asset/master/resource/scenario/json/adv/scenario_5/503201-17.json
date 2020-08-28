@@ -1,0 +1,782 @@
+{
+    "skipTransitionList": [
+        {
+            "from": "group_1",
+            "to": "group_4"
+        },
+        {
+            "canSkip": false,
+            "from": "group_4"
+        }
+    ],
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300501,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300902,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "textLeft": "Kako, the team's anchor, is up!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300902
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100550,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302801,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "nameRight": "Ayame",
+                "textRight": "It's Kako!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550
+                    }
+                ],
+                "textLeft": "Is she gonna be all right?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100550
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Kako",
+                "textCenter": "Here I go..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Time to eat!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "*Munch* *Munch* *Munch*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Next, please!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 300902,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100550,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "nameRight": "Felicia",
+                "textRight": "[chara:100550:effect_emotion_surprise_0][se:7226_shock]She's crazy fast!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300902
+                    }
+                ],
+                "textLeft": "Whoaaa! Kako's eating at an unbelievable@speed!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "She's on a roll! She'll catch up to Yachiyo!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300902
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100550
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 2,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302601,
+                        "motion": 100,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "[chara:302601:effect_emotion_joy_0][se:7222_happy]Ugh...!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100251
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100550,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "nameRight": "Ayame",
+                "textLeft": "Come on, seriously?! Who'd have thought..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Oh, oh! I just remembered!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "What's up?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I heard about Kako's hobby once."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100550
+                    }
+                ],
+                "textLeft": "Readin', right?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "No! Her other hobby."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100550,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "She's got another one?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "textRight": "It's..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "...going on ramen tours!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:100550:effect_emotion_surprise_0][se:7226_shock]Ramen tours?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302801,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Yeah! Tours just to eat ramen!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "textRight": "Kako actually really loves ramen."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "textLeft": "Ohh, now I get it... That's why she's so@fast at eating noodles."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "That's what I was thinking!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100351,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Her pastime is ramen tours?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Maybe she can try the ramen at our@restaurant and give us some pointers...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textRight": "That's exactly right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 302701,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "textLeft": "So that explains it!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300501
+                    }
+                ],
+                "textRight": "We chose our team anchor with the utmost@care."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501
+                    }
+                ],
+                "textRight": "She doesn't eat a lot of rice or bread, but@she's a champ at eating noodles!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 300501,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "She likes ramen the most, but she enjoys@all kinds of noodles!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300501
+                    }
+                ],
+                "textRight": "She actually has a nickname..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300501,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "The girl who loves noodles!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Meiyui",
+                "textLeft": "...That's not a nickname. It's just a @description."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_022.exp.json",
+                        "id": 301101,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Kako",
+                "textCenter": "Omph...nom...nom!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301101,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "Next, please!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301101
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_012.exp.json",
+                        "id": 300902,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 301201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Manaka",
+                "textBg": "shout",
+                "textLeft": "This battle is getting intense!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 300902
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I'll lose, at this rate...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100251,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(What should my strategy be?)"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 6,
+                        "group": "group_2",
+                        "textSelect": "Try to eat faster"
+                    },
+                    {
+                        "alternativeId": 7,
+                        "group": "group_3",
+                        "textSelect": "Keep this pace up"
+                    }
+                ],
+                "turnEffect": "stop"
+            }
+        ],
+        "group_2": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100251,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "textCenter": "(Time for the final sprint!)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "lipSynch": 0,
+                        "motion": 201
+                    }
+                ],
+                "textCenter": "(I'll charge ahead and take the victory!)"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ],
+        "group_3": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "textCenter": "(I must keep calm...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100251,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "textCenter": "(I'll carefully maintain my pace!)"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ],
+        "group_4": [
+            {
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_20331.jpg",
+                "bgm": "bgm05_event03",
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100251,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Yachiyo",
+                "textCenter": "(What should my strategy be?)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "select": [
+                    {
+                        "alternativeId": 6,
+                        "group": "group_2",
+                        "textSelect": "Try to eat faster"
+                    },
+                    {
+                        "alternativeId": 7,
+                        "group": "group_3",
+                        "textSelect": "Keep this pace up"
+                    }
+                ],
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

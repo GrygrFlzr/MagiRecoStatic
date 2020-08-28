@@ -1,0 +1,632 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20281.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "(I better watch what Tsuruno does in the @hopes it'll give me a hint.)",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "(I'll do that!)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100101,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 200
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "*Stare*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Mmhmm."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yep...yep, yep...yep..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "*Stare*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Yep...yep...yep..."
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "One hour later...",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "*Stare*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yep...yep, yep..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101001,
+                        "lipSynch": 0,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "(Nope, nothing...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Iroha's just standing silently, waitin' for@a cue from Tsuruno.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100901,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "(And Tsuruno's just staring at Iroha,@waiting for her to do something!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(So, in essence...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101701,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "Yachiyo",
+                "narration": "They're deadlocked, waiting for each other!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "id": 101701,
+                        "mouthOpen": 1,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "narrationEffect": "out",
+                "textLeft": "*Yawn*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101101,
+                        "lipSynch": 0,
+                        "motion": 300
+                    },
+                    {
+                        "id": 101701,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameRight": "Kaede",
+                "textRight": "(Even the queen is yawning.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Heeey! How long are you guys gonna keep@this up?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100401,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Sana",
+                "textLeft": "Uh, let's give them a little bit longer,@okay?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "*Stare*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Yep...yep, yep...yep..."
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "So Tsuruno and I kept our@eyes locked on each other.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narration": "Staring on, and on, and on..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 101701,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Mitama",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textCenter": "How long are you going to keep staring?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 401
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "[chara:100101:effect_emotion_surprise_0][se:7226_shock]Wha?!"
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "id": 101701,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "Honestly! We're never going to get anywhere@like this!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701
+                    }
+                ],
+                "textLeft": "Whatever. Here's your map!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100301,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "Mitamaaa! It's not time for that yet!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "motion": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "...Ah!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100301,
+                        "mouthOpen": 0,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "Uh oh..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Huh?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101001,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "(Oh, yikes!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100901,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "(She let it slip...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100201,
+                        "lipSynch": 0,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "(And we made eye contact!)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 100201,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101701,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "Oh my..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "(Did I ruin it?)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100301,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "...",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100301,
+                        "lipSynch": 1,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Um..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "lipSynch": 1
+                    }
+                ],
+                "textRight": "So..."
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "The silence continued for quite some time.@It must have been about a minute,@though it felt like an hour.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "I seem to recall the sea breeze drying the @sweat on my forehead while we stood there."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/51032_badend.ExportJson",
+                        "zOrder": "charaFront"
+                    }
+                ],
+                "autoTurnLast": 0.1,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

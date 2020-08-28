@@ -1,0 +1,929 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20083.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.8,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "flashEffect": "explosion",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "This does seem like a Fragment of True@History, doesn't it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "Why is there another one, when we just@retrieved one nearby?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "visible": "hide"
+                    }
+                ],
+                "surround": "7202_telepathy",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "ef_adv_02"
+            },
+            {
+                "nameRight": "Qube",
+                "textRight": "It seems as though Domrémy had two fragments@to begin with.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "textRight": "That explains why it seemed so strong."
+            },
+            {
+                "textRight": "Since you girls removed the Time Paradox,@the other fragment made itself known."
+            },
+            {
+                "textRight": "That's why it only appeared now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Pernelle",
+                "textRight": "We should prepare ourselves for such a@possibility again."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "When a temporal distortion is fixed, a new@fragment could appear somewhere else."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20083.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101503,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "charaFront"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Can you please retrieve it, then?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101503,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Ui",
+                "textRight": "Time to use my phone!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationBg": "bg_adv_20083.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402201
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101503
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/51065_history_fragment.png",
+                        "visible": "hide"
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Flash*",
+                "surround": "7023_camera"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "narrationEffect": "out",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "turnEffect": "promist"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "white",
+                "narrationCoverOpacity": 0,
+                "narrationEffect": "in",
+                "textClear": 1,
+                "turnChangeIn": "whiteIn",
+                "turnChangeInTime": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "[textBlack:Is this...]",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "nameNarration": "Liz",
+                "narration": "[textBlack:Domrémy Village, during a time of peace?]"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "Several Years Earlier",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "France - Domrémy"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20071.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm05_event05",
+                "nameRight": "Qube",
+                "textRight": "We came here to meet you.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "textRight": "We'd like to call you \"Darc\", if that's all@right with you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Th-that's fine!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Please call me whatever you please,@Monsieur Angel!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20081.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "mouthOpen": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4021A01]Arrrgh!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4021A01]Yah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Have you never wielded a sword before?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 100,
+                        "pos": 1,
+                        "posX": -110
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "That's dangerous."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textCenter": "Don't grip the hilt too hard."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textCenter": "Try to relax."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Catherine",
+                "textRight": "Teach me, too, Liz!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "You want to learn how to use a sword?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 801600,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "[chara:801600:effect_emotion_joy_0][se:7222_happy]Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "How adorable.",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "She can be a bit crazy sometimes, but she's@my precious little sister."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "That's right...@Those miraculously peaceful days...",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "...were utterly destroyed."
+            },
+            {
+                "narration": "The town fell victim to a disaster."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "Darc",
+                "narration": "And my dearest little sister,@Catherine, perished.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20231.jpg",
+                "nameNarration": "",
+                "narration": "1428",
+                "narrationBg": "",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "France - Domrémy"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/memoria_1171.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story07",
+                "nameNarration": "Darc",
+                "narration": "―Darc―@Monsieur Angel...",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "―Darc―@I have made my choice."
+            },
+            {
+                "narration": "―Darc―@I won't allow this cruelty@to happen again, to anyone."
+            },
+            {
+                "narration": "―Darc―@I will become...a Magical Girl."
+            },
+            {
+                "nameNarration": "Qube",
+                "narration": "―Qube―@Okay, Darc... What will you wish for?"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "―Darc―@The power to bring light to all of France!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20082.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "turnChangeOut": "whiteOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "...?!"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Light's raining down from the sky!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Without a doubt..."
+            },
+            {
+                "textRight": "Darc is a light of hope that just may clear@away the dark clouds of this country."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20102.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "nameCenter": "Melissa",
+                "textCenter": "..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20092.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 2,
+                "flashEffect": "flashWhiteSlow2",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textCenter": "[chara:402600:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402600,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(That light... Did something happen around@France?)"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20083.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameRight": "Elisa",
+                "textRight": "(That's right. Now I remember.)",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(My fate, and La Pucelle's fate...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Our fates were already intertwined back@then.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 402101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 402601
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101503,
+                        "motion": 300,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "Um, what did I just see?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101503
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "It was..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "It was a world that I...we...[chara:402101:lipSynch_0][wait:1][chara:402101:lipSynch_1]wanted to@protect, but failed to."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}
