@@ -1,0 +1,587 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20083.jpg",
+                "bgm": "bgm01_anime16",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 2
+                    },
+                    {
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Iroha",
+                "textRight": "[flashEffect:flashWhite2][se:6000_hit_shooting_01_s][bgEffect:shakeSmall]Hyaaa!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 760000
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "se": "5000_shooting_01_s",
+                "textBg": "shout",
+                "textLeft": "БЯЯяЯЯ…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 760000
+                    }
+                ],
+                "se": "3102_enemy_dead",
+                "textClear": 1
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "out"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson"
+                    }
+                ],
+                "autoTurnLast": 0.2
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "*Pant* *Pant*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 100100
+                    }
+                ],
+                "textRight": "Is it...over?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Melissa! You can come out now!"
+            },
+            {
+                "bgm": "bgm03_story03",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "Iroha,[chara:402301:lipSynch_0][wait:0.5][chara:402301:lipSynch_1] thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "Yeah, thanks!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "Now I understand!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "The ghost was actually an enemy Demon!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "I guess so."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 301
+                    }
+                ],
+                "textRight": "After all, they did say the village was@being attacked by the English army..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402301,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Thank goodness you were here to help us,@Iroha!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "Anyway, now that you've silenced that@troublesome spirit..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402301,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Let's keep moving! The church awaits!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Is something wrong?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 801200
+                    }
+                ],
+                "textRight": "No, nothing..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "Shall we go then?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Yeah, okay!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 300,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20121.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402301,
+                        "lipSynch": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Melissa",
+                "textCenter": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "nameRight": "Iroha",
+                "textLeft": "Thank you for waiting.",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402301,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Thanks to your help, I managed to offer up@my prayer!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "So you light the candle, and then pray?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "That's how I do it, yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "But it's different for everyone!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Wow, I didn't know that."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 801200,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "Are you all right? You look so nervous."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 801200
+                    }
+                ],
+                "textRight": "Oh, no...it's nothing..."
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "*Ring* *Ring*",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "surround": "7010_bell",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bg": "bg_adv_20121.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 401,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "nameRight": "Iroha",
+                "narrationEffect": "out",
+                "textLeft": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "The bell is ringing!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 100100
+                    }
+                ],
+                "textRight": "How?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100100,
+                        "motion": 300
+                    }
+                ],
+                "surround": "stop",
+                "textRight": "Th-there isn't anyone here beside us!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "Could this be..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100100,
+                        "motion": 400,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Melissa & Iroha",
+                "textBg": "shout",
+                "textCenter": "A REAL ghost?!"
+            },
+            {
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "nameCenter": "Melissa",
+                "textCenter": "And so, [chara:402301:lipSynch_0][wait:1.0][chara:402301:lipSynch_1]that was how it all began!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "id": 402301
+                    }
+                ],
+                "textCenter": "The frightful night that Iroha and I were@forced to endure!"
+            },
+            {
+                "autoTurnFirst": 2.3,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 1,
+                        "voice": "vo_char_4023_00_04"
+                    }
+                ],
+                "nameCenter": "Melissa",
+                "textCenter": "Everyone, we must make it out of here alive!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

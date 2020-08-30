@@ -1,0 +1,467 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19092.jpg",
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameLeft": "Touka",
+                "nameRight": "Nemu",
+                "textLeft": "A career path...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "...questionnaire?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "textLeft": "Yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "My teacher told me I should think a little@about my future."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "But I don't even have a school I want to go@to or a job I want to do."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "So I wanted to get your opinions."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Well, I've already reached some of my goals."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Just yesterday I had a discussion with a @professor about some of my theories online."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "As for me, I've already rejected some offers@from some publishers."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textRight": "I mean, I can earn a living as a writer just@from ad revenue."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403
+                    }
+                ],
+                "textRight": "I've been able to engage in my creative@pursuits free of economic concerns."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "So in that regard, I suppose I've also@reached some of my goals."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "I guess I shouldn't be surprised..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "id": 101501,
+                        "pos": 1
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101501,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "(They both know exactly what they want to@do.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(And they're in a place they can do it.)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(But I don't even have an idea of what I want@to do.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(The other kids in school don't seem to know@yet either.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(But when I look at Touka and Nemu...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "(I wonder if I'm really okay with the way@things are.)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101501,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "nameRight": "Eternal Sakura",
+                "textRight": "Ui? Are you sad?",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:101501:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "Oh, you surprised me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I don't think you need to go to school if you@don't enjoy it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304302
+                    }
+                ],
+                "textRight": "You can stay here all day."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "School is fun."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "It's just that I don't know what I want to@be..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "And Touka and Nemu already have something@they want to do."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "I feel like I'm running out of time, or @like..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "I wish there was something only I could do."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "Hmmm."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    },
+                    {
+                        "eyeClose": 0,
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I think we're just an exception though."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Why not try comparing yourself to someone@else?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "In that case...what about her?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "Her?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "The Magical Girl you became friends with@recently."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "...Oh!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,637 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20093.jpg",
+                "bgm": "bgm01_battle04",
+                "chara": [
+                    {
+                        "id": 760000
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Liz",
+                "textBg": "shout",
+                "textLeft": "БЯЯЯЯЯяЯЯЯ!!!!!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeSmall][surround:4022A01]—Frusta Whip—"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 760000
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashRed2][surround:4022A04][bgEffect:shakeSmall][chara:760000:effect_shake]БЯЯяЯяЯяЯ!!!??"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeSmall][surround:4022A01]—Machete—"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 760000
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashRed2][surround:4022A04][bgEffect:shakeSmall][chara:760000:effect_shake]БЯяяяя…ЯЯ…"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 760000
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Now, Darc!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Thank you, Liz!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "There is no feat that this brave banner of@mine cannot accomplish..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4021A03]La Lumière!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "white",
+                "bgm": "stop",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "surround": "4021A05"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20093.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "surround": "7003_wind",
+                "textRight": "The monsters were blasted away in an@instant...",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "A miracle befitting our maiden."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:402100:effect_emotion_surprise_0][se:7226_shock]Oh no!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "My magic blew a crater right into the ground!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "The road's completely destroyed..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I-I am so sorry!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "Excuse me..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "And you are?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800400
+                    }
+                ],
+                "textRight": "I am the lord of this fortress."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    }
+                ],
+                "textRight": "I cannot thank you enough for saving us@from such a terrible fate..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "Jeanne, our maiden of miracles!"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "surround": "stop",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800400
+                    }
+                ],
+                "nameLeft": "Darc",
+                "nameRight": "",
+                "textRight": "I never though the French troops would@come to help us...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    }
+                ],
+                "textRight": "I wouldn't have blamed you if you had@chosen to abandon us."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800400
+                    }
+                ],
+                "textRight": "I thank you on the behalf of all the people@you saved today."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "Oh, er..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "My lord, please raise your head!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "All I wanted to do was help those who were@in danger!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800400
+                    }
+                ],
+                "textRight": "Ahh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800400
+                    }
+                ],
+                "textRight": "Such pure words! Truly, you are a saint!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800400
+                    }
+                ],
+                "textRight": "For some time now, this land has lain@between the territories of two nobles."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    }
+                ],
+                "textRight": "I had no choice but to stay neutral to keep@my people safe."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 800400
+                    }
+                ],
+                "textRight": "But now I have seen the miracles of@La Pucelle with my very own eyes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800400
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textRight": "I pledge myself beneath her banner, forever!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "That is good news indeed, eh Darc?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "But one thing still puzzles me..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Why were so many monsters attacking this@fortress in particular?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "That's a good question."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402301,
+                        "motion": 400,
+                        "pos": 2,
+                        "soulGem": 0
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "We've got trouble!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "What is it now, Melissa?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "A huge crater appeared on the road, so@we cannot transport any of the supplies!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Oh..."
+            },
+            {
+                "bgm": "bgm03_story01",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "The one Darc made earlier..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "id": 402101,
+                        "motion": 100,
+                        "mouthOpen": 0,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "I am sorry! So so sorry!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "But you did save the town."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "Perhaps it was worth it?"
+            },
+            {
+                "autoTurnFirst": 1.8,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 1,
+                        "voice": "vo_char_4021_00_03"
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "I have pledged to save France.",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnFirst": 4,
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

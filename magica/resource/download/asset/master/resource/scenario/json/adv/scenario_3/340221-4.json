@@ -1,0 +1,476 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "",
+                "bgm": "stop",
+                "nameNarration": "Liz",
+                "narration": "I don't want to see any more!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Because those peaceful days@that I spent with Darc and Catherine..."
+            },
+            {
+                "narration": "They came to a very abrupt end.",
+                "narrationBg": "black"
+            },
+            {
+                "bg": "bg_adv_20082.jpg",
+                "bgm": "bgm03_story04",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300,
+                        "pos": 0,
+                        "soulGem": 0,
+                        "tear": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "narrationEffect": "out",
+                "textLeft": "Liz...",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "Catherine, she gave her life to save mine..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "Even though I was the one who should have@protected her..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I am so, so sorry that I couldn't get here@in time."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/memoria_1171.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "―Darc―@Monsieur Angel...",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "―Darc―@I have made my choice."
+            },
+            {
+                "narration": "―Darc―@I won't allow this cruelty@to happen again, to anyone."
+            },
+            {
+                "narration": "―Darc―@I will become...a Magical Girl."
+            },
+            {
+                "nameNarration": "Qube",
+                "narration": "―Cube―@Okay, Darc... What will you wish for?"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "―Darc―@The power to bring light to all of France!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "deleteArmatureList": [
+                    1
+                ],
+                "textClear": 1,
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "white",
+                "narrationEffect": "out",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "bg": "bg_adv_20082.jpg",
+                "bgm": "bgm03_story07",
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/memoria_1171.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 2,
+                "turnEffect": "blackFrame"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "...?!"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "autoTurnLast": 1,
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Light's raining down from the sky!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Without a doubt..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Darc is a light of hope that just may clear@away the dark clouds of this country."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "deleteArmatureList": [
+                    1
+                ],
+                "textClear": 1,
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bg": "bg_adv_20081.jpg",
+                "nameNarration": "Liz",
+                "narration": "And I became the shadow to that light.@I vowed to protect Darc.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "narration": "Because I thought that's what@Catherine would have wanted..."
+            },
+            {
+                "narration": "But..."
+            },
+            {
+                "narration": "I'd be lying if I said I had no regrets."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "narrationEffect": "out",
+                "surround": "7003_wind",
+                "textLeft": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "You're finally awake."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Where's Darc?!"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "She's right here.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    },
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "You both passed out at the same time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "She seems unharmed."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "It looked like you were having a nightmare,@though."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "What happened?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "I was shown the past."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "The past?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "A blend of sadness, hope and regret..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "I saw my very own memories..."
+            },
+            {
+                "autoTurnFirst": 3.8,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 300,
+                        "pos": 1,
+                        "voice": "vo_char_4022_00_03"
+                    }
+                ],
+                "nameCenter": "Liz",
+                "surround": "stop",
+                "textCenter": "Someone did something to her while I @was out!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,473 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20231.jpg",
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "This is a story about a girl who@fought to bring light to all...",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "Jeanne d'Arc, also known as Darc."
+            },
+            {
+                "narration": "A dreamland set in France... "
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 1,
+                        "posY": 80
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bg": "bg_adv_20082.jpg",
+                "bgm": "bgm03_story06",
+                "nameNarration": "Qube",
+                "narration": "Darc, you can make any miracle come true.@All you have to do is wish for it.",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "narration": "You could bring back your murdered sister."
+            },
+            {
+                "narration": "You could even rewrite history...@Wish this village was never attacked."
+            },
+            {
+                "narration": "But..."
+            },
+            {
+                "narration": "Even if you were to save your sister@and your village this time, there's no@guarantee it won't happen a second time."
+            },
+            {
+                "narration": "You could lose them all over again."
+            },
+            {
+                "narration": "Are you willing to accept that?"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "..."
+            },
+            {
+                "narration": "O, Monsieur Angel..."
+            },
+            {
+                "narration": "I have made my choice."
+            },
+            {
+                "narration": "I shall not allow this cruelty@to happen again, to anyone."
+            },
+            {
+                "narration": "I will become...a Magical Girl."
+            },
+            {
+                "nameNarration": "Qube",
+                "narration": "Okay, Darc... What will you wish for?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/memoria_1171.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "The power to bring light to all of France!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "black",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/memoria_1171.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Darc",
+                "textCenter": "(I wonder...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(How would things be now if I had made a@different wish back then?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(Would I be a completely different person@now?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Unfortunately, I have no answers to these@difficult questions."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "nameLeft": "Darc",
+                "nameRight": "Liz",
+                "textRight": "Darc...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textRight": "Darc... Are you listening?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Are you all right? You've been staring into@space for a while now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "Yes! I'm fine, I promise!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "I was just daydreaming!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I could tell as much from looking."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I-I'm sure you could!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "What was it now..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I was recalling something from earlier..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I see... Well, no matter."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "I will say it again."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We have decided to make camp here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Okay!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "There's a town close by."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "Melissa and the others are headed there@for supplies."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "I see! Then I guess I'll..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Someone's running toward us..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Melissa",
+                "textCenter": "Darc... Liz!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "id": 402301,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Melissa?! You're back already?"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "From the look on your face, I'm guessing@something has happened..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Melissa",
+                "textRight": "Yes... Something quite grave!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "The town is under attack!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

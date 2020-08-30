@@ -1,0 +1,482 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20261.jpg",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "motion": 301,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_052.exp.json",
+                        "id": 100451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story20",
+                "chara": [
+                    {
+                        "id": 110100
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Sana",
+                "textLeft": "*Gasp* *Gasp*",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Are you okay?!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 110100,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Y-yeah... *Pant* [chara:110100:lipSynch_0][freeze:1.0][chara:110100:eyeClose_1][chara:110100:lipSynch_1]I'll be fine... *Pant*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100951,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101051,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101150,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Momoko",
+                "nameLeft": "Rena",
+                "nameRight": "Kaede",
+                "textCenter": "Rena... [chara:101051:lipSynch_0][wait:1.5][chara:101051:motion_300][chara:101051:lipSynch_1]You really scared us, ya know!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100951,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I said I was sorry... I did it without@thinking."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101150,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Why did you call for help like that?!@You overreacted!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 100951,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Gimme a break! [chara:100951:lipSynch_0][wait:1.3][chara:100951:cheek_1][chara:100951:face_mtn_ex_050.exp.json][chara:100951:lipSynch_1]I just freaked out, all@right?!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100951
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101150
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101051
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100251,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "nameRight": "Sana",
+                "textLeft": "Well, we're just glad you're safe."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100451,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Yes! We really are!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100251,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "But be sure to explain in more detail if@this ever happens again, okay?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100951,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Rena",
+                "textRight": "Yeah... I'm sorry..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101051,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "textLeft": "You have anythin' to say to Iroha?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 100951,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textRight": "Thank you, Iroha..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110100,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "*Pant* I'm so relieved...you weren't@drowning..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 110100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Though I almost drowned instead...@Ahaha..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100351,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100550,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "nameRight": "Felicia",
+                "textLeft": "Still, though! You swam!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100550,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Yeah! Ya did it, Iroha! You can swim!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100251,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "nameRight": "Yachiyo",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "No... I'm not there yet..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100251,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "I think you've turned a corner, though."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Turned a corner? Maybe..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "You were able to swim."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251
+                    }
+                ],
+                "textRight": "If you want to be able to swim more..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "...all you have to do is take your time and@practice, little by little."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110100,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:110100:effect_emotion_joy_0][se:7222_happy]Yeah!"
+            },
+            {
+                "bgm": "bgm05_event10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100251
+                    }
+                ],
+                "nameNarration": "Iroha",
+                "narration": "I forgot myself completely, but...in the@process I remembered how it felt to swim.",
+                "narrationBg": "bg_adv_20261.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "It felt the same as when I was little."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "narrationEffect": "out",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "lipSynch": 0,
+                        "motion": 301
+                    }
+                ],
+                "textCenter": "(I hope we can go again sometime when I@know how to swim again.)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 110100,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Back to the pool...with Ui...)"
+            },
+            {
+                "nameNarration": "Iroha",
+                "narration": "So many things happened today!",
+                "narrationBg": "bg_adv_20261.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "Lots of surprises, some drowning,@and happy, fun times!"
+            },
+            {
+                "narration": "But also, some bittersweet memories..."
+            },
+            {
+                "narration": "I wonder what tomorrow will bring!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnFirst": 4.4,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100,
+                        "motion": 301,
+                        "pos": 1,
+                        "voice": "vo_char_1101_00_05"
+                    }
+                ],
+                "nameCenter": "Iroha",
+                "textCenter": "Whew... I'm glad everything turned out@all right in the end!",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnFirst": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 110100
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

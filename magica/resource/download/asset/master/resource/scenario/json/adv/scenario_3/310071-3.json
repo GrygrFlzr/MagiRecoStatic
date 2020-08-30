@@ -1,0 +1,599 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21082.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textCenter": "Quietly... Quietly...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Hellooo...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "(Maybe Mifuyu's in her room?)"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_21072.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Touka",
+                "textRight": "She bought dinner at the convenience store."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Then she fell asleep right there."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textRight": "*Giggle*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "*Snore*[chara:100601:lipSynch_0][wait:1.0][chara:100601:lipSynch_1] *Groan*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Oh, uh... What do I do?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(I don't know where she keeps her clothes@or anything...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(What do you do when someone's feverish...?)"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "bg": "bg_adv_21082.jpg",
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "slideInRight",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "Water... Gotta get some water.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "And then towels..."
+            },
+            {
+                "autoTurnLast": 0.3,
+                "bg": "bg_adv_21072.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Touka",
+                "textCenter": "And you wring it out...and press it to their@forehead.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 1,
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601
+                    }
+                ],
+                "nameLeft": "Mifuyu",
+                "textLeft": "[chara:100601:eyeClose_1][chara:100601:cheek_1][chara:100601:face_mtn_ex_010.exp.json]*Sigh*"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "lipSynch": 1,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Wow, isn't this strange! I'm taking care of@someone!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 100601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100601,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Huh...Touka...?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601
+                    }
+                ],
+                "textLeft": "What are you doing here...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Oh, sorry! Did I wake you up?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I don't mind..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 100601
+                    }
+                ],
+                "textLeft": "I should be the one apologizing, making@you see me in this state…"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Nope!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "I just came by because I was wondering how@you were doing!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "You're too kind..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601
+                    }
+                ],
+                "textLeft": "Shall I make us some tea?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Huh? No, you don't need to do that. You're@sick, remember?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Sick people have to rest up."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Right. Sorry."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Don't worry about it! Now that you're awake,@you can help us with our experiment."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100601,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Experiment...?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Wait a sec, I'll send Nemu a message to let@her know."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Um, okay..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "E-v-e-r-y-t-h-i-n-g's...[chara:100701:lipSynch_0][wait:0.2][chara:100701:lipSynch_1]r-e-a-d-y, [chara:100701:lipSynch_0][wait:0.2][chara:100701:lipSynch_1]period!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "Aaand send!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 100601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "What's going on?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Don't worry 'bout it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "Ooh, she replied!"
+            },
+            {
+                "nameNarration": "Nemu",
+                "narration": "I'll start the transmission.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "Great! Time for the experiment to start!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "No, really, what are you..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100601,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:100601:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "lipSynch": 1
+                    }
+                ],
+                "textLeft": "Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Do you hear something?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes... Is someone singing?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Fantastic! Then it worked!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Huh? Wh-what worked?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textRight": "*Giggle*"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,468 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20072.jpg",
+                "bgm": "stop",
+                "nameNarration": "Liz",
+                "narration": "Memories from when I traveled with Qube@in search of the true hero...",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "They appear, then disappear."
+            },
+            {
+                "narration": "Countless meetings and partings..."
+            },
+            {
+                "narration": "With all those Magical Girls@I fought alongside..."
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800200,
+                        "motion": 0,
+                        "pos": 2,
+                        "posX": 40
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "id": 800200
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "This is the end for me...",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800200
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 100,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "I'm sorry I wasn't able to protect you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "She wasn't the one either."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "She wasn't ready to handle the burden a@true hero must bear."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "Qube..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "tear": 1
+                    }
+                ],
+                "textLeft": "Don't say it like that."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20121.jpg",
+                "chara": [
+                    {
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 1,
+                        "tear": 0
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "I'm sorry, Liz.",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 800300
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "I couldn't save the world with you..."
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800300
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "Why?"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402200
+                    }
+                ],
+                "textCenter": "I am the shadow, I can never become the@light."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "id": 402200,
+                        "motion": 100,
+                        "tear": 1
+                    }
+                ],
+                "textCenter": "But you could've become the true hero."
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20092.jpg",
+                "chara": [
+                    {
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 800100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 800100
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "Liz... I... I don't want to become a Witch!",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 800100,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameRight": "",
+                "textBg": "shout",
+                "textRight": "Noooooo!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeSmall",
+                "flashEffect": "flashWhite2",
+                "turnEffect": "ef_adv_10"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "No, she turned into a Witch!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "[flashEffect:flashWhite2][bgEffect:shakeSmall]Mngh!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "I brought misfortune to her..."
+            },
+            {
+                "autoTurnLast": 2,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402200
+                    }
+                ],
+                "textCenter": "If she had never met me, she'd still be..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "id": 402200,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Liz!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "What's wrong?! Why aren't you getting up?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    },
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textRight": "If you don't fight back you'll die!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0,
+                        "tear": 1
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "How many..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "How many more of the same tears, of the@same regrets must I experience..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Before I can find the light?"
+            },
+            {
+                "nameNarration": "Liz",
+                "narration": "That thought hid deep within my heart.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "narration": "There's no way I could ever forget it."
+            },
+            {
+                "bgm": "stop",
+                "narration": "Just one of many horrible memories.",
+                "narrationBg": "black"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnFirst": 4.4,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4022_00_04"
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "I want to see the birth of a true hero.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

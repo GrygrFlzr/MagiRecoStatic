@@ -1,0 +1,635 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20331.jpg",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story21",
+                "nameNarration": "Tsukasa",
+                "narration": "Summer!",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20311.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Tsukuyo",
+                "narration": "The ocean!",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20251.jpg",
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Tsukasa",
+                "narration": "The beach!",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20261.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "nameRight": "Tsukasa",
+                "textLeft": "Well, we managed to arrive before noon.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "For sure."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "We only need to pass through here to reach@the beach, correct?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Yep!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "We should get changed as soon as we get@there, so we can jump right into the ocean!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "I concur!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20251.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "lipSynch": 1,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Wh-whoa..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101901
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801200,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Chatter Chatter*",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800600
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 801200
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800200,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800200
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800300
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 800400,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 800201,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 800101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800400
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 800201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "It's way more packed than I thought it'd be."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "The beach we went to on our trip was a @private one."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I suppose it stands to reason that we @wouldn't have this one to ourselves too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "This was supposed to be our special vacation@together..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Tsukasa..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Things are always so busy back at home."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "That Iroha Tamaki and her friends have made@it so crazy for the Wings of the Magius, too."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I can't believe we aren't going to get this@one day off to unwind!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "It will be all right."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 101801,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I don't mind as long as I'm able to spend the@day with you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "I'm sure I'll be able to relax, regardless of@where we choose to spend that time."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Thanks, Tsukuyo..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Well... I guess we should go get changed into@our swimsuits."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 101801
+                    }
+                ],
+                "textLeft": "Hmm... Which way to the changing rooms, I@wonder?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Let's look for them."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Once we're changed, we can go find@somewhere nice in the shade to relax."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101901,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "After that we can go into the ocean!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "That sounds like a good plan."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "With this many people around, the changing@rooms are probably pretty full right now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Though I guess if we can't find a place to@change there, we could use the bathroom..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Ch-change in the bathroom?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101901,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Huh? Is it that weird of an idea?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "N-no, no, not at all."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101801,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I just... I have never changed my clothes in@a bathroom is all..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101901,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:101901:effect_emotion_surprise_0][se:7226_shock]Seriously?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101901
+                    }
+                ],
+                "textRight": "Well, now I'd feel bad to make you..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101901,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Let's just try to find a changing room."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101801,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "O-okay!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

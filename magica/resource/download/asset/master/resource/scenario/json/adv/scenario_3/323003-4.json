@@ -1,0 +1,539 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20321.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101001,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101001,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Momoko",
+                "nameRight": "Kanoko",
+                "textLeft": "You're saying you made a swimsuit that@can't be worn in the water?!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Waaah... I'm sorry! My allowance ran out!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "What're you gonna do about it?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100501
+                    }
+                ],
+                "textLeft": "Big Blue's chokin' on water 'cause of that@big stupid carp thing!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "It is not a carp! It is an eryngii mixed@with a mermaid!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 230000,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "That's not what's important right now!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 300101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "You're right..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 302901,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Masara",
+                "textLeft": "I'll swim out and get close to her. When I@give the signal, toss me a life preserver."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 301601,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Kokoro",
+                "textRight": "Wait!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301601
+                    }
+                ],
+                "textRight": "If you swim up to her, you're just gonna get@zapped too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "If only Yachiyo were in her right mind..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/32300_megahomu_story/32300_sayaka_doppel_01.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*SPLOOOOOOSH*",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 52,
+                "narrationLineSpace": 30,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/32300_megahomu_story/32300_sayaka_doppel_01.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Homura",
+                "nameRight": "Iroha",
+                "textLeft": "S-something burst out of Sayaka!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101,
+                        "motion": 401
+                    }
+                ],
+                "textRight": "It can't be!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 101701,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "Oooh?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/32300_megahomu_story/32300_sayaka_doppel_02.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Mitama",
+                "narration": "— Mitama —@It looks like Sayaka's Doppel@sensed danger and came out!",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 28,
+                "narrationLineMargin": 15,
+                "narrationLineSpace": 10,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "— Mitama —@Which means she isn't going to drown!"
+            },
+            {
+                "nameNarration": "Homura",
+                "narration": "— Homura —@Th-that's Sayaka's Doppel?"
+            },
+            {
+                "nameNarration": "",
+                "narration": "*SPLASHHHHHHHHH*"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100201,
+                        "motion": 301,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/32300_megahomu_story/32300_sayaka_doppel_02.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Homura",
+                "narrationEffect": "out",
+                "textRight": "Whoa!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 230000,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Her Doppel started thrashing through the@waves really aggressively!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100201,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "[chara:100201:effect_emotion_surprise_0][se:7226_shock]It's fighting back! [chara:100201:lipSynch_0][wait:0.8][chara:100201:cheek_-1][chara:100201:face_mtn_ex_021.exp.json][chara:100201:lipSynch_1]But don't wo―"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "slideOutLeftFast",
+                        "id": 100201
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "pos": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "*Whip*",
+                "narrationBg": "bg_adv_20311.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "narrationEffect": "out",
+                "textRight": "It pulled Yachiyo in?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "motion": 400
+                    }
+                ],
+                "nameLeft": "Homura",
+                "textLeft": "Yachiyo's fishing line is attached to@Sayaka..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "And her Doppel is yanking on it hard!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100101,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textBg": "shout",
+                "textRight": "Yachiyooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100101
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "Let go of your fishing rod, hurry!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "Wait, she's holding tighter instead... Now@it's like she's skiing on the water!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 101
+                    }
+                ],
+                "textRight": "Only Yachiyo could pull that off!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 230000,
+                        "motion": 100
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "Sayakaaa! Is there anything you can do?"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20311.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200453,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200453
+                    }
+                ],
+                "nameCenter": "Sayaka",
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeLarge]Waaaaaaaaah! What the heck is goin' on?!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200453
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "[bgEffect:shakeLarge]How in the world am I supposed to stop this?!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20321.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101701,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701,
+                        "motion": 200
+                    }
+                ],
+                "nameCenter": "Mitama",
+                "textCenter": "Hmm.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701
+                    }
+                ],
+                "textCenter": "That Doppel looks a little bit like a fish,@now that I look at it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701
+                    }
+                ],
+                "textCenter": "Maybe it's enjoying the water?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "That could be a problem."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

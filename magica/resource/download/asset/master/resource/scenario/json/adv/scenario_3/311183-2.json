@@ -1,0 +1,862 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20251.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story21",
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "And now, the Beach Volleyball Tournament@will begin!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textCenter": "Teams up in the first match, please head to@the court!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100550,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "[chara:100550:effect_emotion_joy_0][se:7222_happy]Woohooo!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I'm gonna win, and win, and win, and get all@the meat!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100351,
+                        "motion": 101
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "I will carve my mighty legacy into the annals@of this tournament!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100351
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100550
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 110100,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100251,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "*Giggle* They're fired up, all right."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "That's fine."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251
+                    }
+                ],
+                "textRight": "I just worry that if they get too fired up@they might end up burning themselves—"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100251
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 110100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 111802,
+                        "motion": 200,
+                        "mouthOpen": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Tsukasa",
+                "textCenter": "Iroha Tamakiiiiii! Yachiyo Nanamiiiiii!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textCenter": "Tsuruno Yuiiiiii! Felicia Mitsukiiiiii!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802,
+                        "motion": 100,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "Win big! Show 'em who's boss!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802
+                    }
+                ],
+                "textCenter": "Knock 'em out, let 'em have it!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textCenter": "WOOOOOOOOO!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 111802
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100451,
+                        "motion": 200,
+                        "mouthOpen": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "motion": 100,
+                        "mouthOpen": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameCenter": "Tsukasa & Sana",
+                "textCenter": "U-uh... Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "mouthOpen": 0
+                    },
+                    {
+                        "id": 100451,
+                        "mouthOpen": 0
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "textLeft": "Undoubtedly!"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 111801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_014.exp.json",
+                        "id": 100251,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "textRight": "*Chuckle*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I just wanted her to enjoy herself. Look how@hard she's cheering..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251
+                    }
+                ],
+                "textRight": "We owe it to her to bring home a victory,@since she's cheering so hard. Let's do this."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 110100,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Y-yes! We can do it!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "The winner of the first match is:@Team Yachiyo!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 801100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100550,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100351,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "All right!"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 100351,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Tsuruno",
+                "textLeft": "Oh, but Iroha..."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100351
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100550
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 110100,
+                        "motion": 300,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100451,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Iroha",
+                "textLeft": "Owww, that hurt."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "motion": 200
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "Iroha! Can you stand?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "Y-yes, I think, just about..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100251,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "You should've let us know before we started@that you were in pain."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 110100
+                    }
+                ],
+                "textLeft": "I'm sorry."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "motion": 301
+                    }
+                ],
+                "textLeft": "I thought it'd get better on its own, but the@pain just kept getting worse..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100451,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Sana",
+                "textRight": "We managed to win our first game."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451
+                    }
+                ],
+                "textRight": "But we need a team of four to compete, and I@can't help..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100451,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "If Iroha drops out then we'll have to forfeit."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100451
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 110100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100550,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100251,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "I'll play hard enough for two people!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100251,
+                        "motion": 301
+                    }
+                ],
+                "nameLeft": "Yachiyo",
+                "textLeft": "That's against the rules."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Nooo! I don't wanna drop out! I won't let us!"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "Tsukasa",
+                "narration": "WAIT!!!",
+                "narrationEffect": "in"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_051.exp.json",
+                        "id": 100251,
+                        "lipSynch": 0,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100550,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "nameCenter": "Yachiyo & Felicia",
+                "narrationEffect": "out",
+                "textCenter": "[chara:100550:effect_emotion_surprise_0][chara:100251:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "bgm": "bgm01_anime03",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 111802,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111801,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Tsukasa",
+                "textRight": "If things are that bad, I'll join your team!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "textLeft": "T-Tsukasa?"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 111802,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Are you sure?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 111802,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Tsukasa",
+                "textLeft": "For sure!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802
+                    }
+                ],
+                "textLeft": "I owe you one for helping Tsukuyo. If I help@you guys now, my debt's repaid."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100251,
+                        "motion": 301,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Yachiyo",
+                "textRight": "But we can't drag you into our problems any @more than we already have..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100550,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "Hell yeah!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "You got here just at the right time, Flute@Freak!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 111802,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "U-uh, yeah..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100351,
+                        "motion": 201,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "textCenter": "This may only be a temporary team-up, but@let's join forces and crush all our enemies!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100550,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 111802,
+                        "motion": 100,
+                        "mouthOpen": 1
+                    },
+                    {
+                        "id": 100351,
+                        "mouthOpen": 1
+                    }
+                ],
+                "nameCenter": "Everyone",
+                "textBg": "shout",
+                "textCenter": "Yeah!"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 110100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 111801,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 110100,
+                        "motion": 301
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Wow... It's almost the finals already.",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Tsukuyo",
+                "textLeft": "That's my Tsukasa!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111801
+                    }
+                ],
+                "textLeft": "Even on a temporary team she puts forth her@best effort."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 111801
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 110100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 111802,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Tsukasa",
+                "textCenter": "Phew..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 111802,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(Getting here was tough enough, but the@pressure's really on now!)",
+                "turnEffect": "thinking"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 111802
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 801100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Competing for the free barbecue prize..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textCenter": "It's time for the Beach Volleyball Tournament@finals to begin!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 801100
+                    }
+                ],
+                "textCenter": "Which one of these two final teams will@be triumphant?!"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

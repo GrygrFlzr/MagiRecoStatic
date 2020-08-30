@@ -1,0 +1,434 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20073.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "This isn't good...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "We got separated from the battalion while we@were inside the Labyrinth."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Where are Melissa and the rest of the French@army?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "I have no idea."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I also don't know where we are right now..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 0,
+                        "posX": 0,
+                        "posY": 0
+                    }
+                ],
+                "nameLeft": "Qube",
+                "textLeft": "The only thing that's clear is that we are@very far away from where we were."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "So we cannot expect any help to come."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "We may as well walk until we reach a town."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Okay!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "We've walked quite a ways already.",
+                "turnChangeOut": "fadeOut",
+                "turnChangeOutTime": 0.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "But we've yet to see anyone..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "It's hard to even find a road when it's@this dark."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textRight": "Regions under Corbeau's rule never see@the light. They stay shrouded in darkness."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "se": "7201_detect_magic",
+                "textRight": "...?!"
+            },
+            {
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 0
+                    },
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "This is...!",
+                "turnEffect": "ef_adv_10"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 0,
+                        "posX": 0,
+                        "posY": 0
+                    }
+                ],
+                "nameLeft": "Qube",
+                "textLeft": "Be careful! I sense some magic."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Ugh![flashEffect:flashWhite2][bgEffect:shakeSmall]"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "flashWhiteSlow1"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "What's happening? It's so bright..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "white",
+                "se": "7208_wander_into",
+                "turnChangeOut": "whiteOut",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20081.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 200,
+                        "pos": 2
+                    },
+                    {
+                        "id": 810000,
+                        "pos": 0,
+                        "posX": 0,
+                        "posY": 0
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "...?",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "The sun's up?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Where are we?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textRight": "We were in the forest just a moment ago..."
+            },
+            {
+                "bgm": "bgm03_story13",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Liz! Isn't this town...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "What's wrong?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:402201:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textRight": "What... How can this be?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "I don't believe it..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I know, but there's no mistake..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "This is Domrémy, the place where you were@born and raised!"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

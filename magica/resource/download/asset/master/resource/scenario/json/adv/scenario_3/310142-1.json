@@ -1,0 +1,421 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19111.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 100800,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101400,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100700,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story13",
+                "chara": [
+                    {
+                        "id": 101400,
+                        "motion": 100
+                    }
+                ],
+                "nameCenter": "Nemu",
+                "textCenter": "I chose you as the MVP for last week.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "id": 101400,
+                        "pos": 0
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100700
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "White Feather",
+                "textRight": "It's an honor. Thank you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101400,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "Not only did you capture those Witches,@you also protected the [textBlue:Uwasa] for us."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "You fulfill the role you were given and@contribute in various other ways as well."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400
+                    }
+                ],
+                "textLeft": "I judged you to be worthy of this honor."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "I am truly grateful."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Would you like to say a few words?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 715100,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "Oh, I don't have anything prepared..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 715100,
+                        "motion": 0
+                    },
+                    {
+                        "id": 101400,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But if I must, well...I believe."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 715100,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "I believe that protecting [textBlue:Uwasa] and gathering@Witches will lead to our freedom."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 715100,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Ever since joining the Wings of the Magius..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textRight": "That sentiment hasn't changed."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "I promise to do all I can from here on out@as well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101400,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Thank you for your service."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101400
+                    }
+                ],
+                "textLeft": "If it pleases you, here is an extra prize.@Read it when you have time."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 715100
+                    }
+                ],
+                "textRight": "The writings of a Magius... I humbly accept@it."
+            },
+            {
+                "nameNarration": "Nemu",
+                "narration": "The Feathers endeavor, without a shred of@doubt, toward freedom from their curse.",
+                "narrationBg": "black",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "narration": "Naturally, the same holds true for us."
+            },
+            {
+                "narration": "I have zero doubts about what we@do, and continue to do, each day for our@liberation and for my own aims."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19171.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 101400,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "(Though there are Magical Girls who would@stop us...)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(There are no fatal delays, and things are@progressing better than I imagined.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "(But it's a profound mystery.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(We are trying to crawl out of our despair.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101400,
+                        "lipSynch": 1,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "Yet, I feel so empty..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101400,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textCenter": "[flashEffect:flashRed1]...?!",
+                "turnEffect": "blackPromist"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101400,
+                        "lipSynch": 1
+                    }
+                ],
+                "textCenter": "*Flinch* Again..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101400
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_19081.jpg",
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "face": "mtn_ex_060.exp.json",
+                        "id": 101400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Ka-thump!",
+                "narrationBg": "bg_adv_19081.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "motion": 300
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "Ugh...gh..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 2,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101400,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "(I already wasn't feeling well...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101400,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(But it seems I'm worse off after making@that Misery Water Rumor.)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101400,
+                        "motion": 200
+                    }
+                ],
+                "textCenter": "*Sigh*"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101400
+                    }
+                ],
+                "textCenter": "Why do I feel this empty?"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,774 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20073.jpg",
+                "bgm": "bgm03_story07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Where are we?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "It's the forest we were in before."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "The Witch's Labyrinth is gone."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "And the phantom copy of Domrémy vanished@with it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "It looks like it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Oh, Liz? Monsieur Angel!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Darc... You're awake!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "Everything okay?! Are you hurt?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Oh, um, no!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101
+                    }
+                ],
+                "textRight": "I feel completely fine!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "What a relief..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textRight": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Huh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "What is it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101,
+                        "motion": 0,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textRight": "Did you just hear a voice?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "A voice?"
+            },
+            {
+                "nameNarration": "Melissa",
+                "narration": "Darc... Liz!",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "Please answer if you can hear me!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Liz",
+                "narrationEffect": "out",
+                "textLeft": "It's Melissa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "They must've come looking for us!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I can't believe they were able to find us!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "We're over here, Melissa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "We're both safe!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20102.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402301,
+                        "motion": 1,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm03_story05",
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ],
+                "nameLeft": "Melissa",
+                "textLeft": "You were trapped in a Witch's Labyrinth?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402301
+                    }
+                ],
+                "textLeft": "I didn't know you were in so much trouble!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402301,
+                        "motion": 300,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "I'm so happy you were able to make it out@safely!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "textRight": "No need to worry!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Liz and Monsieur Angel were with me!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "It was no easy opponent."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Coincidentally, Liz had fought this Witch@before."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "She was able to take care of it though!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "(Coincidentally? This was no coincidence.)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Iroha and Yachiyo were also surprised when@they saw a Witch they'd fought before.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(In this world... What Yachiyo and Iroha @refer to as a dream world set in France...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Enemies from our past experiences are@recreated.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "By the way, you were unconscious for quite@a while, Darc.",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "What's the last thing you remember?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "Do you recall the town that looked exactly@like Domremy?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402101,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "I remember everything up to when we went to@examine Catherine's grave."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "textRight": "But, after that..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "There were only nostalgic, happy memories!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Amazing..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402101
+                    }
+                ],
+                "textRight": "[chara:402101:effect_emotion_joy_0][se:7222_happy]*Giggle*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 0,
+                        "posX": 0,
+                        "posY": 0
+                    }
+                ],
+                "nameLeft": "Qube",
+                "textLeft": "She was attacked at the same time as you,@but didn't suffer any psychological damage."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "I wonder if she can't feel any regret."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402101,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Regret?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "A universal feeling that you humans@experience in response to sad events."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "textRight": "I have sad memories..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402101,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "But I don't regret them."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/memoria_1172.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "nameNarration": "Darc",
+                "narration": "―Darc―@Because I will liberate this country...",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 35,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402101
+                    }
+                ],
+                "narration": "―Darc―@I will not waste that@vow I made to Catherine."
+            },
+            {
+                "autoTurnLast": 0.1,
+                "bg": "bg_adv_20102.jpg",
+                "bgEffect": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51015_singleraid_tart/memoria_1172.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "...",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(It's not that Darc is lacking the ability to@feel regret, it's just...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(Her resolve is so strong that she doesn't@have room to spare for negative emotions.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "lipSynch": 0
+                    }
+                ],
+                "textLeft": "(I think I understand now...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Darc",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Darc",
+                "textRight": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Y-yes?!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "That's why..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "You are our last light of hope."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402101,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Yes!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "[chara:402101:effect_emotion_surprise_0][se:7226_shock]Wait, what? What are you talking about?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "*Giggle*"
+            },
+            {
+                "autoTurnFirst": 2.3,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_4022_00_05"
+                    }
+                ],
+                "nameCenter": "Liz",
+                "textCenter": "You are my...our light of hope.",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnFirst": 3.5,
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402201
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

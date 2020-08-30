@@ -1,0 +1,413 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20081.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgEffect": "shakeLarge",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_01",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "[se:7201_detect_magic]The magical reaction increased!",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "ef_adv_10"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    },
+                    {
+                        "id": 402201,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Liz, be careful!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "se": "7205_magic_girl",
+                "textLeft": "I won't go down that easy."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "I've gotten stronger too!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Even before I met Darc..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "I carried the burden of the sacrifices those@girls made and continued to fight."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "I take responsibility for those sins...@I don't expect any forgiveness."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "id": 402200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "But more importantly..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "Darc is the light of hope."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "Those girls shared the same dream."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "Darc wants to bring light to this world@for them."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "The light those girls weren't able to see..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "bgm": "stop",
+                "turnEffect": "stop"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "in",
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "se": "3211_fog"
+            },
+            {
+                "bgm": "bgm01_anime15",
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "This magic..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "It's coming, Liz!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "flashEffect": "flashWhite2"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 400
+                    },
+                    {
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "[flashEffect:flashRed2][se:3001_chara_damage][bgEffect:shakeLarge][chara:402200:effect_shake]Ugh!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "id": 402200,
+                        "motion": 400,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashRed2][se:3001_chara_damage][bgEffect:shakeLarge][chara:402200:effect_shake]Argh!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Liz!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "Don't worry. I won't lose!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "Even if my hands become stained in sin,@I'll eliminate anything that blocks her path!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "I dealt with, and overcame, so many regrets@in order to find Darc."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "She is our last hope!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "―Frusta Whip―"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeSmall][surround:4022A01]Hahhh!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashRed2",
+                "surround": "4022A05"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Finish it!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 1,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "All right..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Shadows!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "We're ending this..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4022A01]NOW!"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "flashEffect": "flashRed2",
+                "surround": "4022A05"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_20073.jpg",
+                "bgChangeEffect": "exitWitchSpace",
+                "bgEffect": "shakeLarge",
+                "bgm": "stop",
+                "se": "7209_gate_close",
+                "textClear": 1
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "out"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "turnEffect": "stop"
+            },
+            {
+                "bg": "bg_adv_20073.jpg",
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textRight": "Liz, you did it!"
+            },
+            {
+                "autoTurnLast": 0.5
+            },
+            {
+                "autoTurnLast": 0.5,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

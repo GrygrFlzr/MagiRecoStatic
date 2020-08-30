@@ -1,0 +1,225 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_21141.jpg",
+                "bgm": "bgm01_anime05",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200301,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Homura",
+                "narration": "I went to Kamihama City alone that day.",
+                "narrationBg": "bg_adv_21171.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I intended to investigate the many strange@incidents happening there..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200301,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Homura",
+                "narrationEffect": "out",
+                "textCenter": "(If I want to save Madoka...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I must defeat [textRed:Walpurgisnacht] someday...)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200301,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "(There should be some kind of hint in what's@been going on in Kamihama City.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_031.exp.json",
+                        "id": 200301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(But I still don't have the slightest@clue to go off of.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200301,
+                        "lipSynch": 0,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "(If I don't hurry and find something, I@could run out of time.)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 200301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(And when that happens, I'll have to...)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200301,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(No, don't think about that. I just can't@let that happen.)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 200301,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(This time I'll do it right... I'll make@absolutely sure of it.)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 200301,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1,
+                "turnEffect": "stop"
+            },
+            {
+                "bgm": "bgm01_anime03",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200401,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Homura",
+                "nameRight": "Sayaka",
+                "textRight": "Hey, is that you, Homura?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200301,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:200301:effect_emotion_surprise_0][se:7226_shock]S-Sayaka?! Wh-wh-what are you doing@in Kamihama?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 200401,
+                        "motion": 201
+                    }
+                ],
+                "textRight": "I'm the one who should be asking that!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200401,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I heard there's an antique record store@somewhere around here, so I stopped by."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200401
+                    }
+                ],
+                "textRight": "But then I saw a familiar face in the park@lookin' all down in the dumps!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200401,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "What's up?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200301,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Oh...nothing really."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200301
+                    }
+                ],
+                "textLeft": "Nothing in particular."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200401
+                    }
+                ],
+                "textRight": "Hmmm..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

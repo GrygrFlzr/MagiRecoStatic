@@ -1,0 +1,353 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20081.jpg",
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "I see! A Witch's Labyrinth...",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Then that means, the Witch that lurks@here..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Likely has the power to peek into people's@minds."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "This town must be reconstructed from your@memories."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "So... "
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "...it's only natural that this place looks @just how I remember it?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "That's right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402201,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "A Witch with a power like that is not an@easy opponent to face..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "That's why it can use your memories@against you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "That's how it attacks its opponents."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402201,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Wait, this is an attack?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Yes, it must be... It's a Witch after all..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Correct, Witches' attacks are not always@physical."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "What is it trying to do?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "...?!",
+                "turnEffect": "ef_adv_10"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeSmall",
+                "chara": [
+                    {
+                        "id": 402101
+                    },
+                    {
+                        "id": 402201
+                    }
+                ],
+                "flashEffect": "flashWhite1",
+                "surround": "7003_wind"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "It's happening again!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeSmall",
+                "flashEffect": "flashWhite2",
+                "turnEffect": "promist"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402201
+                    }
+                ],
+                "textLeft": "Another memory is stirring in my mind..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "white",
+                "surround": "stop",
+                "turnChangeOut": "whiteOut",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_20121.jpg",
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "bgm": "bgm03_story12",
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "You want me to travel with you and search@for the future hero?",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Liz",
+                "textLeft": "Yes..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Whoever this \"true hero\" of yours is..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "She probably has great Magical Girl@potential!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Potential?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "A Magical Girl's potential is determined by@the fate she's been burdened with."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200
+                    }
+                ],
+                "textRight": "You're the perfect example of that, Liz."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Your ancestor was accepted by all as a@great hero, right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402200
+                    }
+                ],
+                "textLeft": "Yes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "But they were not true heroes."
+            },
+            {
+                "nameNarration": "Liz",
+                "narration": "Is this memory from before I met Darc?",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Which means, what comes next is..."
+            },
+            {
+                "narration": "Memories of a long journey filled with@disappointment and sorrow."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,860 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19092.jpg",
+                "bgm": "bgm03_story09",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304302,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| ... |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| More time passed,@and I became the only Uwasa@who had a physical form. |",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "| Many things happened during that time. |"
+            },
+            {
+                "narration": "| Iroha opposed Touka and Nemu, who had lost@their memories, and Ui became a Half-Witch.@Then Walpurgisnacht attacked. |"
+            },
+            {
+                "narration": "| But the four of them overcame the odds,@Touka and Nemu recovered their memories,@and Ui was saved from Eve. |"
+            },
+            {
+                "narration": "| Then, they defeated Walpurgisnacht,@and they all came to where I was waiting. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "| I'm relieved... |"
+            },
+            {
+                "autoTurnLast": 2,
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| There was something else, too. |",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "| Those of us who became an Uwasa@after being born from a story,@and those who were born as Uwasa... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_3",
+                        "pos": 0
+                    },
+                    {
+                        "id": 6006,
+                        "name": "sprite_6",
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Uwasa of the Commoner's Horse",
+                "nameRight": "Uwasa of the Memory Curator",
+                "narrationEffect": "out",
+                "textLeft": "| You've arrived, arrived! |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6006,
+                        "name": "sprite_6"
+                    }
+                ],
+                "textRight": "| I want to know. I want to learn. Tell me@everything about the outside. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6004,
+                        "name": "sprite_4",
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Uwasa of the Misery Rhyton",
+                "textLeft": "| Splish splash! |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| Sure. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 1
+                    },
+                    {
+                        "id": 6007,
+                        "name": "sprite_7",
+                        "pos": 0
+                    }
+                ],
+                "nameNarration": "Eternal Sakura",
+                "narration": "| At first, we were frightened,@but we get along well now, as @fellow beings born from a story. |",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "| Though the extent of my reach is limited,@I am the only Uwasa who is capable@of going out and learning about the world@outside of this book, so I often tell the@others about what is happening now. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "| That was what Iroha told me, the last time@she visited. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6007,
+                        "name": "sprite_7"
+                    }
+                ],
+                "nameLeft": "Uwasa of the Chelation Land Ferris Wheel",
+                "textLeft": "| What about Tsuruno? How is she doing? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Uwasa of the Anonymous AI",
+                "textLeft": "> | I'd like to know about Sana. Is she@well? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 0
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| Tsuruno...? Sana...? I don't know them. I@only care about my four girls. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "> | I see... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6007,
+                        "name": "sprite_7",
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Uwasa of the Chelation Land Ferris Wheel",
+                "textLeft": "| Awww... That makes me sad... |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "| If they come to visit me, I'll be sure to @let you know. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6007,
+                        "name": "sprite_7"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "| Please do! |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Uwasa of the Anonymous AI",
+                "textLeft": "> | Thank you. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| Only if they can come to my [textBlue:Rumor],@though... |"
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6005,
+                        "name": "sprite_1"
+                    },
+                    {
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 820100
+                    }
+                ],
+                "nameNarration": "Eternal Sakura",
+                "narration": "| It's true. |",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "| Even though I exist in reality@as an Uwasa, I must stay@within the [textBlue:Rumor] I'm bound to. |"
+            },
+            {
+                "narration": "| I cannot leave the meadow@where the Eternal Sakura grows. |"
+            },
+            {
+                "narration": "| Because, that is the Uwasa I am. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "narrationEffect": "out",
+                "textCenter": "(If only I could leave the [textBlue:Rumor], then I@could bring them more information...)",
+                "turnEffect": "thinking"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I could even go and visit without them@having to come to me...)"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "[chara:304302:effect_emotion_surprise_0][se:7226_shock]| ... |",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I hear Nemu...calling me?)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| I must go. |"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_2",
+                        "pos": 2
+                    },
+                    {
+                        "id": 6004,
+                        "name": "sprite_4",
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Uwasa of the Misery Rhyton",
+                "nameRight": "Uwasa of the Friendship Ending Staircase",
+                "textRight": "| SEe yA LaTeR. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6004,
+                        "name": "sprite_4"
+                    }
+                ],
+                "textLeft": "| Splish splash. |"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 2,
+                "bg": "bg_adv_19092.jpg",
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| Hello, Nemu and Touka. |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Touka",
+                "nameRight": "Nemu",
+                "textRight": "Hi, sorry to bother you, Uwasa of the@Eternal Sakura."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textRight": "You look well. I'm glad."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "How does an Uwasa look well or not?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "It's not like it's alive."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0
+                    },
+                    {
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You could stand to learn about empathy,@Touka."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textRight": "I believe it's perfectly normal to be happy@when someone you are close to is well."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textRight": "It matters not what form that person takes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Or would you prefer her to not be well?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 100701,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "[chara:100701:effect_emotion_angry_0][se:7219_strain]Grrr! What's that supposed to mean?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "That's not what I said, at all."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "God, you're so crotchety, Nemu!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101403,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "You're the one who interjected first, Touka."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Now even the Eternal Sakura is laughing at@me! [chara:100701:lipSynch_0][wait:0.8][chara:100701:cheek_0][chara:100701:face_mtn_ex_020.exp.json][chara:100701:lipSynch_1]Ugh, fine then!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "| Iroha said that you two are so close that@you argue all the time. |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302
+                    }
+                ],
+                "textRight": "| I'm happy to see that your friendship is@as strong as ever. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "lipSynch": 0,
+                        "motion": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameCenter": "Touka & Nemu",
+                "textCenter": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 400
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "Forget about Touka. Let's talk about why@I called you here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100701,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "You could put it a bit nicer, but it's true..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "We're not exactly here to have fun."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Eternal Sakura",
+                "textRight": "| What do you mean? |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Do you have any interest in the outside@world, Uwasa of the Eternal Sakura?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "I can make it so that you can function@outside this space."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textLeft": "I would just have to rewrite the [textBlue:Rumor]."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Also, I've made you a server."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701
+                    }
+                ],
+                "textLeft": "You can connect to it, and install all the@knowledge you'd need to live among humans!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "With that in mind, we have a favor to ask@of you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "| A favor? |"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "stop",
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "autoTurnFirst": 5.4,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 100,
+                        "pos": 1,
+                        "voice": "vo_char_3043_00_03"
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| Am I going to leave this [textBlue:Rumor]...? |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,955 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_46106.jpg",
+                "bgm": "bgm01_anime15",
+                "chara": [
+                    {
+                        "id": 6106,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Ui",
+                "textRight": "...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "[chara:101500:effect_ef_adv_01][se:7201_detect_magic](Here it comes!)"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6106,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeSmall]..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302700,
+                        "motion": 200
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "nameRight": "Nanaka",
+                "textLeft": "Now!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "Strike back!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 6106,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 101500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 100
+                    }
+                ],
+                "nameLeft": "",
+                "nameRight": "Ui",
+                "textRight": "Right!",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Stay calm.)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 101500,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "...Here I go."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "motion": 400
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][surround:1015A06]Hyah!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 7001,
+                        "name": "sprite_0"
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "surround": "1015A08",
+                "textBg": "shout",
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 7001,
+                        "name": "sprite_0"
+                    }
+                ],
+                "se": "3102_enemy_dead",
+                "textClear": 1
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101500,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "(I hit it!)"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101500,
+                        "lipSynch": 0
+                    }
+                ],
+                "textRight": "(Did it work...?)"
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_21151.jpg",
+                "bgChangeEffect": "exitWitchSpace",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500
+                    }
+                ],
+                "se": "7209_gate_close",
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story09",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101500,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "nameRight": "Hazuki",
+                "textLeft": "We... We won!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302700,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Yeah. You did pretty well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300500,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textRight": "Considering where you started, you have@greatly improved."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300500
+                    }
+                ],
+                "textRight": "Here, Ui."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101500,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "The Grief Seed! Can I really have it?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302700,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Hazuki",
+                "textRight": "Yeah, it came from a Witch you defeated."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textRight": "Besides..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 300500
+                    }
+                ],
+                "textRight": "It's only natural that we aid one another. As@Magical Girls, we face the same issues."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101500,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Hazuki, Nanaka... Thank you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302700,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 300500,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "textLeft": "You're very welcome."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302700
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300500
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 201,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Touka",
+                "nameRight": "Nemu",
+                "textLeft": "Ui!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textRight": "Are you finished?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302700,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300500,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "nameRight": "Nanaka",
+                "textLeft": "Looks like your friends are here."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300501,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textRight": "Well then, shall we call it quits for now?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302701,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl",
+                "textLeft": "Sure."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textLeft": "I need to be getting home soon."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302701,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "I haven't told Konoha that we've been@training together."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302701
+                    }
+                ],
+                "textLeft": "She'd probably chew me out if she found out."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 302701,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Ui",
+                "nameRight": "Hazuki",
+                "textLeft": "Oh, are you sure it's okay for us to practice@together, then?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 302701,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Ahh, it's fine. It's my problem, you don't@need to worry about it."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": -1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 300501,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nanaka",
+                "textRight": "It's more important for you to focus on@getting stronger right now."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "Right!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "I want to stand on my own and help everyone@as soon as I can."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 302701,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Hazuki",
+                "textLeft": "Great. Well, see ya later."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 300501,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Take care."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 302701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 300501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "Thank you so much!"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501
+                    }
+                ],
+                "textCenter": "Thanks for waiting for me."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 101501,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Ui",
+                "nameRight": "Touka",
+                "textRight": "No problem! Training's very important for@you."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "*Giggle* Thanks."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Nemu",
+                "textRight": "We're going on an excursion today. Is that@all right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Sure is! I finished my homework and@everything!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101403
+                    }
+                ],
+                "textRight": "So you were able to submit the questionnaire?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Well, about that... Not yet actually..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101403,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Oh, sorry for asking."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_041.exp.json",
+                        "id": 101501,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "No, don't worry about it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "textLeft": "I still have time before the deadline anyway."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101501,
+                        "motion": 0,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100701,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101403,
+                        "live2dParam": {
+                            "name": "PARAM_BRACELET",
+                            "value": 1
+                        },
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100701
+                    }
+                ],
+                "nameCenter": "Ui",
+                "nameLeft": "Touka",
+                "nameRight": "Nemu",
+                "textLeft": "Would you rather we postpone today so you@can talk to some more people?",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101403
+                    }
+                ],
+                "textRight": "It might benefit you to try reading a career@book as well."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101501,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "Gee, that's really nice of you to suggest,@but..."
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 101501,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Felicia's Voice",
+                "textBg": "shout",
+                "textCenter": "Hey!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101501,
+                        "lipSynch": 0,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 101403,
+                        "motion": 400
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100701,
+                        "motion": 0
+                    }
+                ],
+                "nameCenter": "Everyone",
+                "textCenter": "[chara:101501:effect_emotion_surprise_0][chara:100701:effect_emotion_surprise_0][chara:101403:effect_emotion_surprise_0][se:7226_shock]...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101501
+                    }
+                ],
+                "nameCenter": "Ui",
+                "textCenter": "Huh... Is that..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100701
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101403
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 4,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_021.exp.json",
+                        "id": 100501,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 302801,
+                        "motion": 100,
+                        "pos": 1
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 301101,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

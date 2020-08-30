@@ -1,0 +1,307 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19092.jpg",
+                "bgm": "bgm03_story03",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| The Uwasa of the Eternal Sakura |",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "| That is who I am now. |"
+            },
+            {
+                "narration": "| But I was not born this way. |"
+            },
+            {
+                "narration": "| I was born from Iroha Tamaki's@words, when three little girls@asked for a story. |"
+            },
+            {
+                "autoTurnLast": 2,
+                "bg": "bg_adv_21012.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100102,
+                        "motion": 1,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101502,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100102
+                    }
+                ],
+                "nameLeft": "Ui",
+                "nameRight": "Iroha",
+                "textRight": "That tree of promises is called the Eternal@Sakura.",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "blackFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 100102,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "So, what did you think?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101502,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I love it! It makes me want to work even@harder!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100702,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Touka",
+                "textLeft": "Me too!",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100702,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "A story you made just for us."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101402,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    }
+                ],
+                "nameLeft": "Nemu",
+                "textLeft": "Yes, it was a bit cliché, but it is an @excellent story to give us hope."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100102,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "I'm glad you liked it."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101402
+                    }
+                ],
+                "textLeft": "I'll write it down in my notebook."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 101402,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "May I add some details, to make it sound a@bit more fleshed out?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100102
+                    }
+                ],
+                "textRight": "Sure."
+            },
+            {
+                "autoTurnLast": 2,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "",
+                "narration": "The Eternal Sakura of Promises",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "This is a story that I heard from@a treasured friend, with some@added embellishments from me.",
+                "narrationHAlignment": "left",
+                "narrationPosX": 180
+            },
+            {
+                "narration": "Through the woods surrounding Hokuyo@Ward, lies a vast, grassy meadow."
+            },
+            {
+                "narration": "A big sakura tree grows in the center of@the meadow, surrounded by clear blue sky,@and there, a girl stands next to it."
+            },
+            {
+                "narration": "This is a special place for the girl."
+            },
+            {
+                "narration": "It is a place where she promised@to reunite with her three best friends.@The three were patients in a hospital.@They pledged, \"When we get better,@we'll meet there and play in that meadow.\""
+            },
+            {
+                "narration": "The girl, who always visited them,@waited under the bare branches of that tree,@dreaming of their promised day..."
+            },
+            {
+                "narration": "And, when that day comes..."
+            },
+            {
+                "narration": "The big sakura tree will blossom in@celebration of the four girls' reunion.@We do not know who named it, but..."
+            },
+            {
+                "narration": "This tree that celebrates the fulfillment of@their promise is called..."
+            },
+            {
+                "narration": "The Eternal Sakura.@The Eternal Sakura of Promises."
+            },
+            {
+                "narration": "　"
+            },
+            {
+                "narration": "　"
+            },
+            {
+                "narration": "　"
+            },
+            {
+                "narration": "I'll secretly write their names down here:"
+            },
+            {
+                "narration": "Ui Tamaki@Touka Satomi@Nemu Hiiragi"
+            },
+            {
+                "narration": "And...@The older girl who waited for us,@Iroha Tamaki."
+            },
+            {
+                "autoTurnLast": 1,
+                "bg": "bg_adv_19092.jpg",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "visible": "hide"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 3,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 4,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.2
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| That is how I came to live in@this fictional version of Kamihama,@within Nemu's notebook pages. |",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "| That was the beginning.@I wasn't fully conscious yet,@for I was just a story. |"
+            },
+            {
+                "autoTurnLast": 2,
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

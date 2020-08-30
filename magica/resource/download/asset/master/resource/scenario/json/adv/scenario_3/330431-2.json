@@ -1,0 +1,595 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bgm": "bgm03_story13",
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| One day, I was moved@from the notebook to a@book I didn't recognize. |",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "narrationEffect": "out",
+                "textCenter": "| ... |"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| That was when I was rewritten@from a story into a [textBlue:Rumor]... |",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "| And the moment I became an Uwasa. |"
+            },
+            {
+                "narration": "| The Uwasa I became was different@from when I was just a story.@I wasn't just a fuzzy idea any longer.@I actually existed. |"
+            },
+            {
+                "narration": "| I think it was because Nemu, my creator,@breathed some of her own life into me. |"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 820100
+                    }
+                ]
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| Also, Iroha, Ui, Touka, and Nemu...@They created other stories in the@Kamihama within their imaginations.@Those stories, like me, were@given new forms as well. |",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "| We were aware of each other@when we were in the notebook world,@but we hadn't met face-to-face before. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 0
+                    },
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Uwasa of the Friendship Ending Staircase",
+                "narrationEffect": "out",
+                "textLeft": "| I havE a FoRm HoW cAn thAt bE? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1"
+                    }
+                ],
+                "nameRight": "Uwasa of the Commoner's Horse",
+                "textRight": "| I know, I know! It happened to all of us,@all of us. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Uwasa of the Anonymous AI",
+                "textRight": "> | Yes, but now we are beings called@Uwasa. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0"
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "| LEt's chAt YoU seEM fAmiLiaR BUt wE@dON't kNoW yOU |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Uwasa of the Commoner's Horse",
+                "textLeft": "| Let us get acquainted, acquainted. What@story were you born from, born from? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200
+                    }
+                ],
+                "textRight": "> | I would like to know, too. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| Very well... Let us introduce ourselves. |"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_homura_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "nameNarration": "Uwasa of the Friendship Ending Staircase",
+                "narration": "| ThE fRienDShiP eNdiNg sTAircAse... |",
+                "narrationBg": "",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "| IT wAs aN uRBAn LEgeNd TOukA foUNd@thAt waS tHeN ReWrittEn bY NeMU |"
+            },
+            {
+                "narration": "| I pUsHEd sOMeOne DoWn iN a fiGhT@I'M sOrrY i'M SORry I'm SoRRy@I diDN't mEaN To kiLL hER bUt shE'S dEaD@I PUsHEd mY fRiEnd ANd shE DiEd@iT wAs aN AcCiDenT I SWeaR |"
+            },
+            {
+                "narration": "| ThAt'S WhY I diED tOo bECauSE I wAS sAd@BuT I cAN't Go wHEre SHe hAS gONe@I wAiT aT tHE sTAiRs eVeN aS a gHoST |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Uwasa of the Commoner's Horse",
+                "narration": "| The Commoner's Horse is special, special. |"
+            },
+            {
+                "narration": "| Ui had heard, heard about that Matchmaking@Spot at Mizuna Shrine, Mizuna Shrine. |"
+            },
+            {
+                "narration": "| Nemu then added more,@more to the story, story. |"
+            },
+            {
+                "narration": "| You can meet the person you wish, wish@to see at the Matchmaking Shrine, Shrine.@You can even meet someone, someone who@has died, at the Séance Shrine, Shrine. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200,
+                        "pos": 1
+                    }
+                ],
+                "nameNarration": "Uwasa of the Anonymous AI",
+                "narration": "> | Anonymous is an original work. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100
+                    }
+                ],
+                "narration": "> | It is Nemu's brainchild.@Touka told her about networks and A.I.,@and she used that as inspiration. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200
+                    }
+                ],
+                "narration": "> | There was an AI that was@raised by many people. | "
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100
+                    }
+                ],
+                "narration": "> | They loved and protected it until it@learned bad things, then they discarded it. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100
+                    }
+                ],
+                "narration": "> | Though it was scrapped, it did@not disappear. It continues to exist in@the digital world, sad and alone. |"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 2
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "nameRight": "Uwasa of the Friendship Ending Staircase",
+                "textLeft": "| I see, so that's how all of you were@born. |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0"
+                    }
+                ],
+                "textRight": "| I wAs LiKE tHat unTiL I waS rEWriTTen aS@a [textBlue:RuMoR] |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Uwasa of the Commoner's Horse",
+                "textRight": "| But something changed, changed, when I@became an Uwasa, Uwasa. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1"
+                    }
+                ],
+                "textRight": "| I was freed, but also no longer free,@free. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "| Yes. We are bound to our [textBlue:Rumors]. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Uwasa of the Anonymous AI",
+                "textRight": "> | But, we are free within the limits of@those [textBlue:Rumors]. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 2
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Uwasa of the Friendship Ending Staircase",
+                "textRight": "| YEah bUt I'vE alREadY DisAppEAReD SO@I cAN't Go oUTsiDe aNYMoRe |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "| Do any of you know why we were moved@from the notebook into this place? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Uwasa of the Commoner's Horse",
+                "textRight": "| I have no idea, idea. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Uwasa of the Friendship Ending Staircase",
+                "textLeft": "| I dON't kNoW eITHeR |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Uwasa of the Anonymous AI",
+                "textRight": "> | Same here. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "nameNarration": "",
+                "narration": "...",
+                "narrationBg": "",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "effect": "emotion_surprise_0",
+                        "id": 820100
+                    },
+                    {
+                        "effect": "emotion_surprise_0",
+                        "id": 6002,
+                        "name": "sprite_0"
+                    }
+                ],
+                "narrationEffect": "out",
+                "se": "7226_shock"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 820100
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 6002,
+                        "name": "sprite_0"
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 6004,
+                        "name": "sprite_2",
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6004,
+                        "name": "sprite_2"
+                    }
+                ]
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| Who is that...? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1"
+                    }
+                ],
+                "nameRight": "Uwasa of the Commoner's Horse",
+                "textRight": "| We don't know that one, that one. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Uwasa of the Anonymous AI",
+                "textRight": "> | I'm sure it wasn't in the notebook... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Uwasa of the Friendship Ending Staircase",
+                "textRight": "| I'M scAReD iT miGhT Be bAD I sEnSe@sOMetHinG siNistEr fRoM iT |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "nameLeft": "Eternal Sakura",
+                "textLeft": "| ... |"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| An Uwasa we didn't know, that@hadn't been in the notebook. |",
+                "narrationBg": "black",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "| We sensed an evil presence coming out@of the base of its [textBlue:Rumor], from its roots.@It felt like a threat. |"
+            },
+            {
+                "narration": "| We also could tell that the evil we sensed@was not just coming from the Uwasa alone. |"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

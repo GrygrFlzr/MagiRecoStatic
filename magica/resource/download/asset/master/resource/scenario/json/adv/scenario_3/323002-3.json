@@ -1,0 +1,144 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20321.jpg",
+                "bgm": "bgm03_story19",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 230000,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200453,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200453
+                    }
+                ],
+                "nameLeft": "Homura",
+                "nameRight": "Sayaka",
+                "textRight": "Homura!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Sayaka!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200453,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Can you help me take this swimsuit off?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 200453,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Wait, what happened to your glasses?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_140.exp.json",
+                        "id": 230000,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Uhh... They fell into the ocean..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200453,
+                        "motion": 400
+                    }
+                ],
+                "textRight": "[chara:200453:effect_emotion_surprise_0][se:7226_shock]What?! How'd that happen?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "Well, um... I got caught up in some@things..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "A-And they fell off into the shallows."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "I thought I could use a fishhook to get@them."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200453,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "Oh yeah, I can see them in the water.@Should we ask someone for help?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_120.exp.json",
+                        "id": 230000,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "I-I'll be fine! I'm sure I'll get them on@the next try..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

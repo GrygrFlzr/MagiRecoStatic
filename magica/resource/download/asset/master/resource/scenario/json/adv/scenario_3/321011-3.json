@@ -1,0 +1,521 @@
+{
+  "story": {
+    "group_1": [
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 200200,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "autoTurnLast": 2.0,
+        "bg": "bg_adv_20411.jpg",
+        "bgm": "bgm02_anime15",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "eyeClose": 0,
+            "id": 200200
+          }
+        ],
+        "nameNarration": "Homura",
+        "narration": "... ",
+        "narrationBg": "bg_adv_20411.jpg",
+        "narrationEffect": "in"
+      },
+      {
+        "narration": "...?!"
+      },
+      {
+        "chara": [
+          {
+            "id": 200200
+          }
+        ],
+        "nameCenter": "Homura",
+        "narrationEffect": "out",
+        "textCenter": "What is this place...?"
+      },
+      {
+        "nameNarration": "Kyubey",
+        "narration": "The universe is in the process of reorganizing@itself, based on Madoka's new laws of reality.",
+        "narrationEffect": "in"
+      },
+      {
+        "narration": "That's right... Your magic gives you the@power to travel back and forth in time."
+      },
+      {
+        "narration": "Would you like to see how the existence called@Madoka Kaname meets her ultimate end?"
+      },
+      {
+        "autoTurnLast": 0.5,
+        "flashEffect": "flashWhite2",
+        "narrationEffect": "out"
+      },
+      {
+        "autoTurnLast": 2.0,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 200200,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "nameNarration": "Kyubey",
+        "narration": "That's the Soul Gem her wish created.@Impressive, isn't it.",
+        "narrationEffect": "in",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_051.exp.json",
+            "id": 200200
+          }
+        ],
+        "narrationEffect": "out",
+        "textCenter": "Oh my God...!"
+      },
+      {
+        "nameNarration": "Kyubey",
+        "narration": "The wish she made carries a@heavy burden. Imagine all the@curses she'll have to take on now.",
+        "narrationEffect": "in"
+      },
+      {
+        "narration": "With all the hope she's harnessing,@she's giving birth to a new universe."
+      },
+      {},
+      {
+        "autoTurnLast": 0.5,
+        "bgEffect": "shakeLarge",
+        "flashEffect": "explosion"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "item": [
+          {
+            "path": "resource/scenario/img/32101_ultimatemadoka_story/32101_bigwitch.jpg",
+            "posX": 0,
+            "posY": 0,
+            "scale": 1.0,
+            "setVisible": 1
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "whiteIn"
+      },
+      {
+        "nameNarration": "Kyubey",
+        "narration": "— Kyubey —@But that means her eventual@despair will be so great,@it will destroy another universe.",
+        "narrationAnchor": "bottom",
+        "narrationCoverOpacity": 110.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 30.0,
+        "narrationLineMargin": 20.0,
+        "narrationLineSpace": 20.0,
+        "turnChangeOut": "whiteOut"
+      },
+      {
+        "narration": "— Kyubey —@...It's only natural."
+      },
+      {
+        "autoTurnLast": 2.0,
+        "narrationEffect": "out"
+      },
+      {
+        "bg": "bg_adv_20411.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_051.exp.json",
+            "id": 200200,
+            "lipSynch": 0,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "item": [
+          {
+            "path": "resource/scenario/img/32101_ultimatemadoka_story/32101_bigwitch.jpg",
+            "setVisible": 0
+          }
+        ],
+        "nameCenter": "Homura",
+        "textCenter": "...?!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 2,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 200200,
+            "motion": 300,
+            "tear": 1
+          }
+        ],
+        "textCenter": "Ugh!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 2,
+            "eyeClose": 0,
+            "face": "mtn_ex_051.exp.json",
+            "id": 200200,
+            "tear": 1
+          }
+        ],
+        "nameNarration": "Madoka",
+        "narration": "No, it's all right.",
+        "narrationEffect": "in"
+      },
+      {
+        "autoTurnLast": 1.9,
+        "chara": [
+          {
+            "id": 200200,
+            "motion": 0
+          }
+        ],
+        "narrationEffect": "out",
+        "textClear": 1
+      },
+      {
+        "autoTurnLast": 0.1,
+        "chara": [
+          {
+            "effect": "fadeout",
+            "id": 200200
+          }
+        ]
+      },
+      {
+        "chara": [
+          {
+            "id": 7401,
+            "name": "sprite_0",
+            "pos": 1
+          },
+          {
+            "effect": "fadeout",
+            "id": 200200
+          }
+        ],
+        "nameNarration": "Madoka",
+        "narration": "Remember? I wished for the power@to erase all Witches.",
+        "narrationCoverOpacity": 100.0,
+        "narrationEffect": "in"
+      },
+      {
+        "chara": [
+          {
+            "effect": "fadeout",
+            "id": 7401,
+            "name": "sprite_0"
+          }
+        ],
+        "flashEffect": "flashWhite2",
+        "narration": "And if what I wished for@really did come true... "
+      },
+      {
+        "autoTurnLast": 0.01,
+        "item": [
+          {
+            "path": "resource/scenario/img/32101_ultimatemadoka_story/32101_ultimatemadoka_appea.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "whiteIn"
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@Then even I don't have a thing to worry about...",
+        "narrationAnchor": "bottom",
+        "narrationCoverOpacity": 110.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 30.0,
+        "narrationLineMargin": 35.0,
+        "narrationLineSpace": 20.0,
+        "turnChangeOut": "whiteOut"
+      },
+      {
+        "bgm": "stop",
+        "narration": "— Madoka —@Ever!"
+      },
+      {
+        "autoTurnLast": 0.5,
+        "bgEffect": "shakeLarge",
+        "flashEffect": "flashWhite2",
+        "narrationEffect": "out"
+      },
+      {
+        "autoTurnLast": 1.0,
+        "bgEffect": "shakeLarge",
+        "turnChangeIn": "whiteIn",
+        "turnChangeInTime": 3.0
+      },
+      {
+        "autoTurnLast": 3.0,
+        "bg": "black"
+      },
+      {
+        "nameNarration": "Kyubey",
+        "narration": "Madoka.",
+        "narrationBg": "black",
+        "narrationEffect": "in",
+        "turnChangeOut": "whiteOut",
+        "turnChangeOutTime": 1.2
+      },
+      {
+        "narration": "Because of your wish, your life@has no beginning or end anymore."
+      },
+      {
+        "narration": "The proof of your life on Earth is gone.@The memories people had of you don't exist."
+      },
+      {
+        "narration": "You’ve crossed over onto a higher plane,@your physical body is no more.@You are now a concept."
+      },
+      {
+        "narration": "No one will ever sense your presence again@and you'll never be able to interact with anyone."
+      },
+      {
+        "narration": "You are no longer a part of this universe... "
+      },
+      {
+        "autoTurnLast": 1.0,
+        "bg": "bg_adv_20421.jpg",
+        "narrationEffect": "out",
+        "turnChangeIn": "whiteIn"
+      },
+      {
+        "nameNarration": "Homura",
+        "narration": "...",
+        "narrationEffect": "in",
+        "turnChangeOut": "whiteOut"
+      },
+      {
+        "narration": "What are you saying?"
+      },
+      {
+        "narration": "Do you honestly think Madoka@would want this to happen?!"
+      },
+      {
+        "narration": "After everything she's done,@this is her reward?!"
+      },
+      {
+        "narration": "I don't believe it!"
+      },
+      {
+        "narration": "I can't believe it... @This is worse...than death!"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "item": [
+          {
+            "path": "resource/scenario/img/32101_ultimatemadoka_story/32101_madoka_homura.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@That's not true, Homura.",
+        "narrationAnchor": "bottom",
+        "narrationCoverOpacity": 110.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 30.0,
+        "narrationLineMargin": 45.0,
+        "narrationLineSpace": 20.0,
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "bgm": "bgm03_movie35",
+        "narration": "— Madoka —@Now I can see everything that ever happened@and everything that ever will."
+      },
+      {
+        "narration": "— Madoka —@I see all the universes that could have been..."
+      },
+      {
+        "narration": "— Madoka —@And all the universes that are@waiting to be born. Really."
+      },
+      {
+        "nameNarration": "Homura",
+        "narration": "— Homura —@Madoka..."
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@I can see it all now and I finally know."
+      },
+      {
+        "narration": "— Madoka —@I know all the things you've done for me,@through all those different timelines. All of it."
+      },
+      {
+        "narration": "— Madoka —@All the times you cried and@all the times you got hurt."
+      },
+      {
+        "narration": "— Madoka —@But you kept fighting for me."
+      },
+      {
+        "narration": "— Madoka —@I'm so sorry I never knew until now."
+      },
+      {
+        "narration": "— Madoka —@I'm so sorry."
+      },
+      {
+        "narration": "— Madoka —@I had to become what I am now to@really know the kind of person you are."
+      },
+      {
+        "narration": "— Madoka —@And you were there all along, the most@amazing friend someone like me could ever have."
+      },
+      {
+        "narration": "— Madoka —@I'm so glad I know now."
+      },
+      {
+        "nameNarration": "Homura",
+        "narration": "— Homura —@..."
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@So thank you...Homura... "
+      },
+      {
+        "narration": "— Madoka —@After all that's happened.@You were my very best friend!"
+      },
+      {
+        "nameNarration": "Homura",
+        "narration": "— Homura —@But! What's going to happen to you... "
+      },
+      {
+        "narration": "— Homura —@...Now that you're like this?!@You don't have a home to go to anymore!"
+      },
+      {
+        "narration": "— Homura —@You'll never be able to see your@family and friends!"
+      },
+      {
+        "narration": "— Homura —@And you'll be stuck here! Alone!@By yourself, forever and ever!"
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@*Giggle*... But I'm not alone."
+      },
+      {
+        "narration": "— Madoka —@You're always going to be with me@and so will everyone else."
+      },
+      {
+        "narration": "— Madoka —@Because from now on, I can be@everywhere at any time."
+      },
+      {
+        "narration": "— Madoka —@Even if you can't see me, or hear me... "
+      },
+      {
+        "narration": "— Madoka —@I'll be right there by your side, Homura."
+      },
+      {
+        "nameNarration": "Homura",
+        "narration": "— Homura —@Madoka...is this what you want?"
+      },
+      {
+        "narration": "— Homura —@Even if I don't remember you ever again?"
+      },
+      {
+        "narration": "— Homura —@How am I going to know you're there, when I@can't even feel you standing next to me anymore?!"
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@It's a little too soon to be giving up hope!"
+      },
+      {
+        "narration": "— Madoka —@You managed to follow me all the way@out here, didn't you?"
+      },
+      {
+        "narration": "— Madoka —@Even though you're going back to your world..."
+      },
+      {
+        "narration": "— Madoka —@You never know, maybe you'll still@remember me as you always have."
+      },
+      {
+        "narration": "— Madoka —@You'll see, everything's going to be fine."
+      },
+      {
+        "narration": "— Madoka —@Let's believe."
+      },
+      {
+        "nameNarration": "Homura",
+        "narration": "— Homura —@Madoka..."
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@We're Magical Girls, remember?@We make hopes and dreams come true!"
+      },
+      {
+        "narration": "— Madoka —@They might not happen all the time, but@there's no doubt miracles really can happen."
+      },
+      {
+        "narration": "— Madoka —@Don't you think?"
+      },
+      {
+        "item": [
+          {
+            "path": "resource/scenario/img/32101_ultimatemadoka_story/32101_madoka_homura.jpg",
+            "visible": "hide"
+          }
+        ],
+        "nameNarration": "Homura",
+        "narration": "— Homura —@Madoka! Please don't go!",
+        "narrationBg": "bg_adv_20421.jpg"
+      },
+      {
+        "nameNarration": "Madoka",
+        "narration": "— Madoka —@Sorry. I've got to go meet the others now."
+      },
+      {
+        "narration": "— Madoka —@I don't know when,@but I will see you again, Homura."
+      },
+      {
+        "narration": "— Madoka —@So until then...make sure and@take care of yourself, okay?"
+      },
+      {
+        "autoTurnLast": 0.1,
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bgm": "stop",
+        "nameNarration": "Homura",
+        "narration": "Madokaaa!!!",
+        "narrationBg": "black",
+        "narrationEffect": "in",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "autoTurnLast": 2.0,
+        "turnChangeIn": "fadeIn"
+      }
+    ]
+  },
+  "version": 3
+}

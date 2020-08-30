@@ -1,0 +1,529 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20231.jpg",
+                "bgm": "stop",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "nameNarration": "",
+                "narration": "Several years earlier...",
+                "narrationCoverOpacity": 50,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Transylvania - Oradea Outskirts"
+            },
+            {
+                "autoTurnLast": 1,
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 1,
+                        "posY": 80
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bg": "bg_adv_20081.jpg",
+                "bgm": "bgm05_event05",
+                "nameNarration": "Qube",
+                "narration": "\"Elisa Celjska.\"",
+                "narrationBg": "narration",
+                "narrationCoverOpacity": 128,
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "\"Make a contract with me@and become a Magical Girl.\""
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 810000
+                    }
+                ],
+                "narrationEffect": "out",
+                "textClear": 1,
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "...A Magical Girl?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Pernelle, is that something like what you@are?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Perenelle",
+                "textRight": "Well, yes. I am an alchemist and a Magical@Girl."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 831100
+                    }
+                ],
+                "textRight": "But not all Magical Girls are alchemists."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "I'll grant any wish you want."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Your Soul Gem is then formed from that."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Those who possess this Gem are charged@with battling Witches."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "A wish, you say...[chara:402601:lipSynch_0][wait:1][chara:402601:lipSynch_1] Any wish at all?"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "narrationBg": "",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "I was born the illegitimate child of@Holy Roman Empress Barbara Celjska.",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "narration": "My existence was hidden from birth,@and I was raised under another identity."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "narration": "But it wasn't long until I was exposed,@and we were thrown out of the court."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "narration": "It was then that I met Pernelle and Qube."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402601
+                    }
+                ],
+                "narration": "I was someone who \"should never have been,\"@my very existence rejected, always.@And so I wished for..."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51065_singleraid_tart2/memoria_1372.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "nameNarration": "Elisa",
+                "narration": "I...",
+                "narrationAnchor": "bottom",
+                "narrationCoverOpacity": 110,
+                "narrationEffect": "in",
+                "narrationFontSize": 30,
+                "narrationLineMargin": 60,
+                "narrationLineSpace": 20,
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "I want everyone to acknowledge my existence!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20121.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 830300,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "whiteIn",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "bgm": "bgm03_story23",
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "...I am to be admitted into the Order of the@Dragon?",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.2
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830300
+                    }
+                ],
+                "nameRight": "",
+                "textRight": "Correct! Under recommendation of a certain@individual."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830300
+                    }
+                ],
+                "textRight": "Together with Lord Wolkenstein, exhibit your@strength to its fullest."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830300
+                    }
+                ],
+                "textRight": "For the glory of our Great Emperor!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "autoTurnLast": 0.3,
+                "bg": "white",
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 830300
+                    }
+                ],
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "motion": 100,
+                        "pos": 1
+                    }
+                ],
+                "narration": "My wish allowed my mother@and I to return to Court.@Those who once mocked me...",
+                "narrationBg": "narration",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "narration": "They were waiting for me with changed@expressions, like newly framed paintings."
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20121.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "narrationEffect": "out",
+                "textCenter": "(My existence was accepted by becoming@a Magical Girl.)",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(I joined the Order of the Dragon.)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "lipSynch": 0
+                    }
+                ],
+                "textCenter": "(And I won the trust of the Emperor...)"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "(But what is this unease?)"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830400,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830400
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "Ahh, if it isn't Lady Elisa! Back with yet@another victory, I see.",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 830500,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "rollInFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830500
+                    }
+                ],
+                "textCenter": "The one who will bring peace to Europe,@Lady Barbara's long held desire...",
+                "turnChangeOut": "rollOutFast"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 830500
+                    }
+                ],
+                "textCenter": "It is you without question!"
+            },
+            {
+                "autoTurnLast": 0.3,
+                "bg": "white",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bg": "white",
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "narration": "Those who approach me in an@attempt to garner favor with Mother...",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "Those who work tirelessly to @once again depose her..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 300
+                    }
+                ],
+                "narration": "I am ever caught in a whirlwind@of their scheming."
+            },
+            {
+                "narration": "I've only ever been close to one person,@since both before and after we were expelled.@Even after our return to Court."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402601
+                    }
+                ],
+                "narration": "He was the only person who watched@over me since I was a small child."
+            },
+            {
+                "narration": "Only Uncle Oswald.",
+                "narrationBg": "black"
+            },
+            {
+                "autoTurnLast": 2,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

@@ -1,0 +1,592 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20321.jpg",
+                "bgm": "bgm03_story16",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_120.exp.json",
+                        "id": 230000,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 200453,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200453
+                    }
+                ],
+                "nameLeft": "Homura",
+                "nameRight": "Sayaka",
+                "textRight": "Wouldn't it be faster if I asked someone@for a net?",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_130.exp.json",
+                        "id": 230000,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "Please, give me a little more time!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_120.exp.json",
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "I don't want to bother anyone..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 200453,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "Homura, it's no trouble..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "face": "mtn_ex_110.exp.json",
+                        "id": 230000,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "[chara:230000:effect_emotion_surprise_0][se:7226_shock]I-I did it! I got them!"
+            },
+            {
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "*Tweeeeeet*",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20251.jpg",
+                "bgm": "bgm03_story19",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101701,
+                        "motion": 1,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701
+                    }
+                ],
+                "nameCenter": "Mitama",
+                "textCenter": "That's the end of the preliminaries!",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100501,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 302801,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Felicia",
+                "textLeft": "What?! I haven't caught anythin' yet!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302801
+                    }
+                ],
+                "nameRight": "Ayame",
+                "textRight": "Me neither, me neither..."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100501
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302801
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301601,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 302901,
+                        "motion": 200,
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Kokoro",
+                "textRight": "Hmm, no bites at all..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302901
+                    }
+                ],
+                "nameLeft": "Masara",
+                "textLeft": "It's too bad."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 302901
+                    }
+                ],
+                "textLeft": "The fish all got scared after three or four@people fell into the water."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301601
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 302901
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301501,
+                        "motion": 300,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301301,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 301401,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Seika",
+                "nameLeft": "Leila",
+                "nameRight": "Mito",
+                "textRight": "We just came to fish and have fun."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301301
+                    }
+                ],
+                "textLeft": "I can't believe we went through that..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 301401,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "If we weren't Magical Girls, all of us would@be in the hospital."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 301301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301401
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 301501
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100101,
+                        "motion": 200,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100401,
+                        "motion": 1,
+                        "pos": 2
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 100301,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Tsuruno",
+                "nameLeft": "Iroha",
+                "nameRight": "Sana",
+                "textLeft": "I wonder if the others had as much trouble@fishing as we did?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 100401
+                    }
+                ],
+                "textRight": "Do you think Konomi was all right?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100301,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "She seems fine!"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100101
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100301
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 100401
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 230000,
+                        "lipSynch": 0,
+                        "motion": 1,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 200453,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Homura",
+                "nameRight": "Sayaka",
+                "textRight": "(What on Earth happened while I was@asleep?)"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "*Sigh*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 230000
+                    }
+                ],
+                "textLeft": "The only thing I caught was the glasses@that I dropped in the ocean myself."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200453,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Aw, cheer up. Getting your glasses back is@a big deal."
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 230000
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 200453
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 101701,
+                        "motion": 300,
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "Mitama",
+                "textCenter": "Oh dear."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701
+                    }
+                ],
+                "textCenter": "Nobody was able to catch any fish? What a@shame..."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 101701,
+                        "motion": 1
+                    }
+                ],
+                "textCenter": "Hmm, in that case..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101701
+                    }
+                ],
+                "textCenter": "Homura caught her glasses, so perhaps@she should be our finalist?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 101701
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 230000,
+                        "lipSynch": 0,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 200453,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "M-me?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 200453
+                    }
+                ],
+                "textRight": "Sounds like she was really keeping an@eye on things."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_040.exp.json",
+                        "id": 230000,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "But I was the one who dropped them into@the water..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100101,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "I think it's fine."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100101
+                    }
+                ],
+                "textRight": "You did manage to catch something in the@end!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100301,
+                        "motion": 101,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Tsuruno",
+                "textRight": "Yeah! Homura should move on to the finals!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100501,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Felicia",
+                "textRight": "What \"finals\" do ya mean, anyway?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101701,
+                        "motion": 100,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Mitama",
+                "textLeft": "*Giggle*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 101701
+                    }
+                ],
+                "textLeft": "The final round is a battle against the@defending champion."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 100101,
+                        "motion": 300,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Iroha",
+                "textRight": "Huh? This situation feels oddly familiar..."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

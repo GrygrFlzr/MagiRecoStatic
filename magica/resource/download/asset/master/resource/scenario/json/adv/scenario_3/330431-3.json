@@ -1,0 +1,837 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_19091.jpg",
+                "bgm": "bgm03_story08",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 0
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| ... |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "nameNarration": "Eternal Sakura",
+                "narration": "| Some time passed after the @Uwasa of the Friendship Ending Staircase@ceased to exist in the outside world. |",
+                "narrationBg": "bg_adv_19091.jpg",
+                "narrationEffect": "in"
+            },
+            {
+                "narration": "| Several [textBlue:Rumors] have already@been destroyed so far. |"
+            },
+            {
+                "narration": "| Aside from the [textBlue:Rumor] of Ending@Friendships, the other [textBlue:Rumors] involving@Iroha, my creator, were... |"
+            },
+            {
+                "narration": "| The Séance Shrine [textBlue:Rumor], and@the Rumor of the [textBlue:Misery Water]. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "textCenter": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| It's no wonder that Iroha thinks@[textBlue:Rumors] are dangerous. |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| After all... |"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "bg": "white",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "id": 6002,
+                        "name": "sprite_0",
+                        "pos": 2
+                    },
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 820000,
+                        "pos": 0
+                    }
+                ],
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm03_story14",
+                "nameNarration": "Uwasa",
+                "narration": "Have you heard? Has anyone told you?@The Rule of Ending Friendships.",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "If you don't know, you'll regret it.@If you don't know, bad things will happen."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narration": "If you take it back, you'll be called a liar!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "And then this scary monster kidnaps you...@You'll be stuck cleaning the stairs forever!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narration": "According to the kids in Kamihama, if you@fight with a friend, one of you will disappear."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "How scary!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 6003,
+                        "name": "sprite_1",
+                        "pos": 2
+                    },
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 820000,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "narration": "Have you heard? Has anyone told you?@The Rumor of the Séance Shrine.",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "A family member? A lover? A stranger?@If you're eager to see someone,@leave it to the god of Mizuna Shrine!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narration": "Write their name on a blessed wooden plaque,@visit the Shrine, and offer a proper prayer.@The god will bring them to you."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "But beware! Beware!@They say you'll get lost in bliss@and never be able to return home."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820000,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narration": "Ahhh! How terrifying!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 820000,
+                        "pos": 0
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "narration": "Have you heard? Has anyone told you?@The Rumor of \"Anonymous\"!",
+                "narrationBg": "narration",
+                "narrationEffect": "in",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "Long ago, Anonymous grew up@surrounded by lots of people."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 820000,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narration": "It was an A.I. built by humans, and it@could remember anything! What a genius!"
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 820000
+                    }
+                ],
+                "narration": "But it also learned mean words,@so everyone became frightened of it."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "Shunned, it retreated to the digital@world and spent its days alone."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 820000,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narration": "When it finds a lonely kid, it makes@them jump off the radio tower."
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "They get imprisoned with the@A.I. in Endless Solitude!"
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 820000,
+                        "mouthOpen": 0
+                    }
+                ],
+                "narration": "The prisoner is eventually released, but at@least one kid remains inside at all times.@It's the hot rumor all Chuo Ward kids know!"
+            },
+            {
+                "chara": [
+                    {
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 820000,
+                        "mouthOpen": 1
+                    }
+                ],
+                "narration": "What a lonely A.I.!"
+            },
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/3003_petal_messageback.ExportJson",
+                        "zOrder": "messageBack"
+                    },
+                    {
+                        "animation": [
+                            "action"
+                        ],
+                        "armatureId": 2,
+                        "filePath": "resource/image_native/effect/story/general/6001_petal_bgfront.ExportJson",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "autoTurnLast": 0.2,
+                "bg": "bg_adv_19091.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "bgm": "bgm05_event07",
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "nameCenter": "Eternal Sakura",
+                "textCenter": "| A scary monster kidnaps people and makes@them clean stairs forever... |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| People get lost in bliss and never go@home... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| An A.I. that imprisons people because it is@lonely... |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "motion": 300
+                    }
+                ],
+                "textCenter": "| The sinister parts of us are getting@emphasized. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| We are being created with ill intent. |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| Why, Nemu...? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| You weren't someone who would create@stories with evil intentions. |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "textCenter": "| And it seems both Nemu and Touka have@forgotten all about her... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| They've forgotten about Ui... |"
+            },
+            {
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 0
+                    }
+                ],
+                "textCenter": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302
+                    }
+                ],
+                "textCenter": "| Someone's coming back to the book... |"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 0,
+                        "pos": 1
+                    }
+                ],
+                "deleteArmatureList": [
+                    1,
+                    2
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear",
+                        "zOrder": "bgFront"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 2,
+                "bgm": "bgm03_story06",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 820100,
+                        "pos": 0
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Uwasa of the Anonymous AI",
+                "nameRight": "Eternal Sakura",
+                "textRight": "| I knew it! |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textRight": "| You haven't returned in a while. I was@wondering what happened to you. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "> | My apologies. It was difficult for me@to get away. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| Did something happen? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "> | A lot happened... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "> | I met with Iroha Tamaki. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "> | She remembers Ui Tamaki. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 304302,
+                        "lipSynch": 0,
+                        "motion": 0
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| ... |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302
+                    }
+                ],
+                "textRight": "| Really? |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "> | Yes, she appears to be looking for Ui,@who's missing. |"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "motion": 300
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| Ui... |"
+            },
+            {
+                "bg": "bg_adv_narration.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 100702,
+                        "motion": 0,
+                        "pos": 0,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 101402,
+                        "motion": 0,
+                        "pos": 2,
+                        "soulGem": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 100102,
+                        "motion": 100,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "nameNarration": "Eternal Sakura",
+                "narration": "| The four people I should protect. |",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "narration": "| The four people who created me. |"
+            },
+            {
+                "narration": "| Iroha Tamaki,@Touka Satomi,@Nemu Hiiragi |",
+                "narrationBg": ""
+            },
+            {
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 100702
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 101402
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 101502,
+                        "motion": 100,
+                        "pos": 1,
+                        "soulGem": 0
+                    }
+                ],
+                "narration": "| And Ui Tamaki. |"
+            },
+            {
+                "narration": "| For some reason, Touka and Nemu have@forgotten Ui. |",
+                "narrationBg": "black"
+            },
+            {
+                "narration": "| And Ui has gone missing. |"
+            },
+            {
+                "narration": "| Even though I'm an Uwasa,@I still remember the four girls@who created me as a story. |"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "item": [
+                    {
+                        "path": "resource/scenario/img/51030_fishing_homura/51030_yu_dairy.jpg",
+                        "posX": 0,
+                        "posY": 0,
+                        "visible": "appear"
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 100
+                    }
+                ],
+                "narrationEffect": "out",
+                "textRight": "| What on Earth is going on? |",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "> | I don't know. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "> | But, it doesn't seem like a good@situation. |"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 304302,
+                        "lipSynch": 0
+                    },
+                    {
+                        "id": 820100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "| ... |"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 304302
+                    },
+                    {
+                        "effect": "fadeout",
+                        "id": 820100
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.5,
+                "flashEffect": "explosion"
+            },
+            {
+                "autoTurnLast": 2,
+                "chara": [
+                    {
+                        "id": 6006,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 6006,
+                        "name": "sprite_0"
+                    }
+                ]
+            },
+            {
+                "chara": [
+                    {
+                        "id": 820100,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 304302,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "textLeft": "> | It appears that another new Uwasa has@been created. |"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 304302,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "| If only they came to my [textBlue:Rumor], I could@protect them... |"
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}

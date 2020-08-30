@@ -1,0 +1,465 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "bg": "bg_adv_20231.jpg",
+                "bgm": "stop",
+                "nameNarration": "",
+                "narration": "This is a story about a girl who@fought to bring light to the darkness.",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "sepiaFrame"
+            },
+            {
+                "narration": "About a girl named Liz,@the descendant of a mighty mercenary."
+            },
+            {
+                "narration": "A dreamland set in France..."
+            },
+            {
+                "autoTurnLast": 1,
+                "narrationEffect": "out",
+                "turnChangeIn": "fadeIn",
+                "turnEffect": "stop"
+            },
+            {
+                "bg": "bg_adv_46103.jpg",
+                "bgm": "bgm01_anime15",
+                "chara": [
+                    {
+                        "id": 6103,
+                        "name": "sprite_0",
+                        "pos": 1
+                    }
+                ],
+                "nameCenter": "",
+                "textCenter": "ZJRZJR...☆...◇...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "id": 6103,
+                        "name": "sprite_0",
+                        "pos": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "Now's your chance, Liz!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 100,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "Understood!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402200,
+                        "pos": 2
+                    }
+                ],
+                "textRight": "—Falce Scythe—"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 200
+                    }
+                ],
+                "textBg": "shout",
+                "textRight": "[flashEffect:flashWhite2][bgEffect:shakeSmall][surround:4022A01]Here I go."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 6103,
+                        "name": "sprite_0"
+                    }
+                ],
+                "nameLeft": "",
+                "textBg": "shout",
+                "textLeft": "[flashEffect:flashRed2][bgEffect:shakeSmall][surround:4022A05][name:sprite_0:effect_shake]GZJGG▲◇◎◎◇▼☆☆??"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "I stopped it in its tracks. Darc, use your@magic!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Huh?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "But I'll hit you!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200
+                    }
+                ],
+                "textRight": "I'll be fine. Attack with everything you've@got!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 201
+                    }
+                ],
+                "textLeft": "All right!"
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 1,
+                        "id": 402100
+                    }
+                ],
+                "textLeft": "Begone, accursed creature!"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "textLeft": "[flashEffect:flashWhite2][bgEffect:shakeLarge][surround:4021A03]La Lumière!"
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "bg": "white",
+                "bgm": "stop",
+                "turnChangeOut": "whiteOut"
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bgEffect": "shakeLarge",
+                "surround": "4021A05"
+            },
+            {
+                "autoTurnLast": 1.5,
+                "bg": "bg_adv_46103.jpg",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402100,
+                        "motion": 100,
+                        "pos": 0
+                    },
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "turnChangeIn": "whiteIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "The Witch has been defeated...",
+                "turnChangeOut": "whiteOut",
+                "turnChangeOutTime": 1.5
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "The power of your magic is truly incredible."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Darc",
+                "textLeft": "Liz, where are you?"
+            },
+            {
+                "nameNarration": "Liz",
+                "narration": "Great work, Darc.",
+                "narrationBg": "bg_adv_narration.jpg",
+                "narrationEffect": "in",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "bgm": "bgm03_story02",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 400,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 1,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "narrationEffect": "out",
+                "textBg": "shout",
+                "textLeft": "[chara:402100:effect_emotion_surprise_0][se:7226_shock]Huh... Whoa!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "Y-you were behind me?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402200
+                    }
+                ],
+                "nameRight": "Liz",
+                "textRight": "I moved through the shadows."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402200,
+                        "motion": 300
+                    }
+                ],
+                "textRight": "You've seen me manipulate shadows with my@magic, don't you remember?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402100,
+                        "motion": 201,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "Oh, so that's how you avoided my attack..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402200,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "Yes, I dove into the shadows."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "id": 402200
+                    }
+                ],
+                "textRight": "I told you, didn't I? \"I'll be fine.\""
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402100,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "Yes, and I believed you!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402100,
+                        "motion": 100
+                    }
+                ],
+                "textLeft": "I trust you!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_010.exp.json",
+                        "id": 402200,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "*Giggle*"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "This Witch's Labyrinth should disappear any@minute now."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "bg": "bg_adv_20073.jpg",
+                "bgChangeEffect": "exitWitchSpace",
+                "bgm": "stop",
+                "se": "7209_gate_close",
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402101,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402200,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameLeft": "Darc",
+                "se": "7205_magic_girl",
+                "surround": "7003_wind",
+                "textLeft": "Oh?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402201,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Liz",
+                "se": "7205_magic_girl",
+                "textRight": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 402201,
+                        "motion": 100
+                    }
+                ],
+                "textRight": "This isn't where we were before?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 0,
+                        "posX": 0,
+                        "posY": 0
+                    }
+                ],
+                "nameLeft": "Qube",
+                "textLeft": "So it seems."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textLeft": "It appears it took us to a different place."
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}
