@@ -1,0 +1,611 @@
+{
+    "story": {
+        "group_1": [
+            {
+                "armatureList": [
+                    {
+                        "animation": [
+                            "in",
+                            "stay"
+                        ],
+                        "armatureId": 1,
+                        "filePath": "resource/image_native/effect/story/general/4000_darkmist.ExportJson",
+                        "zOrder": "charaBack"
+                    }
+                ],
+                "autoTurnLast": 0.01,
+                "bg": "bg_adv_20073.jpg",
+                "bgm": "bgm03_story10",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_000.exp.json",
+                        "id": 760100,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402600,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "id": 402600,
+                        "motion": 1
+                    }
+                ],
+                "flashEffect": "flashWhite2",
+                "surround": "3023A01",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "autoTurnLast": 1,
+                "bgEffect": "shakeLarge",
+                "chara": [
+                    {
+                        "effect": "shake",
+                        "id": 760100
+                    }
+                ],
+                "flashEffect": "flashRed2",
+                "nameLeft": "",
+                "surround": "3023A05",
+                "textLeft": "БЯяЯЯ…"
+            },
+            {
+                "autoTurnLast": 1.2,
+                "chara": [
+                    {
+                        "effect": "fadeout",
+                        "id": 760100
+                    }
+                ],
+                "se": "3002_chara_dead",
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.01,
+                "deleteArmatureList": [
+                    1
+                ]
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 402600,
+                        "pos": 0
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "autoTurnLast": 0.1,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 0.8,
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "effect": "ef_adv_05",
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "se": "7205_magic_girl"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "Phew..."
+            },
+            {
+                "bgm": "bgm03_story06",
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "nameRight": "Perenelle",
+                "textRight": "How could an illusion be cast on the three@of us?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "I thought it had to be a vastly powerful@Witch."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "But that was the Labyrinth of a Familiar."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "Wait a moment!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "You mean to say we were deceived by a@Familiar..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "And I almost handed the letter to an illusion@of the lord?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "It was an exceedingly unusual form for a@Familiar."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Right now..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Strange Witches and Familiars are roaming@all of France."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "They're brazen too, not even hiding within@Labyrinths."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Perenelle",
+                "textLeft": "So they've crossed the borders into the@Empire now."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "Yes."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "However, unlike in France, they rarely@reveal themselves to humans."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "That just makes it harder for us to judge@how grave the situation is."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "Unique Familiars like that..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textLeft": "How many could be hiding in our borders?"
+            },
+            {
+                "autoTurnLast": 0.2,
+                "chara": [
+                    {
+                        "id": 831100,
+                        "pos": 2
+                    }
+                ],
+                "textClear": 1
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 1,
+                        "pos": 0
+                    }
+                ],
+                "nameLeft": "Elisa",
+                "textLeft": "Discussing the severity of it all is fine..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "But aren't you forgetting?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 200
+                    }
+                ],
+                "textLeft": "My mission is to deliver this letter to the@real lord!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "We must make up for the time we've lost and@hurry to the fortress."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Perenelle",
+                "textRight": "About that..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Does this fortress and its lord actually@exist?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000,
+                        "pos": 2,
+                        "posX": 40,
+                        "posY": 0
+                    },
+                    {
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "nameRight": "Qube",
+                "textRight": "There are no fortresses in this area as far@as I know."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "I don't believe I've ever heard of any of the@place names you were given."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 810000
+                    }
+                ],
+                "textRight": "It might truly be a \"phantom fortress\"."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 400,
+                        "pos": 0
+                    }
+                ],
+                "textLeft": "...?!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 0
+                    }
+                ],
+                "textLeft": "I was sent to a place that doesn't exist?"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "That would mean..."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "This mission might all have been someone's@trap?"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "motion": 200,
+                        "mouthOpen": 1
+                    }
+                ],
+                "textLeft": "Hey! I would've prefered receiving that@information ahead of time!"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601,
+                        "mouthOpen": 0
+                    }
+                ],
+                "textLeft": "I am speechless at how useless a cheese@cake you are!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "nameRight": "Perenelle",
+                "textRight": "I'm guilty of not noticing as well. We@should start looking into what's going on."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Let me see the letter you've been entrusted@with."
+            },
+            {
+                "autoTurnLast": 0.5,
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601,
+                        "motion": 0,
+                        "pos": 0
+                    },
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 831100,
+                        "motion": 0,
+                        "pos": 2
+                    }
+                ],
+                "turnChangeIn": "fadeIn"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Of course... It was crafted meticulously...",
+                "turnChangeOut": "fadeOut"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "But this seal is a fake."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_050.exp.json",
+                        "id": 402601,
+                        "motion": 400
+                    }
+                ],
+                "textLeft": "How did it fool even my eyes?!"
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 831100,
+                        "motion": 1
+                    }
+                ],
+                "textRight": "On top of that, it was a mission too@dangerous for an ordinary knight."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Without question, this was a trick disguised@as a request from the court."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 402601,
+                        "lipSynch": 0,
+                        "motion": 300
+                    }
+                ],
+                "textLeft": "..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "face": "mtn_ex_030.exp.json",
+                        "id": 831100,
+                        "motion": 0
+                    }
+                ],
+                "textRight": "Lady Elisa, you are a member of the royal@family."
+            },
+            {
+                "chara": [
+                    {
+                        "id": 831100
+                    }
+                ],
+                "textRight": "Unfortunately that means individuals who@would dare such a trap are..."
+            },
+            {
+                "chara": [
+                    {
+                        "cheek": 0,
+                        "eyeClose": 1,
+                        "face": "mtn_ex_020.exp.json",
+                        "id": 402601
+                    }
+                ],
+                "textLeft": "I know."
+            },
+            {
+                "chara": [
+                    {
+                        "eyeClose": 0,
+                        "id": 402601,
+                        "motion": 1
+                    }
+                ],
+                "textLeft": "Too many to count."
+            },
+            {
+                "autoTurnFirst": 4.3,
+                "bg": "bg_adv_narration.jpg",
+                "bgm": "stop",
+                "chara": [
+                    {
+                        "cheek": 1,
+                        "eyeClose": 0,
+                        "face": "mtn_ex_011.exp.json",
+                        "id": 402601,
+                        "lipSynch": 1,
+                        "motion": 1,
+                        "pos": 1,
+                        "tear": 0,
+                        "voice": "vo_char_4026_00_03"
+                    }
+                ],
+                "nameCenter": "Elisa",
+                "textCenter": "Hmph! How absurd!",
+                "turnChangeIn": "fadeIn",
+                "turnChangeOut": "fadeOut",
+                "turnEffect": "stop"
+            },
+            {
+                "chara": [
+                    {
+                        "id": 402601
+                    }
+                ]
+            },
+            {
+                "autoTurnLast": 2,
+                "turnChangeIn": "fadeIn"
+            }
+        ]
+    },
+    "version": 3
+}
