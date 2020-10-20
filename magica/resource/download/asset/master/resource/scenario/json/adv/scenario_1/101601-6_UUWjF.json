@@ -1,0 +1,1007 @@
+{
+  "story": {
+    "group_1": [
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "bg": "bg_adv_21202.jpg",
+        "bgm": "bgm03_story06",
+        "nameNarration": "",
+        "narrationBg": "bg_adv_21202.jpg",
+        "narrationEffect": "in",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "narration": "*Sip* *Gulp*...",
+        "voiceFull": "fullvoice/section_101601/vo_full_101601-6-1"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-2",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-1"
+          }
+        ],
+        "nameLeft": "Iroha",
+        "nameRight": "Mifuyu",
+        "narrationEffect": "out",
+        "textRight": "*Exhale*..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "lipSynch": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-3",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-2"
+          }
+        ],
+        "textLeft": "(What should I do? What do I even talk@to her about?)",
+        "turnEffect": "thinking"
+      },
+      {
+        "autoTurnLast": 0.5,
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 0,
+            "pos": 2,
+            "posX": 40,
+            "posY": 0
+          }
+        ],
+        "textClear": 1,
+        "turnEffect": "stop",
+        "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-3"
+      },
+      {
+        "select": [
+          {
+            "group": "group_2",
+            "textSelect": "Mokkyuu!@(Ask her about Yachiyo.)"
+          },
+          {
+            "group": "group_3",
+            "textSelect": "Mokkyuu!@(Ask her about herself.)"
+          }
+        ]
+      }
+    ],
+    "group_2": [
+      {
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 100,
+            "voice": "vo_kyube_0001_04"
+          }
+        ],
+        "nameRight": "userName",
+        "textRight": "Mokkyuu!"
+      },
+      {
+        "autoTurnLast": 0.1,
+        "voice": "stop"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-5"
+          }
+        ],
+        "textLeft": "U...um..."
+      },
+      {
+        "changeGroup": "group_4",
+        "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-5"
+      }
+    ],
+    "group_3": [
+      {
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 100,
+            "voice": "vo_kyube_0001_04"
+          }
+        ],
+        "nameRight": "userName",
+        "textRight": "Mokkyuu!"
+      },
+      {
+        "autoTurnLast": 0.1,
+        "voice": "stop"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-7"
+          }
+        ],
+        "textLeft": "U...um..."
+      },
+      {
+        "changeGroup": "group_4",
+        "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-7"
+      }
+    ],
+    "group_4": [
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_001.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-8"
+          }
+        ],
+        "nameRight": "Mifuyu",
+        "textRight": "Iroha..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "motion": 401,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-9",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-8"
+          }
+        ],
+        "textLeft": "Y-yes?!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_001.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-10",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-9"
+          }
+        ],
+        "textRight": "Would you ever consider joining the Wings@of the Magius?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-11",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-10"
+          }
+        ],
+        "textLeft": "Would I...what?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-12",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-11"
+          }
+        ],
+        "textRight": "Forgive me. That was too much of a surprise@wasn't it."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-13",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-12"
+          }
+        ],
+        "textRight": "I came here today to hear what your answer@would be."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "motion": 300,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-14",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-13"
+          }
+        ],
+        "textRight": "Though I admit, I was hoping I'd be able to@ask everyone at once."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-15",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-14"
+          }
+        ],
+        "textRight": "It doesn't seem that they'll be back any@time soon, so I figured I may as well ask."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-16",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-15"
+          }
+        ],
+        "textLeft": "But...why all of a sudden?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-17",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-16"
+          }
+        ],
+        "textRight": "I think it would be good for both of us if@you joined."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-18",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-17"
+          }
+        ],
+        "textLeft": "How so?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-19",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-18"
+          }
+        ],
+        "textRight": "Think of it like this."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-20",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-19"
+          }
+        ],
+        "textRight": "If you were to become one of the Wings of@the Magius..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-21",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-20"
+          }
+        ],
+        "textRight": "You'd be able to look for your sister@without worrying about us fighting you."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-22",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-21"
+          }
+        ],
+        "textLeft": "Maybe, but... How does that benefit you?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-23",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-22"
+          }
+        ],
+        "textRight": "It's the same for us too, really. We'd be @able to avoid pointless battles with you."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-24",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-23"
+          }
+        ],
+        "textRight": "Don't you think it's awful, hurting people @when you don't have to?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 300,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-25",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-24"
+          }
+        ],
+        "textLeft": "It would be nice to not have to fight@anymore..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100601,
+            "motion": 400,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-26",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-25"
+          }
+        ],
+        "textRight": "Wouldn't it?!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-27",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-26"
+          }
+        ],
+        "textLeft": "But..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-28",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-27"
+          }
+        ],
+        "textRight": "Oh, is there a problem?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-29",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-28"
+          }
+        ],
+        "textLeft": "I can't just sit by and watch while other@people are sacrificed..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-30",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-29"
+          }
+        ],
+        "textRight": "What do you mean by that?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-31",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-30"
+          }
+        ],
+        "textLeft": "I can't treat Witches and Uwasa like they're@worth protecting."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-32",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-31"
+          }
+        ],
+        "textLeft": "And I couldn't ever use someone like Alina @used Sana."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-33",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-32"
+          }
+        ],
+        "textLeft": "I can't forgive that."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-34",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-33"
+          }
+        ],
+        "textLeft": "So I could never join..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_031.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-35",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-34"
+          }
+        ],
+        "textRight": "I see..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-36",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-35"
+          }
+        ],
+        "textRight": "I'm sorry for asking something so@unreasonable of you."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "lipSynch": 0,
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-36"
+          }
+        ],
+        "textLeft": "[chara:100101:cheek_0][chara:100101:lipSynch_1][chara:100101:voiceFull_fullvoice/section_101601/vo_full_101601-6-37]No, it's fine."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 400,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-38",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-37"
+          }
+        ],
+        "textRight": "Oh, I know!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-39",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-38"
+          }
+        ],
+        "textLeft": "What?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-40",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-39"
+          }
+        ],
+        "textRight": "How about this then?"
+      },
+      {
+        "chara": [
+          {
+            "id": 100101,
+            "motion": 401,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-41",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-40"
+          }
+        ],
+        "textLeft": "How about...what?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-42",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-41"
+          }
+        ],
+        "textRight": "Let's hold a kind of lecture, about what it@means to free Magical Girls!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-43",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-42"
+          }
+        ],
+        "textLeft": "A...lecture... That was just as sudden as @the question you just asked me..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-44",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-43"
+          }
+        ],
+        "textRight": "*Giggle* My apologies."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-45",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-44"
+          }
+        ],
+        "textRight": "It's just, for you to understand why we're@trying to free Magical Girls..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-46",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-45"
+          }
+        ],
+        "textRight": "You'd need to understand what it is we want@to free them from."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-47",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-46"
+          }
+        ],
+        "textRight": "While I'm not at liberty to tell you about @it myself..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-48",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-47"
+          }
+        ],
+        "textRight": "If I ask the Magius, that's another story."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-49",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-48"
+          }
+        ],
+        "textRight": "Would you hear us out?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-50",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-49"
+          }
+        ],
+        "textLeft": "Umm..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100601,
+            "motion": 300,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-51",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-50"
+          }
+        ],
+        "textRight": "Before you decide to keep fighting us, could@you at least hear what we have to say?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "lipSynch": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-52",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-51"
+          }
+        ],
+        "textLeft": "..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-53",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-52"
+          }
+        ],
+        "textLeft": "I guess I could do that..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-54",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-53"
+          }
+        ],
+        "textLeft": "I don't want to fight you without knowing the@whole story, either."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-55",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-54"
+          }
+        ],
+        "textLeft": "I'll hear you out."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-56",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-55"
+          }
+        ],
+        "textRight": "Phew..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-57",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-56"
+          }
+        ],
+        "textRight": "I'm really happy you said that."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-58",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-57"
+          }
+        ],
+        "textLeft": "There's one thing, though..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-59",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-58"
+          }
+        ],
+        "textRight": "Yes?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "motion": 400,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-60",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-59"
+          }
+        ],
+        "textLeft": "Please don't bring the Black or White Wings@along when we talk..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-61",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-60"
+          }
+        ],
+        "textRight": "You don't need to worry about that."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-62",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-61"
+          }
+        ],
+        "textLeft": "Okay. Then...I'll look forward to it."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-63",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-62"
+          }
+        ],
+        "textRight": "Okay! You're officially enrolled in the@lecture now."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-64",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-63"
+          }
+        ],
+        "textLeft": "Where and when will it be held?@ "
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-65",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-64"
+          }
+        ],
+        "textRight": "How about the day after tomorrow? Noon,@at the [textRed:Memory Museum]?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-66",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-65"
+          }
+        ],
+        "textLeft": "The [textRed:Memory Museum]?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-67",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-66"
+          }
+        ],
+        "textLeft": "Is there a [textRed:Rumor] there? It sounds like@a place where one would be..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-68",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-67"
+          }
+        ],
+        "textRight": "Yes. I'd like you to investigate that [textRed:Rumor]@before coming to the lecture."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "motion": 401,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-69",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-68"
+          }
+        ],
+        "textLeft": "Wh-what?!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-70",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-69"
+          }
+        ],
+        "textRight": "*Giggle* You should do what you usually do.@It will show the Magius your value."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-71",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-70"
+          }
+        ],
+        "textRight": "That would be reason enough for them to hold@a lecture for you."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-72",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-71"
+          }
+        ],
+        "textRight": "I think I've given you a reasonable amount @of time to show them what you're made of."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101601/vo_full_101601-6-73",
+            "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-72"
+          }
+        ],
+        "textLeft": "O-okay..."
+      },
+      {
+        "autoTurnLast": 2.0,
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101601/vo_full_101601-6-73"
+      }
+    ]
+  },
+  "version": 3
+}

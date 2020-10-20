@@ -1,0 +1,768 @@
+{
+  "story": {
+    "group_1": [
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100501,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "bg": "bg_adv_15051.jpg",
+        "bgm": "stop",
+        "chara": [
+          {
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-1"
+          }
+        ],
+        "nameLeft": "Iroha",
+        "nameRight": "Felicia",
+        "surround": "7003_wind",
+        "textLeft": "This must be it... The Kamihama Memorial@Museum.",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100501,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-2",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-1"
+          }
+        ],
+        "textRight": "Man, this place is a dump."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100401,
+            "motion": 400,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-3",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-2"
+          }
+        ],
+        "nameRight": "Sana",
+        "textRight": "Oh, ew...there's spider webs everywhere..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-4",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-3"
+          }
+        ],
+        "textLeft": "A-are you okay?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100401,
+            "motion": 300,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-5",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-4"
+          }
+        ],
+        "textRight": "I'm fine...sorry..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100301,
+            "motion": 0,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-6",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-5"
+          }
+        ],
+        "nameLeft": "Tsuruno",
+        "textLeft": "Looks like they just left it as it was@instead of knocking it down."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 100501,
+            "motion": 200,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-7",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-6"
+          }
+        ],
+        "nameRight": "Felicia",
+        "textRight": "Is this really the place?"
+      },
+      {
+        "autoTurnLast": 0.5,
+        "chara": [
+          {
+            "cheek": 0,
+            "effect": "ef_adv_01",
+            "face": "mtn_ex_050.exp.json",
+            "id": 100501
+          }
+        ],
+        "se": "7201_detect_magic",
+        "surround": "stop",
+        "textClear": 1,
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-7"
+      },
+      {
+        "bgm": "bgm03_story10",
+        "chara": [
+          {
+            "id": 100501,
+            "motion": 400,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-8"
+          }
+        ],
+        "textRight": "Oh! It is!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-9",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-8"
+          }
+        ],
+        "nameLeft": "Iroha",
+        "textLeft": "I just sensed some magic too..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100401,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-10",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-9"
+          }
+        ],
+        "nameRight": "Sana",
+        "textRight": "It doesn't feel like a Magical Girl. It's@almost similar to Ai's presence..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 100401,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-11",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-10"
+          }
+        ],
+        "textRight": "It must be an Uwasa!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-12",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-11"
+          }
+        ],
+        "textLeft": "Still, I don't sense Mifuyu anywhere."
+      },
+      {
+        "autoTurnLast": 0.5,
+        "chara": [
+          {
+            "cheek": 0,
+            "effect": "ef_adv_01",
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101
+          }
+        ],
+        "se": "7201_detect_magic",
+        "surround": "stop",
+        "textClear": 1,
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-12"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "motion": 401,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-13"
+          }
+        ],
+        "textLeft": "Whose magic is this?!"
+      },
+      {
+        "autoTurnLast": 0.3,
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 0,
+            "pos": 2,
+            "posX": 40,
+            "posY": 0
+          }
+        ],
+        "textClear": 1,
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-13"
+      },
+      {
+        "select": [
+          {
+            "group": "group_2",
+            "textSelect": "Mokkyuu!@(It's Mifuyu!)"
+          },
+          {
+            "group": "group_3",
+            "textSelect": "Mo, mokyu...@(It's Alina!)"
+          }
+        ]
+      }
+    ],
+    "group_2": [
+      {
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 100,
+            "voice": "vo_kyube_0001_04"
+          }
+        ],
+        "nameRight": "userName",
+        "textRight": "Mokkyuu!"
+      },
+      {
+        "autoTurnLast": 0.1,
+        "voice": "stop"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 100301,
+            "motion": 200,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-15"
+          }
+        ],
+        "nameLeft": "Tsuruno",
+        "textLeft": "No, I don't think it's Mifuyu."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100401,
+            "motion": 1,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-16",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-15"
+          }
+        ],
+        "nameRight": "Sana",
+        "textRight": "It's not Alina either..."
+      },
+      {
+        "changeGroup": "group_4",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-16"
+      }
+    ],
+    "group_3": [
+      {
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 100,
+            "voice": "vo_kyube_0001_07"
+          }
+        ],
+        "nameRight": "userName",
+        "textRight": "Mo, mokyu..."
+      },
+      {
+        "autoTurnLast": 0.1,
+        "voice": "stop"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 100401,
+            "motion": 1,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-18"
+          }
+        ],
+        "nameLeft": "Sana",
+        "textLeft": "No, Alina's magic is way different..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100301,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-19",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-18"
+          }
+        ],
+        "nameRight": "Tsuruno",
+        "textRight": "It's not Mifuyu's either..."
+      },
+      {
+        "changeGroup": "group_4",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-19"
+      }
+    ],
+    "group_4": [
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100501,
+            "motion": 200,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-20"
+          }
+        ],
+        "nameRight": "Felicia",
+        "textRight": "It's not those flute freaks either!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 300,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-21",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-20"
+          }
+        ],
+        "nameLeft": "Iroha",
+        "textLeft": "So who's holding the lecture?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-22",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-21"
+          }
+        ],
+        "textLeft": "No way..."
+      },
+      {
+        "autoTurnLast": 0.3,
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 0,
+            "pos": 2,
+            "posX": 40,
+            "posY": 0
+          }
+        ],
+        "textClear": 1,
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-22"
+      },
+      {
+        "select": [
+          {
+            "group": "group_5",
+            "textSelect": "Mogyu...@(One of the Magius...?)"
+          }
+        ]
+      }
+    ],
+    "group_5": [
+      {
+        "chara": [
+          {
+            "id": 810100,
+            "motion": 100,
+            "voice": "vo_kyube_0001_11"
+          }
+        ],
+        "nameRight": "userName",
+        "textRight": "Mogyu..."
+      },
+      {
+        "autoTurnLast": 0.1,
+        "voice": "stop"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-24"
+          }
+        ],
+        "textLeft": "Yes, it must be another Magius."
+      },
+      {
+        "bgm": "stop",
+        "nameCenter": "???",
+        "textCenter": "Bingo!",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-25",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-24"
+      },
+      {
+        "textCenter": "Correct! You figured it out!",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-26",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-25"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "item": [
+          {
+            "path": "resource/scenario/img/chapter6/101602_touka02.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "textClear": 1,
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-26"
+      },
+      {
+        "bgm": "bgm03_story04",
+        "nameNarration": "???",
+        "narration": "―???―@I'm amazed you managed to get here in time.",
+        "narrationAnchor": "bottom",
+        "narrationCoverOpacity": 110.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 28.0,
+        "narrationLineMargin": 50.0,
+        "narrationLineSpace": 20.0,
+        "turnChangeOut": "fadeOut",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-27"
+      },
+      {
+        "narration": "―???―@*Giggle* Well, I guess that means@it's worth holding this lecture after all.",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-28",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-27"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "item": [
+          {
+            "path": "resource/scenario/img/chapter6/101602_touka02.jpg",
+            "visible": "hide"
+          }
+        ],
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-28"
+      },
+      {
+        "bg": "bg_adv_15051.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-29"
+          }
+        ],
+        "nameCenter": "Iroha",
+        "narrationEffect": "out",
+        "textCenter": "No, this has to be a joke…",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "bg": "bg_adv_21012.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100702,
+            "motion": 100,
+            "pos": 1,
+            "soulGem": 0
+          }
+        ],
+        "turnChangeIn": "fadeIn",
+        "turnEffect": "blackFrame",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-29"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100702,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-30"
+          }
+        ],
+        "nameCenter": "Touka",
+        "textCenter": "So the fact that we're all here discussing@this together...",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100702,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-31",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-30"
+          }
+        ],
+        "textCenter": "That in itself is an astronomical feat of@probability, don't you think?"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "turnChangeIn": "fadeIn",
+        "turnEffect": "stop",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-31"
+      },
+      {
+        "bg": "bg_adv_15051.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-32"
+          }
+        ],
+        "nameCenter": "Iroha",
+        "textCenter": "Touka...",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "item": [
+          {
+            "path": "resource/scenario/img/chapter6/101602_touka.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-32"
+      },
+      {
+        "nameNarration": "???",
+        "narration": "―???―@So you really do know me.",
+        "narrationAnchor": "bottom",
+        "narrationCoverOpacity": 100.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 28.0,
+        "narrationLineMargin": 50.0,
+        "narrationLineSpace": 20.0,
+        "turnChangeOut": "fadeOut",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-33"
+      },
+      {
+        "narration": "―???―@Nice to meet you, Iroha Tamaki.",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-34",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-33"
+      },
+      {
+        "nameNarration": "Touka",
+        "narration": "―Touka―@My name is [textRed:Touka Satomi].@I'm one of the Magius.",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-35",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-34"
+      },
+      {
+        "autoTurnLast": 1.0,
+        "bg": "bg_adv_21201.jpg",
+        "bgm": "stop",
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100201,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-35"
+      },
+      {
+        "bgm": "bgm03_story12",
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100201,
+            "lipSynch": 0,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-36"
+          }
+        ],
+        "nameCenter": "Yachiyo",
+        "textCenter": "...",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "item": [
+          {
+            "path": "resource/scenario/img/chapter5/101507_mug_set5.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "autoTurnLast": 2.0,
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100201,
+            "motion": 0,
+            "pos": 1
+          }
+        ],
+        "item": [
+          {
+            "path": "resource/scenario/img/chapter5/101507_mug_set5.jpg",
+            "visible": "hide"
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100201,
+            "motion": 300,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-37"
+          }
+        ],
+        "textCenter": "*Sigh*",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100201,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-38",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-37"
+          }
+        ],
+        "textCenter": "That's dirty, Mifuyu..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100201,
+            "voiceFull": "fullvoice/section_101602/vo_full_101602-11-39",
+            "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-38"
+          }
+        ],
+        "textCenter": "I'm totally stuck now that you've dredged @all that up again..."
+      },
+      {
+        "autoTurnLast": 0.01,
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-39"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "nameNarration": "Yachiyo",
+        "narrationBg": "bg_adv_narration.jpg",
+        "narrationEffect": "in",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "narration": "I'm so sorry, Iroha...",
+        "voiceFull": "fullvoice/section_101602/vo_full_101602-11-40"
+      },
+      {
+        "autoTurnLast": 2.0,
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101602/vo_full_101602-11-40"
+      }
+    ]
+  },
+  "version": 3
+}

@@ -1,0 +1,956 @@
+{
+  "story": {
+    "group_1": [
+      {
+        "autoTurnLast": 1.2,
+        "bg": "bg_adv_15061.jpg",
+        "bgm": "bgm03_story06",
+        "turnChangeIn": "fadeIn",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "bg": "bg_adv_15071.jpg",
+        "chara": [
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100301,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "fadeIn"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-1"
+          }
+        ],
+        "nameLeft": "Iroha",
+        "textLeft": "Ugh...",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100401,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100501,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "rollInFast",
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-1"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "eyeClose": 1,
+            "face": "mtn_ex_020.exp.json",
+            "id": 100501,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-2"
+          }
+        ],
+        "nameRight": "Felicia",
+        "textRight": "Mngh...",
+        "turnChangeOut": "rollOutFast"
+      },
+      {
+        "autoTurnLast": 0.2,
+        "chara": [
+          {
+            "effect": "fadeout",
+            "id": 100401
+          },
+          {
+            "effect": "fadeout",
+            "id": 100501
+          }
+        ],
+        "textClear": 1,
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-2"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_001.exp.json",
+            "id": 100601,
+            "motion": 300,
+            "pos": 1,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-3"
+          }
+        ],
+        "nameCenter": "Mifuyu",
+        "textCenter": "Please, see the truth for yourself.@ "
+      },
+      {
+        "chara": [
+          {
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-4",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-3"
+          }
+        ],
+        "textCenter": "The truth about Magical Girls, that I saw@with my own eyes..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-5",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-4"
+          }
+        ],
+        "textCenter": "I'm excited about how this will all turn out."
+      },
+      {
+        "chara": [
+          {
+            "id": 100601,
+            "pos": 0
+          },
+          {
+            "cheek": -1,
+            "face": "mtn_ex_021.exp.json",
+            "id": 100201,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-6",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-5"
+          }
+        ],
+        "nameLeft": "Mifuyu",
+        "nameRight": "Yachiyo",
+        "textRight": "I knew you'd try something like this."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100601,
+            "motion": 400,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-7",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-6"
+          }
+        ],
+        "textLeft": "Yachan?!"
+      },
+      {
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_020.exp.json",
+            "id": 100601,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-8",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-7"
+          }
+        ],
+        "textLeft": "You never learn, do you? I warned you."
+      },
+      {
+        "chara": [
+          {
+            "id": 100201,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-9",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-8"
+          }
+        ],
+        "textRight": "I'm just here to help out some innocent@Magical Girls."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-10",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-9"
+          }
+        ],
+        "textLeft": "Sure, keep telling yourself that..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-11",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-10"
+          }
+        ],
+        "textLeft": "Why don't you take another look at what@happened?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-12",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-11"
+          }
+        ],
+        "textLeft": "Back then..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100201,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-13",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-12"
+          }
+        ],
+        "textRight": "That book..."
+      },
+      {
+        "autoTurnLast": 0.5,
+        "flashEffect": "flashWhite2",
+        "textClear": 1,
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-13"
+      },
+      {
+        "autoTurnLast": 0.5,
+        "chara": [
+          {
+            "cheek": -1,
+            "face": "mtn_ex_051.exp.json",
+            "id": 100201,
+            "motion": 400,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-14"
+          }
+        ],
+        "textRight": "It's..."
+      },
+      {
+        "autoTurnLast": 2.0,
+        "bg": "bg_adv_21132.jpg",
+        "bgm": "stop",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "whiteIn",
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-14"
+      },
+      {
+        "bgm": "bgm03_story08",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "lipSynch": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-15"
+          }
+        ],
+        "nameLeft": "Momoko",
+        "nameRight": "Kaede",
+        "textLeft": "...",
+        "turnChangeOut": "whiteOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "motion": 300,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-16",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-15"
+          }
+        ],
+        "textRight": "You're starting to scare me, Momoko..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100901,
+            "motion": 100,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-17",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-16"
+          }
+        ],
+        "nameRight": "Rena",
+        "textRight": "If the stuff you wanna say is that bad,@maybe we should do this another time..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "motion": 1,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-18",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-17"
+          }
+        ],
+        "nameRight": "Kaede",
+        "textRight": "Should I go get you a drink?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-19",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-18"
+          }
+        ],
+        "textRight": "It might help you relax before you talk..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-20",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-19"
+          }
+        ],
+        "textLeft": "You don't need to fuss over me, guys.@I'm ready to do this."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-21",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-20"
+          }
+        ],
+        "textRight": "Okay..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100901,
+            "motion": 100,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-22",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-21"
+          }
+        ],
+        "nameRight": "Rena",
+        "textRight": "So...what is it you've been keeping secret?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-23",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-22"
+          }
+        ],
+        "textLeft": "Well, there's things about bein' a Magical@Girl that neither of you know about."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-24",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-23"
+          }
+        ],
+        "nameRight": "Kaede",
+        "textRight": "Really? About Magical Girls?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-25",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-24"
+          }
+        ],
+        "textLeft": "Yeah..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-26",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-25"
+          }
+        ],
+        "textLeft": "The first thing is somethin' I heard from a@trusted source."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-27",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-26"
+          }
+        ],
+        "textLeft": "The second thing, I saw with my own eyes."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100901,
+            "motion": 300,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-28",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-27"
+          }
+        ],
+        "nameRight": "Rena",
+        "textRight": "I was thinking you were gonna tell us about @your love life..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "motion": 100,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-29",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-28"
+          }
+        ],
+        "nameRight": "Kaede",
+        "textRight": "I thought that, too."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-30",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-29"
+          }
+        ],
+        "textLeft": "I'd never treat anythin' like that this@seriously."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_020.exp.json",
+            "id": 101001,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-31",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-30"
+          }
+        ],
+        "textLeft": "This is about all of us here, so listen up."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 101101,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-32",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-31"
+          }
+        ],
+        "textRight": "Okay..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100901,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-33",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-32"
+          }
+        ],
+        "nameRight": "Rena",
+        "textRight": "All right..."
+      },
+      {
+        "autoTurnLast": 0.01,
+        "bgm": "stop",
+        "item": [
+          {
+            "path": "resource/scenario/img/chapter6/101603_lecture01.jpg",
+            "posX": 0,
+            "posY": 0,
+            "visible": "appear"
+          }
+        ],
+        "turnChangeIn": "fadeIn",
+        "turnChangeInTime": 1.5,
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-33"
+      },
+      {
+        "bg": "black",
+        "nameNarration": "Touka",
+        "narration": "There once were three Magical Girls.@A, B, and C. They were good friends.@They hunted Witches together.",
+        "narrationAnchor": "bottom",
+        "narrationBg": "narration",
+        "narrationCoverOpacity": 110.0,
+        "narrationEffect": "in",
+        "narrationFontSize": 30.0,
+        "narrationLineMargin": 35.0,
+        "narrationLineSpace": 20.0,
+        "turnChangeOut": "fadeOut",
+        "turnChangeOutTime": 1.0,
+        "voiceFull": "fullvoice/section_101604/vo_full_101604-1-34"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "bg": "bg_adv_21191.jpg",
+        "bgm": "stop",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100104,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "pos": 2
+          }
+        ],
+        "item": [
+          {
+            "path": "resource/scenario/img/chapter6/101603_lecture01.jpg",
+            "visible": "hide"
+          }
+        ],
+        "narrationEffect": "out",
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-34"
+      },
+      {
+        "bgm": "bgm03_story02",
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100104,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-35"
+          }
+        ],
+        "nameLeft": "Iroha",
+        "nameRight": "Mifuyu",
+        "textLeft": "*Gasp*",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-36",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-35"
+          }
+        ],
+        "textRight": "Good morning, Iroha."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 100104,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-37",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-36"
+          }
+        ],
+        "textLeft": "Oh, Mifuyu... Good morning."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-38",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-37"
+          }
+        ],
+        "textRight": "You slept in again. *Giggle* Everyone's@waiting downstairs, you know."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_050.exp.json",
+            "id": 100104,
+            "motion": 400,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-39",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-38"
+          }
+        ],
+        "textLeft": "[chara:100104:effect_emotion_surprise_0][se:7226_shock]They are?! How is it already this late?!"
+      },
+      {
+        "autoTurnLast": 0.01,
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100201,
+            "motion": 0,
+            "pos": 0
+          },
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "motion": 0,
+            "pos": 2
+          }
+        ],
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-39"
+      },
+      {
+        "bg": "bg_adv_21201.jpg",
+        "chara": [
+          {
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-40"
+          }
+        ],
+        "nameLeft": "Yachiyo",
+        "nameRight": "Mifuyu",
+        "textRight": "Anyway, what are we going to do about @that Witch that got away?",
+        "turnChangeOut": "fadeOut"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100201,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-41",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-40"
+          }
+        ],
+        "textLeft": "I can still sense its magic nearby, so I'd@like to deal with it as soon as we can."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "motion": 1,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-42",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-41"
+          }
+        ],
+        "textRight": "Good point. Are you okay, though, Yachan?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_051.exp.json",
+            "id": 100201,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-43",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-42"
+          }
+        ],
+        "textLeft": "What do you mean?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-44",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-43"
+          }
+        ],
+        "textRight": "You were going to see your grandma."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100201,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-45",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-44"
+          }
+        ],
+        "textLeft": "Her condition appears to be stable for now.@I can go to the hospital tomorrow."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 304901,
+            "motion": 1,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-46",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-45"
+          }
+        ],
+        "nameLeft": "???",
+        "textLeft": "You should still go see her..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100601,
+            "motion": 100,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-47",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-46"
+          }
+        ],
+        "textRight": "My, it's not like you to be so concerned,@Kanae."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_030.exp.json",
+            "id": 304901,
+            "motion": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-48",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-47"
+          }
+        ],
+        "nameLeft": "Kanae",
+        "textLeft": "It's not like that, stupid..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 1,
+            "face": "mtn_ex_000.exp.json",
+            "id": 304901,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-49",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-48"
+          }
+        ],
+        "textLeft": "I just owe that old lady a lot, that's all..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_011.exp.json",
+            "id": 100101,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-50",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-49"
+          }
+        ],
+        "nameRight": "Iroha",
+        "textRight": "*Giggle*"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100101,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-51",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-50"
+          }
+        ],
+        "textRight": "Okay, so about the Witch hunt. Can we @meet up after school and look for clues?"
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-52",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-51"
+          }
+        ],
+        "textRight": "It probably isn't safe to try and take it @on alone."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100201,
+            "motion": 200,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-53",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-52"
+          }
+        ],
+        "nameLeft": "Yachiyo",
+        "textLeft": "Yes, I agree with Iroha. Let's do it that @way."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_014.exp.json",
+            "id": 100201,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-54",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-53"
+          }
+        ],
+        "textLeft": "Obviously that doesn't apply to you, Kanae."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_000.exp.json",
+            "id": 304901,
+            "motion": 0,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-55",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-54"
+          }
+        ],
+        "nameRight": "Kanae",
+        "textRight": "Mm...yeah, I'm gonna go solo, thanks..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_030.exp.json",
+            "id": 304901,
+            "motion": 300,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-56",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-55"
+          }
+        ],
+        "textRight": "I'm grateful to you for taking me in, but@working with others stresses me out..."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_040.exp.json",
+            "id": 100601,
+            "motion": 200,
+            "pos": 0,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-57",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-56"
+          }
+        ],
+        "nameLeft": "Mifuyu",
+        "textLeft": "That's just how you are, I suppose."
+      },
+      {
+        "chara": [
+          {
+            "cheek": 0,
+            "face": "mtn_ex_010.exp.json",
+            "id": 100101,
+            "motion": 200,
+            "pos": 2,
+            "voiceFull": "fullvoice/section_101604/vo_full_101604-1-58",
+            "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-57"
+          }
+        ],
+        "nameRight": "Iroha",
+        "textRight": "Yeah."
+      },
+      {
+        "autoTurnLast": 2.0,
+        "turnChangeIn": "fadeIn",
+        "voiceFullStop": "fullvoice/section_101604/vo_full_101604-1-58"
+      }
+    ]
+  },
+  "version": 3
+}

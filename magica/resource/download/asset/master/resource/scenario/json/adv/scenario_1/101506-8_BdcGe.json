@@ -1,0 +1,571 @@
+{
+    "story":
+    {
+        "group_1": [
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101800,
+                "motion": 1,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101900,
+                "motion": 0,
+                "pos": 2
+            }],
+            "turnChangeIn": "fadeIn"
+        },
+        {
+            "bg": "bg_adv_14081.jpg",
+            "bgm": "bgm01_battle04",
+            "chara": [
+            {
+                "id": 101800,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-1"
+            }],
+            "nameLeft": "Tsukuyo",
+            "nameRight": "Tsukasa",
+            "textLeft": "The Witch's presence disappeared...",
+            "turnChangeOut": "fadeOut"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 101900,
+                "motion": 400,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-2",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-1"
+            }],
+            "textRight": "Alina!"
+        },
+        {
+            "bgEffect": "shakeLarge",
+            "flashEffect": "flashWhiteSlow2",
+            "nameCenter": "Alina",
+            "textBg": "shout",
+            "textCenter": "RrrrghhhAAAAAAAAAAAAAAAGH!!!",
+            "voiceFull": "fullvoice/section_101506/vo_full_101506-8-3",
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-2"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101800,
+                "motion": 300,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-4",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-3"
+            }],
+            "textLeft": "She's boiling with rage..."
+        },
+        {
+            "autoTurnLast": 0.3,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101800
+            },
+            {
+                "effect": "fadeout",
+                "id": 101900
+            }],
+            "textClear": 1,
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-4"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_050.exp.json",
+                "id": 100300,
+                "motion": 0,
+                "pos": 1,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-5"
+            }],
+            "nameCenter": "Tsuruno",
+            "textCenter": "Felicia!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100300,
+                "motion": 200,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-6",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-5"
+            }],
+            "textCenter": "Yachiyo, I'm gonna head over there to help@them out!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 101900,
+                "motion": 200,
+                "pos": 0,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-7",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-6"
+            },
+            {
+                "id": 100300,
+                "pos": 2
+            }],
+            "nameLeft": "Tsukasa",
+            "textLeft": "You think we'll just let you go?!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": -1,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100200,
+                "motion": 200,
+                "pos": 2,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-8",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-7"
+            }],
+            "nameRight": "Yachiyo",
+            "textRight": "[flashEffect:flashWhite2][se:4050_landing_jump]You'll have no choice but to!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_060.exp.json",
+                "id": 101900,
+                "motion": 400,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-9",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-8"
+            }],
+            "textLeft": "[chara:101900:effect_shake][flashEffect:flashRed2][se:6257_hit_spike_02_h][bgEffect:shakeSmall]Ugh... Outta my way!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": -1,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100200,
+                "motion": 201,
+                "mouthOpen": 0,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-10",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-9"
+            }],
+            "textRight": "Tsuruno, go!"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100300,
+                "motion": 0,
+                "pos": 1
+            }],
+            "turnChangeIn": "rollInFast",
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-10"
+        },
+        {
+            "chara": [
+            {
+                "id": 100300,
+                "motion": 101,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-11"
+            }],
+            "nameCenter": "Tsuruno",
+            "textCenter": "Thank you kindly, Master!",
+            "turnChangeOut": "rollOutFast"
+        },
+        {
+            "autoTurnLast": 0.01,
+            "chara": [
+            {
+                "cheek": -1,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100200,
+                "motion": 0,
+                "pos": 1
+            }],
+            "turnChangeIn": "rollInFast",
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-11"
+        },
+        {
+            "chara": [
+            {
+                "id": 100200,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-12"
+            }],
+            "nameCenter": "Yachiyo",
+            "textCenter": "The Black Feathers have been dealt with...",
+            "turnChangeOut": "rollOutFast"
+        },
+        {
+            "chara": [
+            {
+                "cheek": -1,
+                "face": "mtn_ex_021.exp.json",
+                "id": 100200,
+                "motion": 200,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-13",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-12"
+            }],
+            "textCenter": "Now it's your turn to fight me."
+        },
+        {
+            "autoTurnLast": 0.3,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100200
+            }],
+            "textClear": 1,
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-13"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101800,
+                "motion": 100,
+                "pos": 0,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-14"
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_030.exp.json",
+                "id": 101900,
+                "motion": 0,
+                "pos": 2
+            }],
+            "nameLeft": "Tsukuyo",
+            "nameRight": "Tsukasa",
+            "textLeft": "Tsukasa..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101900,
+                "motion": 100,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-15",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-14"
+            }],
+            "textRight": "Yes, this is it. We absolutely can't let@anyone else past us."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "id": 101800,
+                "motion": 1,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-16",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-15"
+            }],
+            "textLeft": "We can't make the same mistake twice."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 101900,
+                "motion": 1,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-17",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-16"
+            }],
+            "textRight": "This won't turn out like last time."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101800,
+                "motion": 200,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-18",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-17"
+            }],
+            "textLeft": "For sure."
+        },
+        {
+            "autoTurnLast": 0.3,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 101800
+            },
+            {
+                "effect": "fadeout",
+                "id": 101900
+            }],
+            "textClear": 1
+        },
+        {
+            "chara": [
+            {
+                "cheek": -1,
+                "face": "mtn_ex_010.exp.json",
+                "id": 100200,
+                "motion": 201,
+                "pos": 1,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-19"
+            }],
+            "nameCenter": "Yachiyo",
+            "textCenter": "So you say, but you're at a serious@disadvantage over there."
+        },
+        {
+            "autoTurnLast": 0.3,
+            "chara": [
+            {
+                "effect": "fadeout",
+                "id": 100200
+            }],
+            "textClear": 1,
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-19"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101800,
+                "motion": 0,
+                "pos": 0,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-20"
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101900,
+                "motion": 0,
+                "pos": 2
+            }],
+            "textLeft": "Don't be so sure of that."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "id": 101800,
+                "motion": 200,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-21",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-20"
+            }],
+            "textLeft": "Let's go!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "id": 101900,
+                "motion": 100,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-22",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-21"
+            }],
+            "textRight": "Right!"
+        },
+        {
+            "bgEffect": "shakeLarge",
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 101800,
+                "motion": 100,
+                "mouthOpen": 1
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_021.exp.json",
+                "id": 101900,
+                "motion": 200,
+                "mouthOpen": 1
+            }],
+            "flashEffect": "flashWhite2",
+            "nameCenter": "Tsukuyo & Tsukasa",
+            "surround": "1018A05",
+            "textBg": "shout",
+            "textCenter": "[surround:1019A04]Flute Blossom Resonance!",
+            "voiceFull": "fullvoice/section_101506/vo_full_101506-8-23",
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-22"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_060.exp.json",
+                "id": 100100,
+                "motion": 401,
+                "mouthOpen": 0,
+                "pos": 0
+            },
+            {
+                "cheek": -1,
+                "face": "mtn_ex_060.exp.json",
+                "id": 100200,
+                "motion": 400,
+                "mouthOpen": 0,
+                "pos": 2,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-24",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-23"
+            }],
+            "nameLeft": "Iroha",
+            "nameRight": "Yachiyo",
+            "surround": "1018A05",
+            "textRight": "[flashEffect:flashRed2][surround:1019A04][bgEffect:shakeLarge][chara:100100:effect_shake][chara:100200:effect_shake]Krrrgh...gaaagh!"
+        },
+        {
+            "bgEffect": "shakeLarge",
+            "chara": [
+            {
+                "id": 100100,
+                "motion": 300,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-25",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-24"
+            }],
+            "textLeft": "What's...going on?! My head!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101800,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_011.exp.json",
+                "id": 101900,
+                "motion": 1,
+                "pos": 2,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-26",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-25"
+            }],
+            "nameLeft": "Tsukuyo",
+            "nameRight": "Tsukasa",
+            "textRight": "The sound reverberates right inside your @skull, doesn't it?"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "id": 101800,
+                "motion": 1,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-27",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-26"
+            }],
+            "textLeft": "The only downside is that we can only use@it on one foe each..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "id": 101900,
+                "motion": 100,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-28",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-27"
+            }],
+            "textRight": "So that just leaves you, Sana Futaba!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_060.exp.json",
+                "id": 100100,
+                "motion": 0,
+                "pos": 0
+            },
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100400,
+                "lipSynch": 0,
+                "motion": 0,
+                "pos": 2,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-29",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-28"
+            }],
+            "nameLeft": "Iroha",
+            "nameRight": "Sana",
+            "textRight": "..."
+        },
+        {
+            "chara": [
+            {
+                "id": 100100,
+                "motion": 200,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-30",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-29"
+            }],
+            "textLeft": "Sa...na..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100400,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-31",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-30"
+            }],
+            "textRight": "Don't worry...Iroha..."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100400,
+                "motion": 100,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-32",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-31"
+            }],
+            "textRight": "I promised Ai that I'd stop the Wings of the@Magius."
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100400,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-33",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-32"
+            }],
+            "textRight": "And you told me you needed me!"
+        },
+        {
+            "chara": [
+            {
+                "cheek": 0,
+                "face": "mtn_ex_020.exp.json",
+                "id": 100400,
+                "motion": 200,
+                "voiceFull": "fullvoice/section_101506/vo_full_101506-8-34",
+                "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-33"
+            }],
+            "textRight": "So I won't lose!"
+        },
+        {
+            "autoTurnLast": 2.0,
+            "turnChangeIn": "fadeIn",
+            "voiceFullStop": "fullvoice/section_101506/vo_full_101506-8-34"
+        }]
+    },
+    "version": 3
+}
